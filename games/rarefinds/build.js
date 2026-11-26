@@ -279,7 +279,9 @@ async function main() {
       name: q.display?.[a.name] || a.name,
       aliases: [...new Set([...(a.aliases || []), ...(q.display?.[a.name] ? [a.name] : []), ...((q.aliases || {})[a.name] || [])])],
       tier: tier[i],
-      fact: (q.facts || {})[a.name] || signals.titles[a.title]?.description || '',
+      // Wikidata descriptions are shown only when they say something ("Indian state" alone does not).
+      // Geography uses hand-written facts only: Wikidata's place descriptions can carry disputed political wording.
+      fact: (q.facts || {})[a.name] || (q.category !== 'geography' && (signals.titles[a.title]?.description || '').split(/s+/).length >= 4 ? signals.titles[a.title].description : ''),
       fam: q.groups || missing.has(i) ? null : Math.round(fam[i] * 1000) / 1000,
     }));
     // Alias collisions inside a question become "be more specific" at play time; list them for review.

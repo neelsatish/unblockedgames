@@ -142,7 +142,12 @@ module.exports = function attach(io) {
       round: room.round, rounds: e.ROUNDS, day: room.day, dayNumber: room.day ? dayNumber(room.day) : null,
       timeLeft: Math.max(0, room.deadline - Date.now()),
       question: ['prep', 'answer', 'reveal'].includes(room.phase) ? publicQuestion(room.questions[room.round]) : null,
-      players: [...room.players.values()].map((p) => ({ ...playerView(p), locked: !!sub.get(p.id)?.final })),
+      // Until the reveal, scores stay at their round-start value so nobody learns a tier early.
+      players: [...room.players.values()].map((p) => ({
+        ...playerView(p),
+        score: room.phase === 'prep' || room.phase === 'answer' ? p.roundStart ?? p.score : p.score,
+        locked: !!sub.get(p.id)?.final,
+      })),
       reveal: room.phase === 'reveal' || room.phase === 'final' ? room.lastReveal : null,
       final: room.phase === 'final' ? finalSummary(room) : null,
     };
@@ -157,6 +162,7 @@ module.exports = function attach(io) {
     if (room.round >= e.ROUNDS) return finish(room);
     room.phase = 'prep';
     room.submissions = new Map();
+    for (const p of room.players.values()) p.roundStart = p.score;
     room.deadline = Date.now() + e.PREP_MS;
     later(room, e.PREP_MS, () => {
       room.phase = 'answer';
@@ -258,7 +264,7 @@ module.exports = function attach(io) {
     const { name, color, guest } = obj(payload);
     const p = {
       id: socket.id, name: cleanName(name), color: COLORS.includes(color) ? color : COLORS[room.colorIdx++ % COLORS.length],
-      guest: typeof guest === 'string' ? guest.slice(0, 64) : socket.id, score: 0, results: [], connected: true, attempts: 0,
+      guest: typeof guest === 'string' ? guest.slice(0, 64) : socket.id, score: 0, roundStart: 0, results: [], connected: true, attempts: 0,
     };
     room.players.set(socket.id, p);
     socket.join(room.code);

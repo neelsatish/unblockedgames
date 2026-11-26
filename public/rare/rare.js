@@ -250,6 +250,9 @@
     toast('Invite link copied');
   };
   $('lobby-leave').onclick = leave;
+  $('quit').onclick = () => {
+    if (confirm(state?.mode === 'party' ? 'Leave this friends game?' : 'Quit this run? Your progress will be lost.')) leave();
+  };
   function leave() {
     socket.emit('leave');
     sessionStorage.removeItem('rf-resume');
