@@ -9,8 +9,13 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('/healthz', (req, res) => res.send('ok'));
 const server = http.createServer(app);
+const GRACE_MS = 30000;
 // Default transports kept on purpose: long-polling fallback helps if a firewall breaks WebSockets.
-const io = new Server(server, { maxHttpBufferSize: 1e5 });
+// Recovery keeps the same socket id after a short Wi-Fi drop, so the player keeps their seat and score.
+const io = new Server(server, {
+  maxHttpBufferSize: 1e5,
+  connectionStateRecovery: { maxDisconnectionDuration: GRACE_MS, skipMiddlewares: true },
+});
 
 const CHOOSE_MS = 15000;
 const REVEAL_MS = 5000;
@@ -34,15 +39,31 @@ function newCode() {
 function makeRoom(hostId) {
   const room = {
     code: newCode(), hostId, players: new Map(), settings: g.cleanSettings(), state: 'lobby',
-    round: 0, queue: [], drawerId: null, word: null, choices: [], revealed: new Set(), ops: [],
+    round: 0, queue: [], drawerId: null, word: null, choices: [], ops: [],
     drawMs: 0, turnEndsAt: 0, guessPoints: new Map(), timers: [], kickVotes: new Map(),
-    usedWords: new Set(), colorIdx: 0, lastTurn: null,
+    usedWords: new Set(), colorIdx: 0, lastTurn: null, drawn: new Set(), kicked: new Set(),
   };
   rooms.set(room.code, room);
   return room;
 }
 
-const later = (room, ms, fn) => room.timers.push(setTimeout(fn, ms));
+// Any exception inside a handler or timer would kill every room, so all entry points go through safe().
+function safe(fn) {
+  return (...args) => {
+    try {
+      return fn(...args);
+    } catch (err) {
+      console.error('handler error:', err);
+    }
+  };
+}
+const later = (room, ms, fn) => room.timers.push(setTimeout(safe(fn), ms));
+const connectedCount = (room) => [...room.players.values()].filter((p) => p.connected).length;
+const gameRunning = (room) => room.state === 'choosing' || room.state === 'drawing' || room.state === 'reveal';
+// Players who join or come back mid-round still get their turn this round.
+function queueIfOwed(room, id) {
+  if (gameRunning(room) && !room.drawn.has(id) && !room.queue.includes(id) && room.drawerId !== id) room.queue.push(id);
+}
 function clearTimers(room) {
   room.timers.forEach(clearTimeout);
   room.timers = [];
@@ -54,10 +75,10 @@ function publicState(room, forId) {
   return {
     code: room.code, hostId: room.hostId, you: forId, state: room.state,
     round: room.round, settings: { ...room.settings, customWords: room.settings.customWords.join(', ') },
-    players: [...room.players.values()].map(({ id, name, score, color, guessed }) => ({ id, name, score, color, guessed })),
+    players: [...room.players.values()].map(({ id, name, score, color, guessed, connected }) => ({ id, name, score, color, guessed, connected })),
     drawerId: room.drawerId,
     word: seesWord ? room.word : null,
-    mask: room.state === 'drawing' ? g.mask(room.word, room.revealed, room.settings.hidden) : null,
+    mask: room.state === 'drawing' ? g.mask(room.word, room.settings.hidden) : null,
     timeLeft: Math.max(0, room.turnEndsAt - Date.now()),
     lastTurn: room.state === 'reveal' ? room.lastTurn : null,
   };
@@ -92,6 +113,7 @@ function nextRound(room) {
   room.round++;
   if (room.round > room.settings.rounds) return endGame(room);
   room.queue = [...room.players.keys()];
+  room.drawn.clear();
   sys(room.code, `Round ${room.round} of ${room.settings.rounds}`, 'round');
   nextTurn(room);
 }
@@ -99,15 +121,16 @@ function nextRound(room) {
 function nextTurn(room) {
   clearTimers(room);
   room.drawerId = null;
+  if (connectedCount(room) < 2) return backToLobby(room, 'Not enough players connected, back to the lobby');
   while (room.queue.length && !room.drawerId) {
     const id = room.queue.shift();
-    if (room.players.has(id)) room.drawerId = id;
+    if (room.players.get(id)?.connected) room.drawerId = id;
   }
   if (!room.drawerId) return nextRound(room);
+  room.drawn.add(room.drawerId);
   room.state = 'choosing';
   room.word = null;
   room.ops = [];
-  room.revealed = new Set();
   room.players.forEach((p) => (p.guessed = false, p.rated = false));
   room.choices = g.pickWords(wordPool(room), room.settings.wordCount);
   room.turnEndsAt = Date.now() + CHOOSE_MS;
@@ -126,13 +149,6 @@ function chooseWord(room, word) {
   room.guessPoints = new Map();
   room.drawMs = room.settings.drawTime * 1000;
   room.turnEndsAt = Date.now() + room.drawMs;
-  for (const t of g.hintTimes(word, room.settings.hints, room.drawMs)) {
-    later(room, t, () => {
-      const i = g.pickHintIndex(room.word, room.revealed);
-      if (i >= 0) room.revealed.add(i);
-      sendState(room);
-    });
-  }
   later(room, room.drawMs, () => endTurn(room, 'Time is up!'));
   sendState(room);
 }
@@ -162,6 +178,7 @@ function endGame(room) {
   clearTimers(room);
   room.state = 'end';
   room.drawerId = null;
+  room.players.forEach((p) => (p.guessed = false));
   room.word = null;
   room.turnEndsAt = Date.now() + PODIUM_MS;
   later(room, PODIUM_MS, () => {
@@ -175,25 +192,28 @@ function endGame(room) {
 function backToLobby(room, why) {
   clearTimers(room);
   Object.assign(room, { state: 'lobby', round: 0, drawerId: null, word: null, ops: [] });
+  room.players.forEach((p) => (p.guessed = false));
   io.to(room.code).emit('clear');
   sys(room.code, why);
   sendState(room);
 }
 
-function addPlayer(socket, room, rawName) {
+function addPlayer(socket, room, rawName, wantColor) {
   const name = String(rawName || '').replace(/\s+/g, ' ').trim().slice(0, 20) || `Player ${room.players.size + 1}`;
-  const player = { id: socket.id, name, score: 0, color: AVATAR_COLORS[room.colorIdx++ % AVATAR_COLORS.length], guessed: false, msgTimes: [] };
+  const player = { id: socket.id, name, score: 0, color: AVATAR_COLORS.includes(wantColor) ? wantColor : AVATAR_COLORS[room.colorIdx++ % AVATAR_COLORS.length], guessed: false, connected: true, msgTimes: [] };
   room.players.set(socket.id, player);
   socket.join(room.code);
   socket.data.code = room.code;
   sys(room.code, `${name} joined the room`, 'join');
-  if (room.state === 'drawing') socket.emit('ops', room.ops);
+  if (room.state === 'drawing' || room.state === 'reveal') socket.emit('ops', room.ops);
+  queueIfOwed(room, socket.id);
   sendState(room);
 }
 
 function removePlayer(room, id) {
   const p = room.players.get(id);
   if (!p) return;
+  clearTimeout(p.leaveTimer);
   room.players.delete(id);
   room.kickVotes.delete(id);
   room.kickVotes.forEach((voters) => voters.delete(id));
@@ -221,10 +241,11 @@ function kick(room, id) {
   target?.emit('kicked');
   target?.leave(room.code);
   if (target) target.data.code = null;
+  room.kicked.add(id);
   removePlayer(room, id);
 }
 
-const allGuessed = (room) => [...room.players.values()].every((p) => p.id === room.drawerId || p.guessed);
+const allGuessed = (room) => [...room.players.values()].every((p) => p.id === room.drawerId || p.guessed || !p.connected);
 const num = (v, max) => Math.max(0, Math.min(max, Number(v) || 0));
 
 function cleanOp(op) {
@@ -235,43 +256,64 @@ function cleanOp(op) {
   return null;
 }
 
-io.on('connection', (socket) => {
+io.on('connection', safe((socket) => {
   const roomOf = () => rooms.get(socket.data.code);
+  if (socket.recovered) {
+    const room = roomOf();
+    const p = room?.players.get(socket.id);
+    if (p) {
+      clearTimeout(p.leaveTimer);
+      p.connected = true;
+      sys(room.code, `${p.name} reconnected`, 'join');
+      if (room.state === 'drawing' || room.state === 'reveal') socket.emit('ops', room.ops);
+      queueIfOwed(room, socket.id);
+      sendState(room);
+    } else if (socket.data.code) {
+      // Seat is gone (kicked, or the grace period ran out): detach and let the client decide.
+      if (room) socket.leave(room.code);
+      socket.emit(room?.kicked.has(socket.id) ? 'kicked' : 'rejoin');
+      socket.data.code = null;
+    }
+  }
+  const on = (event, fn) => socket.on(event, safe(fn));
+  const obj = (v) => (v && typeof v === 'object' ? v : {});
   const isDrawing = (room) => room && room.state === 'drawing' && room.drawerId === socket.id;
 
-  socket.on('create', ({ name } = {}) => {
+  on('create', (payload) => {
+    const { name, color } = obj(payload);
     if (roomOf()) return;
-    addPlayer(socket, makeRoom(socket.id), name);
+    addPlayer(socket, makeRoom(socket.id), name, color);
   });
 
-  socket.on('join', ({ code, name } = {}) => {
+  on('join', (payload) => {
+    const { code, name, color } = obj(payload);
     if (roomOf()) return;
     const room = rooms.get(String(code || '').trim().toUpperCase());
     if (!room) return socket.emit('joinError', 'No room with that code.');
     if (room.players.size >= room.settings.maxPlayers) return socket.emit('joinError', 'That room is full.');
-    addPlayer(socket, room, name);
+    addPlayer(socket, room, name, color);
   });
 
-  socket.on('settings', (input) => {
+  on('settings', (input) => {
     const room = roomOf();
     if (!room || room.hostId !== socket.id || room.state !== 'lobby') return;
-    room.settings = g.cleanSettings(input, room.settings);
+    room.settings = g.cleanSettings(obj(input), room.settings);
     sendState(room);
   });
 
-  socket.on('start', () => {
+  on('start', () => {
     const room = roomOf();
-    if (!room || room.hostId !== socket.id || room.state !== 'lobby') return;
+    if (!room || room.hostId !== socket.id || (room.state !== 'lobby' && room.state !== 'end')) return;
     if (room.players.size < 2) return sys(socket.id, 'You need at least 2 players to start.');
     startGame(room);
   });
 
-  socket.on('choose', (word) => {
+  on('choose', (word) => {
     const room = roomOf();
     if (room && room.drawerId === socket.id) chooseWord(room, word);
   });
 
-  socket.on('draw', (ops) => {
+  on('draw', (ops) => {
     const room = roomOf();
     if (!isDrawing(room) || !Array.isArray(ops) || room.ops.length >= MAX_OPS) return;
     const clean = ops.slice(0, 300).map(cleanOp).filter(Boolean);
@@ -279,7 +321,7 @@ io.on('connection', (socket) => {
     socket.to(room.code).emit('draw', clean);
   });
 
-  socket.on('undo', () => {
+  on('undo', () => {
     const room = roomOf();
     if (!isDrawing(room) || !room.ops.length) return;
     const s = room.ops[room.ops.length - 1].s;
@@ -287,14 +329,14 @@ io.on('connection', (socket) => {
     io.to(room.code).emit('undo', s);
   });
 
-  socket.on('clear', () => {
+  on('clear', () => {
     const room = roomOf();
     if (!isDrawing(room)) return;
     room.ops = [];
     io.to(room.code).emit('clear');
   });
 
-  socket.on('chat', (raw) => {
+  on('chat', (raw) => {
     const room = roomOf();
     const p = room?.players.get(socket.id);
     if (!p) return;
@@ -334,7 +376,7 @@ io.on('connection', (socket) => {
     if (g.isClose(guess, word)) sys(socket.id, `"${text}" is close!`, 'close');
   });
 
-  socket.on('rate', (like) => {
+  on('rate', (like) => {
     const room = roomOf();
     const p = room?.players.get(socket.id);
     if (!p || room.state !== 'drawing' || socket.id === room.drawerId || p.rated) return;
@@ -342,12 +384,12 @@ io.on('connection', (socket) => {
     sys(room.code, `${p.name} ${like ? 'liked' : 'disliked'} the drawing`, like ? 'good' : 'leave');
   });
 
-  socket.on('kick', (id) => {
+  on('kick', (id) => {
     const room = roomOf();
     if (room && room.hostId === socket.id && id !== socket.id) kick(room, id);
   });
 
-  socket.on('votekick', (id) => {
+  on('votekick', (id) => {
     const room = roomOf();
     if (!room || id === socket.id || !room.players.has(id) || !room.players.has(socket.id)) return;
     if (room.players.size < 3) return sys(socket.id, 'Vote kick needs at least 3 players.');
@@ -359,12 +401,21 @@ io.on('connection', (socket) => {
     if (voters.size >= needed) kick(room, id);
   });
 
-  // shortcut: a dropped connection is a new player on reconnect; add rejoin tokens if school wifi drops people often.
-  socket.on('disconnect', () => {
+  // shortcut: a page refresh still makes a new player; only network drops under 30 s keep the seat.
+  on('disconnect', (reason) => {
     const room = roomOf();
-    if (room) removePlayer(room, socket.id);
+    const p = room?.players.get(socket.id);
+    if (!p) return;
+    // An explicit disconnect (the client sends one on pagehide) leaves now; a network drop gets a grace period.
+    if (reason === 'client namespace disconnect' || reason === 'server namespace disconnect') return removePlayer(room, socket.id);
+    p.connected = false;
+    p.leaveTimer = setTimeout(safe(() => removePlayer(room, socket.id)), GRACE_MS - 1000);
+    if (socket.id === room.drawerId && (room.state === 'drawing' || room.state === 'choosing')) return endTurn(room, 'The drawer lost connection');
+    if ((room.state === 'drawing' || room.state === 'choosing') && connectedCount(room) < 2) return endTurn(room, 'Not enough players connected');
+    if (room.state === 'drawing' && allGuessed(room)) return endTurn(room, 'Everyone guessed the word!');
+    sendState(room);
   });
-});
+}));
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => console.log(`Doodle Dash running on http://localhost:${PORT}`));

@@ -10,14 +10,9 @@ assert.ok(g.guesserPoints(60000, 80000) > g.guesserPoints(20000, 80000), 'faster
 assert.equal(g.drawerPoints([], 3), 0, 'nobody guessed: drawer gets 0');
 assert.ok(g.drawerPoints([400, 300], 3) > g.drawerPoints([400], 3), 'more guessers = more drawer points');
 
-assert.equal(g.mask('hot dog', new Set(), false), '___ ___');
-assert.equal(g.mask('yo-yo', new Set([0]), false), 'y_-__');
-assert.equal(g.mask('cat', new Set(), true), null);
-
-assert.equal(g.maxHints('cat', 5), 1);
-assert.deepEqual(g.hintTimes('elephant', 2, 90000), [30000, 60000]);
-assert.notEqual(g.pickHintIndex('hot dog', new Set()), 3, 'never reveals the space');
-assert.equal(g.pickHintIndex('ab', new Set([0, 1])), -1);
+assert.equal(g.mask('hot dog', false), '___ ___');
+assert.equal(g.mask('yo-yo', false), '__-__');
+assert.equal(g.mask('cat', true), null);
 
 assert.ok(g.isClose('elefant', 'elephant') === false, 'distance 2 is not close');
 assert.ok(g.isClose('pengin', 'penguin'));

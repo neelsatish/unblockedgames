@@ -24,27 +24,10 @@ function isLetter(ch) {
   return ch !== ' ' && ch !== '-';
 }
 
-// Mask for guessers: letters become "_" unless revealed; spaces/hyphens stay.
-// Hidden mode sends no letter count at all.
-function mask(word, revealed, hidden) {
+// Mask for guessers: letters become "_"; spaces/hyphens stay. Hidden mode sends no letter count.
+function mask(word, hidden) {
   if (hidden) return null;
-  return [...word].map((ch, i) => (!isLetter(ch) ? ch : revealed.has(i) ? ch : '_')).join('');
-}
-
-function maxHints(word, hints) {
-  const letters = [...word].filter(isLetter).length;
-  return Math.min(hints, Math.floor(letters / 2));
-}
-
-// Times (ms after turn start) at which each hint letter is revealed.
-function hintTimes(word, hints, drawTimeMs) {
-  const n = maxHints(word, hints);
-  return Array.from({ length: n }, (_, i) => Math.round((drawTimeMs * (i + 1)) / (n + 1)));
-}
-
-function pickHintIndex(word, revealed, rand = Math.random) {
-  const options = [...word].map((ch, i) => i).filter((i) => isLetter(word[i]) && !revealed.has(i));
-  return options.length ? options[Math.floor(rand() * options.length)] : -1;
+  return [...word].map((ch) => (isLetter(ch) ? '_' : ch)).join('');
 }
 
 function editDistance(a, b) {
@@ -81,11 +64,11 @@ const SETTINGS_LIMITS = {
   drawTime: [15, 240, 80],
   rounds: [2, 10, 3],
   wordCount: [1, 5, 3],
-  hints: [0, 5, 2],
 };
 
 // Validate settings coming from the host's browser (trust boundary).
 function cleanSettings(input = {}, prev = {}) {
+  if (!input || typeof input !== 'object') input = {};
   const out = {};
   for (const [key, [min, max, def]] of Object.entries(SETTINGS_LIMITS)) {
     const v = Number(input[key] ?? prev[key] ?? def);
@@ -98,6 +81,6 @@ function cleanSettings(input = {}, prev = {}) {
 }
 
 module.exports = {
-  normalize, guesserPoints, drawerPoints, mask, maxHints, hintTimes, pickHintIndex,
+  normalize, guesserPoints, drawerPoints, mask,
   editDistance, isClose, pickWords, parseCustomWords, cleanSettings, SETTINGS_LIMITS,
 };

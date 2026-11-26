@@ -65,9 +65,9 @@ No official formula exists anywhere I found. Every source agrees on the shape: [
 | Thing | Doodle Dash value |
 |---|---|
 | Room code | 5 letters, also shareable as `?room=CODE` link |
-| Settings | Players 2–20 (8), draw time 15–240 s (80), rounds 2–10 (3), word choices 1–5 (3), hints 0–5 (2), Normal/Hidden word mode, custom words (comma-separated, max 30 chars each, "custom only" needs ≥10 words) |
+| Settings | Players 2–20 (8), draw time 15–240 s (80), rounds 2–10 (3), word choices 1–5 (3), Normal/Hidden word mode, custom words (comma-separated, max 30 chars each, "custom only" needs ≥10 words) |
 | Word choice | 15 s, random pick on timeout |
-| Hints | Letters revealed at evenly spaced times; never more than half the letters |
+| Hints | Removed on request: no letters are revealed during a turn |
 | Close guess | Edit distance 1, words of 4+ letters, shown only to that player |
 | Guesser points | `round5(50 + 450 × timeLeft / drawTime)` — 500 for an instant guess, 50 at the buzzer |
 | Drawer points | `round5(sum of guesser points this turn / number of guessers in room)` — so it grows with every correct guess and with speed |
@@ -78,6 +78,7 @@ No official formula exists anywhere I found. Every source agrees on the shape: [
 | Votekick | Needs more than half of the other players; host can kick directly |
 | Like / dislike | Announced in chat |
 | Chat | 100 chars max, rate-limited; names 20 chars max |
+| Reconnect | Network drops under 30 s keep your seat, score and turn; closing the tab leaves right away |
 
 ### Not built (yet)
 - Combination word mode (exact rules undocumented), languages other than English, ban, report, mute.
