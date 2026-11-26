@@ -18,6 +18,7 @@ const io = new Server(server, {
 });
 
 require('./games/rarefinds/server')(io);
+require('./games/party/server')(io);
 
 const CHOOSE_MS = 15000;
 const REVEAL_MS = 5000;
