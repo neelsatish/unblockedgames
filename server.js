@@ -17,6 +17,8 @@ const io = new Server(server, {
   connectionStateRecovery: { maxDisconnectionDuration: GRACE_MS, skipMiddlewares: true },
 });
 
+require('./games/rarefinds/server')(io);
+
 const CHOOSE_MS = 15000;
 const REVEAL_MS = 5000;
 const PODIUM_MS = 10000;

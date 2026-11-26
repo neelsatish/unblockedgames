@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node test.js"
+    "test": "node test.js && node games/rarefinds/engine.test.js",
+    "build:rarefinds": "node games/rarefinds/build.js"
   },
   "engines": {
     "node": ">=20"
