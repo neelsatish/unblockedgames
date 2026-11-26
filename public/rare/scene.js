@@ -197,6 +197,9 @@
     if (kind === 'door') rect(x + w / 2 - 4, base - 10, 8, 10, roof);
   }
 
+  const logo = new Image(); // 120x40 pixel version of the school logo
+  logo.src = '/rare/logo.png';
+
   function drawZoneBuildings(cam, base, sky) {
     const night = sky.night;
     const off = -cam * 0.5;
@@ -212,6 +215,12 @@
     // school pennant in campus colours
     rect(x + 30, base - 76, 2, 22, '#6B6B6B');
     rect(x + 32, base - 76, 14, 3, '#E8641E'); rect(x + 32, base - 73, 10, 2, '#1F2A5C'); rect(x + 32, base - 71, 6, 2, '#5B8BD6');
+    // 600 m: school logo billboard (past the menu box on the start screen, so it doesn't fight the title)
+    x = Math.round(z(600));
+    rect(x + 14, base - 30, 4, 30, '#6B6B6B'); rect(x + 106, base - 30, 4, 30, '#6B6B6B');
+    rect(x, base - 74, 124, 44, roof);
+    if (logo.complete && logo.naturalWidth) ctx.drawImage(logo, x + 2, base - 72);
+    else rect(x + 2, base - 72, 120, 40, '#FF6600');
     // banners like the ones held up at assembly (icons only, no words)
     banner(z(420), base - 40, 'star', night); banner(z(1180), base - 50, 'heart', night); banner(z(1460), base - 44, 'trophy', night);
     banner(z(5210), base - 38, 'heart', night); banner(z(5320), base - 38, 'star', night);

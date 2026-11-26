@@ -1,0 +1,14 @@
+Make ONE image: a pixel-art version of the attached logo, for a retro 16-bit video game.
+
+Copy the attached logo's layout exactly: the words "Inventure" on the first line and "Academy" on the second line (right-aligned under it), in bold italic letters, with the round emblem (a circle split by a curved swoosh, with a small figure at its top right) to the right of the words.
+
+The text must be spelled exactly: Inventure Academy. Every letter must be clearly readable.
+
+Style rules:
+- Chunky pixel art with big hard square pixels on a coarse grid. The whole logo should be about 120 logical pixels wide and 40 logical pixels tall, each logical pixel drawn as a solid 8x8 block.
+- Exactly two flat colours: orange #FF6600 for the background and white #FFFFFF for the letters and emblem.
+- No anti-aliasing, no blur, no gradients, no shadows, no outlines, no extra colours.
+- Background is flat solid orange #FF6600 filling the whole image, with a small orange margin around the logo.
+- No other text, numbers, or decoration.
+
+Save the PNG in the current folder as logo_pixel.png.
