@@ -117,7 +117,7 @@ input:focus { border-color: var(--cyan); outline: none; }
 .locks .ok { margin-left: auto; color: var(--good); }
 
 .dock { position: absolute; left: 50%; bottom: max(16px, env(safe-area-inset-bottom)); transform: translateX(-50%); width: min(560px, calc(100vw - 24px)); display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; }
-.dock input { font-family: var(--mono); font-size: 1.1rem; min-height: 52px; }
+.dock input { font-family: var(--mono); font-size: 1.1rem; min-height: 52px; min-width: 0; width: 100%; }
 .dock .pbtn { min-height: 52px; }
 .timer { position: relative; width: 52px; height: 52px; display: grid; place-items: center; background: var(--panel); clip-path: var(--step); }
 .timer svg { position: absolute; inset: 4px; transform: rotate(-90deg); }
@@ -236,6 +236,9 @@ dialog::backdrop { background: rgba(8,7,16,.7); }
   .track { bottom: 96px; }
   .mark { font-size: .55rem; }
   .res-actions { grid-template-columns: 1fr; }
+  .dock { gap: 6px; }
+  .dock .pbtn { padding: 8px 12px; }
+  .prompt-card { padding: 12px 14px 10px; }
 }
 .reduce-motion *, .reduce-motion *::before, .reduce-motion *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition: none !important; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; } }

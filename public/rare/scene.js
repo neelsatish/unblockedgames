@@ -364,6 +364,7 @@
     const bob = !moving && !reduced() ? Math.round(Math.sin(now / 300)) : 0;
     let angle = 0;
     if (moving) angle = (S.metres / 40) * Math.PI * 2; // cartwheel while travelling
+    if (S.golden && S.mood !== 'golden') S.golden = false; // the golden look lasts only for the celebration
     const pal = S.golden || S.mood === 'golden' ? GOLD_PAL : KID_PAL;
     const my = base + 6 + bob - (S.mood === 'celebrate' && !reduced() ? Math.abs(Math.round(Math.sin(now / 90) * 4)) : 0);
     if (S.mood === 'golden' || S.golden) {

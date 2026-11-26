@@ -147,7 +147,7 @@ function matchAnswer(index, raw) {
 
 // Assign base tiers by familiarity rank. `ranked` is sorted most familiar first.
 function baseTier(rank, n) {
-  const textbook = clamp(Math.round(n * 0.1), 1, 15);
+  const textbook = clamp(Math.round(n * 0.1), n >= 10 ? 2 : 1, 15);
   const honours = clamp(Math.round(n * 0.35), textbook + 1, 60);
   const rare = clamp(Math.round(n * 0.7), honours + 1, 300);
   if (rank <= textbook) return 'textbook';

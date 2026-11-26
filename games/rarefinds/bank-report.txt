@@ -87,13 +87,13 @@ Name a country in Asia
   legendary: Brunei
   resolved to a different article: East Timor -> Timor-Leste (sovereign state situated on several islands in Southeast Asia); Palestine -> Palestine (political entity that enjoys incomplete recognition as a state, located in West Asia)
 
-== geo-south-america (12) textbook:1 tryhard:0 honours:3 rare:5 deep:2 legendary:1
+== geo-south-america (12) textbook:2 tryhard:0 honours:2 rare:5 deep:2 legendary:1
 Name a country in South America
   most familiar: Brazil, Argentina, Chile, Colombia, Venezuela, Guyana, Peru, Bolivia, Uruguay, Paraguay, Suriname, Ecuador
   least familiar: Chile, Colombia, Venezuela, Guyana, Peru, Bolivia, Uruguay, Paraguay, Suriname, Ecuador
   legendary: Suriname
 
-== geo-oceania (14) textbook:1 tryhard:0 honours:4 rare:4 deep:4 legendary:1
+== geo-oceania (14) textbook:2 tryhard:0 honours:3 rare:4 deep:4 legendary:1
 Name a country in Oceania
   most familiar: Australia, New Zealand, Papua New Guinea, Fiji, Nauru, Vanuatu, Kiribati, Samoa, Palau, Tuvalu, Tonga, Marshall Islands
   least familiar: Nauru, Vanuatu, Kiribati, Samoa, Palau, Tuvalu, Tonga, Marshall Islands, Solomon Islands, Micronesia
@@ -194,7 +194,7 @@ Name a chemical element
   least familiar: Roentgenium, Holmium, Nobelium, Lawrencium, Flerovium, Berkelium, Erbium, Terbium, Mendelevium, Thulium
   legendary: Technetium
 
-== sci-element-one-letter (14) textbook:1 tryhard:0 honours:4 rare:5 deep:3 legendary:1
+== sci-element-one-letter (14) textbook:2 tryhard:0 honours:3 rare:5 deep:3 legendary:1
 Name a chemical element whose symbol is a single letter
   most familiar: Hydrogen, Oxygen, Carbon, Sulfur, Nitrogen, Uranium, Potassium, Tungsten, Phosphorus, Fluorine, Boron, Iodine
   least familiar: Nitrogen, Uranium, Potassium, Tungsten, Phosphorus, Fluorine, Boron, Iodine, Vanadium, Yttrium
@@ -214,7 +214,7 @@ Name a moon in the Solar System
   legendary: Hyperion
   resolved to a different article: Mimas -> Mimas (moon of Saturn); Siarnaq -> Siarnaq (moon of Saturn)
 
-== sport-test-nation (12) textbook:1 tryhard:0 honours:3 rare:4 deep:3 legendary:1
+== sport-test-nation (12) textbook:2 tryhard:0 honours:2 rare:4 deep:3 legendary:1
 Name a country or team that plays Test cricket
   most familiar: India, Australia, Pakistan, England, West Indies, New Zealand, South Africa, Sri Lanka, Bangladesh, Afghanistan, Zimbabwe, Ireland
   least familiar: Pakistan, England, West Indies, New Zealand, South Africa, Sri Lanka, Bangladesh, Afghanistan, Zimbabwe, Ireland
