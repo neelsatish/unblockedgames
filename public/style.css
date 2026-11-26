@@ -110,6 +110,10 @@ button.game-card:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 
 .art-doodle .scribble { fill: none; stroke: var(--primary); stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
 .art-doodle .sun { fill: var(--sun); stroke: var(--ink); stroke-width: 3; }
 .art-rare { background: var(--mint); }
+.art-pop { background: var(--sun); }
+.art-pop path:first-child { fill: #fff; stroke: var(--ink); stroke-width: 3; stroke-linejoin: round; }
+.art-pop .fizz { fill: var(--accent); stroke: var(--ink); stroke-width: 2; }
+.art-pop .spark { fill: none; stroke: var(--ink); stroke-width: 3; stroke-linecap: round; }
 .art-rare rect { fill: #fff; stroke: var(--ink); stroke-width: 3; }
 .art-rare rect:nth-child(2) { fill: var(--accent); }
 .game-body { padding: 14px 18px 18px; }
