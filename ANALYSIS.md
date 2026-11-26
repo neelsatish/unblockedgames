@@ -92,3 +92,41 @@ No official formula exists anywhere I found. Every source agrees on the shape: [
 - Reverse-engineered protocol (settings ranges, phases, tools, packets): https://gist.github.com/MrDiamond64/b2081f2cb4ca6d11e848edaeb5ae1814 (marked abandoned Aug 2024)
 - How-to guides: https://progameguides.com/skribbl/what-is-skribbl-io-how-to-play-it, https://ahaslides.com/blog/how-to-play-skribblo
 - Design critiques: https://mechanicsofmagic.com/2024/04/24/critical-play-scribbl-io-2/, https://mechanicsofmagic.com/2024/04/23/critical-play-skribbl-io-blain-engeda/
+
+---
+
+# Rare Finds: design notes
+
+Rare Finds belongs to the rare-answer trivia genre: you score more for a correct answer that fewer people would think of. The gameplay rules follow that genre. The name, tier names, art, mascot, sounds and every question are original.
+
+## Rules
+| Thing | Value |
+|---|---|
+| Run length | 7 prompts, one from each of 7 different categories |
+| Timing | 3 s to read the prompt, then 25 s to answer; time comes from a server deadline |
+| Answers | One accepted answer per prompt. Wrong answers can be retried until time runs out (max 25 tries). |
+| Typos | One typo allowed for 4–6 letters, two for 7+. You are asked "Did you mean X?" and must press GO again. The suggestion never shows the tier. |
+| Buzzer | A valid answer still in the box when time runs out counts, but only an exact match |
+| Tiers | Textbook 10 · Try-Hard 20 · Honours 40 · Rare Find 60 · Deep Lore 80 · Legendary 100 |
+| Distance | 1 point = 10 m across campus; max 700 points = 7,000 m |
+| Overall rank | 0–150 Textbook · 151–260 Honours · 261–360 Rare Find · 361–459 Deep Lore · 460+ Legendary · 700 Perfect Run |
+| Modes | Daily (same 7 prompts for everyone, resets at midnight New York time), Unlimited, Friends room with a code |
+
+## How rarity is decided
+1. **What counts as correct** comes from a list written for each prompt (closed sets like countries or elements are complete) or from a saved Wikidata query (big open sets like dog breeds).
+2. **How familiar each answer is** comes from real data: English Wikipedia page views over the last 60 days (65% weight) and the number of Wikipedia language editions covering it (35% weight). Each signal is turned into a percentile among that prompt's own answers. An answer that only redirects to a list or a disambiguation page is never credited with that page's popularity.
+3. **Base tier by rank** among that prompt's answers: the top 10% (1 to 15 answers) are Textbook, then up to 35% (max 60) Honours, then up to 70% (max 300) Rare Find, and the rest Deep Lore.
+4. **Editorial picks on top**: Try-Hard (the "clever" answer everyone reaches for) and Legendary (a findable, satisfying gem). If a prompt has no Legendary pick, the most findable Deep Lore answer is promoted.
+5. **A few prompts use hand-set tiers** where popularity data can't measure the right thing (school subjects, things in a school bag, Pokémon, Minecraft mobs, spells, words ending in -ology, Olympic disciplines). The source line in the answer explorer says which method a prompt uses.
+
+Tiers are fixed in `bank.json` for a given version. They never change because of who played first. Player answer counts are tracked separately and shown only after 20 or more answers.
+
+## Limits on the free Render tier
+- Player answer counts, today's score distribution, and the one-ranked-run-per-day check all live in memory. A restart or sleep clears them.
+- "Already played today" is also saved in the browser, so a refresh shows your score. Clearing browser data allows a replay, but only the first finished run per guest counts toward today's stats.
+- The repo is public, so the answer bank is readable on GitHub.
+
+## Not built yet
+- The hot-potato party mode (pass the turn by naming a new answer before a hidden fuse runs out).
+- An admin editor for questions (questions are edited in `games/rarefinds/content/*.js`).
+- Archive of past daily runs, streaks and accounts (these need a database).

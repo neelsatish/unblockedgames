@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content">
+  <title>Rare Finds</title>
+  <meta name="description" content="Name something few people would think of. Rarer answers take you further across campus.">
+  <meta name="theme-color" content="#1B1A2E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' shape-rendering='crispEdges'%3E%3Crect width='16' height='16' fill='%231B1A2E'/%3E%3Crect x='7' y='2' width='2' height='12' fill='%23FFD54F'/%3E%3Crect x='2' y='7' width='12' height='2' fill='%23FFD54F'/%3E%3Crect x='5' y='5' width='6' height='6' fill='%23FFD54F'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="rare.css">
+</head>
+<body>
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <div id="vignette" aria-hidden="true"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <!-- ===== Menu ===== -->
+  <main id="menu" class="screen">
+    <a class="back-link" href="/">&larr; Arcade</a>
+    <div class="menu-box">
+      <h1 class="title"><span class="t1">RARE</span><span class="t2">FINDS</span></h1>
+      <p class="subtitle">7 prompts &middot; 25 seconds each &middot; rarer answers go further</p>
+      <div id="daily-status" class="daily-status" hidden></div>
+      <button id="play-daily" class="pbtn pbtn-primary pbtn-big">&#9654; TODAY'S RUN <span id="daily-num"></span></button>
+      <div class="menu-row">
+        <button id="play-unlimited" class="pbtn">UNLIMITED</button>
+        <button id="play-party" class="pbtn">PLAY WITH FRIENDS</button>
+      </div>
+      <div class="menu-row small">
+        <button id="open-how" class="pbtn pbtn-ghost">HOW TO PLAY</button>
+        <button id="open-settings" class="pbtn pbtn-ghost">SETTINGS</button>
+      </div>
+      <form id="join-form" class="join-row">
+        <label class="sr-only" for="join-code">Room code</label>
+        <input id="join-code" maxlength="5" placeholder="ROOM CODE" autocomplete="off" spellcheck="false">
+        <button class="pbtn" type="submit">JOIN</button>
+      </form>
+      <p id="menu-error" class="error" role="alert"></p>
+    </div>
+    <p class="footnote" id="footnote"></p>
+  </main>
+
+  <!-- ===== Party lobby ===== -->
+  <section id="lobby" class="screen" hidden>
+    <div class="panel lobby-panel">
+      <h2 class="ptitle">FRIENDS ROOM</h2>
+      <div class="code-box"><span>CODE</span><strong id="lobby-code"></strong></div>
+      <div class="invite-row">
+        <input id="lobby-link" readonly aria-label="Invite link">
+        <button id="copy-link" class="pbtn">COPY</button>
+      </div>
+      <ul id="lobby-players" class="lobby-players"></ul>
+      <button id="lobby-start" class="pbtn pbtn-primary pbtn-big">START</button>
+      <p id="lobby-wait" class="muted">Waiting for the host to start...</p>
+      <button id="lobby-leave" class="pbtn pbtn-ghost">LEAVE</button>
+    </div>
+  </section>
+
+  <!-- ===== Game ===== -->
+  <section id="game" class="screen" hidden>
+    <header class="hud">
+      <div class="hud-box"><span class="hud-label">DISTANCE</span><strong id="hud-dist">0 m</strong></div>
+      <div class="hud-mid">
+        <div id="pips" class="pips" aria-label="Rounds"></div>
+        <span id="hud-zone" class="hud-zone"></span>
+      </div>
+      <div class="hud-box right"><span class="hud-label">SCORE</span><strong id="hud-score">0</strong></div>
+      <div class="hud-btns">
+        <button id="mute" class="icon-btn" aria-label="Mute sound" title="Sound">&#9835;</button>
+        <button id="quit" class="icon-btn" aria-label="Quit this run" title="Quit">&#10005;</button>
+      </div>
+    </header>
+
+    <div class="prompt-wrap">
+      <div id="prompt-card" class="panel prompt-card">
+        <div class="prompt-kicker" id="prompt-kicker">PROMPT 1 OF 7</div>
+        <h2 class="prompt" id="prompt-text"></h2>
+        <p class="qualifier" id="prompt-qual"></p>
+        <div class="hint">&#9660; rarer answers go further &#9660;</div>
+      </div>
+      <div id="countdown" class="countdown" aria-live="assertive" hidden></div>
+    </div>
+
+    <!-- party: who has locked in -->
+    <ul id="locks" class="locks" aria-label="Players"></ul>
+
+    <!-- reveal track -->
+    <div id="track" class="track" hidden aria-hidden="true">
+      <div class="track-line"><div class="track-fill" id="track-fill"></div></div>
+      <div id="track-marks" class="track-marks"></div>
+      <div id="track-chip" class="track-chip"></div>
+    </div>
+
+    <div id="reveal" class="panel reveal" hidden aria-live="polite"></div>
+
+    <form id="answer-form" class="dock" autocomplete="off">
+      <div class="timer" id="timer" aria-label="Time left">
+        <svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="15" class="t-bg"/><circle cx="18" cy="18" r="15" class="t-fg" id="timer-ring"/></svg>
+        <span id="timer-num">25</span>
+      </div>
+      <label class="sr-only" for="answer">Your answer</label>
+      <input id="answer" maxlength="80" placeholder="type one answer..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="go">
+      <button id="go" class="pbtn pbtn-primary" type="submit">GO &#9654;</button>
+      <div id="feedback" class="feedback" aria-live="polite"></div>
+    </form>
+  </section>
+
+  <!-- ===== Results ===== -->
+  <section id="results" class="screen" hidden>
+    <div class="results-scroll">
+      <div class="panel results-panel">
+        <div class="res-kicker" id="res-kicker">RUN COMPLETE</div>
+        <div class="res-score"><strong id="res-score">0</strong><span>/ 700</span></div>
+        <div class="res-dist" id="res-dist"></div>
+        <div class="res-rank" id="res-rank"></div>
+        <div class="res-sub" id="res-sub"></div>
+        <div id="res-party" class="res-party" hidden></div>
+        <h3 class="sec">YOUR RUN</h3>
+        <ol id="res-log" class="res-log"></ol>
+        <h3 class="sec">JOURNEY</h3>
+        <svg id="res-graph" class="res-graph" viewBox="0 0 320 120" role="img" aria-label="Distance after each round"></svg>
+        <div id="res-dist-wrap">
+          <h3 class="sec">TODAY'S PLAYERS</h3>
+          <div id="res-distribution" class="res-distribution"></div>
+        </div>
+        <div class="res-actions">
+          <button id="share" class="pbtn pbtn-primary">COPY RESULT</button>
+          <button id="again" class="pbtn">PLAY UNLIMITED</button>
+          <button id="party-again" class="pbtn" hidden>NEW ROUND (HOST)</button>
+          <button id="home" class="pbtn pbtn-ghost">MENU</button>
+        </div>
+        <p class="muted small" id="res-next"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Dialogs ===== -->
+  <dialog id="how" class="panel dlg">
+    <h2 class="ptitle">HOW TO PLAY</h2>
+    <ol class="how-list">
+      <li>You get <b>7 prompts</b>, like "Name a fruit". Each has many right answers.</li>
+      <li>You have <b>25 seconds</b> to type <b>one</b> answer. Wrong answers can be retried until time runs out.</li>
+      <li>The <b>rarer</b> your correct answer, the more points it scores and the further you travel across campus.</li>
+      <li>Misspelled? You'll be asked "Did you mean...?" Press GO again to confirm.</li>
+    </ol>
+    <table class="tier-table" id="tier-table"></table>
+    <p class="muted small">Rarity comes from real popularity data (how many Wikipedias cover an answer, and how often English Wikipedia readers view it), checked by hand. It never changes based on who plays first.</p>
+    <form method="dialog"><button class="pbtn pbtn-primary">GOT IT</button></form>
+  </dialog>
+
+  <dialog id="settings" class="panel dlg">
+    <h2 class="ptitle">SETTINGS</h2>
+    <label class="field"><span>Name</span><input id="set-name" maxlength="20" autocomplete="nickname"></label>
+    <label class="check"><input type="checkbox" id="set-sound"> Sound effects</label>
+    <label class="check"><input type="checkbox" id="set-motion"> Reduce motion</label>
+    <form method="dialog"><button class="pbtn pbtn-primary">DONE</button></form>
+  </dialog>
+
+  <dialog id="explorer" class="panel dlg dlg-wide">
+    <h2 class="ptitle" id="ex-title"></h2>
+    <p class="muted small" id="ex-qual"></p>
+    <input id="ex-search" placeholder="search answers..." aria-label="Search answers">
+    <div id="ex-groups" class="ex-groups"></div>
+    <p class="muted small" id="ex-source"></p>
+    <form method="dialog"><button class="pbtn pbtn-primary">CLOSE</button></form>
+  </dialog>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="scene.js"></script>
+  <script src="rare.js"></script>
+</body>
+</html>

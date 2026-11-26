@@ -101,7 +101,8 @@ input::placeholder, textarea::placeholder { color: #8E89A6; }
   position: relative; text-align: left; padding: 0; overflow: hidden; display: flex; flex-direction: column;
   transition: transform 150ms ease, box-shadow 150ms ease;
 }
-button.game-card:hover { transform: translate(-3px, -3px) rotate(-.5deg); box-shadow: 8px 8px 0 var(--ink); }
+a.game-card { color: inherit; text-decoration: none; }
+button.game-card:hover, a.game-card:hover { transform: translate(-3px, -3px) rotate(-.5deg); box-shadow: 8px 8px 0 var(--ink); }
 button.game-card:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--ink); }
 .game-art { height: 130px; display: grid; place-items: center; border-bottom: var(--border); }
 .game-art svg { width: 70%; height: 100%; }
