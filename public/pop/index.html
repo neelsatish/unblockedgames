@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <title>Pop Quiz</title>
+  <meta name="description" content="Pass the fizzing flask around the lab bench. Name a new answer before it pops.">
+  <meta name="theme-color" content="#1B1A2E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' shape-rendering='crispEdges'%3E%3Crect width='16' height='16' fill='%231B1A2E'/%3E%3Crect x='6' y='1' width='4' height='2' fill='%23B5763A'/%3E%3Crect x='6' y='3' width='4' height='4' fill='%23CFE8F2'/%3E%3Crect x='4' y='7' width='8' height='2' fill='%23CFE8F2'/%3E%3Crect x='3' y='9' width='10' height='5' fill='%237CE38B'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="pop.css">
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <div id="sr" class="sr-only" aria-live="polite"></div>
+  <div id="sr-urgent" class="sr-only" aria-live="assertive"></div>
+
+  <!-- ===== Menu ===== -->
+  <main id="menu" class="screen menu">
+    <a class="back-link" href="/rare/">&larr; Rare Finds</a>
+    <div class="menu-box">
+      <canvas id="title-flask" class="title-flask" width="64" height="72" aria-hidden="true"></canvas>
+      <h1 class="title"><span class="t1">POP</span><span class="t2">QUIZ</span></h1>
+      <p class="subtitle">Pass the flask. Don't get popped.</p>
+
+      <section class="panel you" aria-label="Your player">
+        <label class="field"><span>Name</span><input id="name" maxlength="20" autocomplete="nickname" placeholder="Your name"></label>
+        <div class="field"><span id="avatar-label">Lab buddy</span>
+          <div id="avatars" class="avatars" role="radiogroup" aria-labelledby="avatar-label"></div>
+        </div>
+      </section>
+
+      <div class="field"><span id="size-label">Table size</span>
+        <div id="sizes" class="seg" role="radiogroup" aria-labelledby="size-label">
+          <button type="button" role="radio" data-size="1v1">1V1</button>
+          <button type="button" role="radio" data-size="3s">3S</button>
+          <button type="button" role="radio" data-size="4-6">4&ndash;6</button>
+          <button type="button" role="radio" data-size="8-10">8&ndash;10</button>
+        </div>
+      </div>
+      <button id="quick" class="pbtn pbtn-primary pbtn-big">&#9654; QUICK PLAY</button>
+      <div class="menu-row">
+        <button id="host-public" class="pbtn">HOST &middot; PUBLIC</button>
+        <button id="host-private" class="pbtn">HOST &middot; PRIVATE</button>
+      </div>
+      <form id="join-form" class="join-row">
+        <label class="sr-only" for="join-code">Room code</label>
+        <input id="join-code" maxlength="4" placeholder="CODE" autocomplete="off" spellcheck="false" autocapitalize="characters">
+        <button class="pbtn" type="submit">JOIN</button>
+      </form>
+      <p id="menu-error" class="error" role="alert"></p>
+
+      <section class="panel rooms" aria-labelledby="rooms-title">
+        <div class="rooms-head"><h2 id="rooms-title" class="ptitle small">PUBLIC ROOMS</h2><button id="rooms-refresh" class="pbtn pbtn-ghost small">REFRESH</button></div>
+        <ul id="rooms" class="room-list"></ul>
+      </section>
+
+      <div class="menu-row small">
+        <button id="open-how" class="pbtn pbtn-ghost">HOW TO PLAY</button>
+        <button id="open-settings" class="pbtn pbtn-ghost">SETTINGS</button>
+      </div>
+    </div>
+    <p class="disclaimer">Unofficial fan-made game. Not affiliated with, endorsed by, or connected to Inventure Academy in any way.</p>
+  </main>
+
+
+  <!-- ===== Room: waiting room and game share the lab bench ===== -->
+  <section id="room" class="screen room" hidden>
+    <header class="hud">
+      <div class="hud-code"><span class="hud-label">ROOM</span><strong id="room-code">----</strong><span id="room-vis" class="badge"></span></div>
+      <div class="hud-mid" id="hud-mid"></div>
+      <div class="hud-btns">
+        <button id="invite" class="pbtn small">INVITE</button>
+        <button id="copy-code" class="pbtn small">COPY CODE</button>
+        <button id="mute" class="icon-btn" aria-label="Sound on" title="Sound"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 6h3l4-3v10l-4-3H2z"/><path class="wave" d="M11 5c1 1 1 5 0 6M13 3c2 2 2 8 0 10"/></svg></button>
+        <button id="leave" class="icon-btn" aria-label="Leave room" title="Leave"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg></button>
+      </div>
+    </header>
+
+    <div class="stage">
+      <div id="arena" class="arena">
+        <canvas id="arena-canvas" aria-hidden="true"></canvas>
+        <div id="seats" class="seats"></div>
+        <div id="center" class="center-card">
+          <div id="q-kicker" class="q-kicker"></div>
+          <h2 id="q-text" class="q-text"></h2>
+          <p id="q-qual" class="q-qual"></p>
+          <div id="q-count" class="q-count" aria-hidden="true"></div>
+        </div>
+        <div id="banner" class="banner" aria-hidden="true" hidden></div>
+      </div>
+
+      <div id="qslot" class="panel qslot"></div>
+      <aside id="side" class="panel side">
+        <!-- waiting room -->
+        <div id="side-wait">
+          <h2 class="ptitle small">LAB GROUP <span id="ready-count" class="muted"></span></h2>
+          <ul id="members" class="members"></ul>
+          <label class="check"><input type="checkbox" id="ready"> Ready</label>
+          <label class="check"><input type="checkbox" id="autojoin"> Join the next game automatically</label>
+          <details id="rules" class="rules">
+            <summary>ROOM RULES</summary>
+            <form id="rules-form" class="rules-form"></form>
+            <p id="rules-error" class="error small" role="alert"></p>
+          </details>
+          <button id="wake" class="pbtn pbtn-primary pbtn-big">SHAKE THE FLASK</button>
+          <p id="wait-text" class="muted small"></p>
+        </div>
+        <!-- in a game -->
+        <div id="side-game" hidden>
+          <button id="history-toggle" class="history-toggle" aria-expanded="true" aria-controls="history">USED ANSWERS <span id="history-count"></span></button>
+          <ol id="history" class="history" aria-label="Answers already used for this question"></ol>
+        </div>
+      </aside>
+    </div>
+
+    <form id="dock" class="dock" autocomplete="off">
+      <div id="turn-tag" class="turn-tag" aria-hidden="true"></div>
+      <div class="dock-row">
+        <label class="sr-only" for="answer">Your answer</label>
+        <input id="answer" maxlength="80" placeholder="Get an answer ready..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="send">
+        <button id="send" class="pbtn pbtn-primary" type="submit">PASS IT &#9654;</button>
+      </div>
+      <div class="dock-row dock-sub">
+        <div id="my-hearts" class="my-hearts" aria-live="polite"></div>
+        <div id="feedback" class="feedback" aria-live="polite"></div>
+        <button id="emergency" class="pbtn small" type="button">EMERGENCY PASS</button>
+      </div>
+    </form>
+
+    <!-- results -->
+    <div id="results" class="results" hidden>
+      <div class="panel results-panel" role="dialog" aria-labelledby="res-title">
+        <div class="res-kicker">TOP OF THE CLASS</div>
+        <h2 id="res-title" class="res-title"></h2>
+        <table class="res-table">
+          <thead><tr><th>#</th><th>Player</th><th>Answers</th><th>Points</th><th>Spare hearts</th><th>Pops</th><th>Best answer</th></tr></thead>
+          <tbody id="res-rows"></tbody>
+        </table>
+        <h3 class="sec">YOUR GAME</h3>
+        <ul id="res-me" class="res-me"></ul>
+        <details class="report">
+          <summary>An answer should have counted?</summary>
+          <form id="report-form" class="report-form">
+            <label class="field"><span>Question</span><select id="report-q"></select></label>
+            <label class="field"><span>Your answer</span><input id="report-text" maxlength="80"></label>
+            <label class="field"><span>Why (optional)</span><input id="report-note" maxlength="200"></label>
+            <button class="pbtn small">SEND REPORT</button>
+          </form>
+        </details>
+        <div class="res-actions">
+          <button id="again" class="pbtn pbtn-primary">PLAY AGAIN</button>
+          <button id="res-close" class="pbtn">BACK TO THE BENCH</button>
+        </div>
+        <p id="res-note" class="muted small"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Dialogs ===== -->
+  <dialog id="how" class="panel dlg">
+    <h2 class="ptitle">HOW TO PLAY</h2>
+    <ol class="how-list">
+      <li>Everyone sits round the lab bench and gets the same prompt, like <b>"Name a fruit"</b>.</li>
+      <li>Whoever holds the <b>fizzing flask</b> must name a correct answer nobody has used for this prompt. Then the flask moves to the next seat.</li>
+      <li>The flask has <b>one hidden fuse</b> that keeps burning as it moves. Nobody sees the time; watch how hard it fizzes. You always get at least a few seconds when it reaches you.</li>
+      <li>Holding it when it pops costs a <b>heart</b>. Lose them all and you're out. Last player standing wins.</li>
+      <li>Wrong or repeated answers cost nothing but time. Rarer answers fill your <b>spare-heart meter</b> faster.</li>
+      <li>One <b>emergency pass</b> per game hands the flask on without an answer.</li>
+    </ol>
+    <table class="tier-table" id="tier-table"></table>
+    <form method="dialog"><button class="pbtn pbtn-primary">GOT IT</button></form>
+  </dialog>
+
+  <dialog id="settings" class="panel dlg">
+    <h2 class="ptitle">SETTINGS</h2>
+    <label class="check"><input type="checkbox" id="set-sound"> Sound effects</label>
+    <label class="check"><input type="checkbox" id="set-ambient"> Lab ambience</label>
+    <label class="check"><input type="checkbox" id="set-motion"> Reduce motion</label>
+    <label class="check"><input type="checkbox" id="set-contrast"> High contrast</label>
+    <form method="dialog"><button class="pbtn pbtn-primary">DONE</button></form>
+  </dialog>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="art.js"></script>
+  <script src="pop.js"></script>
+</body>
+</html>

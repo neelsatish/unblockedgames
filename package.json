@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node test.js && node games/rarefinds/engine.test.js",
+    "test": "node test.js && node games/rarefinds/engine.test.js && node games/party/engine.test.js && node games/party/multi.test.js",
     "build:rarefinds": "node games/rarefinds/build.js",
     "rarefinds:games": "node games/rarefinds/make-games.js --add 7",
     "rarefinds:check": "node games/rarefinds/check.js"
@@ -16,5 +16,8 @@
   "dependencies": {
     "express": "^4.21.2",
     "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
   }
 }
