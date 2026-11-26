@@ -13,11 +13,11 @@ module.exports = [
       Prometheus; Epimetheus; Triton@Triton (mythology); Proteus; Nereus; Aeolus|Aiolos@Aeolus (son of Hippotes); Boreas@Boreas (god); Zephyrus|Zephyr;
       Notus; Eurus; Hymen|Hymenaeus@Hymen (god); Harmonia; Eris@Eris (mythology); Enyo; Deimos@Deimos (deity); Phobos@Phobos (mythology);
       Priapus; Calliope; Clio; Erato; Euterpe; Melpomene; Polyhymnia; Terpsichore; Thalia@Thalia (Muse); Urania; Clotho; Lachesis;
-      Atropos; Charon; Heracles|Herakles|Hercules; Metis@Metis (mythology); Leto; Dione@Dione (mythology)`,
+      Atropos; Charon; Heracles|Herakles; Kratos|Cratos@Kratos (mythology); Iapetus; Theia; Psyche@Psyche (mythology); Metis@Metis (mythology); Leto; Dione@Dione (mythology)`,
     tryhard: ['Heracles'],
     legendary: ['Hymen'],
     facts: {
-      Heracles: 'A hero who only became a god after his death; Hercules is the Roman version of his name.',
+      Heracles: 'A hero who only became a god after his death (the Romans called him Hercules).',
       Hymen: 'The god of weddings; Greek wedding songs called out his name.',
     },
   },

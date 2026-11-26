@@ -28,7 +28,7 @@ module.exports = [
     facts: { Illusioner: 'Coded into the game but never spawns naturally; you can only summon it with commands.' },
     category: 'entertainment',
     prompt: 'Name a Minecraft mob',
-    qualifier: 'Mobs in Java or Bedrock Edition as of the 1.21 updates',
+    qualifier: 'Mobs in Java or Bedrock Edition up to version 1.21.6 (June 2025)',
     groups: {
       textbook: 'Zombie; Skeleton; Creeper; Spider; Enderman; Pig; Cow; Sheep; Chicken; Villager',
       honours: `Iron Golem; Wolf|dog; Cat; Horse; Slime; Witch; Ghast; Blaze; Wither; Ender Dragon|dragon; Zombified Piglin|Zombie Pigman|pigman;
@@ -122,7 +122,7 @@ module.exports = [
         Protego; Levicorpus; Aguamenti; Morsmordre; Silencio; Confundo; Episkey; Engorgio; Reducto; Rictusempra`,
       rare: `Liberacorpus; Muffliato; Tarantallegra; Serpensortia; Finite Incantatem|Finite; Diffindo; Reducio; Sonorus; Quietus;
         Prior Incantato; Point Me; Densaugeo; Impedimenta; Legilimens; Locomotor Mortis; Scourgify; Tergeo; Anapneo; Avis;
-        Oppugno; Relashio; Rennervate|Enervate|Ennervate; Homenum Revelio; Salvio Hexia; Protego Totalum; Cave Inimicum;
+        Oppugno; Relashio; Oculus Reparo; Impervius; Rennervate|Enervate|Ennervate; Homenum Revelio; Salvio Hexia; Protego Totalum; Cave Inimicum;
         Repello Muggletum; Piertotum Locomotor; Colloportus; Expulso; Lumos Maxima; Glisseo; Deprimo; Descendo; Evanesco`,
       deep: `Obscuro; Orchideous; Portus; Fianto Duri; Duro; Waddiwasi; Specialis Revelio; Furnunculus; Langlock; Mobiliarbus;
         Mobilicorpus; Ferula; Deletrius; Geminio; Brackium Emendo; Pack; Defodio;
@@ -130,6 +130,6 @@ module.exports = [
       tryhard: '',
       legendary: 'Meteolojinx Recanto',
     },
-    facts: { 'Meteolojinx Recanto': 'Ron is told to use it to stop the rain in a Ministry office in Order of the Phoenix.' },
+    facts: { 'Meteolojinx Recanto': "In Deathly Hallows, Mr Weasley suggests it to Ron (disguised as Reg Cattermole) to stop the rain in Yaxley's Ministry office." },
   },
 ];

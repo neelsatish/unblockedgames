@@ -23,49 +23,49 @@ Name a Pixar feature film
 Name a Marvel Cinematic Universe film
   legendary: The Marvels
 
-== ent-hp-spell (84) textbook:7 tryhard:0 honours:20 rare:35 deep:21 legendary:1
+== ent-hp-spell (86) textbook:7 tryhard:0 honours:20 rare:37 deep:21 legendary:1
 Name a spell from the Harry Potter books or films
   legendary: Meteolojinx Recanto
 
-== food-pasta (56) textbook:5 tryhard:0 honours:12 rare:17 deep:21 legendary:1
+== food-pasta (56) textbook:5 tryhard:0 honours:13 rare:17 deep:20 legendary:1
 Name a type of pasta
   most familiar: Lasagna, Spaghetti, Gnocchi, Macaroni, Vermicelli, Ravioli, Tortellini, Orzo, Tagliatelle, Fettuccine, Orecchiette, Bucatini
   least familiar: Campanelle, Ditalini, Corzetti, Anelli, Garganelli, Busiate, Malloreddus, Calamarata, Scialatielli, Stelline
   no article (deep): Gemelli, Lumache, Tubetti, Ruote, Mostaccioli, Sedanini
-  legendary: Orecchiette
+  legendary: Corzetti
   resolved to a different article: Fregola -> Fregula (type of pasta)
 
-== food-cheese (68) textbook:6 tryhard:1 honours:16 rare:23 deep:21 legendary:1
+== food-cheese (70) textbook:7 tryhard:1 honours:16 rare:25 deep:20 legendary:1
 Name a type of cheese
-  most familiar: Parmesan, Mozzarella, Halloumi, Camembert, Feta, Mascarpone, Casu marzu, Paneer, Gouda, Ricotta, Cottage cheese, Brie
-  least familiar: Brillat-Savarin, Kefalotyri, Caerphilly, Leerdammer, Graviera, Stinking Bishop, Queso fresco, Lancashire cheese, Gamonedo, Bandel cheese
-  no article (deep): Edam, Kalari
+  most familiar: Parmesan, Mozzarella, Camembert, Halloumi, Mascarpone, Feta, Paneer, Casu marzu, Gouda, Ricotta, Brie, Cottage cheese
+  least familiar: Kasseri, Brillat-Savarin, Kefalotyri, Caerphilly, Leerdammer, Graviera, Queso fresco, Lancashire cheese, Gamonedo, Bandel cheese
+  no article (deep): Stinking Bishop, Kalari
   legendary: Bandel cheese
   resolved to a different article: Cheddar -> Cheddar (type of cheese that is somewhat hard and often sharp); Parmesan -> Parmesan (Italian hard cheese); Gruyère -> Gruyère (Swiss medium-hard Alpine cheese); Stilton -> Stilton (type of English cheese); Double Gloucester -> Gloucester cheese (type of cheese originating from Gloucestershire, England); Stinking Bishop -> Stinking Bishop (Wikimedia disambiguation page); Époisses -> Époisses (French cheese); Queso fresco -> White cheese (Variety of cheese with a white hue); Casu marzu -> Casu martzu (Sardinian and Corsican cheese containing live maggots); Gamonedo -> Gamonéu cheese (Spanish firm cheese made from cow, goat, and sheep's milk); Danish blue -> Danish Blue Cheese (blue-veined cheese from Denmark)
 
-== food-fruit (100) textbook:11 tryhard:1 honours:17 rare:39 deep:31 legendary:1
+== food-fruit (101) textbook:11 tryhard:1 honours:18 rare:39 deep:31 legendary:1
 Name a fruit
-  most familiar: Apple, Banana, Tomato, Avocado, Orange, Fig, Pomegranate, Quince, Pineapple, Lemon, Tamarind, Date
-  least familiar: Damson, Boysenberry, Santol, Karonda, Greengage, Kokum, Phalsa, Mirabelle, Ugli fruit, Langsat
-  no article (deep): Muskmelon, Marula, Wood apple (elephant apple)
+  most familiar: Apple, Banana, Tomato, Avocado, Orange, Pomegranate, Fig, Quince, Pineapple, Lemon, Tamarind, Date
+  least familiar: Boysenberry, Santol, Karonda, Sweet lime, Greengage, Kokum, Phalsa, Mirabelle, Ugli fruit, Langsat
+  no article (deep): Muskmelon, Marula
   legendary: Phalsa
   resolved to a different article: Custard apple -> Annona squamosa (species of plant); Sapodilla -> Manilkara zapota (evergreen tree); Dragon fruit -> Dragon fruit (fruit of several cactus species); Passion fruit -> Passiflora edulis (species of plant); Fig -> Fig (species of plant); Mulberry -> Morus (plant) (genus of plants); Mangosteen -> Mangosteen (species of plant); Lingonberry -> Vaccinium vitis-idaea (species of plant); Cloudberry -> Rubus chamaemorus (species of plant); Ugli fruit -> Jamaican tangelo (trademark for the Jamaican tangelo); Langsat -> Epicharis parasitica (species of plant in the family Meliaceae)
 
-== food-indian-sweet (65) textbook:4 tryhard:1 honours:14 rare:19 deep:26 legendary:1
+== food-indian-sweet (67) textbook:5 tryhard:1 honours:14 rare:20 deep:26 legendary:1
 Name an Indian sweet or dessert
   most familiar: Halwa, Gulab jamun, Jalebi, Lassi, Ladoo, Kheer, Ras malai, Kulfi, Falooda, Soan papdi, Rasgulla, Barfi
   least familiar: Mohanthal, Ada pradhaman, Pantua, Phirni, Unniyappam, Gajak, Lyangcha, Qubani ka meetha, Chiroti, Sitabhog
-  no article (deep): Motichoor ladoo, Kesari bath, Kozhukattai, Sutar feni, Patishapta, Parwal ki mithai, Malai chop, Elaneer payasam, Mawa cake, Kulfi falooda, Rasmalai cake
+  no article (deep): Motichoor ladoo, Kesari bath, Kozhukattai, Sutar feni, Patishapta, Parwal ki mithai, Malai chop, Elaneer payasam, Mawa cake, Kulfi falooda, Palkova
   legendary: Chiroti
   resolved to a different article: Cham cham -> Chomchom (traditional Bengali sweet); Balushahi -> Makhan Bada (South Asian donuts); Unniyappam -> Unni appam (Kerala sweet snack); Qubani ka meetha -> Khubani ka meetha (Indian dessert made from dried apricots); Dharwad peda -> Dharwad pedha (Indian sweet, often a round ball of dairy solids); Chiroti -> Chirote (Indian dessert); Shakarpara -> Shankarpali (Indian Festival (Diwali) Snack); Gujiya -> Gujhia (also known as ghughra in gujarati)
 
-== food-spice (53) textbook:5 tryhard:0 honours:13 rare:19 deep:15 legendary:1
+== food-spice (59) textbook:6 tryhard:0 honours:15 rare:24 deep:13 legendary:1
 Name a spice
   most familiar: Coriander, Clove, Black pepper, Cinnamon, Ginger, Turmeric, Tamarind, Saffron, Garlic, Nutmeg, Fennel, Sesame
-  least familiar: Black cardamom, Kokum, Mustard seed, Chili powder, Chaat masala, Baharat, Mahleb, Pink peppercorn, Stone flower, Amchur
-  no article (deep): Kashmiri chilli, Marathi moggu
+  least familiar: Kokum, Chili powder, Chaat masala, Baharat, Mahleb, Pink peppercorn, Stone flower, Shahi jeera, Amchur, Tandoori masala
+  no article (deep): Kashmiri chilli, Marathi moggu, Rasam powder, Pav bhaji masala
   legendary: Stone flower
-  resolved to a different article: Star anise -> Illicium verum (species of plant); Celery seed -> Celery (common edible part of the celery plant); Dill seed -> Dill (species of plant); Kokum -> Garcinia indica (plant in the mangosteen family)
+  resolved to a different article: Star anise -> Illicium verum (species of plant); Shahi jeera -> Elwendia persica (species of plant in the family Apiaceae); Celery seed -> Celery (common edible part of the celery plant); Dill seed -> Dill (species of plant); Kokum -> Garcinia indica (plant in the mangosteen family); Sambar powder -> Sambar (dish) (Indian food)
 
 == geo-country-s (26) textbook:4 tryhard:0 honours:5 rare:9 deep:7 legendary:1
 Name a country that begins with S
@@ -125,10 +125,10 @@ Name a river that flows through India
   legendary: Vrishabhavathi River
   ambiguous aliases: chandrabhaga, gingee, kali, sindh
 
-== hist-greek-deity (78) textbook:8 tryhard:1 honours:18 rare:28 deep:22 legendary:1
+== hist-greek-deity (82) textbook:8 tryhard:1 honours:20 rare:28 deep:24 legendary:1
 Name a god or goddess from Greek mythology
   most familiar: Zeus, Athena, Apollo, Aphrodite, Artemis, Dionysus, Hermes, Poseidon, Hera, Hades, Prometheus, Ares
-  least familiar: Atropos, Polyhymnia, Boreas, Clotho, Hymen, Enyo, Lachesis, Eurus, Notus, Dione
+  least familiar: Polyhymnia, Atropos, Boreas, Clotho, Hymen, Enyo, Lachesis, Eurus, Notus, Dione
   legendary: Hymen
   resolved to a different article: Nemesis -> Nemesis (goddess of Greek mythology); Boreas -> Boreas (Greek mythological personification and god of the North wind, storms,, winter, loneliness, solitude, absence, lack, sadness, depression, calmness and serenity)
 
@@ -180,11 +180,11 @@ Name a breed of dog
   legendary: Mudhol Hound
   ambiguous aliases: italian mastiff, spanish bulldog, setter, portuguese watch dog, bruno jura, polish, portuguese watch, pariah
 
-== school-subject (70) textbook:8 tryhard:0 honours:18 rare:24 deep:19 legendary:1
+== school-subject (72) textbook:9 tryhard:0 honours:19 rare:24 deep:19 legendary:1
 Name a subject taught at school
   legendary: Further mathematics
 
-== school-bag (77) textbook:9 tryhard:0 honours:24 rare:27 deep:16 legendary:1
+== school-bag (78) textbook:9 tryhard:0 honours:24 rare:28 deep:16 legendary:1
 Name something you might find in a school bag
   legendary: French curve
 
@@ -200,7 +200,7 @@ Name a chemical element whose symbol is a single letter
   least familiar: Nitrogen, Uranium, Potassium, Tungsten, Phosphorus, Fluorine, Boron, Iodine, Vanadium, Yttrium
   legendary: Yttrium
 
-== sci-bone (56) textbook:6 tryhard:1 honours:13 rare:18 deep:17 legendary:1
+== sci-bone (58) textbook:6 tryhard:1 honours:13 rare:20 deep:17 legendary:1
 Name a bone in the human body
   most familiar: Clavicle, Skull, Scapula, Femur, Sternum, Vertebra, Sacrum, Tibia, Fibula, Coccyx, Mandible, Humerus
   least familiar: Inferior nasal concha, Lunate bone, Pisiform bone, Navicular bone, Triquetral bone, Capitate bone, Trapezium, Trapezoid bone, Cuboid bone, Cuneiform bone
@@ -225,12 +225,13 @@ Name a team that has played in the Indian Premier League
   most familiar: Chennai Super Kings, Mumbai Indians, Kolkata Knight Riders, Delhi Capitals, Royal Challengers Bengaluru, Sunrisers Hyderabad, Punjab Kings, Rajasthan Royals, Gujarat Titans, Deccan Chargers, Lucknow Super Giants, Kochi Tuskers Kerala
   least familiar: Sunrisers Hyderabad, Punjab Kings, Rajasthan Royals, Gujarat Titans, Deccan Chargers, Lucknow Super Giants, Kochi Tuskers Kerala, Rising Pune Supergiant, Gujarat Lions, Pune Warriors India
   legendary: Kochi Tuskers Kerala
+  ambiguous aliases: dc
 
-== sport-olympic (47) textbook:7 tryhard:1 honours:21 rare:12 deep:5 legendary:1
+== sport-olympic (47) textbook:9 tryhard:1 honours:19 rare:12 deep:5 legendary:1
 Name a sport or discipline at the Paris 2024 Summer Olympics
   legendary: Modern pentathlon
 
-== word-ology (130) textbook:8 tryhard:1 honours:36 rare:54 deep:30 legendary:1
+== word-ology (135) textbook:8 tryhard:1 honours:37 rare:57 deep:31 legendary:1
 Name an English word that ends in "-ology"
   legendary: Campanology
 

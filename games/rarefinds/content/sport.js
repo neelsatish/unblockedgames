@@ -23,7 +23,7 @@ module.exports = [
     answers: `
       Chennai Super Kings|CSK; Mumbai Indians|MI; Royal Challengers Bengaluru|RCB|Royal Challengers Bangalore;
       Kolkata Knight Riders|KKR; Sunrisers Hyderabad|SRH; Rajasthan Royals|RR; Delhi Capitals|DC|Delhi Daredevils;
-      Punjab Kings|PBKS|Kings XI Punjab|KXIP; Lucknow Super Giants|LSG; Gujarat Titans|GT; Deccan Chargers;
+      Punjab Kings|PBKS|Kings XI Punjab|KXIP; Lucknow Super Giants|LSG; Gujarat Titans|GT; Deccan Chargers|DC;
       Kochi Tuskers Kerala|Kochi Tuskers; Pune Warriors India|Pune Warriors; Rising Pune Supergiant|Rising Pune Supergiants|RPS;
       Gujarat Lions`,
     legendary: ['Kochi Tuskers Kerala'],
@@ -35,8 +35,8 @@ module.exports = [
     prompt: 'Name a sport or discipline at the Paris 2024 Summer Olympics',
     qualifier: 'Sports and their disciplines, like beach volleyball',
     groups: {
-      textbook: 'Athletics|track and field|running; Swimming; Football|soccer; Basketball; Gymnastics; Tennis; Boxing',
-      honours: `Badminton; Hockey|field hockey; Archery; Cycling; Diving; Fencing; Volleyball; Wrestling; Weightlifting; Judo;
+      textbook: 'Athletics|track and field|running|javelin|javelin throw|sprinting; Swimming; Football|soccer; Basketball; Gymnastics; Tennis; Boxing; Badminton; Hockey|field hockey',
+      honours: `Archery; Cycling; Diving; Fencing; Volleyball; Wrestling; Weightlifting; Judo;
         Table tennis|ping pong; Rowing; Shooting; Golf; Rugby sevens|rugby|rugby 7s; Taekwondo; Skateboarding; Surfing; Beach volleyball;
         Water polo; Handball`,
       rare: `Canoeing|canoe|kayaking|canoe sprint|canoe slalom; Equestrian|horse riding|dressage|show jumping|eventing; Sailing; Triathlon;

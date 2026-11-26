@@ -9,16 +9,16 @@ module.exports = [
       honours: `Anthropology; Archaeology|archeology; Astrology; Cardiology; Criminology; Dermatology; Mythology; Neurology;
         Meteorology; Microbiology; Pathology; Physiology; Radiology; Theology; Ideology; Methodology; Terminology; Chronology;
         Oncology; Immunology; Virology; Cosmology; Paleontology|palaeontology; Toxicology; Seismology; Pharmacology; Gynecology|gynaecology;
-        Numerology; Ophthalmology; Entomology; Etymology; Anthology; Biotechnology; Nanotechnology; Egyptology; Ornithology`,
+        Numerology; Ophthalmology; Entomology; Etymology; Anthology; Biotechnology; Nanotechnology; Egyptology; Ornithology; Tautology`,
       rare: `Hematology|haematology; Herpetology; Ichthyology; Mycology; Horology; Urology; Nephrology; Endocrinology;
         Gastroenterology; Rheumatology; Audiology; Speleology; Volcanology|vulcanology; Glaciology; Hydrology; Climatology;
         Phonology; Morphology; Embryology; Histology; Cytology; Epidemiology; Gerontology; Graphology; Philology; Lexicology;
         Ontology; Epistemology; Phenomenology; Topology; Trichology; Osteology; Kinesiology; Musicology; Primatology;
         Parasitology; Bacteriology; Penology; Doxology; Astrobiology; Cryptozoology; Ufology; Sexology; Pulmonology; Neonatology;
-        Anesthesiology|anaesthesiology; Petrology; Limnology; Oceanology; Phrenology; Serology; Phraseology; Eschatology; Teleology`,
+        Anesthesiology|anaesthesiology; Cosmetology; Reflexology; Gemology|gemmology; Petrology; Limnology; Oceanology; Phrenology; Serology; Phraseology; Eschatology; Teleology`,
       deep: `Dendrology; Oology; Conchology; Malacology; Selenology; Myology; Odontology; Deontology; Axiology; Soteriology;
         Christology; Semiology; Victimology; Exobiology; Pomology; Oenology|enology; Nephology; Hippology; Cetology; Myrmecology;
-        Arachnology; Bryology; Lichenology; Palynology; Sinology; Assyriology; Iconology; Escapology; Futurology; Chirology`,
+        Arachnology; Bryology; Lichenology; Palynology; Sinology; Assyriology; Iconology; Escapology; Futurology; Chirology; Psephology`,
       tryhard: 'Vexillology',
       legendary: 'Campanology',
     },

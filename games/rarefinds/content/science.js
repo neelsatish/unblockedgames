@@ -19,7 +19,7 @@ const ELEMENTS = [
 ];
 if (ELEMENTS.length !== 118) throw new Error('element table must have 118 rows');
 
-// Symbols are accepted as aliases only where they don't collide with a common word.
+// Element symbols are accepted as aliases (so "Fe" scores as iron).
 const withSymbol = ([name, sym]) => {
   const [main, title] = name.split('@');
   return `${main}|${sym}${title ? '@' + title : ''}`;
@@ -60,14 +60,14 @@ module.exports = [
     strip: ['bone'],
     answers: `
       Femur|thigh bone; Tibia|shin bone|shinbone; Fibula; Patella|kneecap|knee cap; Humerus; Radius@Radius (bone); Ulna;
-      Clavicle|collarbone|collar bone; Scapula|shoulder blade; Sternum|breastbone|breast bone; Rib|ribs|rib cage; Vertebra|vertebrae;
+      Clavicle|collarbone|collar bone; Scapula|shoulder blade; Sternum|breastbone|breast bone; Rib|ribs|rib cage; Vertebra|vertebrae|spine|backbone|spinal column;
       Sacrum; Coccyx|tailbone|tail bone; Hip bone|pelvis|pelvic bone|coxal bone|innominate bone; Ilium@Ilium (bone); Ischium; Pubis|pubic bone@Pubis (bone);
-      Mandible|jawbone|jaw bone|lower jaw; Maxilla|upper jaw; Frontal bone; Parietal bone; Temporal bone; Occipital bone;
+      Mandible|jawbone|jaw bone|lower jaw|jaw; Maxilla|upper jaw; Frontal bone; Parietal bone; Temporal bone; Occipital bone;
       Sphenoid bone; Ethmoid bone; Nasal bone; Lacrimal bone; Zygomatic bone|cheekbone|cheek bone; Palatine bone; Vomer;
       Inferior nasal concha|turbinate; Hyoid bone|hyoid; Malleus|hammer; Incus|anvil; Stapes|stirrup;
       Atlas@Atlas (anatomy); Axis@Axis (anatomy); Scaphoid bone|scaphoid; Lunate bone|lunate; Triquetral bone|triquetrum;
       Pisiform bone|pisiform; Trapezium@Trapezium (bone); Trapezoid bone|trapezoid; Capitate bone|capitate; Hamate bone|hamate;
-      Metacarpal|metacarpals@Metacarpal bones; Phalanx|phalanges@Phalanx bone; Talus|ankle bone|astragalus@Talus bone; Calcaneus|heel bone;
+      Metacarpal|metacarpals@Metacarpal bones; Carpal|carpals|carpal bones|wrist bones@Carpal bones; Tarsal|tarsals|tarsal bones@Tarsus (skeleton); Phalanx|phalanges@Phalanx bone; Talus|ankle bone|astragalus@Talus bone; Calcaneus|heel bone;
       Navicular bone|navicular; Cuboid bone|cuboid; Cuneiform bone|cuneiform|cuneiforms@Cuneiform bones; Metatarsal|metatarsals@Metatarsal bones;
       Sesamoid bone|sesamoid; Skull|cranium`,
     tryhard: ['Stapes'],

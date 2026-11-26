@@ -12,7 +12,7 @@ module.exports = [
       Little penguin|little blue penguin|blue penguin|fairy penguin@Little penguin; Magellanic penguin@Magellanic penguin;
       Humboldt penguin|Peruvian penguin@Humboldt penguin; African penguin|jackass penguin|black-footed penguin|Cape penguin@African penguin;
       Galápagos penguin|Galapagos@Galápagos penguin; Macaroni penguin@Macaroni penguin; Royal penguin@Royal penguin;
-      Southern rockhopper penguin|rockhopper|rockhopper penguin@Southern rockhopper penguin; Northern rockhopper penguin@Northern rockhopper penguin;
+      Southern rockhopper penguin|rockhopper|rockhopper penguin|western rockhopper|eastern rockhopper@Southern rockhopper penguin; Northern rockhopper penguin@Northern rockhopper penguin;
       Fiordland penguin|Fiordland crested penguin@Fiordland penguin; Snares penguin|Snares crested penguin@Snares penguin;
       Erect-crested penguin|erect crested@Erect-crested penguin; Yellow-eyed penguin|hoiho@Yellow-eyed penguin`,
     legendary: ['Snares penguin'],
@@ -23,12 +23,12 @@ module.exports = [
     prompt: 'Name a species of cat',
     qualifier: 'Any member of the cat family, wild or domestic',
     answers: `
-      Lion; Tiger; Leopard; Jaguar; Cheetah; Snow leopard|ounce; Clouded leopard; Sunda clouded leopard;
-      Cougar|puma|mountain lion|panther (cougar)@Cougar; Eurasian lynx|lynx; Canada lynx; Iberian lynx; Bobcat;
+      Lion; Tiger; Leopard|black panther; Jaguar; Cheetah; Snow leopard|ounce; Clouded leopard; Sunda clouded leopard;
+      Cougar|puma|mountain lion|panther@Cougar; Eurasian lynx|lynx; Canada lynx; Iberian lynx; Bobcat;
       Caracal; Serval; Ocelot; Margay; Oncilla|little spotted cat|tigrina@Oncilla; Jaguarundi; Sand cat; Black-footed cat;
       Fishing cat; Flat-headed cat; Rusty-spotted cat; Leopard cat; Sunda leopard cat; Pallas's cat|manul|Pallas cat;
       Marbled cat; Asian golden cat; African golden cat; Bay cat|Bornean bay cat; Jungle cat|swamp cat|reed cat;
-      European wildcat; African wildcat; Chinese mountain cat|Chinese desert cat; Geoffroy's cat; Kodkod|guiña;
+      European wildcat|wildcat; African wildcat; Chinese mountain cat|Chinese desert cat; Geoffroy's cat; Kodkod|guiña;
       Pampas cat; Andean mountain cat|Andean cat; Cat|domestic cat|house cat|housecat`,
     tryhard: ['Ocelot'],
     legendary: ['Rusty-spotted cat'],

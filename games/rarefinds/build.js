@@ -218,7 +218,9 @@ async function main() {
       if (seen.has(n)) qErr(`duplicate answer "${a.name}"`);
       seen.set(n, a);
     }
-    const sig = answers.map((a) => (q.sparql && answers.length > VIEWS_POOL_LIMIT ? { sitelinks: a.sitelinks } : signals.titles[a.title] || {}));
+    // A page Wikidata calls a disambiguation page tells us nothing about the answer itself.
+    const isDisambig = (x) => /disambiguation page/i.test(x?.description || '');
+    const sig = answers.map((a) => (q.sparql && answers.length > VIEWS_POOL_LIMIT && !a.extra ? { sitelinks: a.sitelinks } : isDisambig(signals.titles[a.title]) ? { sitelinks: null } : signals.titles[a.title] || {}));
     const missing = new Set();
     const byQid = new Map();
     answers.forEach((a, i) => {

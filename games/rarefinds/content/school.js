@@ -5,14 +5,14 @@ module.exports = [
     prompt: 'Name a subject taught at school',
     qualifier: 'Subjects in Indian or international school curricula',
     groups: {
-      textbook: 'Mathematics|maths|math; English; Science; Physics; Chemistry; Biology; History; Geography',
+      textbook: 'Mathematics|maths|math; English; Science; Physics; Chemistry; Biology; History; Geography; Social studies|social science|SST',
       honours: `Computer science|CS|computing|computers; Economics; Hindi; Kannada; French; Art|fine art|arts; Music;
-        Physical education|PE|PT|sports|games; Business studies|business; Accountancy|accounting|accounts; Psychology; Sociology;
+        Physical education|PE|PT|sports|games; Business studies|business; Commerce; Accountancy|accounting|accounts; Psychology; Sociology;
         Political science|civics|politics; Environmental studies|EVS; Sanskrit; Spanish; German; Drama|theatre|theater`,
       rare: `Global perspectives; Information technology|IT|ICT; Statistics; Literature|English literature;
         Moral science|value education|values; General knowledge|GK; Design and technology|DT|design; Media studies; Philosophy;
         Tamil; Telugu; Malayalam; Urdu; Japanese; Mandarin|Chinese; Robotics; Coding|programming; Home science|home economics;
-        Environmental management; Social studies; Life skills; Dance; Library; Personal, social and health education|PSHE`,
+        Environmental management; Life skills; Yoga; Dance; Library; Personal, social and health education|PSHE`,
       deep: `Latin; Classics; Law; Astronomy; Marine science; Travel and tourism; Thinking skills; Entrepreneurship; Agriculture;
         Food and nutrition; Anthropology; Archaeology; Electronics; Textiles; Woodwork; Pottery|ceramics;
         Sign language; Debate; Journalism`,
@@ -28,9 +28,9 @@ module.exports = [
       textbook: 'Pen; Pencil; Eraser|rubber; Ruler|scale; Notebook|exercise book|copy; Sharpener|pencil sharpener; Water bottle|bottle; Lunch box|tiffin|tiffin box|lunch; Textbook|book|books',
       honours: `Highlighter; Calculator; Geometry box|compass box|maths set; Compass; Protractor; Glue stick|glue; Scissors; Sketch pens|felt-tip pens|felt tips|markers;
         Crayons; Colour pencils|colored pencils|coloured pencils; Stapler; Sticky notes|post-it notes|post-its; Correction tape|whitener|correction fluid|Tipp-Ex|white-out;
-        Pencil case|pencil pouch|pouch; School diary|diary|planner|almanac; File|folder; Laptop; Tablet|iPad; ID card|identity card; Earphones|headphones|earbuds;
+        Pencil case|pencil pouch|pouch|pencil box; School diary|diary|planner|almanac; File|folder; Laptop; Tablet|iPad; ID card|identity card; Earphones|headphones|earbuds;
         Tissues|napkin|handkerchief; Hand sanitiser|hand sanitizer|sanitiser|sanitizer; Snacks|snack; Phone|mobile phone|cell phone`,
-      rare: `Set square; Divider|dividers; Mechanical pencil|lead pencil refills|pencil lead|leads; Graph paper; Flashcards|index cards|cue cards;
+      rare: `Set square; Divider|dividers; Mechanical pencil|pencil lead|leads; Pen refill|refill|refills; Graph paper; Flashcards|index cards|cue cards;
         Paper clips; Binder clips; Fountain pen; Ink cartridge|ink; Umbrella; Raincoat; Sports kit|PE kit|sports shoes; Sunscreen; Lip balm|chapstick;
         Bus pass; Wallet; Keys; Charger|power bank; Pen drive|USB drive|flash drive; Tape|sellotape|cellotape|scotch tape; Stickers; Hairbrush|comb;
         Library book; Lab coat; Swimming costume|swimsuit|goggles; Musical instrument|recorder|flute; Deodorant`,
