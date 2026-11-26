@@ -302,6 +302,7 @@
       ctx.fillStyle = c;
       ctx.fillRect(Math.round(x), Math.round(y), w, h);
     };
+    if (rx < 110) return; // a narrow bench has no room for props beside the prompt
     prop(cx - rx * 0.78, cy - 3, 8, 3, '#9AA5B1'); // test-tube rack
     for (let i = 0; i < 3; i++) prop(cx - rx * 0.78 + 1 + i * 3, cy - 8, 1, 5, ['#A78BFA', '#F472B6', '#5CE1E6'][i]);
     prop(cx + rx * 0.72, cy + 2, 5, 5, '#BFE3EE'); // beaker

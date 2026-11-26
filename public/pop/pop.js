@@ -623,8 +623,11 @@
     b.className = `bubble${bad ? ' bad' : ''}`;
     if (color) b.style.setProperty('--tc', color);
     b.innerHTML = html;
+    // Above the seat, or below it for seats near the top edge where it would be cut off.
+    const below = parseFloat(el.style.top) - el.offsetHeight / 2 < 60;
     b.style.left = el.style.left;
-    b.style.top = `calc(${el.style.top} - ${el.offsetHeight / 2 + 4}px)`;
+    b.style.top = below ? `calc(${el.style.top} + ${el.offsetHeight / 2 + 4}px)` : `calc(${el.style.top} - ${el.offsetHeight / 2 + 4}px)`;
+    if (below) b.style.transform = 'translate(-50%, 0)';
     $('arena').appendChild(b);
     setTimeout(() => b.remove(), 1800);
   }
@@ -658,11 +661,15 @@
   function layout() {
     const box = $('arena').getBoundingClientRect();
     if (!box.width || !room) return;
+    // Narrow screens: the prompt sits under the bench instead of on it, so the flask never covers it.
+    const card = $('center');
+    const slot = innerWidth <= 760 ? $('qslot') : $('arena');
+    if (card.parentNode !== slot) slot.appendChild(card);
     const n = seatList().length;
     const scale = Math.min(1, box.width / 720, box.height / 520);
-    const seatW = Math.round((n <= 6 ? 116 : n <= 10 ? 98 : 82) * Math.max(0.72, scale));
-    const av = Math.round((n <= 6 ? 44 : n <= 10 ? 36 : 28) * Math.max(0.72, scale));
-    const seatH = av + 52;
+    const seatW = Math.round((n <= 6 ? 116 : n <= 10 ? 98 : 82) * Math.max(0.6, scale));
+    const av = Math.round((n <= 6 ? 44 : n <= 10 ? 36 : 28) * Math.max(0.6, scale));
+    const seatH = av + 64; // avatar plus name, hearts, meter and tag rows
     const cx = box.width / 2, cy = box.height / 2;
     const RX = Math.max(60, cx - seatW / 2 - 6), RY = Math.max(60, cy - seatH / 2 - 6);
     const seats = [];
@@ -670,7 +677,7 @@
       const a = -Math.PI / 2 + (i / n) * Math.PI * 2; // seat 0 at the top, then clockwise
       seats.push({ x: cx + RX * Math.cos(a), y: cy + RY * Math.sin(a) });
     }
-    geo = { w: box.width, h: box.height, cx, cy, RX, RY, seats, seatW, av, n, k: n <= 6 && box.width >= 900 && box.height >= 600 ? 2 : 1 };
+    geo = { w: box.width, h: box.height, cx, cy, RX, RY, seats, seatW, seatH, av, n, k: n <= 6 && box.width >= 900 && box.height >= 600 ? 2 : 1 };
     $('seats').style.setProperty('--seat-w', `${seatW}px`);
     $('seats').style.setProperty('--av', `${av}px`);
     arenaCanvas.width = Math.ceil(box.width / S);
@@ -686,7 +693,12 @@
     A.drawBackground($('bg'));
     layout();
   });
-  new ResizeObserver(() => room && !$('room').hidden && layout()).observe($('arena'));
+  // A tab opened in the background has no size yet; lay out and draw once it does.
+  new ResizeObserver(() => {
+    if (!room || $('room').hidden) return;
+    layout();
+    render();
+  }).observe($('arena'));
 
   function buildSeats(force) {
     const list = seatList();
@@ -768,13 +780,19 @@
   function flaskTarget() {
     if (!geo) return { x: 0, y: 0 };
     const m = room?.match;
-    // The flask travels on an inner ring between the seats and the prompt, so it never covers either.
+    // The flask sits just inside the holder's seat, toward the bench centre, clear of the seat and the prompt.
     const half = 11 * geo.k * S; // drawn up from its base; aim its middle
-    const ring = (a) => ({ x: geo.cx + geo.RX * 0.56 * Math.cos(a), y: geo.cy + geo.RY * 0.56 * Math.sin(a) + half });
-    if (!m || m.status !== 'ROUND_ACTIVE') return ring(-Math.PI / 2);
-    const i = m.players.findIndex((p) => p.id === m.holderId);
-    if (i < 0) return ring(-Math.PI / 2);
-    return ring(-Math.PI / 2 + (i / m.players.length) * Math.PI * 2);
+    const near = (s) => {
+      const dx = geo.cx - s.x, dy = geo.cy - s.y, d = Math.hypot(dx, dy) || 1;
+      const ux = dx / d, uy = dy / d;
+      const along = Math.abs(ux) * geo.seatW / 2 + Math.abs(uy) * geo.seatH / 2 + Math.abs(uy) * half + Math.abs(ux) * 9 * geo.k * S + 8;
+      const off = Math.min(d * 0.7, along);
+      return { x: s.x + ux * off, y: s.y + uy * off + half };
+    };
+    const top = { x: geo.cx, y: geo.cy - geo.RY };
+    if (!m || m.status !== 'ROUND_ACTIVE') return near(top);
+    const s = geo.seats[m.players.findIndex((p) => p.id === m.holderId)];
+    return near(s || top);
   }
   function flaskState() {
     const m = room?.match;
@@ -812,6 +830,7 @@
     lastFrame = t;
     if ($('room').hidden || !geo) return titleFlask(t);
     const W = arenaCanvas.width, H = arenaCanvas.height;
+    if (!W || !H) return;
     if (!benchCache) {
       benchCache = document.createElement('canvas');
       benchCache.width = W;
@@ -924,6 +943,7 @@
     const input = $('answer'), send = $('send');
     const turn = myTurn();
     dock.classList.toggle('mine', turn);
+    dock.classList.toggle('idle', !running());
     let tag = '', canType = false;
     if (!running()) {
       tag = m ? 'GAME OVER' : 'WAITING ROOM';
