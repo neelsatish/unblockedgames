@@ -1,3 +1,5 @@
 node_modules/
 .env
 games/rarefinds/build.log
+# Mascot photo stays local until the person in it agrees to it being public
+public/rare/mascot.png

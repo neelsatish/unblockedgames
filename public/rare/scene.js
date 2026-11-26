@@ -100,12 +100,16 @@
     '.....aa..aa.....',
     '....kkk..kkk....',
   ];
-  const KID_PAL = { 3: '#2B1B12', a: '#C98A5E', e: '#1B1B2F', w: '#F4F7FB', b: '#2E4A8C', n: '#24305E', r: '#E2483B', k: '#111111' };
+  const KID_PAL = { 3: '#2B1B12', a: '#C98A5E', e: '#1B1B2F', w: '#A9C6EE', b: '#E8641E', n: '#1F2A5C', r: '#E8641E', k: '#111111' };
   const GOLD_PAL = { 3: '#7A5200', a: '#FFD54F', e: '#3A2600', w: '#FFF3B0', b: '#FFB300', n: '#E09A00', r: '#FFE082', k: '#8A6000' };
   let customMascot = null;
   const img = new Image();
   img.onload = () => {
-    // Downscale the photo cut-out to sprite size so it matches the pixel art.
+    // A ready-made pixel sprite (48 px tall or less) is used as is; a bigger photo is shrunk to sprite size.
+    if (img.height <= 48) {
+      customMascot = img;
+      return;
+    }
     const h = 22, w = Math.max(8, Math.round((img.width / img.height) * h));
     const off = document.createElement('canvas');
     off.width = w;
@@ -119,10 +123,11 @@
 
   function drawKid(x, y, angle, pal, squash) {
     if (customMascot) {
+      const turn = Math.round(angle / (Math.PI / 2)) * (Math.PI / 2); // 90 degree steps keep pixels square
       ctx.save();
       ctx.translate(Math.round(x), Math.round(y - customMascot.height / 2));
-      ctx.rotate(angle);
-      ctx.drawImage(customMascot, -customMascot.width / 2, -customMascot.height / 2);
+      ctx.rotate(turn);
+      ctx.drawImage(customMascot, -Math.floor(customMascot.width / 2), -Math.floor(customMascot.height / 2));
       ctx.restore();
       return;
     }
@@ -197,15 +202,19 @@
     const off = -cam * 0.5;
     const z = (m) => m * PX_PER_M * 0.5 + off; // mid layer screen x for a metre mark
     const lit = night > 0.4;
-    const wall = mix('#F1E3C6', '#3B3A5A', night * 0.8), brick = mix('#C8643B', '#4A2E3A', night * 0.8);
-    const roof = mix('#2F5D62', '#16233A', night * 0.7), win = mix('#7FB7D9', '#20294A', night);
+    // School colours: orange and navy buildings with light-blue windows.
+    const wall = mix('#F4EBDD', '#3B3A5A', night * 0.8), brick = mix('#E8641E', '#5A2E22', night * 0.8);
+    const roof = mix('#1F2A5C', '#10162F', night * 0.7), win = mix('#9CC3EE', '#20294A', night);
     // 0 m: gate arch with flag
     let x = z(150);
     rect(x, base - 46, 6, 46, brick); rect(x + 70, base - 46, 6, 46, brick);
-    rect(x - 4, base - 54, 84, 8, brick); rect(x + 10, base - 52, 56, 4, wall);
+    rect(x - 4, base - 54, 84, 8, roof); rect(x + 10, base - 52, 56, 4, brick);
     // school pennant in campus colours
     rect(x + 30, base - 76, 2, 22, '#6B6B6B');
-    rect(x + 32, base - 76, 14, 3, '#2F5D62'); rect(x + 32, base - 73, 10, 2, '#FFD54F'); rect(x + 32, base - 71, 6, 2, '#2F5D62');
+    rect(x + 32, base - 76, 14, 3, '#E8641E'); rect(x + 32, base - 73, 10, 2, '#1F2A5C'); rect(x + 32, base - 71, 6, 2, '#5B8BD6');
+    // banners like the ones held up at assembly (icons only, no words)
+    banner(z(420), base - 40, 'star', night); banner(z(1180), base - 50, 'heart', night); banner(z(1460), base - 44, 'trophy', night);
+    banner(z(5210), base - 38, 'heart', night); banner(z(5320), base - 38, 'star', night);
     // 1000 m: classroom blocks
     for (let i = 0; i < 3; i++) building(z(1050 + i * 280), base, 90, 54 + (i % 2) * 10, i % 2 ? wall : brick, roof, win, 'door', lit);
     // 2000 m: library with columns
@@ -236,6 +245,20 @@
     x = z(7000);
     rect(x, base - 60, 4, 60, '#FFD54F'); rect(x + 60, base - 60, 4, 60, '#FFD54F'); rect(x - 4, base - 68, 72, 8, '#FFD54F');
     digits('7000m', x + 18, base - 66, '#3A2600');
+  }
+
+  // Assembly-style banner: navy board, orange border, a pixel icon.
+  const ICONS = {
+    star: ['..#..', '.###.', '#####', '.###.', '.#.#.'],
+    heart: ['.#.#.', '#####', '#####', '.###.', '..#..'],
+    trophy: ['#####', '#####', '.###.', '..#..', '.###.'],
+  };
+  function banner(x, y, icon, night) {
+    const board = mix('#1F2A5C', '#141A38', night * 0.6), edge = mix('#E8641E', '#6A3420', night * 0.6);
+    const glyph = icon === 'heart' ? mix('#E8343B', '#6A2026', night * 0.6) : mix('#FFD54F', '#7A6526', night * 0.6);
+    rect(x - 1, y - 1, 20, 14, edge); rect(x, y, 18, 12, board);
+    ICONS[icon].forEach((row, r) => [...row].forEach((c, k) => c === '#' && rect(x + 6 + k, y + 3 + r, 1, 1, glyph)));
+    rect(x + 2, y + 12, 1, 6, '#6B6B6B'); rect(x + 15, y + 12, 1, 6, '#6B6B6B');
   }
 
   function drawTree(x, base, v, night) {
@@ -369,7 +392,8 @@
     const my = base + 6 + bob - (S.mood === 'celebrate' && !reduced() ? Math.abs(Math.round(Math.sin(now / 90) * 4)) : 0);
     if (S.mood === 'golden' || S.golden) {
       ctx.globalAlpha = 0.25 + 0.15 * Math.sin(now / 200);
-      rect(mascotScreenX - 12, my - 30, 24, 30, '#FFD54F');
+      const mh = customMascot ? customMascot.height : 16;
+      rect(mascotScreenX - 14, my - mh - 4, 28, mh + 4, '#FFD54F');
       ctx.globalAlpha = 1;
     }
     drawKid(mascotScreenX, my, angle, pal, S.mood === 'sad' ? 1 : 0);
