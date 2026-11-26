@@ -333,7 +333,14 @@ module.exports = function attach(io) {
       const { code, guest } = obj(payload);
       const room = rooms.get(String(code || '').toUpperCase());
       const old = room && typeof guest === 'string' ? [...room.players.values()].find((p) => p.guest === guest) : null;
-      if (!old || old.connected) return reply(false);
+      if (!old) return reply(false);
+      // Behind a proxy the old connection can look alive for a while after a refresh: the same browser takes the seat over.
+      const stale = nsp.sockets.get(old.id);
+      if (stale && stale.id !== socket.id) {
+        stale.leave(room.code);
+        stale.data.code = null;
+        stale.disconnect(true);
+      }
       clearTimeout(old.leaveTimer);
       room.players.delete(old.id);
       const sub = room.submissions.get(old.id);
