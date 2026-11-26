@@ -18,13 +18,14 @@
 
   <!-- ===== Menu ===== -->
   <main id="menu" class="screen">
-    <a class="back-link" href="/">&larr; Arcade</a>
+    <a class="back-link" href="/">&larr; Neel's Unblocked Games</a>
     <div class="menu-box">
       <img class="school-logo" src="logo.png" width="120" height="40" alt="Inventure Academy logo">
       <h1 class="title"><span class="t1">RARE</span><span class="t2">FINDS</span></h1>
       <p class="subtitle">7 prompts &middot; 25 seconds each &middot; rarer answers go further</p>
       <div id="daily-status" class="daily-status" hidden></div>
       <button id="play-daily" class="pbtn pbtn-primary pbtn-big">&#9654; TODAY'S RUN <span id="daily-num"></span></button>
+      <button id="open-library" class="pbtn pbtn-library">&#9638; GAME LIBRARY <span id="library-count"></span></button>
       <div class="menu-row">
         <button id="play-unlimited" class="pbtn">UNLIMITED</button>
         <button id="play-party" class="pbtn">PLAY WITH FRIENDS</button>
@@ -160,6 +161,13 @@
     <label class="check"><input type="checkbox" id="set-sound"> Sound effects</label>
     <label class="check"><input type="checkbox" id="set-motion"> Reduce motion</label>
     <form method="dialog"><button class="pbtn pbtn-primary">DONE</button></form>
+  </dialog>
+
+  <dialog id="library" class="panel dlg dlg-wide">
+    <h2 class="ptitle">GAME LIBRARY</h2>
+    <p class="muted small" id="lib-sub">Every game is 7 fixed prompts. Play any of them, any time. New games are added every week.</p>
+    <div id="lib-grid" class="lib-grid"></div>
+    <form method="dialog"><button class="pbtn pbtn-primary">CLOSE</button></form>
   </dialog>
 
   <dialog id="explorer" class="panel dlg dlg-wide">

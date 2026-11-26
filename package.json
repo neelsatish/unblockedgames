@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "test": "node test.js && node games/rarefinds/engine.test.js",
-    "build:rarefinds": "node games/rarefinds/build.js"
+    "build:rarefinds": "node games/rarefinds/build.js",
+    "rarefinds:games": "node games/rarefinds/make-games.js --add 7",
+    "rarefinds:check": "node games/rarefinds/check.js"
   },
   "engines": {
     "node": ">=20"

@@ -1,10 +1,12 @@
 // Rare Finds game server: server-authoritative rounds over the socket.io namespace "/rare".
-// Modes: "daily" (same 7 prompts for everyone, New York day), "unlimited" (random 7), "party" (friends in a room code).
+// Modes: "daily" (same 7 prompts for everyone, New York day), "unlimited" (random 7), "game" (numbered game from games.json),
+// "party" (friends in a room code).
 const fs = require('fs');
 const path = require('path');
 const e = require('./engine');
 
 const BANK_FILE = path.join(__dirname, 'bank.json');
+const GAMES_FILE = path.join(__dirname, 'games.json');
 const GRACE_MS = 700; // answers typed right up to the buzzer still count, exact matches only
 const REVEAL_AUTO_MS = 12000; // party rounds advance on their own if the host doesn't
 const MAX_ATTEMPTS = 25; // per player per round; stops answer enumeration
@@ -14,6 +16,7 @@ const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
 const COLORS = ['#7C3AED', '#DB2777', '#EA580C', '#16A34A', '#0891B2', '#2563EB', '#CA8A04', '#9333EA', '#DC2626', '#0D9488'];
 
 let bank = { version: 'empty', questions: [] };
+let games = []; // numbered games, each 7 question ids; game n is games[n - 1]
 const qById = new Map();
 function loadBank() {
   if (!fs.existsSync(BANK_FILE)) return console.warn('rarefinds: bank.json missing; run node games/rarefinds/build.js');
@@ -26,7 +29,15 @@ function loadBank() {
   } catch (err) {
     console.error('rarefinds: could not load bank.json, game disabled:', err.message); // Doodle Dash keeps running
   }
+  try {
+    games = fs.existsSync(GAMES_FILE) ? JSON.parse(fs.readFileSync(GAMES_FILE, 'utf8')).games : [];
+  } catch (err) {
+    games = [];
+    console.error('rarefinds: could not load games.json:', err.message);
+  }
 }
+// A numbered game is playable only if all its prompts are still in the bank.
+const gameQuestions = (n) => (Number.isInteger(n) && n >= 1 && n <= games.length && games[n - 1].every((id) => qById.has(id)) ? games[n - 1] : null);
 loadBank();
 
 // ---- question selection ----
@@ -69,7 +80,8 @@ function pickQuestions(rand, avoid = new Set()) {
 }
 const dailyCache = new Map();
 function dailyQuestions(day) {
-  if (!dailyCache.has(day)) dailyCache.set(day, pickQuestions(seeded(`${day}|${bank.version}`)));
+  // Seeded by the day alone, so rebuilding the bank's tiers doesn't reshuffle today's prompts.
+  if (!dailyCache.has(day)) dailyCache.set(day, pickQuestions(seeded(`daily|${day}`)));
   return dailyCache.get(day);
 }
 
@@ -139,7 +151,7 @@ module.exports = function attach(io) {
     const sub = room.submissions;
     return {
       code: room.code, mode: room.mode, hostId: room.hostId, you: forId, phase: room.phase,
-      round: room.round, rounds: e.ROUNDS, day: room.day, dayNumber: room.day ? dayNumber(room.day) : null,
+      round: room.round, rounds: e.ROUNDS, day: room.day, dayNumber: room.day ? dayNumber(room.day) : null, gameNo: room.gameNo || null,
       timeLeft: Math.max(0, room.deadline - Date.now()),
       question: ['prep', 'answer', 'reveal'].includes(room.phase) ? publicQuestion(room.questions[room.round]) : null,
       // Until the reveal, scores stay at their round-start value so nobody learns a tier early.
@@ -306,16 +318,24 @@ module.exports = function attach(io) {
     on('meta', (_, ack) => {
       if (typeof ack !== 'function') return;
       const day = nyDay();
-      ack({ day, dayNumber: dayNumber(day), questions: bank.questions.length, version: bank.version, nextResetIn: msToNextNyMidnight() });
+      ack({ day, dayNumber: dayNumber(day), questions: bank.questions.length, games: games.length, version: bank.version, nextResetIn: msToNextNyMidnight() });
     });
 
     on('create', (payload) => {
       if (roomOf()) return;
-      const { mode, recent, guest } = obj(payload);
+      const { mode, recent, guest, game } = obj(payload);
       if (bank.questions.length < e.ROUNDS) return socket.emit('problem', 'Not enough questions loaded on the server yet.');
       if (mode === 'daily') {
         const day = nyDay();
         const room = makeRoom('daily', socket.id, dailyQuestions(day), day);
+        addPlayer(socket, room, payload);
+        return startRound(room);
+      }
+      if (mode === 'game') {
+        const qs = gameQuestions(game);
+        if (!qs) return socket.emit('problem', 'That game is not available.');
+        const room = makeRoom('game', socket.id, qs, null);
+        room.gameNo = game;
         addPlayer(socket, room, payload);
         return startRound(room);
       }
@@ -480,4 +500,4 @@ function msToNextNyMidnight() {
   return hi - now;
 }
 
-module.exports.internals = { nyDay, dayNumber, pickQuestions, seeded, dailyQuestions, msToNextNyMidnight, loadBank, qById, getBank: () => bank };
+module.exports.internals = { nyDay, dayNumber, pickQuestions, seeded, dailyQuestions, gameQuestions, msToNextNyMidnight, loadBank, qById, getBank: () => bank, getGames: () => games };

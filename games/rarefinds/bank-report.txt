@@ -1,3 +1,211 @@
+Merged answers that share a Wikipedia article:
+[ent-dahl-book] "Roald Dahl's Cookbook" is now an alias of "Memories with Food at Gipsy House"
+[geo-hill-station] "Khandala" is now an alias of "Lonavala"
+[hist-chinese-dynasty] "Western Han" is now an alias of "Han dynasty"
+[hist-chinese-dynasty] "Eastern Han" is now an alias of "Han dynasty"
+[hist-chinese-dynasty] "Eastern Jin" is now an alias of "Western Jin"
+[hist-chinese-dynasty] "Northern Song" is now an alias of "Song dynasty"
+[hist-chinese-dynasty] "Southern Song" is now an alias of "Song dynasty"
+[sci-alloy] "Admiralty brass" is now an alias of "Brass"
+[sci-cloud] "Nimbostratus" is now an alias of "Nimbus"
+[sci-cloud] "Roll cloud" is now an alias of "Shelf cloud"
+[sci-cloud] "Cap cloud" is now an alias of "Pileus"
+[sci-cloud] "Stratus fractus" is now an alias of "Fractus"
+[sci-weather] "La Niña" is now an alias of "El Niño"
+[sci-weather] "Hoar frost" is now an alias of "Frost"
+[sci-gemstone] "Chrysoberyl" is now an alias of "Alexandrite"
+[sci-gemstone] "Heliodor" is now an alias of "Beryl"
+[sci-gemstone] "Sardonyx" is now an alias of "Onyx"
+[sci-gemstone] "Padparadscha" is now an alias of "Sapphire"
+[sci-gemstone] "Black opal" is now an alias of "Opal"
+[sci-gemstone] "Fire opal" is now an alias of "Opal"
+[tech-car-model-india] "Logan" is now an alias of "Verito"
+[tech-car-model-india] "Glanza" is now an alias of "Baleno"
+[tech-car-model-india] "ZS EV" is now an alias of "Astor"
+[tech-car-model-india] "Spark" is now an alias of "Beat"
+[tech-car-model-india] "Matiz" is now an alias of "Beat"
+[tech-browser] "Opera GX" is now an alias of "Opera"
+[tech-operating-system] "Chrome OS Flex" is now an alias of "Chrome OS"
+[tech-google-product] "Sky" is now an alias of "Earth"
+[tech-google-product] "Moon" is now an alias of "Earth"
+[tech-robot] "EVE" is now an alias of "WALL-E"
+[sport-f1-circuit] "Österreichring" is now an alias of "Red Bull Ring"
+[word-font] "Arial Black" is now an alias of "Arial"
+[word-font] "Courier" is now an alias of "Courier New"
+
+
+== ent-dreamworks-film (51) textbook:5 tryhard:0 honours:12 rare:17 deep:16 legendary:1
+Name a DreamWorks Animation feature film
+  most familiar: Shrek, The Prince of Egypt, Madagascar, Chicken Run, Shrek 2, Kung Fu Panda, Shrek Forever After, Wallace & Gromit: The Curse of the Were-Rabbit, Puss in Boots: The Last Wish, Antz, Shrek the Third, Megamind
+  least familiar: The Bad Guys 2, Mr. Peabody & Sherman, The Croods: A New Age, Joseph: King of Dreams, Trolls Band Together, Trolls World Tour, The Boss Baby: Family Business, Ruby Gillman, Teenage Kraken, Gabby's Dollhouse: The Movie, Spirit Untamed
+  no article (deep): How to Train Your Dragon, Turbo, Abominable
+  legendary: Joseph: King of Dreams
+  resolved to a different article: Penguins of Madagascar -> Penguins of Madagascar (2014 computer-animated film directed by Eric Darnell and Simon J. Smith)
+
+== ent-ghibli-film (25) textbook:2 tryhard:0 honours:6 rare:8 deep:8 legendary:1
+Name a Studio Ghibli film
+  most familiar: Spirited Away, Princess Mononoke, My Neighbor Totoro, Howl's Moving Castle, Grave of the Fireflies, Nausicaä of the Valley of the Wind, The Boy and the Heron, Castle in the Sky, Ponyo, Kiki's Delivery Service, The Wind Rises, Porco Rosso
+  least familiar: Whisper of the Heart, The Cat Returns, Only Yesterday, From Up on Poppy Hill, Pom Poko, The Red Turtle, My Neighbors the Yamadas, Earwig and the Witch, Ocean Waves, Tales from Earthsea
+  no article (deep): The Tale of the Princess Kaguya, When Marnie Was There
+  legendary: Ocean Waves
+
+== ent-hp-character (144) textbook:10 tryhard:0 honours:41 rare:56 deep:35 legendary:2
+Name a Harry Potter character
+  legendary: Wilhelmina Grubbly-Plank, Hepzibah Smith
+
+== ent-hogwarts-teacher (32) textbook:6 tryhard:0 honours:9 rare:10 deep:6 legendary:1
+Name a Hogwarts professor or headmaster
+  legendary: Silvanus Kettleburn
+
+== ent-marvel-hero (133) textbook:9 tryhard:0 honours:43 rare:56 deep:23 legendary:2
+Name a Marvel superhero
+  legendary: Howard the Duck, Squirrel Girl
+
+== ent-dc-hero (120) textbook:9 tryhard:0 honours:36 rare:47 deep:26 legendary:2
+Name a DC Comics superhero
+  legendary: Matter-Eater Lad, Ambush Bug
+
+== ent-starwars-char (131) textbook:10 tryhard:0 honours:38 rare:51 deep:30 legendary:2
+Name a Star Wars character
+  legendary: Yaddle, Ben Quadinaros
+
+== ent-lotr-char (113) textbook:10 tryhard:0 honours:30 rare:46 deep:25 legendary:2
+Name a character from The Lord of the Rings or The Hobbit
+  legendary: Old Man Willow, Fatty Bolger
+
+== ent-disney-villain (90) textbook:10 tryhard:0 honours:38 rare:37 deep:3 legendary:2
+Name a Disney villain
+  legendary: Alameda Slim, Horned King
+
+== ent-looney-tunes (67) textbook:10 tryhard:0 honours:28 rare:24 deep:3 legendary:2
+Name a Looney Tunes character
+  legendary: Cecil Turtle, Hugo the Abominable Snowman
+
+== ent-cn-show (64) textbook:6 tryhard:0 honours:15 rare:22 deep:20 legendary:1
+Name a Cartoon Network show
+  most familiar: Adventure Time, The Powerpuff Girls, Regular Show, Steven Universe, The Amazing World of Gumball, Teen Titans Go!, Dexter's Laboratory, Samurai Jack, Courage the Cowardly Dog, Star Wars: The Clone Wars, Teen Titans, Ed, Edd n Eddy
+  least familiar: Mao Mao: Heroes of Pure Heart, Mike, Lu & Og, Class of 3000, Time Squad, Sealab 2021, Victor and Valentino, Sheep in the Big City, Squirrel Boy, Whatever Happened to Robot Jones?, Elliott from Earth
+  no article (deep): Clarence, Villainous, Making Fiends
+  legendary: Whatever Happened to Robot Jones?
+  resolved to a different article: Star Wars: The Clone Wars -> Star Wars: The Clone Wars (2008–2020 American television series); Unikitty -> Unikitty! (American-Danish animated children's television series); Ninjago -> Lego Ninjago (Lego story based on Ninjago); Whatever Happened to Robot Jones? -> Whatever Happened to... Robot Jones? (American animated television series created by Greg Miller for Cartoon Network)
+
+== ent-nick-show (66) textbook:6 tryhard:0 honours:15 rare:21 deep:23 legendary:1
+Name a Nickelodeon show
+  most familiar: SpongeBob SquarePants, Avatar: The Last Airbender, Victorious, iCarly, PAW Patrol, The Legend of Korra, The Loud House, The Fairly OddParents, Rugrats, Jimmy Neutron: Boy Genius, The Ren & Stimpy Show, Sam & Cat
+  least familiar: Rolie Polie Olie, Wow! Wow! Wubbzy!, Unfabulous, Planet Sheen, Harvey Beaks, Legends of the Hidden Temple, Fresh Beat Band, Tak and the Power of Juju, Pig Goat Banana Cricket, Breadwinners
+  no article (deep): Big Time Rush, Hunter Street, Figure It Out, Double Dare, Guts, Shiva
+  legendary: Hunter Street
+  resolved to a different article: Fresh Beat Band -> The Fresh Beat Band (television series (2009-2013)); Breadwinners -> Breadwinner model (paradigm of family centered on a breadwinner)
+
+== ent-spongebob-char (47) textbook:10 tryhard:0 honours:29 rare:6 deep:1 legendary:1
+Name a SpongeBob SquarePants character
+  legendary: Perch Perkins
+
+== ent-simpsons-char (103) textbook:11 tryhard:0 honours:35 rare:38 deep:17 legendary:2
+Name a character from The Simpsons
+  legendary: Frank Grimes, Hank Scorpio
+
+== ent-doraemon (68) textbook:10 tryhard:0 honours:18 rare:23 deep:16 legendary:1
+Name a Doraemon character or gadget
+  legendary: Gulliver Tunnel
+
+== ent-disney-channel (62) textbook:6 tryhard:0 honours:15 rare:20 deep:20 legendary:1
+Name a Disney Channel show
+  most familiar: Phineas and Ferb, Gravity Falls, Hannah Montana, Amphibia, Miraculous: Tales of Ladybug & Cat Noir, The Suite Life of Zack & Cody, Jessie, Kim Possible, Wizards of Waverly Place, Liv and Maddie, The Owl House, Sofia the First
+  least familiar: Pepper Ann, Zeke and Luther, Pair of Kings, Best Friends Whenever, Special Agent Oso, Randy Cunningham: 9th Grade Ninja, Mighty Med, Lloyd in Space, Pickle and Peanut, The Wizards Return
+  no article (deep): Shake It Up, Chip 'n Dale: Rescue Rangers, The Replacements
+  legendary: Pickle and Peanut
+  resolved to a different article: Amphibia -> Amphibian (class of tetrapods, whose living forms include frogs, toads, salamanders, newts and caecilians); The Wizards Return -> The Wizards Return: Alex vs. Alex (2013 television film directed by Víctor González)
+
+== ent-naruto-char (120) textbook:10 tryhard:0 honours:42 rare:44 deep:22 legendary:2
+Name a Naruto character
+  legendary: Moegi, Gamahiro
+
+== ent-onepiece-char (159) textbook:10 tryhard:0 honours:57 rare:54 deep:36 legendary:2
+Name a One Piece character
+  legendary: Pedro, Mr. 4
+
+== ent-srk-film (58) textbook:5 tryhard:0 honours:13 rare:15 deep:24 legendary:1
+Name a Shah Rukh Khan film
+  most familiar: Kabhi Khushi Kabhie Gham, Dilwale Dulhania Le Jayenge, Devdas, Kuch Kuch Hota Hai, Om Shanti Om, My Name Is Khan, Veer-Zaara, Chennai Express, Kal Ho Naa Ho, Mohabbatein, Ra.One, Dil Se..
+  least familiar: Baadshah, Duplicate, Rocketry: The Nambi Effect, One 2 Ka 4, Phir Bhi Dil Hai Hindustani, Billu, Ram Jaane, Maya Memsaab, Zamaana Deewana, Brahmāstra
+  no article (deep): Chaahat, Pardes, Asoka, Chalte Chalte, Paheli, Raees, Pathaan, Dunki, Tubelight
+  legendary: Hey Ram
+  resolved to a different article: Billu -> Billu Barber (2009 film by Priyadarshan); Brahmāstra -> Brahmastra (Weapon used by Sanatani Gods)
+
+== ent-aamir-film (40) textbook:3 tryhard:0 honours:9 rare:12 deep:15 legendary:1
+Name an Aamir Khan film
+  most familiar: 3 Idiots, PK, Taare Zameen Par, Lagaan, Dhoom 3, Ghajini, Secret Superstar, Dil Chahta Hai, Rang De Basanti, Qayamat Se Qayamat Tak, Raja Hindustani, Laal Singh Chaddha
+  least familiar: Fanaa, Mela, Hum Hain Rahi Pyar Ke, Mann, Deewana Mastana, Awwal Number, Baazi, Raakh, Holi, Daulat Ki Jung
+  no article (deep): Love Love Love, Rangeela, Sarfarosh, Dangal, Yaadon Ki Baaraat, Madhosh
+  legendary: Yaadon Ki Baaraat
+  resolved to a different article: Ghulam -> Ghulam (film) (1998 film directed by Vikram Bhatt and Mukesh Bhatt); Fanaa -> Fana (Sufism) (annihilation of self); Delhi Belly -> Travelers' diarrhea (disease); Talaash -> Talaash: The Answer Lies Within (2012 film by Reema Kagti)
+
+== ent-rajini-film (48) textbook:4 tryhard:0 honours:10 rare:15 deep:18 legendary:1
+Name a Rajinikanth film
+  most familiar: 2.0, Enthiran, Kabali, Vettaiyan, Darbar, Chandramukhi, Petta, Kaala, Sivaji: The Boss, Coolie, Padayappa, Kochadaiiyaan
+  least familiar: Thillu Mullu, Netrikann, Nallavanukku Nallavan, Panakkaran, Dharmathin Thalaivan, Manithan, Mr. Bharath, Raja Chinna Roja, Thambikku Entha Ooru, Polladhavan
+  no article (deep): Bhairavi, Velaikaran, Guru Sishyan, Jailer, Padikkadavan
+  legendary: Andha Kanoon
+  resolved to a different article: Muthu -> Muthu (film) (1995 Tamil film directed by K. S. Ravikumar); Chandramukhi -> Chandramukhi (2005 Indian Tamil-language film directed by P. Vasu); Lal Salaam -> Lal Salam (Greeting of communists in South Asia); Hum -> Hum (film) (1991 film directed by Mukul S. Anand); Andha Kanoon -> Andhaa Kaanoon (1983 film by Tatineni Rama Rao)
+
+== ent-dahl-book (35) textbook:3 tryhard:0 honours:8 rare:10 deep:13 legendary:1
+Name a book by Roald Dahl
+  most familiar: Charlie and the Chocolate Factory, Matilda, The Witches, The BFG, Fantastic Mr Fox, Charlie and the Great Glass Elevator, James and the Giant Peach, Danny, the Champion of the World, The Twits, George's Marvellous Medicine, Boy: Tales of Childhood, The Magic Finger
+  least familiar: The Vicar of Nibbleswicke, Switch Bitch, Dirty Beasts, Ah, Sweet Mystery of Life, Rhyme Stew, Memories with Food at Gipsy House, Roald Dahl's Book of Ghost Stories, Two Fables, The Mildenhall Treasure, Skin and Other Stories
+  no article (deep): Over to You, Someone Like You, Kiss Kiss, Tales of the Unexpected
+  legendary: The Vicar of Nibbleswicke
+  resolved to a different article: Boy: Tales of Childhood -> Boy (autobiography) (Roald Dahl's memoir of childhood until age 18); Ah, Sweet Mystery of Life -> Naughty Marietta (operetta) (comic opera in two acts by Victor Herbert); The Wonderful Story of Henry Sugar -> The Wonderful Story of Henry Sugar and Six More (1977 short story collection by  Roald Dahl)
+
+== ent-blyton-book (91) textbook:9 tryhard:0 honours:41 rare:29 deep:10 legendary:2
+Name an Enid Blyton book or series
+  legendary: The Land of Far-Beyond, The Six Bad Boys
+
+== ent-percyjackson-char (115) textbook:10 tryhard:0 honours:37 rare:40 deep:26 legendary:2
+Name a Percy Jackson character
+  legendary: Clovis, Damasen
+
+== ent-christie-novel (70) textbook:7 tryhard:0 honours:16 rare:25 deep:21 legendary:1
+Name an Agatha Christie novel
+  most familiar: And Then There Were None, Murder on the Orient Express, The Murder of Roger Ackroyd, The Mysterious Affair at Styles, Death on the Nile, The Murder at the Vicarage, The A.B.C. Murders, The Body in the Library, Curtain: Poirot's Last Case, The Mystery of the Blue Train, Sleeping Murder, The Mirror Crack'd from Side to Side
+  least familiar: N or M?, Postern of Fate, Death Comes as the End, Passenger to Frankfurt, They Came to Baghdad, Absent in the Spring, Giant's Bread, A Daughter's a Daughter, The Rose and the Yew Tree, The Burden
+  no article (deep): Destination Unknown, Endless Night, Unfinished Portrait
+  legendary: Giant's Bread
+  resolved to a different article: 4.50 from Paddington -> 4:50 from Paddington (1957 novel by Agatha Christie)
+
+== ent-stranger-things (71) textbook:10 tryhard:0 honours:24 rare:27 deep:8 legendary:2
+Name a character from Stranger Things
+  legendary: Suzie, Argyle
+
+== ent-tintin-album (24) textbook:2 tryhard:0 honours:6 rare:7 deep:8 legendary:1
+Name a Tintin adventure
+  most familiar: The Blue Lotus, Tintin in the Congo, Tintin in Tibet, Tintin in the Land of the Soviets, Cigars of the Pharaoh, The Crab with the Golden Claws, King Ottokar's Sceptre, The Black Island, Tintin in America, Flight 714, Red Rackham's Treasure, Tintin and Alph-Art
+  least familiar: The Red Sea Sharks, The Secret of the Unicorn, The Calculus Affair, Tintin and the Picaros, The Broken Ear, The Seven Crystal Balls, Prisoners of the Sun, Land of Black Gold, Explorers on the Moon, The Castafiore Emerald
+  no article (deep): Destination Moon
+  legendary: Tintin and Alph-Art
+
+== ent-salman-film (55) textbook:5 tryhard:0 honours:13 rare:17 deep:19 legendary:1
+Name a Salman Khan film
+  most familiar: Kuch Kuch Hota Hai, Bajrangi Bhaijaan, Hum Dil De Chuke Sanam, Hum Aapke Hain Koun..!, Sultan, Prem Ratan Dhan Payo, Maine Pyar Kiya, Hum Saath-Saath Hain, Ek Tha Tiger, Dabangg, Tiger Zinda Hai, Tere Naam
+  least familiar: Biwi Ho To Aisi, Dushman Duniya Ka, London Dreams, Yuvvraaj, Sanam Bewafa, Dil Tera Aashiq, Main Aur Mrs Khanna, Garv, Patthar Ke Phool, Auzaar
+  no article (deep): Suryavanshi, Pyaar Kiya To Darna Kya, Hello Brother, No Entry, Tubelight
+  legendary: Biwi Ho To Aisi
+  resolved to a different article: Saajan -> Saajan (1991 film by Lawrence D'Souza); Garv -> Garv: Pride & Honour (2004 film by Puneet Issar); Main Aur Mrs Khanna -> Main Aurr Mrs Khanna (2009 film directed by Prem Soni)
+
+== ent-toystory-char (64) textbook:10 tryhard:0 honours:36 rare:13 deep:4 legendary:1
+Name a Toy Story character
+  legendary: Benson
+
+== ent-dr-seuss-book (42) textbook:4 tryhard:0 honours:10 rare:14 deep:13 legendary:1
+Name a Dr. Seuss book
+  most familiar: The Cat in the Hat, How the Grinch Stole Christmas!, The Lorax, Green Eggs and Ham, Oh, the Places You'll Go!, Horton Hears a Who!, The Cat in the Hat Comes Back, And to Think That I Saw It on Mulberry Street, The Sneetches and Other Stories, The Butter Battle Book, One Fish, Two Fish, Red Fish, Blue Fish, Horton Hatches the Egg
+  least familiar: You're Only Old Once!, Thidwick the Big-Hearted Moose, Dr. Seuss's ABC, My Many Colored Days, Dr. Seuss's Sleep Book, Oh Say Can You Say?, Hunches in Bunches, Great Day for Up!, I Can Lick 30 Tigers Today! and Other Stories, The Shape of Me and Other Stuff
+  no article (deep): My Book About Me
+  legendary: On Beyond Zebra!
+
+== ent-transformers-char (129) textbook:10 tryhard:0 honours:50 rare:47 deep:21 legendary:1
+Name a Transformers character
+  legendary: Wreck-Gar
 
 == ent-pokemon-gen1 (151) textbook:15 tryhard:0 honours:81 rare:36 deep:18 legendary:1
 Name one of the original 151 Pokémon
@@ -26,6 +234,213 @@ Name a Marvel Cinematic Universe film
 == ent-hp-spell (86) textbook:7 tryhard:0 honours:20 rare:37 deep:21 legendary:1
 Name a spell from the Harry Potter books or films
   legendary: Meteolojinx Recanto
+
+== food-vegetable (77) textbook:7 tryhard:1 honours:20 rare:26 deep:22 legendary:1
+Name a vegetable
+  most familiar: Potato, Tomato, Pumpkin, Sweet potato, Brinjal, Cassava, Onion, Okra, Taro, Ginger, Cucumber, Chilli
+  least familiar: Red cabbage, Cluster beans, Elephant foot yam, Radicchio, Endive, Corn, Snake gourd, Arugula, Snow peas, Pointed gourd
+  legendary: Romanesco
+  resolved to a different article: Swiss chard -> Chard (cultivar group of plant)
+
+== food-indian-bread (30) textbook:3 tryhard:0 honours:8 rare:10 deep:8 legendary:1
+Name an Indian bread
+  most familiar: Naan, Roti, Paratha, Puri, Appam, Kulcha, Kachori, Parotta, Bhatura, Tandoori roti, Puran poli, Sel roti
+  least familiar: Bakarkhani, Baati, Khakhra, Thepla, Luchi, Pathiri, Thalipeeth, Akki rotti, Jolada rotti, Ragi rotti
+  no article (undefined): Missi roti, Pav
+  legendary: Bakarkhani
+  resolved to a different article: Parotta -> South Indian parotta (South Indian variant of paratha); Rumali roti -> Manda roti (Types of flatbreads); Makki di roti -> Makki ki roti (Punjabi corn flatbread); Baati -> Dal bati (Indian dish of lentils and unleavened bread); Tandoori roti -> Tandoor bread (bread made in a tandoor)
+
+== food-south-indian (55) textbook:6 tryhard:0 honours:13 rare:20 deep:15 legendary:1
+Name a South Indian dish
+  most familiar: Dosa, Idli, Payasam, Appam, Sambar, Haleem, Idiyappam, Vada, Upma, Puttu, Masala dosa, Rasam
+  least familiar: Kuzhambu, Poriyal, Maddur vada, Goli baje, Akki rotti, Chiroti, Kootu, Mirchi ka salan, Rava idli, Lemon rice
+  legendary: Maddur vada
+  resolved to a different article: Bisi bele bath -> Bisi Bele Bhat (rice-based dish with origins in the state of Karnataka, India); Kootu -> Koottu (English name for kootu); Puliyogare -> Pulihora (a rice preparation popular in South India); Lemon rice -> Chitranna (Indian rice-based dish); Paniyaram -> Paddu (Indian dish); Pazham pori -> Banana fritter (deep fried banana or plantain); Dharwad peda -> Dharwad pedha (Indian sweet, often a round ball of dairy solids); Chiroti -> Chirote (Indian dessert); Unniyappam -> Unni appam (Kerala sweet snack); Kothu parotta -> Kottu (street food dish in India and Sri Lanka); Parotta -> South Indian parotta (South Indian variant of paratha); Benne dosa -> Benne dose (type of dose from Karnataka, India)
+
+== food-indian-street (45) textbook:4 tryhard:0 honours:10 rare:16 deep:14 legendary:1
+Name an Indian street food
+  most familiar: Samosa, Shawarma, Jalebi, Pani puri, Pakora, Momo, Kulfi, Vada pav, Falooda, Pav bhaji, Chole bhature, Dhokla
+  least familiar: Sev puri, Bread pakora, Bombay sandwich, Galouti kebab, Kathi roll, Sabudana vada, Masala puri, Fafda, Goli baje, Mirchi bajji
+  no article (undefined): Bun maska, Keema pav, Ram ladoo, Chana jor garam
+  legendary: Ghugni
+  resolved to a different article: Kathi roll -> Kathi roll (street-food dish originating from Kolkata, West Bengal); Papdi chaat -> Papri chat (popular traditional fast food and street food from the Indian subcontinent, notably in North India, Bangladesh and Pakistan.); Aloo chaat -> Alu chat (Indian snack); Mirchi bajji -> Mirchi bada (dish specially made in jodhpur with filling of potatoes and a chilli); Gobi manchurian -> Manchurian (dish) (deep fried cauliflower dish in Indo-Chinese cuisine); Litti chokha -> Litti (dish) (Litti Chokha a complete meal originated from the Indian state of Bihar.); Galouti kebab -> Tunde ke kabab (Buffalo meat galouti kebab, is a popular dish in Lucknow, India)
+
+== food-curry (56) textbook:5 tryhard:0 honours:15 rare:19 deep:16 legendary:1
+Name an Indian curry
+  most familiar: Chicken tikka masala, Korma, Butter chicken, Dal, Malai kofta, Vindaloo, Keema, Rogan josh, Palak paneer, Nihari, Aloo gobi, Dal makhani
+  least familiar: Pulissery, Kootu, Mirchi ka salan, Theeyal, Erissery, Baghara baingan, Kadai paneer, Kaalan, Shorshe ilish, Cafreal
+  no article (undefined): Gatte ki sabzi, Egg curry, Moilee, Fish curry
+  legendary: Xacuti
+  resolved to a different article: Aloo gobi -> Aloo gobhi (Indian curry dish with cauliflower and potatoes); Malai kofta -> Kofta (Middle Eastern and South Asian meatballs); Kootu -> Koottu (English name for kootu); Keema -> Ground meat (finely-chopped meat); Sarson da saag -> Sarson ka saag (vegetarian dish from the Indian subcontinent); Sorpotel -> Sarapatel (Portuguese ingredient mix); Baghara baingan -> Baghaar-e-baingan (Hyderabadi cuisine); Phaal -> Phall (British Asian curry Indian dish); Aloo matar -> Aloo mutter (North Indian dish)
+
+== food-rice-dish (56) textbook:5 tryhard:1 honours:13 rare:20 deep:16 legendary:1
+Name a rice dish
+  most familiar: Sushi, Paella, Biryani, Pulao, Risotto, Bibimbap, Rice pudding, Onigiri, Congee, Nasi goreng, Dosa, Fried rice
+  least familiar: Spanish rice, Curd rice, Puliyogare, Bisi bele bath, Claypot rice, Pakhala, Tehri, Jeera rice, Lemon rice, Ghee rice
+  no article (undefined): Vangi bath
+  legendary: Tahdig
+  resolved to a different article: Bisi bele bath -> Bisi Bele Bhat (rice-based dish with origins in the state of Karnataka, India); Jeera rice -> Jeera bhaat (rice and cumin dish of Indian subcontinent); Gyudon -> Gyūdon (Japanese dish); Tahdig -> Scorched rice (crunchy, slightly browned cooked rice); Ghee rice -> Spiced rice (Indian dish); Spanish rice -> Mexican rice (rice dish with spices and red color from tomatoes)
+
+== food-japanese (60) textbook:6 tryhard:1 honours:14 rare:21 deep:17 legendary:1
+Name a Japanese dish
+  most familiar: Sushi, Ramen, Mochi, Onigiri, Okonomiyaki, Takoyaki, Sashimi, Udon, Miso soup, Natto, Tempura, Fugu
+  least familiar: Monjayaki, Mentaiko, Tsukemen, Imagawayaki, Tamago kake gohan, Kushikatsu, Matcha ice cream, Agedashi tofu, Katsu sando, Hiyashi chuka
+  legendary: Chankonabe
+  resolved to a different article: Gyoza -> Jiaozi (Chinese dumplings); Gyudon -> Gyūdon (Japanese dish); Natto -> Natto (traditional Japanese food made from fermented soybeans); Melon pan -> Melonpan (sweet bread from Japan); Ochazuke -> Chazuke (Japanese dish); Hiyashi chuka -> Hiyashi chūka (chilled ramen noodles with various toppings); Katsu sando -> Katsu-sando (Japanese sandwich); Agedashi tofu -> Agedashi dōfu (Japanese tofu dish); Mentaiko -> Pollock roe (eggs of the Pollock fish)
+
+== food-chinese (53) textbook:5 tryhard:1 honours:13 rare:18 deep:15 legendary:1
+Name a Chinese dish
+  most familiar: Mooncake, Century egg, Congee, Dim sum, Peking duck, Hot pot, Chop suey, Fried rice, Chow mein, Jiaozi, Fortune cookie, Kung Pao chicken
+  least familiar: Beggar's chicken, Twice cooked pork, Chow fun, Lemon chicken, Sesame chicken, Lion's head, White cut chicken, Sweet and sour pork, Chilli chicken, Manchow soup
+  legendary: Beggar's chicken
+  resolved to a different article: Dan dan noodles -> Dandan noodles (noodles from Sichuan, China); Chow fun -> Shahe fen (Chinese noodle); Twice cooked pork -> Twice-cooked pork (Sichuanese pork dish); Char siu bao -> Cha siu bao (Cantonese barbecue-pork-filled bun); Steamed fish -> Steaming (cooking technique)
+
+== food-mexican (60) textbook:6 tryhard:0 honours:15 rare:20 deep:18 legendary:1
+Name a Mexican dish
+  most familiar: Taco, Chili con carne, Burrito, Empanada, Tamale, Guacamole, Churro, Tres leches cake, Horchata, Enchilada, Cajeta, Nachos
+  least familiar: Jarritos, Frijoles charros, Tortilla soup, Aguachile, Pan dulce, Sopa de lima, Pambazo, Queso fundido, Molletes, Mole de olla
+  legendary: Huitlacoche
+  resolved to a different article: Salsa -> Salsa (food) (sauce); Elote -> Corn on the cob (food); Menudo -> Menudo (Mexican soup) (Mexican soup); Huitlacoche -> Corn smut (species of edible fungus); Concha -> Concha (Mexican sweetbread); Queso fundido -> Queso flameado (Mexican dish of hot melted cheese and spicy chorizo, often served flambé); Molletes -> Mollete (open-faced sandwich with refried beans and white cheese in Mexican cuisine, served hot.); Cajeta -> Dulce de leche (sweet confection)
+
+== food-italian (64) textbook:6 tryhard:0 honours:16 rare:22 deep:19 legendary:1
+Name an Italian dish that is not pasta
+  most familiar: Pizza, Tiramisu, Polenta, Risotto, Panna cotta, Panettone, Pesto, Salami, Pizza Margherita, Focaccia, Cannoli, Minestrone
+  least familiar: Supplì, Crostini, Pizzelle, Maritozzo, Cotoletta, Mozzarella in carrozza, Pizza al taglio, Amaretti, Fritto misto, Olive all'ascolana
+  legendary: Vitello tonnato
+  resolved to a different article: Osso buco -> Ossobuco (Lombard dish); Zabaglione -> Zabaione (Italian dessert); Grissini -> Breadstick (Italian bread); Piadina -> Piadina romagnola (type of italian thin flatbread); Torrone -> Turrón (southern European nougat confection); Panino -> Panini (sandwich) (Italian-style sandwich); Chicken parmigiana -> Chicken parmesan (Italian-American dish); Mozzarella in carrozza -> Carrozza (sandwich) (Italian fried cheese sandwich)
+
+== food-cake (58) textbook:6 tryhard:0 honours:14 rare:21 deep:16 legendary:1
+Name a type of cake
+  most familiar: Tiramisu, Mooncake, Mille crêpe, Cheesecake, Sachertorte, Pavlova, Black Forest cake, Sponge cake, Madeleine, Red velvet cake, Tres leches cake, Carrot cake
+  least familiar: Pineapple upside-down cake, Kransekake, Rainbow cake, Simnel cake, Plum cake, Rum cake, Dundee cake, Kek lapis, Coconut cake, Coffee and walnut cake
+  no article (undefined): Mawa cake
+  legendary: Kransekake
+  resolved to a different article: Pineapple upside-down cake -> Upside-down cake (type of cake); Kek lapis -> Sarawak layer cake (type of layer cake); Rainbow cake -> Rainbow cookie (Italian-American cookie); Kransekake -> Kransekage (traditional Danish and Norwegian dessert); Mille crêpe -> Crêpe (type of very thin pancake)
+
+== food-bread (64) textbook:6 tryhard:0 honours:19 rare:20 deep:18 legendary:1
+Name a type of bread
+  most familiar: Croissant, Pretzel, Naan, Baguette, Bagel, Panettone, Khachapuri, Focaccia, Rye bread, Lavash, Roti, Injera
+  least familiar: Whole wheat bread, Ezekiel bread, Zopf, Pane carasau, Bhakri, Rugbrød, Malt loaf, Bammy, Multigrain bread, Pane di Altamura
+  no article (undefined): Pav
+  legendary: Pane carasau
+  resolved to a different article: Milk bread -> Japanese milk bread (Style of bread); Melon pan -> Melonpan (sweet bread from Japan); Grissini -> Breadstick (Italian bread); Ezekiel bread -> Sprouted bread (type of bread)
+
+== food-herb (46) textbook:5 tryhard:0 honours:12 rare:15 deep:13 legendary:1
+Name a herb used in cooking
+  most familiar: Coriander, Fennel, Rosemary, Methi, Basil, Stinging nettle, Parsley, Oregano, Marjoram, Dill, Lavender, Mint
+  least familiar: Savory, Ajwain leaves, Lemon verbena, Culantro, Perilla, Garlic chives, Thai basil, Sweet cicely, Vietnamese coriander, Mexican oregano
+  legendary: Epazote
+  resolved to a different article: Lemongrass -> Cymbopogon (genus of plants); Epazote -> Dysphania ambrosioides (species of plant); Hyssop -> Hyssopus officinalis (species of plant); Lavender -> Lavandula (genus of plants); Lemon verbena -> Aloysia citrodora (species of plant); Garlic chives -> Allium tuberosum (species of plant, Garlic chives); Sweet cicely -> Cicely (species of plant); Rue -> Ruta graveolens (species of plant in the Rutaceae family); Mexican oregano -> Lippia graveolens (species of plant)
+
+== food-nut (32) textbook:3 tryhard:1 honours:8 rare:10 deep:9 legendary:1
+Name a nut
+  most familiar: Peanut, Cashew, Ginkgo nut, Almond, Chestnut, Pistachio, Brazil nut, Beechnut, Hazelnut, Macadamia, Acorn, Walnut
+  least familiar: Candlenut, Malabar chestnut, Butternut, Bunya nut, Lotus seed, Pili nut, Sacha inchi, Chironji, Mongongo, Baru nut
+  legendary: Chironji
+  resolved to a different article: Candlenut -> Aleurites moluccanus (species of tree in the family Euphorbiaceae); Mongongo -> Mongongo (species of plant); Sacha inchi -> Plukenetia volubilis (species of plant); Shea nut -> Vitellaria (species of plant)
+
+== food-citrus (40) textbook:4 tryhard:0 honours:10 rare:13 deep:12 legendary:1
+Name a citrus fruit
+  most familiar: Orange, Lemon, Pomelo, Mandarin, Grapefruit, Bergamot, Citron, Bitter orange, Kumquat, Yuzu, Lime, Calamansi
+  least familiar: Kabosu, Desert lime, Valencia orange, Limequat, Navel orange, Amanatsu, Kinnow, Hassaku, Iyokan, Citrange
+  legendary: Buddha's hand
+  resolved to a different article: Ugli fruit -> Jamaican tangelo (trademark for the Jamaican tangelo); Satsuma -> Citrus unshiu (species of plant); Rangpur -> Rangpur lime (citrus fruit hybrid)
+
+== food-tea (50) textbook:5 tryhard:0 honours:13 rare:17 deep:14 legendary:1
+Name a type of tea
+  most familiar: Yerba mate, Matcha, Bubble tea, Green tea, Kombucha, Rooibos, Oolong, Black tea, Earl Grey tea, Masala chai, Herbal tea, Pu'er tea
+  least familiar: Lady Grey, Noon chai, Lemon tea, Hong Kong-style milk tea, Silver needle, Keemun, Ginger tea, Peppermint tea, Russian Caravan, Nilgiri tea
+  legendary: Noon chai
+  resolved to a different article: Chamomile tea -> Chamomile (common name, for several daisy-like plants); Peppermint tea -> Mint tea (herbal tea) (tea made by infusing mint leaves); Hong Kong-style milk tea -> Hong Kong–style milk tea (Beverage from Hong Kong made of black tea and milk); Turkish tea -> Tea in Turkey (tea culture of Turkey based on the local produce from the Black Sea Region); Lemon tea -> Tea culture (traditions about preparing and drinking tea, the way the people interact with tea)
+
+== food-coffee (38) textbook:4 tryhard:0 honours:9 rare:14 deep:10 legendary:1
+Name a coffee drink
+  most familiar: Black coffee, Espresso, Cappuccino, Turkish coffee, Mocha, Latte, Americano, Cortado, Affogato, Macchiato, Flat white, Instant coffee
+  least familiar: Yuenyeung, Cuban espresso, Doppio, Galão, Café con leche, Filter coffee, Long black, Mazagran, Einspänner, Café Touba
+  legendary: Yuenyeung
+  resolved to a different article: Latte -> Latte (coffee drink); Vienna coffee -> Milk coffee (type of coffee); Black coffee -> Coffee (brewed beverage made from seeds of Coffea genus)
+
+== food-soft-drink (45) textbook:5 tryhard:0 honours:12 rare:14 deep:13 legendary:1
+Name a soft drink brand
+  most familiar: Coca-Cola, Pepsi, Fanta, Dr Pepper, 7 Up, Mountain Dew, Irn-Bru, Sprite, RC Cola, Schweppes, Ramune, Tab
+  least familiar: Tango, Lilt, Limca, Mug Root Beer, Squirt, Vernors, Sun Drop, Appy Fizz, Ting, Bovonto
+  legendary: Gold Spot
+  resolved to a different article: Pepsi Max -> Pepsi Zero Sugar (diet cola); Crush -> Crush (drink) (line of fruit flavored carbonated beverages); Big Red -> Big Red (soft drink) (cream soda-flavored soft drink); Squirt -> Squirt (drink) (caffeine-free, citrus-flavored, carbonated soft drink)
+
+== food-chocolate (59) textbook:7 tryhard:0 honours:15 rare:19 deep:17 legendary:1
+Name a chocolate bar or chocolate brand
+  most familiar: Nestlé, M&M's, Nutella, Toblerone, Snickers, Cadbury, Ferrero Rocher, Hershey's, KitKat, Mars, Lindt, Milka
+  least familiar: Wispa, Caramello, Picnic, Twirl, 5 Star, Double Decker, Boost, Bournville, Toffee Crisp, Munch
+  no article (undefined): Perk, Gems
+  legendary: Tony's Chocolonely
+  resolved to a different article: Mars -> Mars bar (chocolate bar brand); Galaxy -> Galaxy (chocolate bar) (brand of chocolate); Lindt -> Lindt (Swiss chocolate maker); Aero -> Aero (chocolate bar) (chocolate manufactured by Nestlé); Nestlé Crunch -> Crunch (chocolate bar) (Chocolate bar); Caramello -> Caramilk (Chocolate brand by Cadbury); Ghirardelli -> Ghirardelli Chocolate Company (United States division of Swiss confectioner Lindt & Sprüngli)
+
+== food-cereal (48) textbook:5 tryhard:0 honours:11 rare:17 deep:14 legendary:1
+Name a breakfast cereal
+  most familiar: Muesli, Total, Corn Flakes, Oatmeal, Granola, Froot Loops, Rice Krispies, Cheerios, Puffed rice, Cap'n Crunch, Count Chocula, Frosted Flakes
+  least familiar: Honeycomb, All-Bran, Golden Crisp, Ready Brek, Krave, Honey Bunches of Oats, Crispix, Crunchy Nut, Product 19, Weetos
+  no article (undefined): Alpen
+  legendary: Grape-Nuts
+  resolved to a different article: Count Chocula -> Monster cereals (breakfast cereal brands in North America); Fruity Pebbles -> Pebbles (cereal) (American brand of breakfast cereal); Sugar Puffs -> Honey Monster Puffs (Breakfast cereal from the United Kingdom); Total -> General Mills (American consumer goods manufacturer); Puffed wheat -> Puffed grain (type of food)
+
+== food-sandwich (59) textbook:6 tryhard:0 honours:15 rare:19 deep:18 legendary:1
+Name a type of sandwich
+  most familiar: Hot dog, Hamburger, Shawarma, Döner kebab, Bánh mì, Gyro, Croque monsieur, Cheeseburger, Club sandwich, Toast sandwich, Francesinha, Reuben sandwich
+  least familiar: Tramezzino, Tea sandwich, Meatball sandwich, Katsu sando, Roast beef sandwich, Pambazo, Bombay sandwich, Fish finger sandwich, Chacarero, Pulled pork sandwich
+  legendary: Elvis sandwich
+  resolved to a different article: Panini -> Panini (sandwich) (Italian-style sandwich); Tuna sandwich -> Tuna fish sandwich (type of sandwich); Döner kebab -> Doner kebab (Turkish dish); Pulled pork sandwich -> Barbecue sandwich (barbecue-style sandwich); Katsu sando -> Katsu-sando (Japanese sandwich); Elvis sandwich -> Peanut butter, banana and bacon sandwich (type of sandwich)
+
+== food-soup (61) textbook:6 tryhard:0 honours:15 rare:21 deep:18 legendary:1
+Name a soup
+  most familiar: Borscht, Ramen, Pho, Goulash, Miso soup, Tom yum, Minestrone, Gazpacho, Bouillabaisse, Gumbo, Wonton soup, Laksa
+  least familiar: Cream of mushroom soup, Beef noodle soup, Vegetable soup, Cock-a-leekie, Scotch broth, Tortilla soup, Pepper soup, Fanesca, Sweet corn soup, Manchow soup
+  legendary: Cullen skink
+  resolved to a different article: Tom kha gai -> Tom kha kai (Thai coconut milk and chicken soup); Wonton soup -> Wonton (type of dumpling commonly found in a number of Chinese cuisines); Shorba -> Chorba (Central Asian, Middle Eastern, North african and Balkan soup); Menudo -> Menudo (Mexican soup) (Mexican soup); Pepper soup -> Peppersoup (spicy West African soup with meats, chili peppers and nutmeg as the primary ingredients); Bird's nest soup -> Edible bird's nest (swiftlet bird nests made from saliva and harvested for human consumption); Samgyetang -> Samgye-tang (Korean soup of a whole young chicken filled with garlic, rice, jujube, and ginseng); Wedding soup -> Italian wedding soup (Italian soup consisting of green vegetables and meat); Matzah ball soup -> Matzah ball (flour-based ball in Jewish cuisine); Bone broth -> Stock (food) (flavored liquid extracted from ingredients and used as a base in cooking)
+
+== food-sauce (69) textbook:7 tryhard:0 honours:17 rare:24 deep:20 legendary:1
+Name a sauce or dip
+  most familiar: Ketchup, Mustard, Hummus, Mayonnaise, Caesar dressing, Worcestershire sauce, Tahini, Soy sauce, Guacamole, Bolognese sauce, Béchamel sauce, Chutney
+  least familiar: Cranberry sauce, Peanut sauce, Nam prik, Sweet and sour sauce, Mint sauce, Schezwan sauce, Sweet chili sauce, Salsa verde, Coconut chutney, Tamarind chutney
+  legendary: XO sauce
+  resolved to a different article: Alfredo sauce -> Fettuccine Alfredo (pasta dish made from fettuccine tossed with Parmesan cheese and butter); Schezwan sauce -> Indian Chinese cuisine (Chinese cuisine adapted and localized in India); Salsa -> Salsa (food) (sauce); Sweet and sour sauce -> Sweet and sour (cooking method); Caesar dressing -> Caesar salad (salad of romaine lettuce and croutons); Nam prik -> Nam phrik (Thai chili sauce); Tamarind chutney -> Sooth (chutney) (sweet chutney used in Indian chaats)
+
+== food-legume (35) textbook:4 tryhard:0 honours:8 rare:12 deep:10 legendary:1
+Name a pulse or bean
+  most familiar: Soybean, Chickpea, Lentil, Pea, Fava bean, Common bean, Mung bean, Edamame, Lima bean, Pigeon pea, Cowpea, Adzuki bean
+  least familiar: Black turtle bean, Moth bean, Jack bean, Cranberry bean, Hyacinth bean, Tepary bean, Sword bean, Rice bean, Puy lentil, Flageolet bean
+  legendary: Bambara groundnut
+  resolved to a different article: Bambara groundnut -> Vigna subterranea (species of plant); Tepary bean -> Phaseolus acutifolius (species of plant); Runner bean -> Phaseolus coccineus (species of flowering plant); Puy lentil -> Le Puy green lentil (variety of lentil)
+
+== food-fast-food-chain (66) textbook:6 tryhard:0 honours:16 rare:24 deep:19 legendary:1
+Name a fast food or cafe chain
+  most familiar: McDonald's, KFC, Burger King, Starbucks, Pizza Hut, Taco Bell, Jollibee, Wendy's, Chick-fil-A, Subway, Dunkin', In-N-Out Burger
+  least familiar: Tous les Jours, CoCo Ichibanya, Chatime, Tim Ho Wan, Barbeque Nation, Jumbo King, Wow! Momo, Faasos, Chai Point, Goli Vada Pav
+  no article (undefined): Chaayos
+  legendary: Jollibee
+  resolved to a different article: Dunkin' -> Dunkin' Donuts (American global donut company and coffeehouse); CoCo Ichibanya -> Ichibanya (Japanese food services company); Saravana Bhavan -> Saravanaa Bhavan (Indian restaurant chain with franchises scattered across the globe)
+
+== food-grain (40) textbook:4 tryhard:0 honours:10 rare:13 deep:12 legendary:1
+Name a grain or millet
+  most familiar: Maize, Rice, Sorghum, Buckwheat, Wheat, Barley, Oats, Quinoa, Couscous, Rye, Millet, Semolina
+  least familiar: Khorasan wheat, Poha, Freekeh, Barnyard millet, Kodo millet, Red rice, Little millet, Fonio, Amaranth, Browntop millet
+  legendary: Job's tears
+  resolved to a different article: Sorghum -> Sorghum (species of plant); Amaranth -> Grain amaranths (edible grain of the Amaranth genus)
+
+== food-utensil (87) textbook:11 tryhard:0 honours:21 rare:32 deep:22 legendary:1
+Name a kitchen utensil or tool
+  legendary: Boti
+
+== food-cooking-method (61) textbook:7 tryhard:0 honours:16 rare:22 deep:15 legendary:1
+Name a way of cooking food
+  legendary: Dhungar
+
+== food-ice-cream-flavour (102) textbook:8 tryhard:0 honours:22 rare:37 deep:34 legendary:1
+Name an ice cream flavour
+  legendary: Grape-Nuts
+
+== food-pizza-topping (84) textbook:9 tryhard:0 honours:17 rare:30 deep:27 legendary:1
+Name a pizza topping
+  legendary: Banana
 
 == food-pasta (56) textbook:5 tryhard:0 honours:13 rare:17 deep:20 legendary:1
 Name a type of pasta
@@ -66,6 +481,340 @@ Name a spice
   no article (deep): Kashmiri chilli, Marathi moggu, Rasam powder, Pav bhaji masala
   legendary: Stone flower
   resolved to a different article: Star anise -> Illicium verum (species of plant); Shahi jeera -> Elwendia persica (species of plant in the family Apiaceae); Celery seed -> Celery (common edible part of the celery plant); Dill seed -> Dill (species of plant); Kokum -> Garcinia indica (plant in the mangosteen family); Sambar powder -> Sambar (dish) (Indian food)
+
+== game-nintendo-hardware (39) textbook:11 tryhard:0 honours:14 rare:11 deep:2 legendary:1
+Name a Nintendo console or handheld
+  legendary: Color TV-Game
+
+== game-console (70) textbook:19 tryhard:0 honours:21 rare:16 deep:12 legendary:2
+Name a video game console
+  legendary: Vectrex, Playdate
+
+== game-mario-character (78) textbook:10 tryhard:0 honours:29 rare:30 deep:7 legendary:2
+Name a character from the Mario franchise
+  legendary: Mouser, Wart
+
+== game-sonic-character (62) textbook:6 tryhard:0 honours:21 rare:22 deep:11 legendary:2
+Name a character from the Sonic the Hedgehog series
+  legendary: Tangle, Whisper
+
+== game-zelda-game (41) textbook:10 tryhard:0 honours:14 rare:14 deep:1 legendary:2
+Name a game in The Legend of Zelda series
+  legendary: Link's Crossbow Training, Tingle's Balloon Fight
+
+== game-pokemon-type (18) textbook:8 tryhard:0 honours:6 rare:3 deep:0 legendary:1
+Name a Pokémon type
+  legendary: Fairy
+
+== game-pokemon-starter (29) textbook:5 tryhard:0 honours:12 rare:11 deep:0 legendary:1
+Name a Pokémon starter
+  legendary: Sobble
+
+== game-among-us-colour (18) textbook:12 tryhard:0 honours:5 rare:0 deep:0 legendary:1
+Name an Among Us crewmate colour
+  legendary: Banana
+
+== game-minecraft-biome (68) textbook:11 tryhard:0 honours:28 rare:23 deep:5 legendary:1
+Name a Minecraft biome
+  legendary: Pale Garden
+
+== game-minecraft-block (167) textbook:19 tryhard:0 honours:62 rare:58 deep:27 legendary:1
+Name a Minecraft block or item
+  legendary: Reinforced deepslate
+
+== game-chess-champion (18) textbook:2 tryhard:0 honours:4 rare:7 deep:4 legendary:1
+Name a World Chess Champion
+  most familiar: Bobby Fischer, Magnus Carlsen, Garry Kasparov, Viswanathan Anand, Anatoly Karpov, Boris Spassky, Gukesh Dommaraju, Mikhail Tal, José Raúl Capablanca, Vladimir Kramnik, Emanuel Lasker, Alexander Alekhine
+  least familiar: José Raúl Capablanca, Vladimir Kramnik, Emanuel Lasker, Alexander Alekhine, Mikhail Botvinnik, Ding Liren, Wilhelm Steinitz, Tigran Petrosian, Max Euwe, Vasily Smyslov
+  legendary: Max Euwe
+
+== game-chess-term (106) textbook:12 tryhard:0 honours:35 rare:38 deep:19 legendary:2
+Name a chess term
+  legendary: Lucena position, Philidor position
+
+== game-board-game (101) textbook:15 tryhard:0 honours:36 rare:39 deep:10 legendary:1
+Name a board game
+  legendary: Hnefatafl
+
+== game-card-game (88) textbook:13 tryhard:0 honours:26 rare:34 deep:14 legendary:1
+Name a card game
+  legendary: Ganjifa
+
+== game-brawler (94) textbook:13 tryhard:0 honours:74 rare:5 deep:0 legendary:2
+Name a Brawl Stars brawler
+  legendary: Gray, Kit
+
+== music-instrument (131) textbook:19 tryhard:0 honours:40 rare:51 deep:20 legendary:1
+Name a musical instrument
+  legendary: Ravanahatha
+
+== music-indian-instrument (67) textbook:9 tryhard:0 honours:26 rare:18 deep:13 legendary:1
+Name an Indian musical instrument
+  legendary: Kamaicha
+
+== music-percussion (88) textbook:15 tryhard:0 honours:27 rare:32 deep:13 legendary:1
+Name a percussion instrument
+  legendary: Vibraslap
+
+== music-string-instrument (98) textbook:14 tryhard:0 honours:45 rare:29 deep:9 legendary:1
+Name a string instrument
+  legendary: Marxophone
+
+== music-orchestra-instrument (81) textbook:17 tryhard:0 honours:26 rare:24 deep:13 legendary:1
+Name an instrument in a symphony orchestra
+  legendary: Wind machine
+
+== music-indian-dance (74) textbook:11 tryhard:0 honours:33 rare:18 deep:11 legendary:1
+Name a dance form of India
+  legendary: Ottamthullal
+
+== music-world-dance (111) textbook:12 tryhard:0 honours:41 rare:38 deep:19 legendary:1
+Name a style of dance
+  legendary: Sirtaki
+
+== music-genre (151) textbook:18 tryhard:0 honours:71 rare:41 deep:20 legendary:1
+Name a genre of music
+  legendary: Zydeco
+
+== music-western-composer (112) textbook:10 tryhard:0 honours:30 rare:43 deep:28 legendary:1
+Name a Western classical composer
+  legendary: Hildegard von Bingen
+
+== music-playback-singer (101) textbook:11 tryhard:0 honours:37 rare:36 deep:16 legendary:1
+Name an Indian playback singer
+  legendary: Shamshad Begum
+
+== music-bollywood-composer (79) textbook:10 tryhard:0 honours:38 rare:24 deep:6 legendary:1
+Name a Hindi film music composer
+  legendary: Usha Khanna
+
+== music-indian-classical-musician (83) textbook:9 tryhard:0 honours:30 rare:33 deep:10 legendary:1
+Name an Indian classical musician
+  legendary: Mysore Vasudevacharya
+
+== music-term (156) textbook:17 tryhard:0 honours:52 rare:63 deep:23 legendary:1
+Name a musical term
+  legendary: Col legno
+
+== music-guitar-part (81) textbook:10 tryhard:0 honours:25 rare:30 deep:15 legendary:1
+Name a part of a guitar
+  legendary: Kerfing
+
+== music-notation-symbol (98) textbook:16 tryhard:0 honours:33 rare:35 deep:13 legendary:1
+Name a symbol or element of written music
+  legendary: Ossia
+
+== geo-europe-country (50) textbook:5 tryhard:0 honours:14 rare:16 deep:13 legendary:2
+Name a country in Europe
+  most familiar: France, Russia, Turkey, United Kingdom, Germany, Italy, Spain, Poland, Albania, Netherlands, Ukraine, Switzerland
+  least familiar: Luxembourg, Ireland, North Macedonia, Andorra, Latvia, Slovenia, Slovakia, Vatican City, Moldova, San Marino
+  legendary: Liechtenstein, Moldova
+
+== geo-north-america (23) textbook:3 tryhard:0 honours:5 rare:8 deep:5 legendary:2
+Name a country in North America
+  most familiar: United States, Canada, Mexico, Cuba, Belize, El Salvador, Haiti, Jamaica, Costa Rica, Bahamas, Dominican Republic, Panama
+  least familiar: Nicaragua, Honduras, Barbados, Trinidad and Tobago, Grenada, Dominica, Antigua and Barbuda, Saint Lucia, Saint Kitts and Nevis, Saint Vincent and the Grenadines
+  legendary: Dominica, Saint Kitts and Nevis
+
+== geo-country-bm (35) textbook:4 tryhard:0 honours:8 rare:13 deep:8 legendary:2
+Name a country that begins with B or M
+  most familiar: Mexico, Brazil, Bangladesh, Malaysia, Belgium, Malta, Morocco, Bulgaria, Belarus, Bosnia and Herzegovina, Monaco, Burkina Faso
+  least familiar: Mauritania, Belize, Mali, Bahamas, Mozambique, Burundi, Malawi, Barbados, Marshall Islands, Micronesia
+  legendary: Burundi, Micronesia
+
+== geo-country-vowel (37) textbook:4 tryhard:0 honours:9 rare:13 deep:9 legendary:2
+Name a country that begins with a vowel (A, E, I, O or U)
+  most familiar: United States, United Kingdom, Australia, India, Italy, Albania, Egypt, Iran, Ukraine, Indonesia, Israel, Argentina
+  least familiar: Oman, Uruguay, El Salvador, Angola, Uganda, Ivory Coast, East Timor, Ecuador, Equatorial Guinea, Antigua and Barbuda
+  legendary: Eswatini, Oman
+  resolved to a different article: East Timor -> Timor-Leste (sovereign state situated on several islands in Southeast Asia)
+
+== geo-landlocked (44) textbook:4 tryhard:0 honours:10 rare:16 deep:12 legendary:2
+Name a landlocked country
+  most familiar: Azerbaijan, Switzerland, Czech Republic, Kazakhstan, Serbia, Ethiopia, Austria, Armenia, Afghanistan, Belarus, Hungary, Burkina Faso
+  least familiar: Chad, Mali, Tajikistan, Niger, Burundi, Zambia, South Sudan, Central African Republic, Lesotho, Malawi
+  legendary: Lesotho, Liechtenstein
+
+== geo-island-nation (38) textbook:4 tryhard:0 honours:9 rare:13 deep:10 legendary:2
+Name an island country
+  most familiar: Japan, New Zealand, Philippines, Singapore, Iceland, Malta, Cyprus, Cuba, Sri Lanka, Mauritius, Cape Verde, Madagascar
+  least familiar: São Tomé and Príncipe, Tuvalu, Antigua and Barbuda, Grenada, Saint Lucia, Marshall Islands, Solomon Islands, Saint Kitts and Nevis, Saint Vincent and the Grenadines, Micronesia
+  legendary: Nauru, Tuvalu
+
+== geo-asian-capital (45) textbook:5 tryhard:0 honours:11 rare:15 deep:12 legendary:2
+Name the capital city of a country in Asia
+  most familiar: Singapore, Tokyo, Beijing, Jakarta, Bangkok, Seoul, Baku, New Delhi, Kuala Lumpur, Baghdad, Tbilisi, Damascus
+  least familiar: Muscat, Thimphu, Colombo, Kuwait City, Naypyidaw, Malé, Manama, Bandar Seri Begawan, Dili, Sri Jayawardenepura Kotte
+  legendary: Bandar Seri Begawan, Dushanbe
+  resolved to a different article: Muscat -> Muscat (capital of Oman)
+
+== geo-african-capital (58) textbook:6 tryhard:0 honours:14 rare:21 deep:15 legendary:2
+Name the capital city of a country in Africa
+  most familiar: Cairo, Cape Town, Nairobi, Kinshasa, Addis Ababa, Algiers, Pretoria, Abuja, Accra, Kampala, Tripoli, Rabat
+  least familiar: Port Louis, Lilongwe, Porto-Novo, Praia, Victoria, Djibouti, Maseru, Moroni, São Tomé, Gitega
+  legendary: Gitega, Mbabane
+  resolved to a different article: Djibouti -> Djibouti City (capital city of Djibouti)
+
+== geo-india-state-capital (39) textbook:4 tryhard:0 honours:10 rare:13 deep:10 legendary:2
+Name the capital of an Indian state or union territory
+  most familiar: Mumbai, Bengaluru, Kolkata, Delhi, Hyderabad, Chennai, Chandigarh, Jaipur, Lucknow, Thiruvananthapuram, Nagpur, Bhopal
+  least familiar: Amaravati, Itanagar, Panaji, Jammu, Imphal, Kohima, Dispur, Kavaratti, Silvassa, Gairsain
+  legendary: Kavaratti, Gairsain
+  resolved to a different article: Hyderabad -> Hyderabad (capital of Telangana, India); Raipur -> Raipur (capital of Chhattisgarh, India); Puducherry -> Pondicherry (city in the Union Territory of Puducherry, India)
+
+== geo-india-coastal (13) textbook:2 tryhard:0 honours:3 rare:4 deep:2 legendary:2
+Name an Indian state or union territory with a sea coast or islands
+  most familiar: Tamil Nadu, Kerala, Gujarat, Maharashtra, Goa, Andhra Pradesh, Karnataka, West Bengal, Andaman and Nicobar Islands, Odisha, Puducherry, Lakshadweep
+  least familiar: Maharashtra, Goa, Andhra Pradesh, Karnataka, West Bengal, Andaman and Nicobar Islands, Odisha, Puducherry, Lakshadweep, Dadra and Nagar Haveli and Daman and Diu
+  legendary: Lakshadweep, Dadra and Nagar Haveli and Daman and Diu
+
+== geo-karnataka-city (73) textbook:7 tryhard:0 honours:17 rare:24 deep:23 legendary:2
+Name a city or town in Karnataka
+  most familiar: Bengaluru, Mysuru, Mangaluru, Hampi, Belagavi, Kalaburagi, Udupi, Bidar, Pattadakal, Srirangapatna, Karwar, Davanagere
+  least familiar: Doddaballapur, Magadi, Tiptur, Sullia, Hunsur, Nippani, Thirthahalli, Vijayapura, Sindhanur, Sankeshwar
+  no article (deep): Puttur, T. Narasipura
+  legendary: Pattadakal, Aihole
+  resolved to a different article: Hubballi -> Hubli–Dharwad (twin city in Karnataka, India); Mangaluru -> Mangaluru (coastal city in Karnataka state, India); Vijayapura -> Vijayapura, Bengaluru North (human settlement in Bangalore Rural district, Bangalore division, Karnataka, India); Hosapete -> Hospet (city in India); Chikkamagaluru -> Chikmagalur (City in Karnataka, India); Bagalkot -> Bagalkote (city in Karnataka, India); Kundapura -> Kundapur (town); Gangavathi -> Gangavati, Karnataka (human settlement); Doddaballapur -> Doddaballapura (city); Jamkhandi -> Jamakhandi (human settlement in Bagalkot district, Belgaum division, Karnataka, India); Sankeshwar -> Sankeshwar, Karnataka (human settlement); Moodbidri -> Moodabidri (town in Dakshina Kannada district, Mysore division, Karnataka, India); Bhadravathi -> Bhadravati, Karnataka (city in Shimoga District, Bangalore division, Karnataka, India)
+
+== geo-karnataka-district (31) textbook:4 tryhard:0 honours:8 rare:8 deep:9 legendary:2
+Name a district of Karnataka
+  most familiar: Kodagu, Uttara Kannada, Bidar, Dakshina Kannada, Belagavi, Vijayapura, Bengaluru Urban, Chikkamagaluru, Hassan, Kalaburagi, Kolar, Udupi
+  least familiar: Tumakuru, Koppal, Ballari, Gadag, Raichur, Ramanagara, Yadgir, Davanagere, Haveri, Chikkaballapur
+  legendary: Chamarajanagar, Vijayanagara
+  resolved to a different article: Belagavi -> Belagavi district (district of Karnataka, India); Bengaluru Rural -> Bengaluru North district (district of Karnataka, India); Chikkaballapur -> Chikkaballapura district (district of Karnataka, India); Chikkamagaluru -> Chikmagalur district (district of Karnataka, India); Dakshina Kannada -> Mangaluru District (district of Karnataka, India); Ramanagara -> Bengaluru South district (district of Karnataka, India); Tumakuru -> Tumakuru district (district of Karnataka, India); Uttara Kannada -> Uttara Kannada (district of Karnataka, India); Vijayapura -> Bijapur district, Karnataka (district in Karnataka, India)
+
+== geo-bangalore-area (64) textbook:6 tryhard:0 honours:12 rare:20 deep:24 legendary:2
+Name an area or neighbourhood of Bengaluru
+  most familiar: Mathikere, Yelahanka, Electronic City, Marathahalli, Whitefield, Mahadevapura, Basavanagudi, Sarjapur, Kengeri, HSR Layout, Malleshwaram, Bommanahalli
+  least familiar: Richmond Town, Thanisandra, Hulimavu, Cooke Town, Jakkur, Bilekahalli, Sanjaynagar, Vasanth Nagar, Kalyan Nagar, Austin Town
+  no article (deep): Indiranagar, Jayanagar, Hebbal, JP Nagar, Cox Town, Hennur, KR Puram, Bannerghatta, Benson Town
+  legendary: Cooke Town, Hesaraghatta
+  resolved to a different article: Whitefield -> Whitefield, Bengaluru (neighborhood in Bengaluru, India); Yeshwanthpur -> Yeswanthpur (suburb of Bangalore); Sarjapur -> Sarjapura (village in Karnataka, India); Frazer Town -> Fraser Town, Bengaluru (suburb in Bengaluru Urban, Karnataka, India); Richmond Town -> Richmond Town, Bengaluru (neighbourhood in Bengaluru, Karnataka, India); Shivajinagar -> Shivajinagar, Bengaluru (suburb of Bangalore); Vijayanagar -> Vijayanagar, Bengaluru (human settlement in India); Rajarajeshwari Nagar -> Rajarajeshwari Nagar, Bengaluru (Locality in southwestern part of Bangalore); Basaveshwaranagar -> Basaveshwaranagara (human settlement in India); Mahadevapura -> Mahadevapura, Bengaluru (human settlement in India); Mathikere -> Bengaluru (capital city of Karnataka state in India); Hesaraghatta -> Hesaraghatta Lake (lake in India); Austin Town -> Austin Town, Bengaluru (suburb of the Bangalore Cantonment); Chamrajpet -> Chamarajpet (suburb of Bangalore)
+
+== geo-hill-station (55) textbook:5 tryhard:0 honours:13 rare:17 deep:18 legendary:2
+Name a hill station in India
+  most familiar: Darjeeling, Shimla, Ooty, Shillong, Dharamshala, Mussoorie, Gangtok, Nainital, Manali, Cherrapunji, Almora, Kodaikanal
+  least familiar: Mukteshwar, Agumbe, Kausani, Chail, Yelagiri, Pelling, Saputara, Lachung, Dirang, Kemmangundi
+  no article (deep): Auli, Kufri, Nandi Hills, Ziro
+  legendary: Pachmarhi, Yelagiri
+  resolved to a different article: Mount Abu -> Abu Raj (hill station in Sirohi district of Rajasthan state in western India); Lansdowne -> Lansdowne, India (cantonment town in Uttarakhand, India); Chikmagalur -> Chikmagalur (City in Karnataka, India)
+
+== geo-national-park-india (49) textbook:5 tryhard:0 honours:12 rare:18 deep:12 legendary:2
+Name a national park in India
+  most familiar: Kaziranga, Jim Corbett, Gir, Valley of Flowers, Keoladeo, Ranthambore, Manas, Sundarbans, Bandipur, Kanha, Periyar, Khangchendzonga
+  least familiar: Mollem, Galathea, Mukurthi, Gulf of Mannar, Campbell Bay, Mahatma Gandhi Marine, Pin Valley, Kudremukh, Rani Jhansi Marine, Saddle Peak
+  legendary: Mukurthi, Saddle Peak
+  resolved to a different article: Kanha -> Kanha Tiger Reserve (national park in Madhya Pradesh, India); Satpura -> Satpura Tiger Reserve (national park); Anshi -> Kali Tiger Reserve (Protected area and tiger reserve in Karnataka, India); Mollem -> Bhagwan Mahaveer Sanctuary and Mollem National Park (national park in Goa, India); Velavadar -> Blackbuck National Park, Velavadar (national park in India); Balphakram -> Balpakram National Park (national park in India)
+
+== geo-unesco-india (43) textbook:4 tryhard:0 honours:11 rare:12 deep:14 legendary:2
+Name a UNESCO World Heritage Site in India
+  most familiar: Taj Mahal, Jaipur City, Ajanta Caves, Red Fort, Western Ghats, Qutb Minar, Fatehpur Sikri, Ellora Caves, Agra Fort, Hampi, Nalanda, Konark Sun Temple
+  least familiar: Hill Forts of Rajasthan, Ramappa Temple, Mountain Railways of India, Champaner-Pavagadh, Khangchendzonga National Park, Hoysala Temples, Capitol Complex, Great Himalayan National Park, Churches and Convents of Goa, Nanda Devi and Valley of Flowers
+  no article (deep): Historic City of Ahmedabad, Victorian Gothic and Art Deco Ensemble of Mumbai, Charaideo Moidams
+  legendary: Dholavira, Charaideo Moidams
+  resolved to a different article: Mahabalipuram -> Mamallapuram (Village in Kanchipuram District, Tamil Nadu, India); Sanchi -> Sanchi Stupa (Buddhist complex, famous for its Great Stupa, in Madhya Pradesh, India); Nalanda -> Nalanda mahavihara (ancient Hindu-Buddhist monastery in present-day Bihar, India); Capitol Complex -> Chandigarh Capitol Complex (UNESCO World Heritage Site in Chandigarh capital region, India)
+
+== geo-seven-wonders (14) textbook:2 tryhard:0 honours:3 rare:5 deep:2 legendary:2
+Name one of the Seven Wonders of the World, ancient or new
+  most familiar: Taj Mahal, Great Wall of China, Machu Picchu, Colosseum, Great Pyramid of Giza, Petra, Chichen Itza, Christ the Redeemer, Hanging Gardens of Babylon, Lighthouse of Alexandria, Colossus of Rhodes, Temple of Artemis
+  least familiar: Great Pyramid of Giza, Petra, Chichen Itza, Christ the Redeemer, Hanging Gardens of Babylon, Lighthouse of Alexandria, Colossus of Rhodes, Temple of Artemis, Statue of Zeus at Olympia, Mausoleum at Halicarnassus
+  legendary: Temple of Artemis, Mausoleum at Halicarnassus
+
+== geo-ocean-sea (63) textbook:6 tryhard:0 honours:16 rare:22 deep:17 legendary:2
+Name an ocean or sea
+  most familiar: Pacific Ocean, Atlantic Ocean, Mediterranean Sea, Black Sea, Indian Ocean, Red Sea, Baltic Sea, Gulf of Mexico, Arctic Ocean, Southern Ocean, North Sea, Aegean Sea
+  least familiar: Laccadive Sea, Gulf of Alaska, Banda Sea, Flores Sea, Amundsen Sea, Bismarck Sea, Solomon Sea, Bellingshausen Sea, Molucca Sea, Savu Sea
+  legendary: Sargasso Sea, Bellingshausen Sea
+
+== geo-desert (53) textbook:5 tryhard:0 honours:13 rare:18 deep:15 legendary:2
+Name a desert
+  most familiar: Antarctic Desert, Sahara, Sinai Desert, Gobi, Atacama, Kalahari, Taklamakan, Thar, Negev, Mojave, Namib, Sonoran Desert
+  least familiar: Ordos Desert, Little Sandy Desert, Thal Desert, Western Desert, Tengger Desert, Strzelecki Desert, Mu Us Desert, Kumtag Desert, Sturt Stony Desert, Kharan Desert
+  legendary: Danakil Desert, Dasht-e Lut
+  resolved to a different article: Gobi -> Gobi Desert (desert in China and Mongolia); Kalahari -> Kalahari Desert (desert in southern Africa); Atacama -> Atacama Desert (desert in South America); Taklamakan -> Taklamakan Desert (desert in Xinjiang Uyghur Autonomous Region, China); Kyzylkum -> Kyzylkum Desert (desert in Central Asia); Dasht-e Kavir -> Great Salt Desert (desert in Iran); Dasht-e Lut -> Lut Desert (desert in Iran); Painted Desert -> Painted Desert (Arizona) (desert in Coconino County, Arizona, United States); Western Desert -> Western Desert (Egyptian part of the Libyan Desert); Nefud Desert -> Nafud desert (desert in the northern Arabian Peninsula)
+
+== geo-eight-thousanders (14) textbook:2 tryhard:0 honours:3 rare:5 deep:2 legendary:2
+Name a mountain over 8,000 metres high
+  most familiar: Mount Everest, K2, Kangchenjunga, Nanga Parbat, Lhotse, Dhaulagiri, Broad Peak, Makalu, Cho Oyu, Manaslu, Annapurna, Shishapangma
+  least familiar: Lhotse, Dhaulagiri, Broad Peak, Makalu, Cho Oyu, Manaslu, Annapurna, Shishapangma, Gasherbrum I, Gasherbrum II
+  legendary: Gasherbrum II, Shishapangma
+
+== geo-mountain-range (67) textbook:7 tryhard:0 honours:16 rare:23 deep:19 legendary:2
+Name a mountain range
+  most familiar: Himalayas, Alps, Rocky Mountains, Andes, Carpathian Mountains, Ural Mountains, Appalachian Mountains, Pyrenees, Hindu Kush, Caucasus Mountains, Karakoram, Black Forest
+  least familiar: Zanskar Range, Palani Hills, Mahabharat Range, Patkai Range, Anamalai Hills, Naga Hills, Javadi Hills, Garo Hills, Lushai Hills, Shevaroy Hills
+  legendary: Rwenzori Mountains, Annamite Range
+  resolved to a different article: Sierra Nevada -> Sierra Nevada (mountain range in California and Nevada in the United States); Pirin -> Pirin Mountains (mountain range in southwestern Bulgaria); Siwalik Hills -> Sivalik Hills (mountain range); Anamalai Hills -> Anaimalai Hills (mountains in India); Shevaroy Hills -> Servarayan Hills (mountains in India); Javadi Hills -> Javadhu Hills (hills in India); Mahabharat Range -> Lower Himalayan Range (inner mountain range of the Himalayas); Patkai Range -> Patkai (mountain range in India/Myanmar)
+
+== geo-volcano (63) textbook:6 tryhard:0 honours:16 rare:22 deep:17 legendary:2
+Name a famous volcano
+  most familiar: Mount Kilimanjaro, Mount Fuji, Vesuvius, Etna, Mount Ararat, Olympus Mons, Mount St. Helens, Krakatoa, Mount Elbrus, Mauna Kea, Teide, Santorini
+  least familiar: Katla, Mount Sinabung, Mount Ontake, Mount Ngauruhoe, Villarrica, Barren Island, Piton de la Fournaise, Mount Redoubt, Mount Augustine, Mount Spurr
+  legendary: Ol Doinyo Lengai, Barren Island
+  resolved to a different article: Vesuvius -> Mount Vesuvius (active stratovolcano in the Gulf of Naples, Italy); Kilauea -> Kīlauea (active volcano in Hawaii); Mayon Volcano -> Mayon (volcano in the Philippines); Paricutin -> Parícutin (dormant scoria-cone volcano in Mexico); Mount Augustine -> Augustine Volcano (stratovolcano in Alaska)
+
+== geo-world-river (63) textbook:6 tryhard:0 honours:16 rare:23 deep:16 legendary:2
+Name one of the world's long rivers
+  most familiar: Ohio, Niger, Mississippi, Colorado, Missouri, Nile, Arkansas, Danube, Amazon, Congo, Krishna, Ganges
+  least familiar: São Francisco, Kolyma, Xingu, Tarim, Purus, Fly River, Japurá, Araguaia, Sepik, Juruá
+  legendary: Kolyma, Purus
+  resolved to a different article: Lena -> Lena River (river in Eastern Siberia, Russia); Indus -> Indus River (river in Asia); Brahmaputra -> Brahmaputra River (river in China, India, and Bangladesh); Salween -> Salween River (major river in Southeast Asia); St. Lawrence -> St. Lawrence River (major river in eastern Canada and the United States, flowing into the Gulf of St. Lawrence); Juruá -> Juruá River (river in Brazil & Peru); Godavari -> Godavari River (river in India); Narmada -> Narmada River (5th longest river of India)
+
+== geo-lake-india (53) textbook:3 tryhard:0 honours:13 rare:18 deep:17 legendary:2
+Name a lake in India
+  most familiar: Chilika Lake, Dal Lake, Lonar Lake, Hirakud Reservoir, Loktak Lake, Hussain Sagar, Lake Pichola, Sambhar Lake, Vembanad Lake, Wular Lake, Chandratal, Sardar Sarovar
+  least familiar: Nigeen Lake, Rewalsar Lake, Tulsi Lake, Surinsar Lake, Ooty Lake, Vihar Lake, Madiwala Lake, Mirik Lake, Khajjiar Lake, Udai Sagar Lake
+  no article (deep): Hebbal Lake, Upper Lake
+  legendary: Loktak Lake, Lonar Lake
+  resolved to a different article: Vembanad Lake -> Vembanad (lake in India); Sambhar Lake -> Sambhar Salt Lake (Salt lake located in India); Naini Lake -> Nainital Lake (lake in the city of nainital); Tsomgo Lake -> Lake Tsomgo (glacial lake in Sikkim, India); Sasthamkotta Lake -> Sasthamcotta Lake (lake in Kerala, India); Deepor Beel -> Dipor Bil (permanent freshwater lake in India); Jaisamand Lake -> Dhebar Lake (lake in Udaipur district, Rajasthan, India); Govind Sagar -> Gobind Sagar (lake in India); Hirakud Reservoir -> Hirakud Dam (dam in Odisha, India); Nagarjuna Sagar -> Nagarjuna Sagar Dam (dam); Sardar Sarovar -> Sardar Sarovar Dam (gravity dam on the Narmada River near Navagam, Gujarat in India); Chandratal -> Chandra Taal (lake situated in the Lahaul part of the Lahul and Spiti district of Himachal Pradesh (India))
+
+== geo-waterfall (48) textbook:5 tryhard:0 honours:11 rare:17 deep:13 legendary:2
+Name a famous waterfall
+  most familiar: Niagara Falls, Victoria Falls, Iguazu Falls, Angel Falls, Rhine Falls, Jog Falls, Gullfoss, Boyoma Falls, Kaieteur Falls, Tugela Falls, Reichenbach Falls, Dettifoss
+  least familiar: Bridalveil Fall, Gavarnie Falls, Abbey Falls, Iruppu Falls, Unchalli Falls, Barkana Falls, Hebbe Falls, Magod Falls, Mallalli Falls, Thoseghar Waterfalls
+  legendary: Kunchikal Falls, Boyoma Falls
+  resolved to a different article: Detian Falls -> Ban Gioc–Detian Falls (waterfall); Iruppu Falls -> Irupu Falls (waterfall in Kodagu District of Karnataka, India)
+
+== geo-largest-island (20) textbook:2 tryhard:0 honours:5 rare:6 deep:5 legendary:2
+Name one of the 20 largest islands in the world
+  most familiar: Iceland, Cuba, Ireland, Greenland, Madagascar, Great Britain, Java, New Guinea, Borneo, Sumatra, Newfoundland, Honshu
+  least familiar: Newfoundland, Honshu, Sulawesi, Mindanao, Baffin Island, Luzon, South Island, North Island, Ellesmere Island, Victoria Island
+  legendary: Ellesmere Island, Mindanao
+  resolved to a different article: Victoria Island -> Victoria Island (island in the Northwest Territories and Nunavut in Canada); Ireland -> Ireland (island in the North Atlantic Ocean)
+
+== geo-us-city (48) textbook:5 tryhard:0 honours:12 rare:17 deep:12 legendary:2
+Name a large US city
+  most familiar: New York City, Washington, D.C., Los Angeles, Chicago, San Francisco, Boston, Philadelphia, Atlanta, Miami, Las Vegas, Seattle, Houston
+  least familiar: Louisville, Tucson, El Paso, Tulsa, Fresno, Long Beach, Colorado Springs, Bakersfield, Virginia Beach, Mesa
+  legendary: Virginia Beach, Bakersfield
+  resolved to a different article: Fort Worth -> Fort Worth, Texas (city and county seat of Tarrant County, Texas, United States)
+
+== geo-canada-province (13) textbook:2 tryhard:0 honours:3 rare:3 deep:4 legendary:1
+Name a Canadian province or territory
+  most familiar: Quebec, Alberta, Ontario, British Columbia, Newfoundland and Labrador, Nova Scotia, Nunavut, Saskatchewan, Manitoba, New Brunswick, Yukon, Prince Edward Island
+  least familiar: British Columbia, Newfoundland and Labrador, Nova Scotia, Nunavut, Saskatchewan, Manitoba, New Brunswick, Yukon, Prince Edward Island, Northwest Territories
+  legendary: Nunavut
+
+== geo-australia-city (47) textbook:5 tryhard:0 honours:11 rare:16 deep:13 legendary:2
+Name a city or large town in Australia
+  most familiar: Sydney, Melbourne, Canberra, Perth, Brisbane, Adelaide, Darwin, Hobart, Gold Coast, Newcastle, Alice Springs, Wollongong
+  least familiar: Port Macquarie, Shepparton, Whyalla, Mount Gambier, Devonport, Gladstone, Katherine, Lismore, Hervey Bay, Burnie
+  legendary: Coober Pedy, Whyalla
+  resolved to a different article: Mount Gambier -> Mount Gambier (city in South Australia)
+
+== geo-japan-city (21) textbook:2 tryhard:0 honours:5 rare:8 deep:4 legendary:2
+Name one of the largest cities in Japan
+  most familiar: Tokyo, Kyoto, Osaka, Nagoya, Yokohama, Hiroshima, Sapporo, Fukuoka, Kobe, Sendai, Chiba, Saitama
+  least familiar: Saitama, Kawasaki, Kumamoto, Niigata, Kitakyushu, Okayama, Shizuoka, Hamamatsu, Sagamihara, Sakai
+  legendary: Kitakyushu, Sagamihara
+  resolved to a different article: Sakai -> Sakai (second largest and populated city in Osaka Prefecture, Japan)
+
+== geo-currency (59) textbook:6 tryhard:0 honours:15 rare:19 deep:17 legendary:2
+Name a currency used in the world today
+  most familiar: Dollar, Euro, Pound, Yen, Yuan, Rupee, Ruble, Franc, Shekel, Zloty, Won, Lira
+  least familiar: Kina, Quetzal, Kwacha, Ariary, Dalasi, Metical, Loti, Vatu, Pa'anga, Tala
+  legendary: Ngultrum, Pa'anga
+  resolved to a different article: Kyat -> Myanmar kyat (currency of Myanmar); Som -> Kyrgyz som (currency of Kyrgyzstan)
 
 == geo-country-s (26) textbook:4 tryhard:0 honours:5 rare:9 deep:7 legendary:1
 Name a country that begins with S
@@ -125,6 +874,234 @@ Name a river that flows through India
   legendary: Vrishabhavathi River
   ambiguous aliases: chandrabhaga, gingee, kali, sindh
 
+== hist-roman-deity (50) textbook:5 tryhard:0 honours:13 rare:17 deep:13 legendary:2
+Name a god or goddess from Roman mythology
+  most familiar: Apollo, Venus, Bacchus, Jupiter, Saturn, Minerva, Mars, Juno, Diana, Neptune, Aesculapius, Hercules
+  least familiar: Pax, Vertumnus, Juturna, Somnus, Juventas, Cardea, Salus, Pales, Sancus, Portunus
+  legendary: Terminus, Cardea
+  resolved to a different article: Jupiter -> Jupiter (god) (chief deity of Roman state religion); Bacchus -> Dionysus (ancient Greek god of winemaking and wine); Pluto -> Pluto (god) (god in Roman religion, Plouton in Greek); Vesta -> Vesta (goddess) (goddess of the hearth, home, and family in Roman religion); Pax -> Pax (goddess) (Roman goddess of peace); Terminus -> Terminus (god) (Roman god, protector of boundary markers); Aesculapius -> Asclepius (Greek god of medicine)
+
+== hist-norse-deity (47) textbook:5 tryhard:1 honours:11 rare:16 deep:12 legendary:2
+Name a god, goddess or being from Norse mythology
+  most familiar: Odin, Thor, Valkyrie, Loki, Freyja, Baldr, Jormungandr, Fenrir, Tyr, Frigg, Mjolnir, Freyr
+  least familiar: Vali, Hoenir, Ran, Eir, Magni, Gefjon, Gullveig, Thrym, Skrymir, Hyrrokkin
+  legendary: Forseti, Gefjon
+  resolved to a different article: Heimdall -> Heimdall (Watchman of the gods, and the guardian of the gods' stronghold in Norse mythology); Hel -> Hel (mythological being) (goddess of the underworld in Norse mythology); Vali -> Váli (Norse deity); Nidhogg -> Nidhogg (In Norse mythology, Níðhöggr (Malice Striker) is a dragon/serpent who gnaws at a root of the world tree, Yggdrasil.); Skrymir -> Útgarða-Loki (Norse mythical character)
+
+== hist-egyptian-deity (51) textbook:5 tryhard:0 honours:13 rare:17 deep:14 legendary:2
+Name a god or goddess from ancient Egypt
+  most familiar: Ra, Osiris, Anubis, Isis, Horus, Amun, Set, Thoth, Hathor, Bastet, Aten, Maat
+  least familiar: Heka, Sokar, Anhur, Meretseger, Mafdet, Satet, Renenutet, Neper, Imentet, Hemen
+  legendary: Meretseger, Ammit
+  resolved to a different article: Shu -> Shu (god) (primordial Egyptian god, a personification of dry air, spouse and counterpart to goddess Tefnut); Apep -> Apophis (snake god in ancient Egyptian religion); Satet -> Satis (goddess) (ancient Egyptian goddess); Anhur -> Onuris (Egyptian deity of war who was worshipped in the Egyptian area of Abydos, and particularly in Thinis)
+
+== hist-ramayana-character (43) textbook:4 tryhard:0 honours:11 rare:14 deep:12 legendary:2
+Name a character from the Ramayana
+  most familiar: Rama, Ravana, Valmiki, Hanuman, Sita, Jatayu, Lakshmana, Mandodari, Surpanakha, Dasharatha, Agastya, Vishvamitra
+  least familiar: Angada, Atikaya, Shabari, Trijata, Rishyasringa, Kabandha, Nila, Prahasta, Nala, Sushena
+  legendary: Sampati, Trijata
+
+== hist-mahabharata-character (58) textbook:6 tryhard:0 honours:14 rare:19 deep:17 legendary:2
+Name a character from the Mahabharata
+  most familiar: Krishna, Arjuna, Vyasa, Draupadi, Karna, Balarama, Bhima, Yudhishthira, Bhishma, Kunti, Ashwatthama, Abhimanyu
+  least familiar: Kichaka, Hidimba, Bhagadatta, Vikarna, Kritavarma, Shalya, Bhurishravas, Sudeshna, Uttara, Dhaumya
+  legendary: Barbarika, Yuyutsu
+  resolved to a different article: Dushasana -> Duhshasana (character from Hindu epic Mahabharata)
+
+== hist-mughal-emperor (18) textbook:4 tryhard:0 honours:2 rare:7 deep:3 legendary:2
+Name an emperor of the Mughal Empire
+  most familiar: Akbar, Babur, Shah Jahan, Aurangzeb, Humayun, Jahangir, Bahadur Shah II, Bahadur Shah I, Shah Alam II, Muhammad Shah, Farrukhsiyar, Jahandar Shah
+  least familiar: Shah Alam II, Muhammad Shah, Farrukhsiyar, Jahandar Shah, Akbar II, Ahmad Shah Bahadur, Alamgir II, Rafi ud-Daulah, Rafi ud-Darajat, Shah Jahan III
+  legendary: Rafi ud-Darajat, Rafi ud-Daulah
+  resolved to a different article: Rafi ud-Daulah -> Shah Jahan II (11th Mughal Emperor (1719)); Bahadur Shah II -> Bahadur Shah Zafar (18th and last Mughal Emperor from 1837 to 1857)
+
+== hist-freedom-fighter (57) textbook:6 tryhard:0 honours:14 rare:20 deep:15 legendary:2
+Name an Indian freedom fighter
+  most familiar: Mahatma Gandhi, Jawaharlal Nehru, B. R. Ambedkar, Vallabhbhai Patel, Lal Bahadur Shastri, Subhas Chandra Bose, Tipu Sultan, Bhagat Singh, Sri Aurobindo, Sarojini Naidu, Abul Kalam Azad, Rajendra Prasad
+  least familiar: Madan Lal Dhingra, V. O. Chidambaram Pillai, Sangolli Rayanna, Matangini Hazra, Veerapandiya Kattabomman, Vasudev Balwant Phadke, Kanaklata Barua, Rani Gaidinliu, Pazhassi Raja, Ullaskar Dutta
+  legendary: Pingali Venkayya, Matangini Hazra
+  resolved to a different article: Abul Kalam Azad -> Maulana Azad (Indian politician and writer (1888–1958)); Rash Behari Bose -> Rashbehari Bose (Indian independence activist (1886–1945))
+
+== hist-indian-president (15) textbook:2 tryhard:0 honours:4 rare:4 deep:3 legendary:2
+Name a President of India
+  most familiar: A. P. J. Abdul Kalam, Pratibha Patil, Pranab Mukherjee, Droupadi Murmu, Sarvepalli Radhakrishnan, Ram Nath Kovind, Rajendra Prasad, K. R. Narayanan, Zakir Husain, V. V. Giri, Zail Singh, Neelam Sanjiva Reddy
+  least familiar: Ram Nath Kovind, Rajendra Prasad, K. R. Narayanan, Zakir Husain, V. V. Giri, Zail Singh, Neelam Sanjiva Reddy, R. Venkataraman, Shankar Dayal Sharma, Fakhruddin Ali Ahmed
+  legendary: V. V. Giri, Fakhruddin Ali Ahmed
+  resolved to a different article: Zakir Husain -> Zakir Husain (3rd President of India (1897-1969)); R. Venkataraman -> Ramaswamy Venkataraman (President of India from 1987 to 1992)
+
+== hist-indian-dynasty (49) textbook:7 tryhard:0 honours:10 rare:16 deep:14 legendary:2
+Name a dynasty or empire that ruled part of India
+  most familiar: Mughal Empire, Maurya Empire, Gupta Empire, Delhi Sultanate, Vijayanagara Empire, Kushan Empire, Maratha Empire, Chola dynasty, Sikh Empire, Indo-Greek Kingdom, Satavahana dynasty, Pala Empire
+  least familiar: Shaishunaga dynasty, Hindu Shahi, Chaulukya dynasty, Chandela dynasty, Seuna dynasty, Chahamana dynasty, Ahom dynasty, Pushyabhuti dynasty, Gahadavala dynasty, Maukhari dynasty
+  no article (deep): Kalachuri dynasty
+  legendary: Vakataka dynasty, Maukhari dynasty
+  resolved to a different article: Rashtrakuta dynasty -> Rashtrakuta Empire (early medieval period Indian dynasty (r. mid-6th to 10th century)); Hoysala Empire -> Hoysala Kingdom (prominent empire that ruled most of the what is now Karnataka, India between the 10th and the 14th centuries); Bahmani Sultanate -> Bahmani Kingdom (former South Asian country in South India); Gurjara-Pratihara dynasty -> Pratihara dynasty (dynasty that ruled northern India from 6th to 11th century); Chahamana dynasty -> Chauhan dynasty (clan that ruled parts of northern India in the medieval period); Chandela dynasty -> Chandela Empire (mediaeval Indian dynasty); Seuna dynasty -> Seuna dynasty (Indian dynasty (c. 1187–1317)); Maukhari dynasty -> Maukharis of Kannauj (early medieval dynasty in the Gangetic plains)
+
+== hist-british-monarch (44) textbook:4 tryhard:0 honours:11 rare:15 deep:12 legendary:2
+Name a King or Queen of England or Britain since 1066
+  most familiar: Elizabeth II, Charles III, Victoria, Elizabeth I, Henry VIII, George VI, George V, Edward VIII, Edward VII, William I, Mary I, Charles I
+  least familiar: Edward II, Henry VI, Henry I, Edward IV, Mary II, Henry III, William II, Edward V, Stephen, Matilda
+  legendary: Edward V, Lady Jane Grey
+  resolved to a different article: Edward I -> Edward I (King of England from 1272 to 1307); Edward II -> Edward II (King of England from 1307 to 1327); Edward III -> Edward III (King of England from 1327 to 1377); Edward IV -> Edward IV (King of England from 1461 to 1470 and 1471 to 1483); Edward V -> Edward V (king of England in 1483 (1470-1483)); Henry VIII -> Henry VIII (King of England from 1509 to 1547 (1491–1547)); Edward VI -> Edward VI (king of England and Ireland from 1547 to 1553); Mary I -> Mary I (Queen of England and Ireland from 1553 to 1558 (1516-1558)); Mary II -> Mary II (Queen of England, Scotland, and Ireland from 1689 to 1694 (1662-1694))
+
+== hist-roman-emperor (58) textbook:6 tryhard:0 honours:14 rare:20 deep:17 legendary:1
+Name a Roman emperor
+  most familiar: Augustus, Marcus Aurelius, Caligula, Constantine the Great, Nero, Tiberius, Hadrian, Trajan, Claudius, Vespasian, Diocletian, Domitian
+  least familiar: Licinius, Constantine II, Galerius, Gordian I, Tacitus, Jovian, Carus, Gratian, Gordian II, Constans
+  legendary: Didius Julianus
+  resolved to a different article: Geta -> Geta (emperor) (Roman emperor from 209 to 211); Honorius -> Honorius (4th and 5th-century Roman emperor)
+
+== hist-pharaoh (51) textbook:5 tryhard:0 honours:14 rare:15 deep:15 legendary:2
+Name a pharaoh of ancient Egypt
+  most familiar: Cleopatra VII, Tutankhamun, Ramesses II, Akhenaten, Hatshepsut, Khufu, Ptolemy I Soter, Seti I, Thutmose III, Narmer, Djoser, Amenhotep III
+  least familiar: Teti, Djedefre, Unas, Psusennes I, Piye, Amasis II, Apries, Sahure, Shepseskaf, Userkaf
+  legendary: Sobekneferu, Khasekhemwy
+
+== hist-ancient-civilization (51) textbook:5 tryhard:0 honours:14 rare:17 deep:13 legendary:2
+Name an ancient civilisation or empire
+  most familiar: Mesopotamian, Egyptian, Greek, Sumerian, Persian, Maya, Inca, Indus Valley, Roman, Celtic, Han, Phoenician
+  least familiar: Dacian, Nabataean, Ancestral Puebloan, Dilmun, Kassite, Moche, Caral, Mississippian, Nazca, Zapotec
+  legendary: Caral, Dilmun
+  resolved to a different article: Caral -> Caral–Supe civilization (complex pre-Columbian era society that included as many as 30 major population centers in what is now the Norte Chico region of north-central coastal Peru); Mississippian -> Mississippian period (archaeology) (mound-building Native American culture in Midwestern, Eastern, and Southeastern United States)
+
+== hist-explorer (55) textbook:7 tryhard:0 honours:12 rare:20 deep:14 legendary:2
+Name a famous explorer or traveller
+  most familiar: Christopher Columbus, Marco Polo, James Cook, Ferdinand Magellan, Hernán Cortés, Vasco da Gama, Edmund Hillary, Tenzing Norgay, Leif Erikson, Francis Drake, Amerigo Vespucci, Ibn Battuta
+  least familiar: Ibn Fadlan, Pytheas, William Clark, Matthew Flinders, Mungo Park, Faxian, Hanno the Navigator, Matthew Henson, Afanasy Nikitin, Mary Kingsley
+  legendary: Pytheas, Afanasy Nikitin
+  resolved to a different article: William Clark -> William Clark (American explorer, soldier, Indian agent, and territorial governor (1770-1838))
+
+== hist-inventor (54) textbook:6 tryhard:0 honours:13 rare:19 deep:14 legendary:2
+Name a famous inventor
+  most familiar: Leonardo da Vinci, Nikola Tesla, Thomas Edison, Henry Ford, Benjamin Franklin, Archimedes, Alfred Nobel, Tim Berners-Lee, Johannes Gutenberg, Michael Faraday, Alexander Graham Bell, Wright brothers
+  least familiar: Elias Howe, Ctesibius, Vladimir Zworykin, Samuel Crompton, James Hargreaves, Bi Sheng, Elijah McCoy, Granville Woods, Edmund Cartwright, John Kay
+  legendary: Bi Sheng, Ctesibius
+  resolved to a different article: Karl Benz -> Carl Benz (German automotive and engine designer and manufacturer (1844–1929))
+
+== hist-india-fort (53) textbook:5 tryhard:0 honours:12 rare:17 deep:17 legendary:2
+Name a fort in India
+  most familiar: Red Fort, Agra Fort, Amer Fort, Golconda Fort, Kumbhalgarh Fort, Chittorgarh Fort, Srirangapatna Fort, Mehrangarh Fort, Raigad Fort, Murud-Janjira, Jaisalmer Fort, Gwalior Fort
+  least familiar: Taragarh Fort, Chapora Fort, Jhansi Fort, Salimgarh Fort, Gulbarga Fort, Devanahalli Fort, Kondapalli Fort, Bhongir Fort, Raichur Fort, Gooty Fort
+  no article (deep): Nahargarh Fort, Rock Fort
+  legendary: Murud-Janjira, Gingee Fort
+  resolved to a different article: Amer Fort -> Amber Fort (fort and palace in Rajasthan, India); Chittorgarh Fort -> Chittor Fort (historic fort in Rajasthan, India); Golconda Fort -> Golconda (fortified citadel and former city in central Hyderabad, Telangana, India); Rajgad Fort -> Rajgad (Hill fort in Pune district, Maharashtra, India); Fort St. George -> Fort St. George (fort in Chennai, India); Fort William -> Fort William, West Bengal (fort in Kolkata, India); Rohtasgarh Fort -> Rohtas Fort, India (fort in Bihar)
+
+== hist-empire (56) textbook:6 tryhard:0 honours:14 rare:20 deep:14 legendary:2
+Name an empire from history
+  most familiar: Roman Empire, Ottoman Empire, Byzantine Empire, Holy Roman Empire, British Empire, Austro-Hungarian Empire, Qing Empire, Russian Empire, Mongol Empire, German Empire, Mughal Empire, Inca Empire
+  least familiar: Srivijaya, Babylonian Empire, Songhai Empire, Ghana Empire, Dutch Empire, Sikh Empire, Mexican Empire, Zulu Kingdom, Ashanti Empire, Benin Empire
+  legendary: Ghana Empire, Srivijaya
+  resolved to a different article: Dutch Empire -> Dutch colonial empire (overseas territories controlled by the Dutch Republic and the Netherlands); Hittite Empire -> Hittites (Anatolian ethnic group who built kingdoms at Kussara & Hattusa (c. 2000-700 BCE)); Macedonian Empire -> Macedonia (ancient kingdom) (ancient Hellenic kingdom); Ashanti Empire -> Asante Empire (former Akan empire centered around modern day Ghana); Benin Empire -> Kingdom of Benin (West African kingdom (1180–1897))
+
+== hist-renaissance-artist (58) textbook:6 tryhard:0 honours:14 rare:20 deep:16 legendary:2
+Name a Renaissance artist
+  most familiar: Leonardo da Vinci, Michelangelo, Raphael, Albrecht Dürer, Hieronymus Bosch, Sandro Botticelli, El Greco, Titian, Jan van Eyck, Donatello, Pieter Bruegel the Elder, Tintoretto
+  least familiar: Quentin Matsys, Lorenzo Lotto, Sebastiano del Piombo, Hugo van der Goes, Carlo Crivelli, Gerard David, Luca della Robbia, Rosso Fiorentino, Tilman Riemenschneider, Joachim Patinir
+  legendary: Sofonisba Anguissola, Joachim Patinir
+  resolved to a different article: Correggio -> Antonio da Correggio (Italian Renaissance painter (1489–1534))
+
+== hist-greek-philosopher (52) textbook:5 tryhard:0 honours:13 rare:18 deep:15 legendary:1
+Name an ancient Greek philosopher
+  most familiar: Aristotle, Socrates, Plato, Pythagoras, Plutarch, Hypatia, Democritus, Thales, Diogenes, Heraclitus, Epicurus, Parmenides
+  least familiar: Thrasymachus, Panaetius, Pherecydes of Syros, Diogenes of Apollonia, Prodicus, Arcesilaus, Speusippus, Strato of Lampsacus, Hippias of Elis, Menippus
+  legendary: Crates of Thebes
+  resolved to a different article: Porphyry -> Porphyry of Tyre (3rd-century Phoenician Neoplatonist philosopher)
+
+== hist-round-table-knight (36) textbook:3 tryhard:0 honours:8 rare:10 deep:13 legendary:2
+Name a Knight of the Round Table
+  most familiar: Segwarides, Lancelot, Mordred, Gawain, Galahad, Percival, Tristan, Bedivere, Bors, Kay, Gareth, Agravain
+  least familiar: Lionel, Dinadan, Sagramore, Griflet, Hector de Maris, Brunor, Elyan the White, Erec, Lucan, Bleoberis
+  no article (deep): Ector, Balin, Tor, Safir, Ironside
+  legendary: Dagonet, Dinadan
+  resolved to a different article: Percival -> Perceval (one of King Arthur's legendary Knights of the Round Table); Bors -> Bors (Two characters from Arthurian legend); Yvain -> Ywain (legendary Knight of the Round Table); Lucan -> Lucan (Arthurian legend) (arthurian legendary knight); Segwarides -> Knights of the Round Table (elite companions of King Arthur and order of chivalry in Arthurian romance)
+
+== hist-delhi-sultan (26) textbook:2 tryhard:0 honours:3 rare:5 deep:14 legendary:2
+Name a ruler of the Delhi Sultanate
+  most familiar: Razia Sultana, Qutb ud-Din Aibak, Alauddin Khalji, Muhammad bin Tughluq, Ibrahim Lodi, Iltutmish, Ghiyath al-Din Tughluq, Firuz Shah Tughlaq, Aram Shah, Bahlul Lodi, Sikandar Lodi, Khizr Khan
+  least familiar: Iltutmish, Ghiyath al-Din Tughluq, Firuz Shah Tughlaq, Aram Shah, Bahlul Lodi, Sikandar Lodi, Khizr Khan, Khusrau Khan, Alam Shah, Abu Bakr Shah
+  no article (deep): Rukn ud-Din Firuz, Muiz ud-Din Bahram, Ala ud-Din Masud, Nasir ud-Din Mahmud, Ghiyas ud-Din Balban, Muiz ud-Din Qaiqabad, Kayumars, Jalal ud-Din Khalji, Shihab ud-Din Umar, Qutb ud-Din Mubarak Shah, Tughlaq Shah II
+  legendary: Aram Shah, Alam Shah
+  resolved to a different article: Razia Sultana -> Razia Sultan (5th monarch of the Delhi Sultanate); Bahlul Lodi -> Bahlul Khan Lodi (29th Sultan of the Delhi Sultanate and 1st from the Lodi dynasty); Sikandar Lodi -> Sikandar Khan Lodi (Sultan of Delhi from 1489 to 1517); Ibrahim Lodi -> Ibrahim Khan Lodi (Sultan of the Delhi Sultanate from 1517 to 1526)
+
+== hist-viceroy-india (36) textbook:4 tryhard:0 honours:11 rare:10 deep:9 legendary:2
+Name a British Governor-General or Viceroy of India
+  most familiar: Lord Mountbatten, Charles Cornwallis, Lord Curzon, C. Rajagopalachari, Lord Irwin, Lord Wavell, Warren Hastings, Richard Wellesley, Charles Canning, Lord Dalhousie, William Bentinck, Lord Lytton
+  least familiar: Lord Auckland, Lord Mayo, Lord Ellenborough, Lord Elgin II, Charles Metcalfe, John Lawrence, John Shore, Lord Northbrook, George Barlow, John Adam
+  legendary: John Shore, John Adam
+  resolved to a different article: Lord Mountbatten -> Lord Mountbatten (British statesman and naval officer (1900-1979))
+
+== hist-greek-creature (45) textbook:5 tryhard:0 honours:12 rare:14 deep:12 legendary:2
+Name a monster or creature from Greek mythology
+  most familiar: Medusa, Titans, Phoenix, Nymph, Minotaur, Cerberus, Sphinx, Griffin, Siren, Chimera, Pegasus, Satyr
+  least familiar: Hippocampus, Cretan Bull, Stymphalian Birds, Orthrus, Ceryneian Hind, Empusa, Erymanthian Boar, Ophiotaurus, Colchian Dragon, Mares of Diomedes
+  legendary: Empusa, Ophiotaurus
+  resolved to a different article: Gorgon -> Gorgons (type of female creature in Greek mythology); Lamia -> Lamia (a female daemon who devoured children, usually described as having the upper body of a woman and lower half of a serpent); Giants -> Giants (Greek mythology) (Giants from Greek myth); Titans -> Titans (members of the second order of divine beings in Greek mythology); Nereid -> Nereids (sea nymphs in Greek mythology, daughters of Nereus); Colchian Dragon -> Dragons in Greek mythology (mythical snake-like reptiles from Greek mythology)
+
+== hist-trojan-war-figure (53) textbook:6 tryhard:0 honours:14 rare:17 deep:14 legendary:2
+Name a character from the Trojan War
+  most familiar: Odysseus, Achilles, Agamemnon, Helen of Troy, Paris, Aeneas, Menelaus, Cassandra, Clytemnestra, Hector, Ajax the Great, Patroclus
+  least familiar: Dolon, Rhesus, Glaucus, Podalirius, Automedon, Sarpedon, Euphorbus, Nireus, Antenor, Eurypylus
+  legendary: Nireus, Dolon
+  resolved to a different article: Memnon -> Memnon (mythical Ethiopian king, son of Tithonus and Eos); Helenus -> Helenus (son of Priam) (mythical son of Priam); Idomeneus -> Idomeneus (son of Deucalion) (Greek mythical character, King of Crete)
+
+== hist-greek-city (51) textbook:5 tryhard:0 honours:12 rare:17 deep:15 legendary:2
+Name a city or city-state of ancient Greece
+  most familiar: Troy, Sparta, Syracuse, Ephesus, Rhodes, Mycenae, Delphi, Byzantium, Olympia, Knossos, Thebes, Pergamon
+  least familiar: Lindos, Eretria, Plataea, Phocaea, Elis, Priene, Abdera, Mantinea, Olynthus, Potidaea
+  no article (deep): Argos, Croton, Colophon
+  legendary: Abdera, Sybaris
+  resolved to a different article: Eleusis -> Elefsina (modern city in West Attica, Greece); Naupactus -> Nafpaktos (town in Greece)
+
+== hist-mesoamerican-deity (46) textbook:5 tryhard:0 honours:11 rare:16 deep:12 legendary:2
+Name an Aztec, Maya or Inca god or goddess
+  most familiar: Quetzalcoatl, Huitzilopochtli, Tezcatlipoca, Tlaloc, Pachamama, Kukulkan, Viracocha, Illapa, Xolotl, Inti, Xipe Totec, Coatlicue
+  least familiar: Kinich Ahau, Supay, Cihuacoatl, Patecatl, Mayahuel, Ah Puch, Mama Cocha, Hun Hunahpu, Yum Kaax, Ek Chuaj
+  legendary: Ek Chuaj, Mayahuel
+  resolved to a different article: Quetzalcoatl -> Quetzalcōātl (deity in Mesoamerican culture and literature); Huitzilopochtli -> Huītzilōpōchtli (deity in Aztec mythology); Tlaloc -> Tláloc (Mexic Deity of water, rain, fertility and storms); Coatlicue -> Cōātlīcue (Aztec earth goddess); Coyolxauhqui -> Coyolxāuhqui (Aztec goddess); Xochiquetzal -> Xōchiquetzal (Mexic deity of beauty, flowers, loving pleasure, arts and love.); Mictlantecuhtli -> Mictlāntēcutli (Aztec death god); Mictecacihuatl -> Mictēcacihuātl (aztec deity); Centeotl -> Centeōtl (mexica god of maize); Tonatiuh -> Tōnatiuh (Aztec sun deity of the day sky); Ometeotl -> Ōmeteōtl (Aztec dual deity); Ah Puch -> Cizin (mayan god of death and earthquakes); Illapa -> Inca mythology (universe of legends and collective memory of the religion and worldview of the Inca Empire); Mama Cocha -> Mama Qucha (water deity); Ek Chuaj -> Ek Chuah (Maya god of cocoa); Tlazolteotl -> Tlazōlteōtl (goddess of sex in Aztec mythology); Chicomecoatl -> Chicomecōātl (aztec deity); Cihuacoatl -> Cihuacōātl (Aztec deity); Itzpapalotl -> Ītzpāpālōtl (goddess in Aztec mythology); Huehuecoyotl -> Huēhuecoyōtl (Aztec god of the arts, lord of music and ceremonial dance, guide of adulthood and adolescence)
+
+== hist-chinese-dynasty (39) textbook:4 tryhard:0 honours:10 rare:12 deep:11 legendary:2
+Name a Chinese dynasty
+  most familiar: Qing dynasty, Ming dynasty, Tang dynasty, Han dynasty, Yuan dynasty, Qin dynasty, Song dynasty, Zhou dynasty, Shang dynasty, Xia dynasty, Western Jin, Sui dynasty
+  least familiar: Eastern Zhou, Later Zhou, Northern Zhou, Western Wei, Later Jin, Northern Qi, Wu Zhou, Later Han (Five Dynasties), Eastern Wei, Southern Tang
+  legendary: Xin dynasty, Western Xia
+
+== hist-ottoman-sultan (36) textbook:5 tryhard:0 honours:8 rare:11 deep:10 legendary:2
+Name a sultan of the Ottoman Empire
+  most familiar: Suleiman the Magnificent, Mehmed II, Osman I, Selim I, Abdul Hamid II, Mehmed VI, Selim II, Bayezid II, Bayezid I, Murad III, Mahmud II, Murad II
+  least familiar: Abdul Hamid I, Ahmed III, Murad V, Mustafa II, Mahmud I, Mustafa III, Suleiman II, Ahmed II, Mustafa IV, Osman III
+  legendary: Mustafa I, Murad V
+  resolved to a different article: Mehmed II -> Mehmed II (seventh Sultan of the Ottoman Empire (1444–1446, 1451–1481)); Suleiman II -> Suleiman II (Ottoman sultan) (20th Sultan of the Ottoman Empire (1687–1691)); Abdulmejid I -> Abdülmecid I (31th Sultan of the Ottoman Empire (1839–1861))
+
+== hist-unesco-india (43) textbook:4 tryhard:0 honours:10 rare:13 deep:14 legendary:2
+Name a UNESCO World Heritage Site in India
+  most familiar: Taj Mahal, Ajanta Caves, Red Fort, Western Ghats, Qutb Minar, Fatehpur Sikri, Ellora Caves, Agra Fort, Hampi, Nalanda, Konark Sun Temple, Humayun's Tomb
+  least familiar: Mountain Railways of India, Mahabalipuram, Champaner-Pavagadh, Khangchendzonga National Park, Hoysala temples, Great Himalayan National Park, Capitol Complex Chandigarh, Victorian Gothic and Art Deco Ensembles of Mumbai, Churches and Convents of Goa, Nanda Devi National Park
+  no article (deep): Moidams, Jaipur City, Ahmedabad Historic City
+  legendary: Dholavira, Moidams
+  resolved to a different article: Sanchi -> Sanchi Stupa (Buddhist complex, famous for its Great Stupa, in Madhya Pradesh, India); Nalanda -> Nalanda mahavihara (ancient Hindu-Buddhist monastery in present-day Bihar, India); Chhatrapati Shivaji Terminus -> Chhatrapati Shivaji Terminus (railway station and UNESCO World Heritage Site in Mumbai); Capitol Complex Chandigarh -> Chandigarh Capitol Complex (UNESCO World Heritage Site in Chandigarh capital region, India)
+
+== hist-moonwalker (12) textbook:2 tryhard:0 honours:1 rare:3 deep:4 legendary:2
+Name an astronaut who walked on the Moon
+  most familiar: Neil Armstrong, Buzz Aldrin, Alan Shepard, Gene Cernan, John Young, Harrison Schmitt, Pete Conrad, Alan Bean, David Scott, Edgar Mitchell, Charles Duke, James Irwin
+  least familiar: Alan Shepard, Gene Cernan, John Young, Harrison Schmitt, Pete Conrad, Alan Bean, David Scott, Edgar Mitchell, Charles Duke, James Irwin
+  legendary: Alan Shepard, Harrison Schmitt
+
+== hist-first-lady (44) textbook:5 tryhard:0 honours:10 rare:16 deep:11 legendary:2
+Name a First Lady of the United States
+  most familiar: Melania Trump, Hillary Clinton, Michelle Obama, Eleanor Roosevelt, Jacqueline Kennedy, Laura Bush, Nancy Reagan, Barbara Bush, Jill Biden, Mary Todd Lincoln, Abigail Adams, Lady Bird Johnson
+  least familiar: Abigail Fillmore, Letitia Tyler, Ida McKinley, Sarah Polk, Jane Pierce, Anna Harrison, Margaret Taylor, Lucy Webb Hayes, Caroline Harrison, Hannah Van Buren
+  legendary: Letitia Tyler, Margaret Taylor
+  resolved to a different article: Letitia Tyler -> Letitia Christian Tyler (First Lady of the United States (1790–1842)); Julia Tyler -> Julia Gardiner Tyler (First Lady of the United States (1820–1889)); Sarah Polk -> Sarah Childress Polk (First Lady of the United States from 1845 to 1849); Eliza Johnson -> Eliza McCardle Johnson (First Lady of the United States from 1865 to 1869); Frances Folsom Cleveland -> Frances Cleveland (First Lady of the United States from 1886 to 1889 and 1893 to 1897); Ida McKinley -> Ida Saxton McKinley (First Lady of the United States from 1897 to 1901)
+
+== hist-vijayanagara-ruler (29) textbook:4 tryhard:0 honours:5 rare:9 deep:9 legendary:2
+Name a ruler of the Vijayanagara Empire
+  most familiar: Krishnadevaraya, Harihara I, Bukka Raya I, Sriranga III, Deva Raya II, Achyuta Deva Raya, Aliya Rama Raya, Harihara II, Deva Raya I, Tuluva Narasa Nayaka, Saluva Narasimha Deva Raya, Tirumala Deva Raya
+  least familiar: Venkata III, Venkata I, Sriranga I, Mallikarjuna Raya, Virupaksha Raya I, Narasimha Raya II, Ramachandra Raya, Bukka Raya II, Virupaksha Raya II, Vira Vijaya Bhupati
+  no article (deep): Vira Narasimha Raya, Vira Pratapa Deva Raya
+  legendary: Virupaksha Raya II, Rama Deva Raya
+  ambiguous aliases: praudha, rama
+  resolved to a different article: Virupaksha Raya I -> Virupaksha Raya (Indian emperor); Vira Vijaya Bhupati -> Veera Vijaya Bukka Raya (Vijayanagara emperor); Aliya Rama Raya -> Rama Raya (Vijayanagara emperor); Sriranga I -> Sriranga Deva Raya (Indian king); Venkata III -> Peda Venkata Raya (King of the Vijayanagara)
+
 == hist-greek-deity (82) textbook:8 tryhard:1 honours:20 rare:28 deep:24 legendary:1
 Name a god or goddess from Greek mythology
   most familiar: Zeus, Athena, Apollo, Aphrodite, Artemis, Dionysus, Hermes, Poseidon, Hera, Hades, Prometheus, Ares
@@ -152,6 +1129,225 @@ Name a play by William Shakespeare
   least familiar: Love's Labour's Lost, Cymbeline, King John, Henry VIII, Pericles, Prince of Tyre, Henry IV, Part 2, Henry VI, Part 1, The Two Noble Kinsmen, Henry VI, Part 2, Henry VI, Part 3
   legendary: The Two Noble Kinsmen
   ambiguous aliases: henry iv, henry vi
+
+== nat-india-mammal (55) textbook:6 tryhard:0 honours:13 rare:20 deep:14 legendary:2
+Name a wild mammal found in India
+  most familiar: Red panda, Wild boar, Snow leopard, Honey badger, Caracal, Bengal tiger, Asian elephant, Dugong, Golden jackal, Dhole, Asiatic lion, Asian black bear
+  least familiar: Bonnet macaque, Hanuman langur, Gangetic dolphin, Hoolock gibbon, Hog deer, Indian wild ass, Capped langur, Indian chevrotain, Kashmir musk deer, Indian muntjac
+  legendary: Four-horned antelope, Indian wild ass
+  resolved to a different article: Sambar -> Sambar deer (species of mammal); Hanuman langur -> Northern plains gray langur (species of mammal); Indian muntjac -> Northern red muntjac (species of mammal); Hog deer -> Axis (genus) (genus of mammals); Golden langur -> Gee's golden langur (species of mammal)
+
+== nat-india-bird (52) textbook:6 tryhard:0 honours:12 rare:18 deep:14 legendary:2
+Name a bird found in India
+  most familiar: House sparrow, Rock dove, Peacock, Red junglefowl, Black kite, Common kingfisher, Rose-ringed parakeet, Common myna, Hoopoe, Great cormorant, Greater flamingo, Indian roller
+  least familiar: Jungle babbler, Indian eagle-owl, Purple sunbird, Indian cormorant, Common iora, Forest owlet, Malabar pied hornbill, Jerdon's courser, Ashy prinia, Green bee-eater
+  legendary: Forest owlet, Jerdon's courser
+  resolved to a different article: Indian eagle-owl -> Indian eagle-owl (species of bird)
+
+== nat-india-snake (41) textbook:4 tryhard:0 honours:10 rare:15 deep:10 legendary:2
+Name a snake found in India
+  most familiar: King cobra, Reticulated python, Indian cobra, Russell's viper, Common krait, Burmese python, Indian rock python, Saw-scaled viper, Banded krait, Yellow-bellied sea snake, Indian rat snake, Checkered keelback
+  least familiar: Malabar pit viper, Streaked kukri snake, Olive keelback, Slender coral snake, Large-spotted cat snake, Common cat snake, Shieldtail snake, Black-headed snake, Beddome's cat snake, Indian smooth snake
+  legendary: Indian egg-eater, Shieldtail snake
+  resolved to a different article: Indian rock python -> Indian python (species of snake); Indian rat snake -> Oriental rat snake (species of reptile); Checkered keelback -> Checkered keelback (species of reptile); Indian egg-eater -> Indian egg-eating snake (species of reptile); Malabar pit viper -> Craspedocephalus malabaricus (species of snake); Olive keelback -> Atretium (genus of reptiles); Brahminy blind snake -> Indotyphlops braminus (species of reptile); Yellow-bellied sea snake -> Yellow-bellied sea snake (species of reptile); Common trinket snake -> Trinket snake (species of reptile); Indian smooth snake -> Wallophis (species of reptile); Striped keelback -> Buff striped keelback (species of snake); Common sand boa -> Eryx conicus (species of reptile)
+
+== nat-primate (67) textbook:6 tryhard:0 honours:16 rare:24 deep:19 legendary:2
+Name a primate (not a human)
+  most familiar: Gorilla, Orangutan, Chimpanzee, Bonobo, Baboon, Gibbon, Aye-aye, Mandrill, Galago, Rhesus macaque, Proboscis monkey, Japanese macaque
+  least familiar: Diana monkey, Verreaux's sifaka, Potto, Hanuman langur, Ruffed lemur, Titi monkey, Hoolock gibbon, Capped langur, Sloth lemur, Mangabey
+  legendary: Aye-aye, Muriqui
+  resolved to a different article: Crab-eating macaque -> Macaca fascicularis (species of mammal); Hanuman langur -> Northern plains gray langur (species of mammal); Golden langur -> Gee's golden langur (species of mammal); Drill -> Drill (animal) (species of primate); Patas monkey -> Common patas monkey (species of ground-dwelling monkey); Titi monkey -> Titi monkey (subfamily of New World monkeys)
+
+== nat-shark (57) textbook:6 tryhard:1 honours:12 rare:20 deep:16 legendary:2
+Name a type of shark
+  most familiar: Great white shark, Megalodon, Whale shark, Greenland shark, Tiger shark, Bull shark, Basking shark, Hammerhead shark, Goblin shark, Oceanic whitetip shark, Blue shark, Mako shark
+  least familiar: Kitefin shark, Prickly shark, Bamboo shark, Spinner shark, Velvet belly lanternshark, Pyjama shark, Smooth hound, Spadenose shark, Swell shark, Lantern shark
+  legendary: Cookiecutter shark, Ganges shark
+  resolved to a different article: Bamboo shark -> Hemiscylliidae (family of fishes); Smooth hound -> Smooth-hound (genus of fishes); Lantern shark -> Etmopterus (genus of fishes); Prickly shark -> Bramble shark (Echinorhinus brucus)
+
+== nat-whale-dolphin (56) textbook:6 tryhard:1 honours:13 rare:18 deep:16 legendary:2
+Name a whale, dolphin or porpoise
+  most familiar: Killer whale, Blue whale, Sperm whale, Narwhal, Humpback whale, Beluga, Bowhead whale, Fin whale, Yangtze river dolphin, Amazon river dolphin, Bottlenose dolphin, Grey whale
+  least familiar: Blainville's beaked whale, Pacific white-sided dolphin, Finless porpoise, Dall's porpoise, Spotted dolphin, Heaviside's dolphin, Chilean dolphin, Peale's dolphin, Maui dolphin, Burmeister's porpoise
+  legendary: Indus river dolphin, Omura's whale
+  resolved to a different article: Common dolphin -> Common dolphin (species of mammal); La Plata dolphin -> La Plata dolphin (species of mammal)
+
+== nat-fish (81) textbook:8 tryhard:0 honours:19 rare:29 deep:23 legendary:2
+Name a type of fish
+  most familiar: Seahorse, Eel, Catfish, Sunfish, Sturgeon, Anglerfish, Coelacanth, Goldfish, Swordfish, Salmon, Lamprey, Piranha
+  least familiar: Archerfish, Climbing perch, Sole, Sea bass, Swordtail, Pearlspot, Catla, Mrigal, Platy, Mahseer
+  legendary: Coelacanth, Archerfish
+  resolved to a different article: Mrigal -> Mrigal carp (species of fish); Hilsa -> Ilish (species of fish); Mahseer -> Torinae (subfamily of fishes); Clownfish -> Clownfish (subfamily of fishes); Swordtail -> Xiphophorus (genus of fishes); Stonefish -> Synanceia (genus of fishes); Pearlspot -> Green chromide (species of fish)
+
+== nat-insect (81) textbook:8 tryhard:0 honours:20 rare:29 deep:22 legendary:2
+Name an insect
+  most familiar: Mosquito, Ant, Butterfly, Praying mantis, Bee, Ladybird, Beetle, Moth, Dragonfly, Termite, Silverfish, Firefly
+  least familiar: Water boatman, Leafcutter ant, Leaf insect, Treehopper, Lantern fly, Mud dauber, Dobsonfly, Spittlebug, Cuckoo bee, Lacewing
+  legendary: Dobsonfly, Snakefly
+  resolved to a different article: Lacewing -> Hemerobiiformia (suborder of insects); Horsefly -> Tabanidae (family of flies); Assassin bug -> Reduviidae (family of insects); Mud dauber -> Sceliphrini (tribe of insects); Weaver ant -> Weaver ant (genus of insects); Rhinoceros beetle -> Dynastinae (subfamily of beetles); Goliath beetle -> Goliathus (genus of insects); Hercules beetle -> Hercules beetle (species of rhinoceros beetle); Longhorn beetle -> Longhorn beetle (family of wood-boring beetles with long antennae); Click beetle -> Click beetle (family of beetles); Bagworm -> Bagworm moth (family of insects); Giant weta -> Wētā (informal group of insects); Scorpionfly -> Mecoptera (order of insects)
+
+== nat-butterfly (74) textbook:7 tryhard:0 honours:19 rare:24 deep:22 legendary:2
+Name a species of butterfly
+  most familiar: Monarch, Red admiral, Swallowtail, Cabbage white, Painted lady, Peacock butterfly, Camberwell beauty, Queen Alexandra's birdwing, Small tortoiseshell, Brimstone, Large blue, Purple emperor
+  least familiar: Common cerulean, Common castor, Common bush brown, Grass demon, Indian sunbeam, Gram blue, Common banded awl, Tailless line blue, Indian skipper, Common Indian skipper
+  legendary: Kaiser-i-Hind, Bhutan glory
+  resolved to a different article: Small tortoiseshell -> Small tortoiseshell (species of insect); Common Mormon -> Common Mormon (species of insect); Blue Mormon -> Papilio agenor polymnestor (subspecies of insect); Plains cupid -> Luthrodes pandava (species of insect); Grass demon -> Ancistroides folus (species of insect); Common Indian skipper -> Parnara guttata (species of insect); Owl butterfly -> Owl butterfly (genus of insects); Queen Alexandra's birdwing -> Queen Alexandra's birdwing (species of insect); Apollo -> Apollo (butterfly) (species of butterfly); Large blue -> Large blue (species of insect); Holly blue -> Holly blue (species of insect); Scarce swallowtail -> Scarce swallowtail (species of butterfly of the family Papilionidae); Bhutan glory -> Bhutanitis lidderdalii (species of insect)
+
+== nat-arachnid (60) textbook:5 tryhard:0 honours:15 rare:21 deep:17 legendary:2
+Name a spider, scorpion or other arachnid
+  most familiar: Scorpion, Tarantula, Camel spider, Harvestman, Wolf spider, Black widow, Tick, Jumping spider, Huntsman spider, Orb-weaver, Cellar spider, Goliath birdeater
+  least familiar: Indian ornamental tree spider, Mexican redknee tarantula, Peacock tarantula, Trapdoor spider, Bolas spider, Net-casting spider, Spitting spider, Bird-dropping spider, Spiny-backed spider, Giant house spider
+  legendary: Bolas spider, Camel spider
+  resolved to a different article: Goliath birdeater -> Goliath birdeater (species of tarantula from South America); Giant huntsman spider -> Giant huntsman spider (Large cave dwelling arachnid); Crab spider -> Thomisidae (family of arachnids); Zebra spider -> Zebra spider (species of arachnid); Water spider -> Diving bell spider (species of arachnid); Hobo spider -> Hobo spider (species of Arachnida); Harvestman -> Opiliones (order of arachnids); Deathstalker -> Deathstalker (species of arachnid); Giant forest scorpion -> Gigantometrus swammerdami (species of scorpions); Bark scorpion -> Arizona bark scorpion (species of arachnid); Spider mite -> Spider mite (family of arthropods); Woodlouse spider -> Woodlouse spider (species of spider); Spiny-backed spider -> Austracantha (genus of arachnids)
+
+== nat-lizard (56) textbook:6 tryhard:0 honours:13 rare:19 deep:16 legendary:2
+Name a lizard
+  most familiar: Komodo dragon, Monitor lizard, Chameleon, Tuatara, Basilisk, Gila monster, Skink, Slow worm, Green iguana, Water monitor, Marine iguana, Tokay gecko
+  least familiar: Sungazer, Leaf-tailed gecko, Caiman lizard, Cnemidophorus, Flying gecko, Alligator lizard, Glass lizard, Whiptail, Fan-throated lizard, Collared lizard
+  legendary: Thorny devil, Sungazer
+  resolved to a different article: Bearded dragon -> Pogona (genus of reptiles); Frilled lizard -> Frilled lizard (species of lizard); Water monitor -> Asian water monitor (species of reptile); Flying dragon -> Draco (lizard) (genus of reptiles); Calotes -> Oriental garden lizard (species of reptile); Horned lizard -> Horned lizard (genus of reptiles); Slow worm -> Common slow worm (species of reptile); Glass lizard -> Anguinae (subfamily of reptiles); Agama -> Agama (lizard) (genus of reptiles); Common wall lizard -> Podarcis muralis (species of reptile); Ocellated lizard -> Ocellated lizard (species of reptile); Caiman lizard -> Dracaena (lizard) (genus of reptiles); Shingleback -> Tiliqua rugosa (species of reptile); Sungazer -> Giant girdled lizard (species of reptile)
+
+== nat-amphibian (66) textbook:6 tryhard:0 honours:17 rare:21 deep:20 legendary:2
+Name a frog, toad or other amphibian
+  most familiar: Axolotl, Salamander, Caecilian, Poison dart frog, Olm, Cane toad, Fire salamander, Bullfrog, Common toad, Red-eyed tree frog, Golden poison frog, Giant salamander
+  least familiar: Barking tree frog, Indian dancing frog, Fungoid frog, Ceylon caecilian, Bicolored frog, Malabar gliding frog, Night frog, Bush frog, Skipper frog, Burrowing frog
+  legendary: Purple frog, Olm
+  ambiguous aliases: common
+  resolved to a different article: Indian bullfrog -> Hoplobatrachus tigerinus (species of amphibian); Blue poison dart frog -> Dyeing poison dart frog (species of amphibian); Common Indian toad -> Duttaphrynus melanostictus (species of Amphibia); Surinam toad -> Common Surinam toad (species of amphibian); Spadefoot toad -> American spadefoot toad (family of amphibians); Barking tree frog -> Dryophytes gratiosus (species of amphibian); Water-holding frog -> Water-holding frog (species of Amphibia); Corroboree frog -> Southern corroboree frog (species of amphibian); Flying frog -> Wallace's flying frog (species of amphibian); Burrowing frog -> Indian burrowing frog (species of amphibian); Great crested newt -> Northern crested newt (species of amphibian); Hairy frog -> Hairy frog (species of amphibian)
+
+== nat-bird-of-prey (70) textbook:7 tryhard:0 honours:18 rare:24 deep:19 legendary:2
+Name a bird of prey
+  most familiar: Owl, Peregrine falcon, Golden eagle, Eagle, Osprey, Falcon, Bald eagle, Lammergeier, Vulture, Kestrel, Andean condor, Buzzard
+  least familiar: Caracara, Changeable hawk-eagle, Palm-nut vulture, Red-headed vulture, Goshawk, Swallow-tailed kite, Red-necked falcon, Snail kite, Laggar falcon, White-eyed buzzard
+  legendary: Laggar falcon, Bateleur
+  resolved to a different article: Griffon vulture -> Eurasian griffon vulture (species of bird)
+
+== nat-parrot (62) textbook:5 tryhard:1 honours:15 rare:20 deep:19 legendary:2
+Name a parrot, parakeet or cockatoo
+  most familiar: Cockatoo, Budgerigar, Kakapo, Cockatiel, Rose-ringed parakeet, Lovebird, African grey parrot, Kea, Scarlet macaw, Blue-and-yellow macaw, Hyacinth macaw, Sulphur-crested cockatoo
+  least familiar: Princess parrot, Malabar parakeet, Slaty-headed parakeet, Lorikeet, Ground parrot, Derbyan parakeet, Mulga parrot, Rock parrot, Fig parrot, Layard's parakeet
+  legendary: Kakapo, Pesquet's parrot
+  resolved to a different article: Green-winged macaw -> Red-and-green macaw (species of bird); Malabar parakeet -> Blue-winged parakeet (species of bird); Derbyan parakeet -> Lord Derby's parakeet (species of bird); Sun conure -> Sun conure (species of bird); Eclectus parrot -> Eclectus (genus of parrot); Kakapo -> Kākāpō (species of non-flying New Zealand parrot); Lorikeet -> Loriini (tribe of birds); Hanging parrot -> Hanging parrot (genus of birds); Major Mitchell's cockatoo -> Pink cockatoo (species of cockatoo)
+
+== nat-owl (58) textbook:6 tryhard:0 honours:13 rare:20 deep:17 legendary:2
+Name a species of owl
+  most familiar: Eurasian eagle-owl, Snowy owl, Little owl, Tawny owl, Great horned owl, Long-eared owl, Burrowing owl, Great grey owl, Short-eared owl, Barred owl, Hawk owl, Blakiston's fish owl
+  least familiar: Hume's owl, Flammulated owl, Northern pygmy owl, African wood owl, Ferruginous pygmy owl, Jungle owlet, Pearl-spotted owlet, Rufous owl, Collared scops owl, Whiskered screech owl
+  legendary: Forest owlet, Blakiston's fish owl
+  resolved to a different article: Barred owlet -> Asian barred owlet (species of bird); Rock eagle-owl -> Indian eagle-owl (species of bird); Sooty owl -> Greater sooty owl (species of bird); Boobook -> Australian boobook (species of bird); Madagascar red owl -> Red owl (species of bird); White-faced scops owl -> Northern white-faced owl (species of bird); Hume's owl -> Omani owl (species of bird)
+
+== nat-duck (68) textbook:7 tryhard:0 honours:17 rare:24 deep:18 legendary:2
+Name a duck, goose or swan
+  most familiar: Mallard, Mute swan, Greylag goose, Canada goose, Black swan, Mandarin duck, Whooper swan, Teal, Pintail, Muscovy duck, Goosander, Snow goose
+  least familiar: White-winged duck, Marbled teal, Blue duck, Canvasback, Redhead, Cotton pygmy goose, Torrent duck, Falcated duck, Steamer duck, Bean goose
+  legendary: White-winged duck, Pink-headed duck
+  resolved to a different article: Redhead -> Redhead (bird) (species of bird); Hawaiian goose -> Nene (bird) (species of bird)
+
+== nat-marsupial (60) textbook:6 tryhard:0 honours:14 rare:20 deep:18 legendary:2
+Name a marsupial
+  most familiar: Thylacine, Kangaroo, Tasmanian devil, Koala, Quokka, Wombat, Virginia opossum, Wallaby, Sugar glider, Numbat, Tree-kangaroo, Eastern grey kangaroo
+  least familiar: Cuscus, Wallaroo, Southern brown bandicoot, Bridled nail-tail wallaby, Squirrel glider, Short-tailed opossum, Kultarr, Long-nosed potoroo, Mulgara, Parma wallaby
+  legendary: Numbat, Monito del monte
+  resolved to a different article: Quoll -> Tiger quoll (carnivorous marsupial native to Australia)
+
+== nat-savanna (72) textbook:7 tryhard:0 honours:17 rare:25 deep:21 legendary:2
+Name an animal of the African savanna
+  most familiar: Lion, Hippopotamus, Leopard, Cheetah, Caracal, Honey badger, Aardvark, Giraffe, Serval, African wild dog, Meerkat, African elephant
+  least familiar: Ground pangolin, Ground hornbill, Patas monkey, Side-striped jackal, Leopard tortoise, Grant's gazelle, Steenbok, Topi, Dwarf mongoose, Springhare
+  legendary: Aardwolf, Springhare
+  resolved to a different article: Dwarf mongoose -> Common dwarf mongoose (species of mammal); Springhare -> Pedetes (genus of mammals); Patas monkey -> Common patas monkey (species of ground-dwelling monkey); Helmeted guineafowl -> Helmeted guinea fowl (species of bird); African rock python -> Central African rock python (species of reptile)
+
+== nat-marine-invertebrate (75) textbook:8 tryhard:0 honours:18 rare:25 deep:22 legendary:2
+Name a sea animal without a backbone
+  most familiar: Octopus, Jellyfish, Squid, Sea sponge, Coral, Sea urchin, Starfish, Coconut crab, Barnacle, Lobster, Mantis shrimp, Sea cucumber
+  least familiar: Sea pen, Sea hare, Feather duster worm, Staghorn coral, Elkhorn coral, Lobster krill, Tube worm, Barrel sponge, Brain coral, Lugworm
+  legendary: Immortal jellyfish, Blue dragon
+  resolved to a different article: Dumbo octopus -> Grimpoteuthis (genus of molluscs); Sea fan -> Alcyonacea (order of cnidarians); Sea sponge -> Sponge (phylum of animals); Barrel sponge -> Giant barrel sponge (species of sponge); Sea hare -> Aplysiida (order of molluscs); Tube worm -> Riftia (genus of annelids); Lugworm -> Arenicola (genus of annelids); Sea pen -> Sea pen (superfamily of cnidarians)
+
+== nat-cattle-breed (70) textbook:7 tryhard:0 honours:18 rare:22 deep:21 legendary:2
+Name a breed of cattle
+  most familiar: Taurine, Zebu, Holstein Friesian, Highland, Wagyu, Aberdeen Angus, Jersey, Brahman, Hereford, Kobe, Longhorn, Charolais
+  least familiar: Krishna Valley, Malnad Gidda, Sussex, Bargur, Gloucester, Dangi, Umblachery, Lincoln Red, Pulikulam, Bhagnari
+  legendary: Punganur, Vechur
+  resolved to a different article: Holstein Friesian -> Holstein Friesian (group of breeds of cattle); Brown Swiss -> Brown Swiss cattle (cattle breed); Brahman -> American Brahman (cattle breed); Gir -> Gyr cattle (cattle breed); Kankrej -> Kankrej (breed of Zebu cattle); Amrit Mahal -> Amrit Mahal (cattle breed); Krishna Valley -> Krishna Valley (cattle breed); Umblachery -> Umblachery (cattle breed); Pulikulam -> Pulikulam (breed of cattle); Devon -> North Devon cattle (cattle breed); Gloucester -> Old Gloucester (cattle breed); British White -> British White cattle (cattle breed); Normande -> Normande (cattle breed); Taurine -> Cattle (large, domesticated, cloven-hooved herbivores)
+
+== nat-baby-animal (57) textbook:12 tryhard:0 honours:14 rare:19 deep:10 legendary:2
+Name a word for a baby animal
+  legendary: Cria, Eyas
+
+== nat-collective-noun (96) textbook:11 tryhard:0 honours:20 rare:46 deep:17 legendary:2
+Name a collective noun for a group of animals
+  legendary: Implausibility, Pandemonium
+
+== nat-india-tree (61) textbook:6 tryhard:0 honours:15 rare:21 deep:17 legendary:2
+Name a tree found in India
+  most familiar: Banana, Pomegranate, Date palm, Cashew, Lemon, Tamarind, Mango, Jackfruit, Papaya, Eucalyptus, Mulberry, Bamboo
+  least familiar: Siris, Chir pine, Arjuna, Hog plum, Rhododendron, Pterocarpus, Rudraksha, Mangrove, Pongamia, Himalayan oak
+  legendary: Mahua, Cannonball tree
+  resolved to a different article: Sapota -> Manilkara zapota (evergreen tree); Tulsi -> Ocimum tenuiflorum (Type of basil); Mulberry -> Morus (plant) (genus of plants); Rudraksha -> Elaeocarpus angustifolius (species of plant)
+
+== nat-flower (75) textbook:9 tryhard:1 honours:17 rare:26 deep:20 legendary:2
+Name a type of flower
+  most familiar: Rose, Chrysanthemum, Orchid, Lotus, Sunflower, Lily, Tulip, Hibiscus, Lily of the valley, Daffodil, Jasmine, Dandelion
+  least familiar: Balsam, Brahma Kamal, Amaryllis, Tuberose, Bluebell, Freesia, Hollyhock, Plumbago, Crossandra, Blue poppy
+  legendary: Kurinji, Brahma Kamal
+  resolved to a different article: Hyacinth -> Hyacinth (genus of flowering plants); Lily of the valley -> Lily of the valley (species of plant)
+
+== nat-houseplant (54) textbook:5 tryhard:0 honours:14 rare:18 deep:15 legendary:2
+Name a houseplant
+  most familiar: Aloe vera, Venus flytrap, Basil, Bonsai, Mint, Yucca, Monstera, Money plant, Anthurium, English ivy, Cyclamen, Jade plant
+  least familiar: Boston fern, Areca palm, Ponytail palm, Bird's nest fern, Maranta, Nerve plant, Rosemary, Kentia palm, Polka dot plant, String of pearls
+  legendary: Pilea, Mother of thousands
+  resolved to a different article: Areca palm -> Chrysalidocarpus lutescens (species of plant); Basil -> Basil (species of plant, herb)
+
+== nat-succulent (61) textbook:7 tryhard:0 honours:13 rare:23 deep:16 legendary:2
+Name a cactus or succulent
+  most familiar: Dragon fruit, Baobab, Aloe vera, Prickly pear, Agave, Saguaro, Peyote, Kalanchoe, Yucca, Sisal, Jade plant, Cotyledon
+  least familiar: String of hearts, Easter cactus, Organ pipe cactus, Hoodia, Bishop's cap cactus, Fairy castle cactus, Indian spurge tree, Rat tail cactus, Totem pole cactus, Pachyphytum
+  legendary: Lithops, Welwitschia
+  resolved to a different article: Golden barrel cactus -> Kroenleinia grusonii (species of plant in the family Cactaceae); Organ pipe cactus -> Stenocereus thurberi (species of plant); Easter cactus -> Rhipsalidopsis gaertneri (species of cactus); Dragon fruit -> Dragon fruit (fruit of several cactus species); Fishbone cactus -> Disocactus anguliger (species of cactus); Rat tail cactus -> Aporocactus flagelliformis (species of plant); Totem pole cactus -> Lophocereus schottii (species of plant); Blue agave -> Blue agave (species of plant); Sisal -> Sisal (species of plant)
+
+== nat-horse-breed (68) textbook:7 tryhard:0 honours:17 rare:23 deep:19 legendary:2
+Name a breed of horse
+  most familiar: Przewalski's horse, Arabian, Thoroughbred, Mustang, Friesian, Appaloosa, Akhal-Teke, Lipizzan, Clydesdale, Andalusian, Quarter Horse, Icelandic
+  least familiar: Kladruber, Waler, Zanskari pony, Peruvian Paso, Dales pony, Mangalarga Marchador, Camarillo White Horse, Manipuri pony, Spiti pony, Deccani horse
+  legendary: Marwari, Zanskari pony
+  resolved to a different article: Mustang -> Mustang (feral domestic horse); Oldenburg -> Oldenburger (horse breed); Zanskari pony -> Zaniskari (Indian breed of horse from Ladakh); Deccani horse -> Bhimthadi (horse breed from India); Gypsy Vanner -> Gypsy horse (horse breed); Don horse -> Russian Don (horse breed); Waler -> Waler (Horse breed that orignated in New South Wales, Australia)
+
+== nat-cat-breed (68) textbook:7 tryhard:0 honours:17 rare:23 deep:19 legendary:2
+Name a breed of domestic cat
+  most familiar: Siamese, Maine Coon, Bengal, Persian, Abyssinian, Ragdoll, British Shorthair, Sphynx, Manx, Turkish Angora, Russian Blue, Siberian
+  least familiar: Australian Mist, Arabian Mau, Napoleon, Serengeti, Sokoke, Javanese, Ojos Azules, Tiffanie, Ukrainian Levkoy, Minskin
+  legendary: Khao Manee, Lykoi
+  resolved to a different article: Chartreux -> Chartreux (cat breed); Tiffanie -> Tiffanie (cat breed originating from the UK)
+
+== nat-extinct (71) textbook:7 tryhard:0 honours:18 rare:24 deep:20 legendary:2
+Name an extinct animal
+  most familiar: Dodo, Thylacine, Megalodon, Aurochs, Passenger pigeon, Saber-toothed cat, Moa, Archaeopteryx, Trilobite, Woolly mammoth, Great auk, Titanoboa
+  least familiar: Huia, Cape lion, Labrador duck, Himalayan quail, Ambulocetus, Sivatherium, Gomphotherium, Heath hen, Stephens Island wren, Western black rhinoceros
+  legendary: Sivatherium, Hallucigenia
+  resolved to a different article: Megalania -> Megalania (species of reptile); Stephens Island wren -> Lyall's wren (species of bird)
+
+== nat-deep-sea (53) textbook:5 tryhard:0 honours:14 rare:17 deep:15 legendary:2
+Name an animal of the deep sea
+  most familiar: Sperm whale, Comb jelly, Coelacanth, Anglerfish, Greenland shark, Hagfish, Leatherback turtle, Colossal squid, Sea lily, Elephant seal, Oarfish, Deep-sea spider crab
+  least familiar: Pompeii worm, Deep-sea jellyfish, Deep-sea coral, Yeti crab, Grenadier, Tripod fish, Hatchetfish, Glowing sucker octopus, Cock-eyed squid, Vent shrimp
+  legendary: Pompeii worm, Black swallower
+  resolved to a different article: Dumbo octopus -> Grimpoteuthis (genus of molluscs); Fangtooth -> Fangtooth (genus of fishes); Giant tube worm -> Riftia (genus of annelids); Yeti crab -> Kiwa (crustacean) (genus of crabs); Deep-sea jellyfish -> Atolla jellyfish (species of cnidarian); Bigfin squid -> Bigfin squid (genus of Cephalopoda); Black swallower -> Black swallower (species of fish); Humpback anglerfish -> Humpback anglerfish (species of deep sea fish); Grenadier -> Grenadiers (fish) (subfamily of fishes); Deep-sea spider crab -> Japanese spider crab (species of crab); Deep-sea coral -> Deep-water coral (Marine invertebrates); Glass sponge -> Hexactinellid (class of sponges)
+
+== nat-polar-animal (59) textbook:8 tryhard:0 honours:13 rare:20 deep:17 legendary:1
+Name an animal that lives in the Arctic or Antarctic
+  most familiar: Polar bear, Orca, Blue whale, Wolverine, Reindeer, Walrus, Stoat, Tardigrade, Narwhal, Arctic fox, Humpback whale, Beluga whale
+  least familiar: Antarctic toothfish, Icefish, Antarctic midge, Snow petrel, Minke whale, Arctic ground squirrel, Snowy sheathbill, Spectacled eider, Svalbard reindeer, Arctic cod
+  legendary: Antarctic midge
+  resolved to a different article: Wandering albatross -> Snowy albatross (species of bird); Arctic cod -> Boreogadus (genus of fishes)
+
+== nat-turtle (58) textbook:6 tryhard:0 honours:14 rare:20 deep:16 legendary:2
+Name a turtle or tortoise
+  most familiar: Green sea turtle, Leatherback, Loggerhead, Hawksbill, Alligator snapping turtle, Red-eared slider, Olive ridley, Galápagos tortoise, Aldabra giant tortoise, Hermann's tortoise, Snapping turtle, Painted turtle
+  least familiar: Map turtle, Mud turtle, Giant Asian pond turtle, Indian roofed turtle, Red-crowned roofed turtle, Travancore tortoise, Crowned river turtle, Loggerhead musk turtle, Three-striped roofed turtle, Indian tent turtle
+  legendary: Ploughshare tortoise, Indian roofed turtle
+  resolved to a different article: Russian tortoise -> Central Asian tortoise (species of reptile); Ploughshare tortoise -> Angonoka tortoise (species of reptile); Egyptian tortoise -> Kleinmann's tortoise (species of reptile); Map turtle -> Graptemys (genus of reptiles); Musk turtle -> Sternotherus odoratus (species of reptile); Mud turtle -> Kinosternon (genus of reptiles); Crowned river turtle -> Brahminy river turtle (species of reptile)
 
 == nat-penguin (18) textbook:2 tryhard:0 honours:4 rare:7 deep:4 legendary:1
 Name a species of penguin
@@ -188,6 +1384,235 @@ Name a subject taught at school
 Name something you might find in a school bag
   legendary: French curve
 
+== sci-constellation (88) textbook:9 tryhard:1 honours:21 rare:30 deep:25 legendary:2
+Name a constellation
+  most familiar: Orion, Ursa Major, Gemini, Sagittarius, Taurus, Ursa Minor, Leo, Scorpius, Virgo, Crux, Capricornus, Cygnus
+  least familiar: Tucana, Pictor, Indus, Volans, Mensa, Triangulum Australe, Microscopium, Norma, Telescopium, Pyxis
+  legendary: Antlia, Mensa
+  resolved to a different article: Eridanus -> Eridanus (constellation in the southern hemisphere)
+
+== sci-organ (62) textbook:6 tryhard:0 honours:16 rare:21 deep:18 legendary:1
+Name an organ of the human body
+  most familiar: Heart, Vagina, Liver, Penis, Pancreas, Testis, Lungs, Spleen, Gallbladder, Uterus, Hair, Prostate
+  least familiar: Mammary gland, Salivary gland, Cecum, Ureter, Cochlea, Jejunum, Ileum, Nose, Mesentery, Pleura
+  legendary: Mesentery
+  resolved to a different article: Bladder -> Bladder (internal organ of humans and vertebrates); Pleura -> Pleura (serous membrane that lines the wall of thoracic cavity and the surface of lung)
+
+== sci-muscle (55) textbook:6 tryhard:0 honours:13 rare:20 deep:15 legendary:1
+Name a muscle in the human body
+  most familiar: Skeletal muscle, Biceps, Deltoid, Diaphragm, Latissimus dorsi, Trapezius, Gluteus maximus, Quadriceps, Cardiac muscle, Triceps, Sternocleidomastoid, Smooth muscle
+  least familiar: Rectus femoris, Transversus abdominis, Buccinator, Pectineus, Flexor carpi radialis, Zygomaticus major, Adductor magnus, Orbicularis oris, Frontalis, Intercostal muscles
+  legendary: Stapedius
+  resolved to a different article: Gluteus medius -> Gluteus medius (one of the three gluteal muscles); Quadriceps -> Quadriceps (leg muscle); Brachioradialis -> Brachioradialis (muscle of the upper limb); Platysma -> Platysma muscle (Human neck muscle); Intercostal muscles -> Intercostal muscles (no description); Buccinator -> Bucinator muscle (muscle of face)
+
+== sci-vitamin-mineral (32) textbook:3 tryhard:0 honours:8 rare:10 deep:10 legendary:1
+Name a vitamin or a mineral that the body needs
+  most familiar: Iron, Copper, Sulfur, Sodium, Potassium, Magnesium, Zinc, Phosphorus, Cobalt, Iodine, Chromium, Calcium
+  least familiar: Vitamin B2, Vitamin B7, Vitamin B complex, Vitamin E, Choline, Chloride, Vitamin B6, Fluoride, Vitamin B5, Vitamin B3
+  legendary: Molybdenum
+  resolved to a different article: Vitamin B3 -> Nicotinic acid (chemical compound: acid form of vitamin B3); Vitamin B complex -> B vitamins (group of vitamins)
+
+== sci-si-unit (29) textbook:4 tryhard:0 honours:6 rare:11 deep:7 legendary:1
+Name an SI unit
+  most familiar: Kelvin, Metre, Joule, Degree Celsius, Second, Newton, Mole, Watt, Kilogram, Ampere, Pascal, Volt
+  least familiar: Tesla, Becquerel, Sievert, Steradian, Gray, Henry, Lux, Siemens, Weber, Katal
+  legendary: Katal
+  ambiguous aliases: c
+  resolved to a different article: Ohm -> Ohm (SI derived unit of electrical resistance); Lux -> Lux (SI unit of illuminance)
+
+== sci-star (98) textbook:10 tryhard:1 honours:23 rare:34 deep:29 legendary:1
+Name a star (other than the Sun)
+  most familiar: Sirius, Betelgeuse, Polaris, Alpha Centauri, Proxima Centauri, Vega, Rigel, Aldebaran, Arcturus, Antares, TRAPPIST-1, Canopus
+  least familiar: Rukbat, Ankaa, Alfirk, Vindemiatrix, Algorab, Sabik, Ruchbah, Segin, Ascella, Kraz
+  legendary: Tabby's Star
+  resolved to a different article: Mimosa -> Mimosa (star) (star in the constellation Crux); Shaula -> Lambda Scorpii (star system in the constellation Scorpius); Rasalhague -> Alpha Ophiuchi (star in the constellation Ophiuchus); Enif -> Epsilon Pegasi (star in the northern constellation of Pegasus); Scheat -> Beta Pegasi (star in the constellation Pegasus); Algenib -> Gamma Pegasi (variable star in the constellation Pegasus); Almach -> Gamma Andromedae (multiple star system in the constellation Andromeda); Menkar -> Alpha Ceti (star in the constellation Cetus); Elnath -> Beta Tauri (star in the constellation Taurus); Alhena -> Gamma Geminorum (star in the constellation Gemini); Mirfak -> Alpha Persei (star in the constellation Perseus); Sheliak -> Beta Lyrae (multiple star system in the constellation of Lyra); Tabby's Star -> Tabby's Star (binary system in the constellation Cygnus); Stephenson 2-18 -> Stephenson 2 DFK 1 (Red supergiant or hypergiant within the open cluster Stephenson 2); Zubenelgenubi -> Alpha Librae (star in the constellation Libra); Zubeneschamali -> Beta Librae (star in the zodiac constellation of Libra); Alderamin -> Alpha Cephei (star in the constellation of Cepheus); Alfirk -> Beta Cephei (star in the constellation Cepheus); Diphda -> Beta Ceti (star in the constellation Cetus); Ankaa -> Alpha Phoenicis (star in the constellation Phoenix); Schedar -> Alpha Cassiopeiae (star in the constellation Cassiopeia); Caph -> Beta Cassiopeiae (star in the constellation Cassiopeia); Ruchbah -> Delta Cassiopeiae (star in constellation of Cassiopeia); Unukalhai -> Alpha Serpentis (star); Vindemiatrix -> Epsilon Virginis (star in the zodiac constellation of Virgo); Algorab -> Delta Corvi (binary star in the southern constellation Corvus); Sabik -> Eta Ophiuchi (star in the constellation Ophiuchus); Nunki -> Sigma Sagittarii (star in the constellation Sagittarius); Kaus Australis -> Epsilon Sagittarii (binary star system in the constellation Sagittarius); Ascella -> Zeta Sagittarii (star system in the constellation Sagittarius); Rukbat -> Alpha Sagittarii (star)
+
+== sci-gas (53) textbook:5 tryhard:1 honours:13 rare:18 deep:15 legendary:1
+Name a gas
+  most familiar: Hydrogen, Oxygen, Helium, Nitrogen, Chlorine, Ammonia, Carbon dioxide, Argon, Neon, Radon, Methane, Fluorine
+  least familiar: Syngas, Isobutane, Dimethyl ether, Coal gas, Silane, Arsine, Diborane, Carbonyl sulfide, Marsh gas, Producer gas
+  legendary: Methyl isocyanate
+  resolved to a different article: Mustard gas -> Mustard gas (chemical compound)
+
+== sci-acid (53) textbook:5 tryhard:0 honours:14 rare:17 deep:16 legendary:1
+Name an acid
+  most familiar: Amino acid, Acetylsalicylic acid, Sulfuric acid, Acetic acid, Ascorbic acid, Hydrochloric acid, Citric acid, Nitric acid, Lactic acid, Hydrocyanic acid, Nucleic acid, Folic acid
+  least familiar: Tannic acid, Gallic acid, Chloric acid, Abscisic acid, Triflic acid, Sorbic acid, Humic acid, Hydroiodic acid, Gibberellic acid, Carborane acid
+  legendary: Fluoroantimonic acid
+  resolved to a different article: Humic acid -> Humic substance (organic compounds that are important components of humus)
+
+== sci-alloy (58) textbook:6 tryhard:1 honours:14 rare:19 deep:16 legendary:2
+Name an alloy
+  most familiar: Steel, Brass, Bronze, Stainless steel, Cast iron, Damascus steel, Electrum, Wrought iron, Pewter, Duralumin, Amalgam, Solder
+  least familiar: Pot metal, Bell metal, Shibuichi, Kovar, Vitallium, Pinchbeck, Hastelloy, Sheffield plate, Y alloy, Terne
+  legendary: Wootz steel, Panchaloha
+  resolved to a different article: Nitinol -> Nickel titanium (metal alloy of nickel and titanium, where the two elements are present in roughly equal atomic percentages); Hastelloy -> Haynes International (producer of corrosion-resistant and high-temperature alloys); Rose gold -> Colored gold (various colours of gold obtained by alloying gold with other elements); Sheffield plate -> Old Sheffield Plate (in metalwork, articles made of copper coated with silver by fusion); Titanium alloy -> Titanium alloys (metal alloy with titanium as its principal component)
+
+== sci-cloud (35) textbook:4 tryhard:0 honours:8 rare:12 deep:10 legendary:1
+Name a type of cloud
+  most familiar: Cumulonimbus, Fog, Cirrus, Cumulus, Mist, Noctilucent, Contrail, Stratus, Lenticular, Haboob, Nimbus, Mammatus
+  least familiar: Pyrocumulus, Cumulus congestus, Funnel cloud, Mare's tails, Pileus, Wall cloud, Cumulus humilis, Fractus, Altocumulus castellanus, Cloud street
+  legendary: Asperitas
+  resolved to a different article: Nimbus -> Nimbostratus cloud (genus of clouds); Pyrocumulus -> Flammagenitus cloud (cloud that forms from large fires or explosions); Cloud street -> Horizontal convective rolls (long rolls of counter-rotating air); Altocumulus castellanus -> Altocumulus castellanus cloud (cloud species)
+
+== sci-weather (66) textbook:7 tryhard:0 honours:16 rare:23 deep:18 legendary:2
+Name a weather event or phenomenon
+  most familiar: Tornado, Rainbow, Hurricane, Aurora, Lightning, Snow, Rain, Fog, Flood, Monsoon, St. Elmo's fire, Thunderstorm
+  least familiar: Cold wave, Atmospheric river, Sleet, Heat lightning, Thundersnow, Whiteout, Brinicle, Loo, Gustnado, Western Disturbance
+  legendary: Gustnado, Brinicle
+  resolved to a different article: Microburst -> Downburst (strong ground-level wind system emanating radially from a central point)
+
+== sci-gemstone (69) textbook:7 tryhard:0 honours:17 rare:25 deep:19 legendary:1
+Name a gemstone
+  most familiar: Diamond, Quartz, Sapphire, Amethyst, Emerald, Amber, Lapis lazuli, Pearl, Ruby, Obsidian, Jade, Opal
+  least familiar: Hessonite, Bixbite, Morganite, Prehnite, Charoite, Tsavorite, Blue John, Rubellite, Star sapphire, Goshenite
+  legendary: Painite
+  resolved to a different article: Alexandrite -> Chrysoberyl (oxide mineral); Bloodstone -> Heliotrope (bloodstone) (chalcedony variety); Morganite -> Morganite (gem) (beryl variety); Kunzite -> Spodumene (pyroxene, single chain inosilicate mineral); Iolite -> Cordierite (Mg, Fe, Al cyclosilicate mineral); Hessonite -> Grossular (garnet, nesosilicate mineral); Coral -> Precious coral (species of cnidarian); Goshenite -> Goshenite (gem) (variety of beryl); Jet -> Jet (gemstone) (mineraloid and minor gemstone)
+
+== sci-rock (74) textbook:7 tryhard:0 honours:19 rare:27 deep:19 legendary:2
+Name a type of rock
+  most familiar: Coal, Limestone, Granite, Marble, Basalt, Obsidian, Flint, Bauxite, Sandstone, Chalk, Pumice, Anthracite
+  least familiar: Mylonite, Ironstone, Tonalite, Claystone, Pyroxenite, Norite, Basanite, Charnockite, Tephrite, Khondalite
+  legendary: Khondalite, Charnockite
+  resolved to a different article: Dolomite -> Dolomite (rock) (sedimentary carbonate rock); Claystone -> Mudrock (class of fine grained siliciclastic sedimentary rocks); Tillite -> Till (glacial sediment)
+
+== sci-mineral (106) textbook:11 tryhard:0 honours:27 rare:35 deep:31 legendary:2
+Name a mineral
+  most familiar: Gold, Sulfur, Diamond, Platinum, Quartz, Asbestos, Gypsum, Graphite, Mica, Bauxite, Pyrite, Topaz
+  least familiar: Illite, Pentlandite, Carnallite, Brucite, Diaspore, Tantalite, Bismuthinite, Silver, Thorianite, Beryllonite
+  legendary: Monazite, Perovskite
+  resolved to a different article: Serpentine -> Serpentine subgroup (rock-forming hydrous magnesium iron phyllosilicate); Gold -> Gold (chemical element with symbol Au and atomic number 79; a dense, malleable, and corrosion-resistant precious metal widely used as currency, in jewelry, electronics, and as a financial reserve asset); Platinum -> Platinum (chemical element with symbol Pt and atomic number 78)
+
+== sci-isro-mission (52) textbook:5 tryhard:1 honours:13 rare:17 deep:15 legendary:1
+Name an ISRO mission, satellite or launch vehicle
+  most familiar: Chandrayaan-3, Mangalyaan, Sriharikota, Hylas, NavIC, Chandrayaan-1, Chandrayaan-2, Gaganyaan, PSLV, GSLV, LVM3, Aryabhata
+  least familiar: Bhaskara, Cartosat-2, SROSS, Oceansat-2, Gsat-6A, Insat-1, Technology Experiment Satellite, Saraswati satellite, Oceansat, Youthsat
+  legendary: APPLE
+  resolved to a different article: Bhaskara -> Bhaskara (satellites) (satellite); IRS -> Indian Remote Sensing Programme (series of Earth Observation satellites); NavIC -> NavIC (Indian satellite-based GNSS augmentation system); Pragyan -> Pragyan (Chandrayaan-3) (Indian lunar rover); NISAR -> NISAR (satellite) (joint NASA and ISRO synthetic aperture radar satellite); Mangalyaan 2 -> Mars Lander Mission (proposed Indian Mars orbiter)
+
+== sci-indian-scientist (56) textbook:6 tryhard:0 honours:14 rare:19 deep:15 legendary:2
+Name an Indian scientist
+  most familiar: Srinivasa Ramanujan, A. P. J. Abdul Kalam, C. V. Raman, Aryabhata, Subrahmanyan Chandrasekhar, Kalpana Chawla, Satyendra Nath Bose, Sunita Williams, Brahmagupta, Homi J. Bhabha, Jagadish Chandra Bose, Venkatraman Ramakrishnan
+  least familiar: K. Radhakrishnan, U. R. Rao, Shanti Swaroop Bhatnagar, Yash Pal, Mylswamy Annadurai, G. Madhavan Nair, Anil Kakodkar, Gagandeep Kang, Vainu Bappu, Obaid Siddiqi
+  legendary: Kamal Ranadive, Bibha Chowdhuri
+  resolved to a different article: Venkatraman Ramakrishnan -> Venki Ramakrishnan (Nobel prize winning American and British structural biologist); K. Radhakrishnan -> Koppillil Radhakrishnan (Chairman of the Indian Space Research Organisation); U. R. Rao -> Udupi Ramachandra Rao (Indian space scientist (1932–2017)); Shanti Swaroop Bhatnagar -> Shanti Swarup Bhatnagar (Indian chemist (1894–1955)); C. R. Rao -> C. R. Rao (Indian-American mathematician (1920–2023)); Sir M. Visvesvaraya -> M. Visvesvaraya (Indian engineer, scholar, statesman and the Diwan of Mysore (1861-1962))
+
+== sci-lab-equipment (97) textbook:10 tryhard:0 honours:28 rare:34 deep:24 legendary:1
+Name a piece of laboratory equipment
+  legendary: Kymograph
+
+== tech-company (88) textbook:10 tryhard:0 honours:21 rare:30 deep:26 legendary:1
+Name a technology company
+  most familiar: Google, Twitter, Apple, Microsoft, Netflix, Amazon, OpenAI, SpaceX, Nvidia, Nintendo, Tesla, Reddit
+  least familiar: Snowflake, Swiggy, Stripe, Workday, Unity, Paytm, Zerodha, Ola, Raspberry Pi Foundation, Freshworks
+  legendary: Atari
+  resolved to a different article: AMD -> AMD (American multinational semiconductor company); Twitter -> X (social network) (American social networking service founded in 2006); Stripe -> Stripe, LLC (Irish-American payment technology company); Palantir -> Palantir (American software and services company, specializing in data analysis); Broadcom -> Broadcom (American semiconductor company); ASML -> ASML (Dutch company and supplier of photolithography systems); Yahoo -> Yahoo (web portal and search engine); Ola -> Ola Consumer (Indian online transportation network company)
+
+== tech-smartphone-brand (54) textbook:5 tryhard:0 honours:14 rare:18 deep:16 legendary:1
+Name a smartphone or mobile phone brand
+  most familiar: Apple, Nokia, Xiaomi, Huawei, Lenovo, BlackBerry, Panasonic, Oppo, HTC, OnePlus, Samsung, Google Pixel
+  least familiar: Oukitel, Sharp, Ulefone, Cat, Asus, Razer, Obi Worldphone, Jio, Celkon, Yu
+  legendary: Vertu
+  resolved to a different article: Honor -> Honor (company) (Chinese smartphone brand); Asus -> ROG Phone (smartphone model); Sony Ericsson -> Sony Mobile (Japanese telecommunications company owned by Sony); Cat -> CAT phones (Series of smartphones for Caterpillar Inc.); Videocon -> Videocon Group (Indian Electronics Company)
+
+== tech-car-brand (83) textbook:8 tryhard:1 honours:23 rare:26 deep:24 legendary:1
+Name a car brand
+  most familiar: Toyota, BMW, Ford, Mercedes-Benz, Tesla, Volkswagen, Ferrari, Honda, Audi, Porsche, Lamborghini, Nissan
+  least familiar: Ram, Cupra, Datsun, Plymouth, DeLorean, Ashok Leyland, Hindustan Motors, Force Motors, Premier, Ola Electric
+  legendary: Premier
+  resolved to a different article: Fiat -> Fiat (Italian automotive company); Pagani -> Pagani Automobili (Italian car manufacturer); Smart -> Smart (marque) (German automotive manufacturer)
+
+== tech-car-model-india (103) textbook:10 tryhard:0 honours:27 rare:34 deep:30 legendary:2
+Name a car model sold in India
+  most familiar: Civic, Camry, Accord, Fiesta, Pajero, Jazz, Octavia, Tucson, Polo, Swift, Lancer, Jimny
+  least familiar: Gurkha, Zen, Windsor, KUV100, Trax, Xylo, TUV300, Curvv, Aspire, Marazzo
+  legendary: Gypsy, Contessa
+  resolved to a different article: Swift -> Suzuki Swift (car model); Dzire -> Suzuki Dzire (a subcompact sedan selling in India); Brezza -> Suzuki Brezza (subcompact crossover SUV manufactured by Suzuki); Celerio -> Suzuki Celerio (city car manufactured by Suzuki); Ciaz -> Suzuki Ciaz (subcompact sedan developed by Suzuki); Fronx -> Suzuki Fronx (subcompact crossover SUV); Omni -> Suzuki Carry (Japanese kei truck); Esteem -> Suzuki Cultus (marketed as the Suzuki Swift et al. outside of Japan); S-Presso -> Suzuki S-Presso (city car model from Suzuki); TUV300 -> Mahindra Bolero Neo (motor vehicle); Verito -> Dacia Logan (subcompact car produced by Renault and Dacia); Verna -> Hyundai Accent (car model made by Hyundai); Grand i10 -> Hyundai i10 (car model); Hyryder -> Suzuki Grand Vitara (2022) (subcompact crossover SUV); Duster -> Dacia Duster (Subcompact sport utility vehicle produced by Renault and Dacia); Hector -> Baojun 530 (Chinese compact crossover SUV); Windsor -> Baojun Yunduo (small family car); Astor -> MG ZS (crossover) (crossover produced by MG Motor); Gloster -> Maxus D90 (full-size SUV); Endeavour -> Ford Everest (Mid-size SUV derived from Ford Ranger pickup truck); Beat -> Chevrolet Spark (city car model); Tavera -> Isuzu Panther (MPV and pickup truck model from Isuzu Motors); Cielo -> Daewoo LeMans (compact car manufactured by Daewoo); Qualis -> Toyota Kijang (pickup truck/MPV model from Toyota)
+
+== tech-social-media (67) textbook:7 tryhard:0 honours:16 rare:22 deep:20 legendary:2
+Name a social media or messaging app
+  most familiar: YouTube, Facebook, Instagram, WhatsApp, Twitter, TikTok, Reddit, Telegram, Snapchat, LinkedIn, Discord, Pinterest
+  least familiar: Hike, Yik Yak, Koo, Path, Lemon8, Moj, Houseparty, Roposo, Josh, Trell
+  legendary: Orkut, Friendster
+  resolved to a different article: Twitter -> X (social network) (American social networking service founded in 2006); Moj -> Moj (Indian video-sharing application); Weibo -> Weibo (Chinese microblogging website); Kik -> Kik (app) (mobile application for instant messaging); Periscope -> Periscope (service) (mobile live video streaming application); Houseparty -> House party (type of party where medium to large groups of people gather at the residence of the party's host); Imo -> Imo.im (cross platform instant messaging software application)
+
+== tech-browser (48) textbook:5 tryhard:0 honours:11 rare:17 deep:13 legendary:2
+Name a web browser
+  most familiar: Chrome, Firefox, DuckDuckGo, Safari, Tor Browser, Chromium, Opera, Internet Explorer, Brave, Ecosia, Vivaldi, Netscape Navigator
+  least familiar: OmniWeb, Sleipnir, Epic, Cốc Cốc, QQ Browser, Comodo Dragon, Rockmelt, Lunascape, Cyberdog, Whale
+  legendary: Mosaic, Epic
+  resolved to a different article: Samsung Internet -> Samsung Browser (mobile web browser developed by Samsung Electronics); Mosaic -> NCSA Mosaic (popular early web browser); Mullvad Browser -> Mullvad (virtual private network provider)
+
+== tech-operating-system (85) textbook:9 tryhard:0 honours:21 rare:29 deep:24 legendary:2
+Name an operating system or Linux distribution
+  most familiar: Linux, Android, Windows, iOS, macOS, Ubuntu, Unix, Windows XP, Windows 10, Windows 7, Windows 11, Debian
+  least familiar: Maemo, Ubuntu Touch, Qubes OS, ColorOS, BlackBerry OS, RISC OS, Android Go, OxygenOS, MorphOS, BOSS Linux
+  legendary: BOSS Linux, Multics
+  resolved to a different article: Solaris -> Oracle Solaris (Unix operating system originally developed by Sun Microsystems); Pop!_OS -> Pop! OS (Linux distribution); Nothing OS -> Nothing (company) (English technology company based in London, England); HyperOS -> Xiaomi HyperOS (mobile personalization layer based on Android published by Xiaomi)
+
+== tech-computer-part (64) textbook:6 tryhard:0 honours:16 rare:23 deep:17 legendary:2
+Name a part or component of a computer
+  most familiar: Transistor, Bluetooth adapter, CPU, Capacitor, Mouse, USB port, RAM, Hard disk, Keyboard, Floppy drive, Integrated circuit, GPU
+  least familiar: Kensington lock, Northbridge, Thermal paste, Southbridge, Speakers, Docking station, Cooling fan, Jumper, CMOS battery, Wi-Fi card
+  legendary: TPM, Northbridge
+  resolved to a different article: Printer -> Printer (computing) (computer peripheral that prints text or graphics); Floppy drive -> Floppy disk (removable disk storage medium); SATA -> SATA (computer bus interface for storage devices); Memory card -> SD card (removable memory storage for portable devices)
+
+== tech-keyboard-key (36) textbook:4 tryhard:0 honours:9 rare:10 deep:11 legendary:2
+Name a special key on a computer keyboard
+  most familiar: Forward slash key, Hash key, Backslash key, Shift, Enter, Tab, AltGr, Caps Lock, Windows, Control, Scroll Lock, Alt
+  least familiar: Home, Page Up, Pause, Super key, Delete, Print Screen, Menu key, Option, End, Meta key
+  legendary: SysRq, Compose key
+  resolved to a different article: Enter -> Enter and return keys (key on computer keyboards for making a hard return or accepting a choice); Escape -> Esc key (computer key); Pause -> Break key (key on a PC keyboard)
+
+== tech-google-product (85) textbook:9 tryhard:0 honours:21 rare:27 deep:26 legendary:2
+Name a Google product or service
+  most familiar: YouTube, Search, Chrome, Android, Gmail, Translate, Maps, Earth, Gemini, Drive, Play Store, Go
+  least familiar: Google Fi, Chrome Remote Desktop, Daydream, Podcasts, Domains, Pixel Watch, Pixel Buds, Jamboard, Google Answers, Tasks
+  legendary: Google Wave, Inbox
+  resolved to a different article: Gemini -> Google Gemini (artificial intelligence chatbot developed by Google); Google Wave -> Google Wave (software framework for real-time collaborative editing online); AdSense -> Google AdSense (online platform for targeted advertisements); Pixel Watch -> Pixel Watch (2022 smartwatch by Google); Google Fi -> Google Fi Wireless (mobile virtual network operator owned by Google)
+
+== tech-apple-product (89) textbook:9 tryhard:0 honours:22 rare:30 deep:26 legendary:2
+Name an Apple product, service or software
+  most familiar: iPhone, iOS, Mac OS, iPod, Safari, iPad, App Store, Mac, Siri, iTunes, Apple Watch, Apple TV
+  least familiar: visionOS, Xserve, Time Machine, Numbers, Aperture, Apple Podcasts, Spotlight, ClarisWorks, AppleCare, Fitness+
+  legendary: Apple Pippin, HyperCard
+  resolved to a different article: Newton -> Apple Newton (PDA platform by Apple Inc.); Fitness+ -> Apple Fitness (mobile application developed by Apple); Apple TV+ -> Apple TV (streaming service) (video streaming service by Apple Inc.); ClarisWorks -> AppleWorks (family of office suite software); Power Mac -> Power Macintosh (line of Apple Macintosh workstation-class personal computers)
+
+== tech-microsoft-product (78) textbook:8 tryhard:0 honours:19 rare:27 deep:22 legendary:2
+Name a Microsoft product or service
+  most familiar: Minecraft, Windows, LinkedIn, GitHub, Word, Excel, Skype, Office, MS-DOS, Outlook, Bing, Copilot
+  least familiar: Minesweeper, Sway, Math Solver, To Do, Loop, Planner, Band, Authenticator, Whiteboard, Stream
+  legendary: Zune, Bob
+  resolved to a different article: Notepad -> Windows Notepad (simple text editor included with Microsoft Windows); Live Messenger -> MSN Messenger (deprecated instant messaging client); Lumia -> Nokia Lumia (line of Windows-based smartphones and tablet computers designed and marketed by Nokia)
+
+== tech-ai-chatbot (52) textbook:5 tryhard:0 honours:12 rare:18 deep:16 legendary:1
+Name an AI assistant, chatbot or AI model
+  most familiar: ChatGPT, DeepSeek, Claude, Gemini, Grok, Perplexity, Copilot, Siri, Midjourney, Qwen, Mistral, Deep Blue
+  least familiar: Firefly, Whisper, Replika, Flux, A.L.I.C.E., Hound, Imagen, SmarterChild, Parry, Gato
+  legendary: ELIZA
+  resolved to a different article: Gemini -> Google Gemini (artificial intelligence chatbot developed by Google); Claude -> Claude (AI) (large lanveloped by Anthropic); Kimi -> Kimi (AI) (chatbot); Watson -> IBM Watson (artificial intelligence computer system made by IBM); Suno -> Suno (AI music generator); Alice -> Alice AI (Russian intelligent personal assistant software); Hound -> SoundHound AI (American audio recognition and cognition company)
+
+== tech-robot (60) textbook:6 tryhard:0 honours:15 rare:21 deep:16 legendary:2
+Name a famous robot
+  most familiar: WALL-E, Doraemon, Iron Giant, Curiosity, Perseverance, Metal Gear, Optimus Prime, HAL 9000, Opportunity, Vision, Astro Boy, Terminator
+  least familiar: Baymax, Ameca, Tachikoma, Shakey, Kismet, Chitti, Digit, Valkyrie, Cozmo, Daksh
+  legendary: Chitti, Shakey
+  resolved to a different article: Spot -> Boston Dynamics (engineering and robotics design company); Terminator -> Terminator (character) (fictional series of cyborgs portrayed by Arnold Schwarzenegger); K-9 -> K9 (Doctor Who) (fictional character in the Doctor Who universe, a robot dog); Johnny 5 -> Short Circuit (1986 film) (1986 film directed by John Badham); Chitti -> Chitti (character) (fictional character appearing in Indian films); Pragyan -> Pragyan (Chandrayaan-3) (Indian lunar rover); Digit -> Agility Robotics (American robotics company); Cylon -> Cylons (fictional cybernetic civilization in Battlestar Galactica); Gundam -> Gundam (fictional robot) (fictional robot from Mobile Suit Gundam)
+
+== tech-rocket-launcher (68) textbook:7 tryhard:0 honours:17 rare:23 deep:19 legendary:2
+Name a rocket or launch vehicle
+  most familiar: Space Shuttle, V-2, Starship, Saturn V, Falcon 9, Falcon Heavy, SLS, Atlas V, Ariane 5, N1, Sputnik rocket, Ariane 6
+  least familiar: Zhuque-2, Minotaur, Epsilon, Agnibaan, ASLV, Juno II, Thor, Terran 1, Kuaizhou, Vikram-S
+  legendary: Black Arrow, Blue Streak
+  resolved to a different article: Electron -> Rocket Lab Electron (family of small-lift launch vehicles); Redstone -> PGM-11 Redstone (short-range ballistic missile); Pegasus -> Northrop Grumman Pegasus (family of air-launched rockets)
+
+== tech-satellite (67) textbook:7 tryhard:0 honours:17 rare:23 deep:18 legendary:2
+Name an artificial satellite or space telescope
+  most familiar: International Space Station, Hubble Space Telescope, James Webb Space Telescope, GPS, Starlink, Sputnik 1, Mir, Skylab, Tiangong, Nancy Grace Roman Space Telescope, Kepler, GLONASS
+  least familiar: IRS, Kalpana-1, APPLE, XPoSat, Oscar 1, Cartosat, EDUSAT, RISAT, Bhaskara, Oceansat
+  legendary: Hipparcos, Syncom
+  resolved to a different article: Bhaskara -> Bhaskara (satellites) (satellite); IRS -> Indian Remote Sensing Programme (series of Earth Observation satellites); NavIC -> NavIC (Indian satellite-based GNSS augmentation system); Galileo -> Galileo (satellite navigation system) (European global navigation satellite system); Euclid -> Euclid (space telescope) (ESA space telescope aimed at mapping the distribution of dark matter); Swift -> Neil Gehrels Swift Observatory (former NASA space observatory that studied gamma-ray radiation); Oneweb -> Eutelsat OneWeb (global communications company); Kuiper -> Amazon Leo (Amazon's satellites and space-based systems project)
+
 == sci-element (118) textbook:12 tryhard:1 honours:29 rare:40 deep:35 legendary:1
 Name a chemical element
   most familiar: Gold, Hydrogen, Iron, Copper, Silver, Aluminium, Oxygen, Carbon, Helium, Mercury, Sulfur, Lead
@@ -214,6 +1639,191 @@ Name a moon in the Solar System
   legendary: Hyperion
   resolved to a different article: Mimas -> Mimas (moon of Saturn); Siarnaq -> Siarnaq (moon of Saturn)
 
+== sport-ind-test-captain (35) textbook:4 tryhard:0 honours:8 rare:12 deep:9 legendary:2
+Name someone who has captained India in a Test match
+  most familiar: Virat Kohli, Sachin Tendulkar, MS Dhoni, Rohit Sharma, Virender Sehwag, KL Rahul, Sunil Gavaskar, Rahul Dravid, Shubman Gill, Kapil Dev, Jasprit Bumrah, Sourav Ganguly
+  least familiar: C. K. Nayudu, Vijay Hazare, Vinoo Mankad, Nari Contractor, Polly Umrigar, Chandu Borde, Hemu Adhikari, Dattajirao Gaekwad, Pankaj Roy, Ghulam Ahmed
+  legendary: C. K. Nayudu, Iftikhar Ali Khan Pataudi
+  resolved to a different article: Dattajirao Gaekwad -> Datta Gaekwad (Indian cricketer (1928–2024)); Srinivas Venkataraghavan -> Srinivasaraghavan Venkataraghavan (Indian cricketer)
+
+== sport-cricket-field-position (53) textbook:11 tryhard:0 honours:17 rare:18 deep:6 legendary:1
+Name a fielding position in cricket
+  legendary: Fly slip
+
+== sport-cricket-dismissal (11) textbook:5 tryhard:0 honours:1 rare:2 deep:2 legendary:1
+Name a way a batter can be out in cricket
+  legendary: Retired out
+
+== sport-pl-club (51) textbook:5 tryhard:0 honours:13 rare:18 deep:13 legendary:2
+Name a club that has played in the English Premier League
+  most familiar: Manchester United, Liverpool, Manchester City, Arsenal, Chelsea, Aston Villa, Tottenham Hotspur, Everton, Leicester City, Newcastle United, Leeds United, Crystal Palace
+  least familiar: Reading, Wigan Athletic, Luton Town, Charlton Athletic, Blackpool, Bradford City, Barnsley, Oldham Athletic, Wimbledon, Swindon Town
+  legendary: Barnsley, Swindon Town
+
+== sport-laliga-club (49) textbook:5 tryhard:0 honours:12 rare:17 deep:13 legendary:2
+Name a club that has played in Spain's top division, La Liga
+  most familiar: Real Madrid, FC Barcelona, Atlético Madrid, Valencia, Athletic Bilbao, Villarreal, Real Betis, Sevilla, Real Sociedad, Espanyol, Celta Vigo, Deportivo La Coruña
+  least familiar: Numancia, Real Murcia, Xerez, Burgos, Salamanca, Logroñés, Badajoz, Lleida, Extremadura, Mérida
+  legendary: Xerez, Mérida
+  resolved to a different article: Deportivo La Coruña -> Deportivo de A Coruña (Spanish association football club); Real Murcia -> Real Murcia CF (Spanish association football club)
+
+== sport-wc-host (23) textbook:2 tryhard:0 honours:6 rare:7 deep:6 legendary:2
+Name a country that has hosted, or been awarded, the men's FIFA World Cup
+  most familiar: United States, Russia, Japan, France, Canada, Mexico, Germany, Brazil, Italy, Spain, South Africa, Switzerland
+  least familiar: Chile, Portugal, Argentina, South Korea, Sweden, England, Morocco, Uruguay, Paraguay, Qatar
+  legendary: Sweden, Chile
+
+== sport-ballon-dor (45) textbook:5 tryhard:0 honours:12 rare:17 deep:9 legendary:2
+Name a men's Ballon d'Or winner
+  most familiar: Cristiano Ronaldo, Lionel Messi, Zinedine Zidane, Ronaldo, Luka Modrić, Karim Benzema, Johan Cruyff, Kaká, Ousmane Dembélé, George Weah, Michael Owen, Franz Beckenbauer
+  least familiar: Denis Law, Jean-Pierre Papin, Raymond Kopa, Matthias Sammer, Omar Sívori, Gianni Rivera, Allan Simonsen, Igor Belanov, Flórián Albert, Josef Masopust
+  legendary: Omar Sívori, Igor Belanov
+
+== sport-f1-team (57) textbook:6 tryhard:0 honours:13 rare:20 deep:16 legendary:2
+Name a team that has entered the Formula One World Championship
+  most familiar: Ferrari, Red Bull, McLaren, Williams, Haas, Alpine, Force India, Brawn, Sauber, Toro Rosso, Benetton, Racing Bulls
+  least familiar: Larrousse, Shadow, Osella, Zakspeed, Toyota, Surtees, Fittipaldi, Maserati, Ensign, Marussia
+  legendary: Vanwall, Brawn
+  resolved to a different article: BMW Sauber -> BMW in Formula One (Formula One activities of BMW); HRT -> HRT Formula 1 Team (Formula 1 Team); Maserati -> Maserati in motorsport (motorsport activities of Maserati); Penske -> Team Penske (American professional racing team)
+
+== sport-f1-champion (35) textbook:4 tryhard:0 honours:8 rare:13 deep:8 legendary:2
+Name a Formula One World Drivers' Champion
+  most familiar: Michael Schumacher, Lewis Hamilton, Max Verstappen, Fernando Alonso, Ayrton Senna, Sebastian Vettel, Niki Lauda, Kimi Räikkönen, Lando Norris, Nico Rosberg, Jenson Button, Alain Prost
+  least familiar: Graham Hill, Emerson Fittipaldi, Giuseppe Farina, Mike Hawthorn, Keke Rosberg, Jochen Rindt, John Surtees, Jody Scheckter, Denny Hulme, Phil Hill
+  legendary: Giuseppe Farina, Mike Hawthorn
+
+== sport-f1-circuit (62) textbook:6 tryhard:0 honours:15 rare:21 deep:18 legendary:2
+Name a circuit that has hosted a Formula One race
+  most familiar: Nürburgring, Sepang, Spa-Francorchamps, Monza, Silverstone, Imola, Marina Bay, Monaco, Bahrain International Circuit, Circuit de Barcelona-Catalunya, Suzuka, Indianapolis Motor Speedway
+  least familiar: Aintree, Dijon-Prenois, Bremgarten, Long Beach, Mosport, Pescara, Circuit de Charade, Montjuïc, Pedralbes, Nivelles
+  legendary: Buddh International Circuit, Pescara
+  resolved to a different article: Suzuka -> Suzuka Circuit (motorsport track in Japan); Interlagos -> Interlagos Circuit (motorsport venue in Brazil); Sochi Autodrom -> Sirius Autodrom (Formula One racing circuit in Sirius, Russia); Anderstorp -> Anderstorp Raceway (motorsport track in Sweden); Long Beach -> Grand Prix of Long Beach (indycar race)
+
+== sport-olympic-host-city (44) textbook:5 tryhard:0 honours:12 rare:13 deep:12 legendary:2
+Name a city that has hosted the Olympic Games
+  most familiar: London, Paris, Berlin, Rome, Tokyo, Los Angeles, Moscow, Beijing, Mexico City, Rio de Janeiro, Amsterdam, Sydney
+  least familiar: Grenoble, Chamonix, Nagano, Cortina d'Ampezzo, St. Moritz, Lake Placid, Lillehammer, Albertville, Garmisch-Partenkirchen, Pyeongchang
+  legendary: St. Louis, Lake Placid
+
+== sport-ind-olympic-medallist (33) textbook:3 tryhard:0 honours:9 rare:10 deep:9 legendary:2
+Name a medallist from India at the Olympics
+  most familiar: P. V. Sindhu, Mary Kom, Neeraj Chopra, Leander Paes, Saina Nehwal, Dhyan Chand, Manu Bhaker, Lovlina Borgohain, Sushil Kumar, Mirabai Chanu, Abhinav Bindra, Sakshi Malik
+  least familiar: Yogeshwar Dutt, Gagan Narang, Vijay Kumar, Khashaba Dadasaheb Jadhav, Swapnil Kusale, Sarabjot Singh, Udham Singh, Vasudevan Baskaran, Ashok Kumar, Charanjit Singh
+  legendary: Norman Pritchard, Khashaba Dadasaheb Jadhav
+  resolved to a different article: Khashaba Dadasaheb Jadhav -> K. D. Jadhav (Olympic wrestler (1926-1984))
+
+== sport-ind-badminton-player (36) textbook:4 tryhard:0 honours:9 rare:12 deep:9 legendary:2
+Name an Indian badminton player
+  most familiar: P. V. Sindhu, Saina Nehwal, Lakshya Sen, Kidambi Srikanth, Prakash Padukone, Jwala Gutta, Pullela Gopichand, Ashwini Ponnappa, Parupalli Kashyap, Chirag Shetty, Satwiksairaj Rankireddy, Aparna Popat
+  least familiar: Anupama Upadhyaya, Ajay Jayaram, Kiran George, Trupti Murgunde, Dinesh Khanna, Priyanshu Rajawat, Pranav Chopra, Sourabh Verma, Rituparna Das, Arundhati Pantawane
+  legendary: Nandu Natekar, Dinesh Khanna
+  resolved to a different article: Kidambi Srikanth -> Srikanth Kidambi (Indian badminton player); H. S. Prannoy -> Prannoy H. S. (Indian badminton player); Sikki Reddy -> N. Sikki Reddy (Indian badminton player)
+
+== sport-ind-football-club (42) textbook:4 tryhard:0 honours:11 rare:12 deep:13 legendary:2
+Name an Indian football club
+  most familiar: Mumbai City FC, Bengaluru FC, Kerala Blasters, Mohun Bagan Super Giant, Chennaiyin FC, FC Goa, Odisha FC, Churchill Brothers, NorthEast United, FC Pune City, Dempo, Hyderabad FC
+  least familiar: Chennai City, United SC, Mahindra United, TRAU, Vasco, ONGC, Kenkre, Tollygunge Agragami, Kerala Police, Bengal Mumbai FC
+  legendary: Sporting Clube de Goa, JCT Mills
+  resolved to a different article: Hyderabad FC -> SC Delhi (Indian professional football club based in Hyderabad, Telangana); Churchill Brothers -> Churchill Brothers FC (association football club); Dempo -> Dempo SC (Indian football club); Sporting Clube de Goa -> SC de Goa (Association Football Club); Mahindra United -> Mahindra United FC (association football club)
+
+== sport-pkl-team (12) textbook:2 tryhard:0 honours:2 rare:3 deep:4 legendary:1
+Name a team in the Pro Kabaddi League
+  most familiar: Patna Pirates, Jaipur Pink Panthers, Bengaluru Bulls, Tamil Thalaivas, Telugu Titans, U Mumba, Bengal Warriors, Puneri Paltan, Dabang Delhi K.C., Haryana Steelers, Gujarat Giants, UP Yoddhas
+  least familiar: Bengaluru Bulls, Tamil Thalaivas, Telugu Titans, U Mumba, Bengal Warriors, Puneri Paltan, Dabang Delhi K.C., Haryana Steelers, Gujarat Giants, UP Yoddhas
+  legendary: Puneri Paltan
+  resolved to a different article: Gujarat Giants -> Gujarat Giants (PKL) (Kabaddi team)
+
+== sport-nba-team (30) textbook:3 tryhard:0 honours:7 rare:10 deep:8 legendary:2
+Name a team in the NBA
+  most familiar: Los Angeles Lakers, Boston Celtics, Chicago Bulls, Golden State Warriors, New York Knicks, San Antonio Spurs, Philadelphia 76ers, Brooklyn Nets, Charlotte Hornets, Toronto Raptors, Sacramento Kings, Dallas Mavericks
+  least familiar: Phoenix Suns, Oklahoma City Thunder, Memphis Grizzlies, Detroit Pistons, Houston Rockets, Minnesota Timberwolves, Orlando Magic, Indiana Pacers, Utah Jazz, New Orleans Pelicans
+  legendary: Toronto Raptors, Utah Jazz
+
+== sport-nfl-team (32) textbook:3 tryhard:0 honours:7 rare:11 deep:9 legendary:2
+Name a team in the NFL
+  most familiar: Washington Commanders, Chicago Bears, New York Giants, New England Patriots, Green Bay Packers, San Francisco 49ers, Las Vegas Raiders, Kansas City Chiefs, Dallas Cowboys, Seattle Seahawks, Philadelphia Eagles, Pittsburgh Steelers
+  least familiar: Arizona Cardinals, Cincinnati Bengals, Tennessee Titans, New Orleans Saints, Jacksonville Jaguars, Tampa Bay Buccaneers, New York Jets, Houston Texans, Carolina Panthers, Miami Dolphins
+  legendary: Green Bay Packers, Houston Texans
+
+== sport-ind-street-game (60) textbook:11 tryhard:0 honours:17 rare:21 deep:10 legendary:1
+Name a traditional playground game played in India
+  legendary: Pallanguzhi
+
+== sport-ball-type (61) textbook:9 tryhard:0 honours:16 rare:18 deep:17 legendary:1
+Name a type of ball used in a sport
+  legendary: Wiffle ball
+
+== sport-equipment (114) textbook:9 tryhard:0 honours:34 rare:52 deep:18 legendary:1
+Name a piece of sports equipment
+  legendary: Snickometer
+  ambiguous aliases: cup
+
+== sport-martial-art (49) textbook:5 tryhard:0 honours:12 rare:16 deep:14 legendary:2
+Name a martial art or combat sport
+  most familiar: Taekwondo, Boxing, Judo, Karate, Muay Thai, Jujutsu, Krav Maga, Sumo, Mixed martial arts, Wrestling, Aikido, Brazilian jiu-jitsu
+  least familiar: Gatka, Bartitsu, Bokator, Glima, Lutte traditionnelle, Silambam, Filipino martial arts, Kushti, Kalarippayattu fighting, Thang-ta
+  legendary: Kalaripayattu, Bokator
+  resolved to a different article: Thang-ta -> Thang Ta (Classical Meitei martial art); Sanshou -> Sanda (sport) (Chinese self-defense system and combat sport); Glima -> Glíma (Icelandic wrestling); Lutte traditionnelle -> Senegalese wrestling (type of folk wrestling)
+
+== sport-water-sport (63) textbook:9 tryhard:0 honours:21 rare:22 deep:10 legendary:1
+Name a water sport or watersport activity
+  legendary: Underwater rugby
+
+== sport-winter-sport (55) textbook:7 tryhard:0 honours:16 rare:22 deep:9 legendary:1
+Name a winter sport
+  legendary: Skijoring
+
+== sport-athletics-event (66) textbook:12 tryhard:0 honours:15 rare:24 deep:14 legendary:1
+Name a track and field or athletics event
+  legendary: Race walk
+
+== sport-gymnastics-apparatus (45) textbook:8 tryhard:0 honours:15 rare:16 deep:5 legendary:1
+Name a gymnastics apparatus or piece of equipment
+  legendary: Rhönrad
+
+== sport-yoga-pose (68) textbook:10 tryhard:0 honours:21 rare:25 deep:11 legendary:1
+Name a yoga pose or asana
+  legendary: Kukkutasana
+
+== sport-ind-cricket-stadium (36) textbook:4 tryhard:0 honours:9 rare:11 deep:10 legendary:2
+Name a cricket stadium in India
+  most familiar: Narendra Modi Stadium, Eden Gardens, M. Chinnaswamy Stadium, Wankhede Stadium, M. A. Chidambaram Stadium, Rajiv Gandhi International Cricket Stadium, BRSABV Ekana Cricket Stadium, Arun Jaitley Stadium, Himachal Pradesh Cricket Association Stadium, Greenfield International Stadium, Brabourne Stadium, Nehru Stadium, Chennai
+  least familiar: Niranjan Shah Stadium, Sector 16 Stadium, Keenan Stadium, Moti Bagh Stadium, Captain Roop Singh Stadium, Reliance Stadium, Barkatullah Khan Stadium, Nehru Stadium, Pune, Gandhi Sports Complex Ground, Madhavrao Scindia Cricket Ground
+  legendary: Barabati Stadium, Keenan Stadium
+  resolved to a different article: Arun Jaitley Stadium -> Arun Jaitley Cricket Stadium (cricket stadium in Delhi); Punjab Cricket Association IS Bindra Stadium -> I. S. Bindra Stadium (Cricket ground); Holkar Cricket Stadium -> Holkar Stadium (cricket stadium); BRSABV Ekana Cricket Stadium -> Ekana Cricket Stadium (cricket stadium); Barsapara Cricket Stadium -> Assam Cricket Association Stadium (cricket stadium Guwahati, Assam, India); Nehru Stadium, Chennai -> Jawaharlal Nehru Stadium (Chennai) (Multipurpose stadium in Chennai, India)
+
+== sport-world-cricket-ground (57) textbook:6 tryhard:0 honours:14 rare:20 deep:15 legendary:2
+Name a cricket ground outside India
+  most familiar: Melbourne Cricket Ground, Rose Bowl, Eden Park, Lord's, The Oval, Optus Stadium, Gaddafi Stadium, The Gabba, Adelaide Oval, Sydney Cricket Ground, Wanderers Stadium, Old Trafford
+  least familiar: County Ground, Bristol, Bourda, Taunton, Kabul International Cricket Stadium, Grace Road, Malahide Cricket Club Ground, Scarborough, Kinrara Oval, Sophia Gardens, Bready
+  legendary: Pallekele International Cricket Stadium, Bourda
+  resolved to a different article: Optus Stadium -> Perth Stadium (stadium in Perth, Western Australia); SuperSport Park -> Centurion Park (cricket ground); Providence Stadium -> Providence Stadium (Cricket stadium); Malahide Cricket Club Ground -> Malahide Cricket Ground (cricket ground); County Ground, Bristol -> Bristol County Ground (sports venue); Scarborough -> North Marine Road Ground, Scarborough (cricket ground); Arnos Vale Ground -> Arnos Vale Stadium (stadium); Grenada National Stadium -> Kirani James Athletic Stadium (stadium in Grenada); Kinrara Oval -> Kinrara Academy Oval (Cricket stadium)
+
+== sport-team-sport (84) textbook:10 tryhard:0 honours:25 rare:34 deep:14 legendary:1
+Name a team sport
+  legendary: Buzkashi
+
+== sport-ind-chess-player (42) textbook:4 tryhard:0 honours:11 rare:13 deep:12 legendary:2
+Name an Indian chess player
+  most familiar: Viswanathan Anand, Dommaraju Gukesh, Rameshbabu Praggnanandhaa, Koneru Humpy, Divya Deshmukh, Arjun Erigaisi, Rameshbabu Vaishali, Tania Sachdev, Dronavalli Harika, Vidit Gujrathi, Pentala Harikrishna, Nihal Sarin
+  least familiar: Pranav Anand, Abhimanyu Puranik, Deep Sengupta, G. N. Gopal, Karthik Venkataraman, Diptayan Ghosh, Neelotpal Das, Harsha Bharathakoti, Mitrabha Guha, Ashwin Jayaram
+  legendary: Manuel Aaron, Mary Ann Gomes
+  resolved to a different article: Dommaraju Gukesh -> Gukesh Dommaraju (Indian chess grandmaster); Rameshbabu Praggnanandhaa -> R Praggnanandhaa (Indian chess player); Dronavalli Harika -> Harika Dronavalli (Indian Chess.com player); Rameshbabu Vaishali -> Vaishali Rameshbabu (Indian chess player); Baskaran Adhiban -> Adhiban Baskaran (Indian chess player); Murali Karthikeyan -> Karthikeyan Murali (Indian chess player); R. B. Ramesh -> Ramachandran Ramesh (Indian chess player); G. N. Gopal -> Geetha Narayanan Gopal (Indian chess player)
+
+== sport-tennis-gs-man (53) textbook:5 tryhard:0 honours:14 rare:18 deep:14 legendary:2
+Name a man who has won a tennis Grand Slam singles title in the Open Era
+  most familiar: Novak Djokovic, Roger Federer, Rafael Nadal, Andre Agassi, Carlos Alcaraz, Andy Murray, Jannik Sinner, John McEnroe, Pete Sampras, Boris Becker, Björn Borg, Stan Wawrinka
+  least familiar: Richard Krajicek, Gastón Gaudio, Petr Korda, Sergi Bruguera, Jan Kodeš, Albert Costa, Manuel Orantes, Brian Teacher, Andrés Gimeno, Johan Kriek
+  legendary: Brian Teacher, Gastón Gaudio
+  resolved to a different article: Carlos Moyà -> Carlos Moyá (Spanish tennis player); Patrick Rafter -> Pat Rafter (Australian tennis player)
+
+== sport-wimbledon-woman (26) textbook:3 tryhard:0 honours:6 rare:9 deep:6 legendary:2
+Name a woman who has won the Wimbledon singles title in the Open Era
+  most familiar: Serena Williams, Steffi Graf, Maria Sharapova, Billie Jean King, Martina Navratilova, Venus Williams, Martina Hingis, Chris Evert, Iga Świątek, Elena Rybakina, Simona Halep, Angelique Kerber
+  least familiar: Amélie Mauresmo, Evonne Goolagong Cawley, Petra Kvitová, Marion Bartoli, Conchita Martínez, Jana Novotná, Markéta Vondroušová, Barbora Krejčíková, Virginia Wade, Ann Haydon-Jones
+  legendary: Ann Haydon-Jones, Marion Bartoli
+  resolved to a different article: Ann Haydon-Jones -> Ann Jones (tennis) (English tennis player)
+
 == sport-test-nation (12) textbook:2 tryhard:0 honours:2 rare:4 deep:3 legendary:1
 Name a country or team that plays Test cricket
   most familiar: India, Australia, Pakistan, England, West Indies, New Zealand, South Africa, Sri Lanka, Bangladesh, Afghanistan, Zimbabwe, Ireland
@@ -230,6 +1840,158 @@ Name a team that has played in the Indian Premier League
 == sport-olympic (47) textbook:9 tryhard:1 honours:19 rare:12 deep:5 legendary:1
 Name a sport or discipline at the Paris 2024 Summer Olympics
   legendary: Modern pentathlon
+
+== word-world-language (81) textbook:9 tryhard:0 honours:19 rare:29 deep:22 legendary:2
+Name a language spoken somewhere in the world
+  most familiar: English, Spanish, French, German, Japanese, Russian, Latin, Arabic, Greek, Persian, Hebrew, Hindi
+  least familiar: Yoruba, Navajo, Tibetan, Igbo, Cherokee, Inuktitut, Samoan, Tongan, Pirahã, Fijian
+  legendary: Pirahã, Ainu
+  resolved to a different article: Swahili -> Swahili (Bantu language spoken mainly in East Africa); Kurdish -> Kurdish language (Northwestern Iranian language); Tibetan -> Lhasa Tibetan (Tibeto-Burman language)
+
+== word-european-language (65) textbook:7 tryhard:0 honours:16 rare:23 deep:17 legendary:2
+Name a language spoken in Europe
+  most familiar: English, Spanish, French, German, Russian, Greek, Portuguese, Dutch, Italian, Catalan, Turkish, Irish
+  least familiar: Aragonese, Asturian, Walloon, Frisian, Karelian, Livonian, Aromanian, Gagauz, Sami, Kalmyk
+  legendary: Kashubian, Livonian
+  resolved to a different article: Sami -> Northern Sámi (most widely spoken of all Sámi languages); Kalmyk -> Kalmyk Oirat (register of the Oirat language, natively spoken by the Kalmyk people of Kalmykia)
+
+== word-colour (121) textbook:11 tryhard:0 honours:38 rare:47 deep:24 legendary:1
+Name a colour
+  legendary: Eigengrau
+
+== word-shape (75) textbook:12 tryhard:0 honours:23 rare:21 deep:18 legendary:1
+Name a shape
+  legendary: Gömböc
+
+== word-palindrome (66) textbook:11 tryhard:0 honours:25 rare:19 deep:10 legendary:1
+Name an English word that reads the same backwards
+  legendary: Tattarrattat
+
+== word-phobia (85) textbook:12 tryhard:0 honours:24 rare:30 deep:18 legendary:1
+Name a word ending in "-phobia"
+  legendary: Aibohphobia
+
+== word-hindi-loanword (120) textbook:15 tryhard:0 honours:53 rare:33 deep:17 legendary:2
+Name an English word borrowed from Hindi or Urdu
+  legendary: Cushy, Doolally
+
+== word-onomatopoeia (128) textbook:15 tryhard:0 honours:50 rare:47 deep:15 legendary:1
+Name an onomatopoeic word
+  legendary: Tintinnabulation
+
+== word-punctuation (72) textbook:10 tryhard:0 honours:24 rare:30 deep:6 legendary:2
+Name a punctuation mark or typographic symbol
+  legendary: Interrobang, Manicule
+
+== word-figure-of-speech (107) textbook:10 tryhard:0 honours:36 rare:39 deep:21 legendary:1
+Name a figure of speech or literary device
+  legendary: Paraprosdokian
+
+== word-greek-letter (24) textbook:2 tryhard:0 honours:6 rare:8 deep:7 legendary:1
+Name a letter of the Greek alphabet
+  most familiar: Alpha, Delta, Phi, Lambda, Gamma, Theta, Omega, Beta, Epsilon, Mu, Sigma, Tau
+  least familiar: Chi, Omicron, Rho, Eta, Kappa, Nu, Iota, Psi, Xi, Upsilon
+  legendary: Omicron
+
+== word-nato-alphabet (26) textbook:10 tryhard:0 honours:10 rare:4 deep:1 legendary:1
+Name a word from the NATO phonetic alphabet
+  legendary: X-ray
+
+== word-big-synonym (79) textbook:10 tryhard:0 honours:34 rare:24 deep:10 legendary:1
+Name a word that means "big"
+  legendary: Pantagruelian
+
+== word-happy-synonym (88) textbook:10 tryhard:0 honours:37 rare:27 deep:13 legendary:1
+Name a word that means "happy"
+  legendary: Gruntled
+
+== word-part-of-speech (107) textbook:9 tryhard:0 honours:38 rare:33 deep:26 legendary:1
+Name a part of speech or grammar term
+  legendary: Pluralia tantum
+
+== word-poem-type (100) textbook:10 tryhard:0 honours:29 rare:40 deep:20 legendary:1
+Name a type of poem
+  legendary: Tetractys
+
+== word-font (65) textbook:6 tryhard:0 honours:15 rare:21 deep:21 legendary:2
+Name a font or typeface
+  most familiar: Arial, Helvetica, Times New Roman, Blackletter, Fraktur, Comic Sans, Wingdings, Gill Sans, Calibri, Garamond, Futura, Noto Sans
+  least familiar: Candara, Bookman, Lato, Zapfino, Zapf Dingbats, Menlo, Fira Sans, Algerian, Curlz MT, Cochin
+  no article (deep): Frutiger, Mangal, Jokerman, Chiller
+  legendary: Zapfino, Johnston
+  resolved to a different article: Courier New -> Courier (typeface) (monospaced slab serif typeface designed by Howard Kettler for IBM typewriters); Segoe UI -> Segoe (family of sans-serif typefaces); Fira Sans -> Fira (typeface) (open-source typeface family); Curlz MT -> Curlz (OTF display typeface)
+
+== word-time-unit (87) textbook:10 tryhard:0 honours:30 rare:27 deep:18 legendary:2
+Name a unit or length of time
+  legendary: Shake, Svedberg
+
+== school-classroom (87) textbook:13 tryhard:0 honours:29 rare:26 deep:18 legendary:1
+Name something you find in a classroom
+  legendary: Epidiascope
+
+== school-lab-item (139) textbook:12 tryhard:0 honours:53 rare:47 deep:26 legendary:1
+Name something you find in a school science lab
+  legendary: Wimshurst machine
+
+== school-canteen (130) textbook:12 tryhard:0 honours:46 rare:42 deep:29 legendary:1
+Name something sold in an Indian school canteen
+  legendary: Kala khatta
+
+== school-sports-day-event (95) textbook:13 tryhard:0 honours:37 rare:30 deep:14 legendary:1
+Name an event or race you might see on school Sports Day
+  legendary: Wellie wanging
+
+== school-club (105) textbook:13 tryhard:0 honours:38 rare:29 deep:24 legendary:1
+Name a club or co-curricular activity at school
+  legendary: Stamp collecting
+
+== school-teacher-desk (93) textbook:17 tryhard:0 honours:27 rare:24 deep:24 legendary:1
+Name something you might find on a teacher's desk
+  legendary: Rolodex
+
+== school-stationery-brand (100) textbook:15 tryhard:0 honours:40 rare:28 deep:16 legendary:1
+Name a stationery brand
+  legendary: Rotring
+
+== school-event (85) textbook:12 tryhard:0 honours:34 rare:25 deep:13 legendary:1
+Name a school event, day or celebration
+  legendary: Bagless day
+
+== school-uniform (82) textbook:12 tryhard:0 honours:25 rare:24 deep:20 legendary:1
+Name an item of school uniform
+  legendary: Gymslip
+
+== school-geometry-box (53) textbook:8 tryhard:0 honours:16 rare:18 deep:10 legendary:1
+Name something in a geometry box
+  legendary: French curve
+
+== school-glassware (88) textbook:11 tryhard:0 honours:31 rare:31 deep:14 legendary:1
+Name a piece of chemistry lab glassware or apparatus
+  legendary: Alembic
+
+== school-maths-topic (101) textbook:21 tryhard:0 honours:31 rare:27 deep:21 legendary:1
+Name a topic in school mathematics
+  legendary: Magic squares
+
+== school-physics-topic (145) textbook:18 tryhard:0 honours:49 rare:50 deep:27 legendary:1
+Name a topic in school physics
+  legendary: Hall effect
+
+== school-biology-topic (156) textbook:17 tryhard:0 honours:47 rare:50 deep:41 legendary:1
+Name a topic in school biology
+  legendary: Amensalism
+
+== school-library-section (101) textbook:16 tryhard:0 honours:38 rare:30 deep:16 legendary:1
+Name a section or item you find in a school library
+  legendary: Microfiche
+
+== school-transport (70) textbook:8 tryhard:0 honours:19 rare:29 deep:13 legendary:1
+Name a way students get to school
+  legendary: Coracle
+
+== school-campus-place (80) textbook:13 tryhard:0 honours:20 rare:27 deep:19 legendary:1
+Name a place or room on a school campus
+  legendary: Observatory
 
 == word-ology (135) textbook:8 tryhard:1 honours:37 rare:57 deep:31 legendary:1
 Name an English word that ends in "-ology"

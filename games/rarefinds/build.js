@@ -53,8 +53,9 @@ function parseList(text) {
     .filter(Boolean)
     .map((entry) => {
       const [main, title] = entry.split('@').map((s) => s.trim());
-      const [name, ...aliases] = main.split('|').map((s) => s.trim()).filter(Boolean);
-      return { name, aliases, title: title || name };
+      const [t0, ...late] = (title || '').split('|').map((s) => s.trim()); // aliases written after the title still count
+      const [name, ...aliases] = main.split('|').concat(late).map((s) => s.trim()).filter(Boolean);
+      return { name, aliases, title: t0 || name };
     });
 }
 
@@ -121,9 +122,29 @@ async function wikiQuery(batch) {
 async function fetchEntities(titles) {
   const todo = titles.filter((t) => REFRESH || !signals.titles[t] || signals.titles[t].sitelinks === undefined || (signals.titles[t].sitelinks !== null && signals.titles[t].viewsWindow !== 60));
   for (let i = 0; i < todo.length; i += 50) {
-    const batch = todo.slice(i, i + 50);
+    await fetchBatch(todo.slice(i, i + 50));
+    process.stdout.write('.');
+    saveSignals();
+    await sleep(400);
+  }
+}
+
+async function fetchBatch(batch) {
     // Step 1: English Wikipedia resolves normalisation and redirects, gives each page's Wikidata id and page views.
     const wp = await wikiQuery(batch);
+    if (!wp?.query) {
+      // The API rejects a whole batch over one bad title (illegal characters, too long): split until it is isolated.
+      if (batch.length === 1) {
+        console.warn(`
+skipped title "${batch[0]}": ${wp?.error?.info || 'no result'}`);
+        signals.titles[batch[0]] = { sitelinks: null };
+        return;
+      }
+      const half = Math.ceil(batch.length / 2);
+      await fetchBatch(batch.slice(0, half));
+      await fetchBatch(batch.slice(half));
+      return;
+    }
     const step = new Map();
     for (const n of wp.query.normalized || []) step.set(n.from, n.to);
     for (const r of wp.query.redirects || []) step.set(r.from, r.to);
@@ -151,10 +172,6 @@ async function fetchEntities(titles) {
         signals.titles[t].description = e?.descriptions?.en?.value || '';
       }
     }
-    process.stdout.write('.');
-    saveSignals();
-    await sleep(400);
-  }
 }
 
 // Percentile rank (0..1) of each value within its list; ties share the average rank.
@@ -206,6 +223,28 @@ async function main() {
   fs.writeFileSync(SIGNALS_FILE, JSON.stringify(signals, null, 0));
   fs.writeFileSync(SPARQL_FILE, JSON.stringify(sparqlCache, null, 0));
   console.log('\nsignals cached');
+
+  // Two answers on one Wikipedia article are one answer to a player: keep one, the other's names become aliases.
+  // The answer named in legendary/tryhard/tiers/facts is the one kept.
+  const merged = [];
+  for (const q of specs) {
+    if (q.groups || (q.sparql && q._answers.length > VIEWS_POOL_LIMIT)) continue;
+    const named = new Set([...(q.legendary || []), ...(q.tryhard || []), ...Object.keys(q.tiers || {}), ...Object.keys(q.facts || {})]);
+    const byQid = new Map();
+    for (const a of q._answers) {
+      const qid = signals.titles[a.title]?.qid;
+      if (!qid || /disambiguation page/i.test(signals.titles[a.title]?.description || '')) continue;
+      const first = byQid.get(qid);
+      if (!first) { byQid.set(qid, a); continue; }
+      const [keep, drop] = named.has(a.name) && !named.has(first.name) ? [a, first] : [first, a];
+      keep.aliases = [...new Set([...keep.aliases, drop.name, ...drop.aliases])];
+      drop.dropped = true;
+      byQid.set(qid, keep);
+      merged.push(`[${q.id}] "${drop.name}" is now an alias of "${keep.name}"`);
+    }
+    q._answers = q._answers.filter((a) => !a.dropped);
+    if (q.closed && merged.some((m) => m.startsWith(`[${q.id}]`))) q.closed = q._answers.length;
+  }
 
   // 3) Rank and tier every question.
   for (const q of specs) {
@@ -311,6 +350,7 @@ async function main() {
     }
   }
 
+  if (merged.length) report.unshift('Merged answers that share a Wikipedia article:\n' + merged.join('\n') + '\n');
   fs.writeFileSync(REPORT, report.join('\n') + '\n');
   if (errors.length) {
     console.error(`\n${errors.length} content errors:\n` + errors.join('\n'));

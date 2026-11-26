@@ -85,3 +85,25 @@ assert.equal(big.filter((t) => t === 'textbook').length, 15);
 assert.equal(big.filter((t) => t === 'honours').length, 45);
 
 console.log('rare finds engine tests passed');
+
+// Numbered games: every game is 7 distinct prompts from 7 categories, all present in the bank.
+{
+  const fs = require('fs');
+  const path = require('path');
+  const gamesFile = path.join(__dirname, 'games.json');
+  if (fs.existsSync(gamesFile)) {
+    const bank = require('./bank.json');
+    const cat = new Map(bank.questions.map((q) => [q.id, q.category]));
+    const { games } = JSON.parse(fs.readFileSync(gamesFile, 'utf8'));
+    assert.ok(games.length >= 100, 'at least 100 numbered games');
+    games.forEach((g, i) => {
+      assert.equal(g.length, e.ROUNDS, `game ${i + 1} has ${e.ROUNDS} prompts`);
+      for (const id of g) assert.ok(cat.has(id), `game ${i + 1}: ${id} is in the bank`);
+      assert.equal(new Set(g.map((id) => cat.get(id))).size, e.ROUNDS, `game ${i + 1} uses ${e.ROUNDS} categories`);
+    });
+    const { makeGames } = require('./make-games');
+    const more = makeGames(bank.questions, games, 3, 1);
+    assert.equal(more.length, 3, 'the weekly top-up can add games');
+    console.log(`games.json ok: ${games.length} games`);
+  }
+}

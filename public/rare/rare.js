@@ -111,6 +111,8 @@
   socket.emit('meta', null, (m) => {
     meta = m;
     $('daily-num').textContent = `#${m.dayNumber}`;
+    $('library-count').textContent = m.games ? `· ${m.games} GAMES` : '';
+    $('open-library').hidden = !m.games;
     $('footnote').textContent = `${m.questions} prompts in the bank · data checked ${m.version.slice(0, 10)}`;
     renderDailyStatus();
   });
@@ -142,12 +144,36 @@
   const metaAt = performance.now();
   setInterval(() => !$('menu').hidden && renderDailyStatus(), 1000);
 
-  function create(mode) {
+  function create(mode, game) {
     unlock();
     sfx('click');
     $('menu-error').textContent = '';
-    socket.emit('create', { mode, name: nameNow(), color: colorNow(), guest, recent: store.get('rf-recent', []) });
+    socket.emit('create', { mode, game, name: nameNow(), color: colorNow(), guest, recent: store.get('rf-recent', []) });
   }
+  // ---------- game library ----------
+  const gameKey = (n) => `rf-game-${n}`;
+  function openLibrary() {
+    const grid = $('lib-grid');
+    grid.replaceChildren();
+    let played = 0;
+    for (let n = 1; n <= (meta?.games || 0); n++) {
+      const best = store.get(gameKey(n), null);
+      if (best) played++;
+      const b = el('button', best ? `t-${best.rank}` : '');
+      b.type = 'button';
+      b.setAttribute('aria-label', best ? `Game ${n}, best score ${best.score}` : `Game ${n}, not played`);
+      b.append(el('span', 'n', `#${n}`), el('span', best ? 's' : 's new', best ? `${best.score}` : 'NEW'));
+      b.onclick = () => {
+        $('library').close();
+        create('game', n);
+      };
+      grid.append(b);
+    }
+    $('lib-sub').textContent = `${played} of ${meta?.games || 0} played. Every game is 7 fixed prompts, so you can compare scores with friends. New games are added every week.`;
+    $('library').showModal();
+    grid.querySelector('.new')?.parentElement.focus();
+  }
+  $('open-library').onclick = () => (unlock(), sfx('click'), openLibrary());
   $('play-daily').onclick = () => create('daily');
   $('play-unlimited').onclick = () => create('unlimited');
   $('play-party').onclick = () => create('party');
@@ -280,7 +306,7 @@
     if (state.phase !== 'reveal') setHud(p.score);
     const q = state.question;
     if (q) {
-      $('prompt-kicker').textContent = `PROMPT ${state.round + 1} OF ${state.rounds}${state.mode === 'daily' ? ` · RUN #${state.dayNumber}` : state.mode === 'party' ? ' · FRIENDS' : ' · UNLIMITED'}`;
+      $('prompt-kicker').textContent = `PROMPT ${state.round + 1} OF ${state.rounds}${state.mode === 'daily' ? ` · RUN #${state.dayNumber}` : state.mode === 'game' ? ` · GAME #${state.gameNo}` : state.mode === 'party' ? ' · FRIENDS' : ' · UNLIMITED'}`;
       $('prompt-text').textContent = q.prompt;
       $('prompt-qual').textContent = q.qualifier || '';
     }
@@ -615,7 +641,7 @@
     const mine = f.players.find((p) => p.id === state.you);
     Scene.travel(mine.score * 10, 600);
     sfx('done');
-    $('res-kicker').textContent = state.mode === 'daily' ? `RUN #${state.dayNumber} COMPLETE` : state.mode === 'party' ? 'FRIENDS GAME COMPLETE' : 'UNLIMITED RUN COMPLETE';
+    $('res-kicker').textContent = state.mode === 'daily' ? `RUN #${state.dayNumber} COMPLETE` : state.mode === 'game' ? `GAME #${state.gameNo} COMPLETE` : state.mode === 'party' ? 'FRIENDS GAME COMPLETE' : 'UNLIMITED RUN COMPLETE';
     $('res-score').textContent = mine.score;
     $('res-dist').textContent = `${fmtM(mine.score * 10)} across campus · reached the ${Scene.zoneAt(mine.score * 10)}`;
     $('res-rank').textContent = mine.rank.perfect ? 'PERFECT RUN' : TIERS[mine.rank.tier].name;
@@ -663,10 +689,16 @@
     } else if (dist) dbox.append(el('div', 'muted small', `Not enough players yet today to compare (${dist.count} so far). Score counts reset when the server restarts.`));
     // daily save + share
     if (state.mode === 'daily' && !store.get(dailyKey(), null)) store.set(dailyKey(), { score: mine.score, tiers: mine.log.map((l) => l.tier) });
+    if (state.mode === 'game') {
+      const prev = store.get(gameKey(state.gameNo), null);
+      if (!prev || mine.score > prev.score) store.set(gameKey(state.gameNo), { score: mine.score, rank: mine.rank.tier });
+    }
     $('share').onclick = () => share(mine);
+    const nextGame = state.mode === 'game' && state.gameNo < (meta?.games || 0) ? state.gameNo + 1 : null;
+    $('again').textContent = nextGame ? `PLAY GAME #${nextGame}` : 'PLAY UNLIMITED';
     $('again').onclick = () => {
       leave();
-      create('unlimited');
+      nextGame ? create('game', nextGame) : create('unlimited');
     };
     $('party-again').hidden = !(state.mode === 'party' && state.hostId === state.you);
     $('party-again').onclick = () => {
@@ -733,7 +765,7 @@
   }
 
   async function share(mine) {
-    const head = state.mode === 'daily' ? `Rare Finds #${state.dayNumber}` : 'Rare Finds (Unlimited)';
+    const head = state.mode === 'daily' ? `Rare Finds #${state.dayNumber}` : state.mode === 'game' ? `Rare Finds Game #${state.gameNo}` : 'Rare Finds (Unlimited)';
     const line = mine.log.map((l) => (l.tier ? TIERS[l.tier].emoji : '⬛')).join('');
     const text = `${head}\n${mine.score}/700 · ${fmtM(mine.score * 10)}\n${line}\n${location.origin}/rare/`;
     try {

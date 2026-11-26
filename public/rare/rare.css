@@ -69,10 +69,19 @@ input:focus { border-color: var(--cyan); outline: none; }
 .menu-box { width: min(440px, 100%); display: grid; gap: 12px; text-align: center; margin-top: -8vh; }
 .school-logo { width: 240px; height: auto; margin: 0 auto; image-rendering: pixelated; border: 3px solid var(--ink); }
 @media (min-width: 600px) and (min-height: 700px) { .school-logo { width: 360px; } }
+@media (max-width: 599px) { .school-logo { margin-top: 40px; } }
 .title { margin: 0; font-size: clamp(3rem, 11vw, 5.2rem); line-height: .9; letter-spacing: 4px; text-shadow: 4px 4px 0 var(--ink), -2px -2px 0 var(--ink), 2px -2px 0 var(--ink), -2px 2px 0 var(--ink); }
 .title .t1 { color: #fff; display: block; }
 .title .t2 { color: var(--primary); display: block; }
 .subtitle { margin: 4px auto 8px; font-size: 1rem; background: rgba(20,19,34,.78); padding: 4px 12px; clip-path: var(--step); width: fit-content; max-width: 100%; }
+.pbtn-library { width: 100%; }
+#library-count { color: var(--gold); }
+.lib-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 6px; overflow-y: auto; max-height: 56vh; padding: 2px; }
+.lib-grid button { min-height: 52px; display: grid; place-items: center; gap: 0; padding: 4px; background: rgba(15,14,26,.85); color: var(--text); border: 2px solid var(--line); border-bottom: 4px solid var(--tc, var(--line)); font-family: inherit; cursor: pointer; }
+.lib-grid button:hover, .lib-grid button:focus-visible { border-color: var(--cyan); outline: none; }
+.lib-grid .n { font-size: 1.05rem; }
+.lib-grid .s { font-size: .7rem; color: var(--tc, var(--muted)); }
+.lib-grid .new { color: var(--gold); }
 .menu-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .menu-row.small .pbtn { font-size: .9rem; background: rgba(20,19,34,.72); color: var(--text); border-color: transparent; }
 .menu-row.small .pbtn:hover { border-color: var(--cyan); }
