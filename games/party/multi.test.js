@@ -89,8 +89,8 @@ function autoplay(c, style) {
 
 async function main() {
   const server = http.createServer();
-  const io = new Server(server);
-  attach(io, { settingsOverride: FAST });
+  const io = new Server(server, { connectionStateRecovery: { maxDisconnectionDuration: 30000, skipMiddlewares: true } }); // as in server.js
+  attach(io, { settingsOverride: FAST, reconnectMs: 1500 });
   await new Promise((r) => server.listen(0, r));
   port = server.address().port;
 
@@ -204,7 +204,24 @@ async function main() {
   assert.equal(j1.code, j2.code, 'second quick player joins the first room');
   await until(() => q1.room?.match?.status === 'QUESTION_PREPARATION' || q1.room?.match?.status === 'ROUND_ACTIVE', 6000, 'quick room auto-start');
 
-  for (const x of [a, b2, c, d, q1, q2]) x.s.close();
+  // ---- a dropped connection that recovers keeps its seat past the reconnect window ----
+  const r1 = client('R1'), r2 = client('R2');
+  await Promise.all([r1, r2].map((x) => new Promise((r) => x.s.on('connect', r))));
+  const rr = await r1.call('create_room', { name: 'R1', token: r1.token });
+  await r2.call('join_room', { code: rr.code, name: 'R2', token: r2.token });
+  await until(() => r1.room?.members.length === 2, 3000, 'two in recovery room');
+  const r2id = r2.room.you;
+  const reconnected = new Promise((res) => r2.s.once('connect', res)); // the socket's own connect, after the manager reconnects
+  r2.s.io.engine.close(); // transport drops; the client reconnects on its own
+  await until(() => r1.room.members.find((m) => m.id === r2id)?.connected === false, 3000, 'shown away');
+  await reconnected;
+  assert.ok(r2.s.recovered, 'socket state recovered');
+  await until(() => r1.room.members.find((m) => m.id === r2id)?.connected === true, 3000, 'shown back');
+  await wait(2000); // longer than the 1.5 s reconnect window used here
+  assert.ok(r1.room.members.some((m) => m.id === r2id && m.connected), 'still seated after the window');
+  assert.equal(r2.room.you, r2id);
+
+  for (const x of [a, b2, c, d, q1, q2, r1, r2]) x.s.close();
   io.close();
   server.close();
   console.log('party multi-client: all checks passed');

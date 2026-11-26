@@ -54,6 +54,7 @@ module.exports = function attach(io, opts = {}) {
   const nsp = io.of('/pop');
   // Tests may shorten timings and supply their own questions. Production uses the Rare Finds bank.
   const overrides = opts.settingsOverride || {};
+  const reconnectMs = opts.reconnectMs || RECONNECT_MS;
   const questions = opts.questions || (() => [...require('../rarefinds/server').internals.qById.values()]);
 
   function makeRoom({ visibility, quick }) {
@@ -238,6 +239,18 @@ module.exports = function attach(io, opts = {}) {
       return me && me.socketId === socket.id ? { room, me } : {};
     };
     const on = (ev, fn) => socket.on(ev, safe(fn));
+    // A short drop (Wi-Fi blip, phone tab in the background) comes back as the same socket: give the seat back.
+    if (socket.recovered) {
+      const { room, me } = ctx();
+      if (room) {
+        clearTimeout(me.leaveTimer);
+        me.leaveTimer = null;
+        me.connected = true;
+        if (room.match) P.setConnected(room.match, me.id, true);
+        checkQuickStart(room);
+        settle(room);
+      }
+    }
     let joins = [];
     const joinAllowed = () => {
       const t = Date.now();
@@ -405,7 +418,7 @@ module.exports = function attach(io, opts = {}) {
       me.connected = false;
       if (room.match) P.setConnected(room.match, me.id, false);
       // The fuse is not paused for anyone; a dropped player keeps their seat for a while and loses it after that.
-      me.leaveTimer = setTimeout(safe(() => removeMember(room, me.id)), RECONNECT_MS);
+      me.leaveTimer = setTimeout(safe(() => removeMember(room, me.id)), reconnectMs);
       checkQuickStart(room);
       settle(room);
     });

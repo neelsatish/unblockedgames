@@ -129,6 +129,10 @@ input:focus, select:focus { border-color: var(--cyan); outline: none; }
 .seat .sname { font-family: var(--mono); font-size: .78rem; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .seat .stag { font-size: .7rem; letter-spacing: 1px; color: var(--muted); min-height: 1em; }
 .seat.empty { opacity: .35; border-style: dashed; }
+.seats.compact .seat { padding: 3px 2px; gap: 1px; }
+.seats.compact .meter, .seats.compact .stag { display: none; }
+.seats.compact .sname { font-size: .66rem; }
+.seats.tiny .sname { display: none; }
 .seat.empty .sname { color: var(--muted); }
 .seat.me { border-color: var(--cyan); }
 .seat.next { border-color: #6B6895; }

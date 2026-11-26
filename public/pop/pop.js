@@ -173,8 +173,10 @@
   let pending = false, typingSent = 0;
 
   socket.on('connect', () => {
-    const code = sessionStorage.getItem('pq-room') || new URLSearchParams(location.search).get('room');
-    if (code && !room) join(code, true);
+    if (socket.recovered) return; // the server kept our seat and replays what we missed
+    // First load, refresh, or a drop too long to recover: rejoin with this tab's token to reclaim the seat.
+    const code = room?.code || sessionStorage.getItem('pq-room') || new URLSearchParams(location.search).get('room');
+    if (code) join(code, true);
   });
   socket.on('disconnect', () => room && toast('Connection lost. Reconnecting...'));
   socket.on('note', (n) => toast(n));
@@ -667,23 +669,35 @@
     if (card.parentNode !== slot) slot.appendChild(card);
     const n = seatList().length;
     const scale = Math.min(1, box.width / 720, box.height / 520);
+    // Crowded small tables drop the meter and tag rows; very crowded ones drop the name too (it stays in the label).
+    const crowd = n > 6 && box.height < 440 ? (n > 10 ? 2 : 1) : 0;
+    $('seats').classList.toggle('compact', crowd >= 1);
+    $('seats').classList.toggle('tiny', crowd === 2);
     const seatW = Math.round((n <= 6 ? 116 : n <= 10 ? 98 : 82) * Math.max(0.6, scale));
-    const av = Math.round((n <= 6 ? 44 : n <= 10 ? 36 : 28) * Math.max(0.6, scale));
-    const seatH = av + 64; // avatar plus name, hearts, meter and tag rows
-    const cx = box.width / 2, cy = box.height / 2;
-    const RX = Math.max(60, cx - seatW / 2 - 6), RY = Math.max(60, cy - seatH / 2 - 6);
-    const seats = [];
-    for (let i = 0; i < n; i++) {
-      const a = -Math.PI / 2 + (i / n) * Math.PI * 2; // seat 0 at the top, then clockwise
-      seats.push({ x: cx + RX * Math.cos(a), y: cy + RY * Math.sin(a) });
-    }
-    geo = { w: box.width, h: box.height, cx, cy, RX, RY, seats, seatW, seatH, av, n, k: n <= 6 && box.width >= 900 && box.height >= 600 ? 2 : 1 };
+    const av = Math.round((crowd === 2 ? 20 : crowd ? 26 : n <= 6 ? 44 : n <= 10 ? 36 : 28) * (crowd ? 1 : Math.max(0.6, scale)));
     $('seats').style.setProperty('--seat-w', `${seatW}px`);
     $('seats').style.setProperty('--av', `${av}px`);
+    const cx = box.width / 2, cy = box.height / 2;
+    const place = (seatH, w) => {
+      const RX = Math.max(60, cx - w / 2 - 6), RY = Math.max(40, cy - seatH / 2 - 6);
+      const seats = [];
+      for (let i = 0; i < n; i++) {
+        const a = -Math.PI / 2 + (i / n) * Math.PI * 2; // seat 0 at the top, then clockwise
+        seats.push({ x: cx + RX * Math.cos(a), y: cy + RY * Math.sin(a) });
+      }
+      geo = { w: box.width, h: box.height, cx, cy, RX, RY, seats, seatW: w, seatH, av, n, k: n <= 6 && box.width >= 900 && box.height >= 600 ? 2 : 1 };
+    };
+    place(av + 64, seatW);
     arenaCanvas.width = Math.ceil(box.width / S);
     arenaCanvas.height = Math.ceil(box.height / S);
     benchCache = null;
     buildSeats(true);
+    // Measure the real seat size and place again, so the ring fits whatever the seats actually render as.
+    const real = seatEls[0];
+    if (real && real.offsetHeight) {
+      place(real.offsetHeight, real.offsetWidth);
+      buildSeats(false);
+    }
     const t = flaskTarget();
     flask.x = t.x;
     flask.y = t.y;
