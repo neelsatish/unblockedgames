@@ -1,5 +1,7 @@
 # Unblocked Arcade
 
+> Unofficial fan-made game. Not affiliated with, endorsed by, or connected to Inventure Academy in any way.
+
 Party games with private room codes. Node + Express + socket.io.
 
 Games:

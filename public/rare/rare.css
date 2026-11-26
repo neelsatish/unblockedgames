@@ -77,7 +77,9 @@ input:focus { border-color: var(--cyan); outline: none; }
 .join-row { display: flex; gap: 8px; }
 .join-row input { flex: 1; text-align: center; letter-spacing: 5px; text-transform: uppercase; min-width: 0; }
 .daily-status { background: var(--panel); border: 3px solid var(--gold-dark); clip-path: var(--step); padding: 8px 12px; }
-.footnote { position: fixed; bottom: 8px; left: 0; right: 0; text-align: center; font-size: .8rem; color: #fff; text-shadow: 1px 1px 0 var(--ink); margin: 0; }
+.footer-notes { position: fixed; bottom: 6px; left: 0; right: 0; display: grid; gap: 2px; justify-items: center; padding: 0 10px; }
+.footnote, .disclaimer { margin: 0; text-align: center; font-size: .8rem; color: #fff; text-shadow: 1px 1px 0 var(--ink); }
+.disclaimer { font-size: .72rem; background: rgba(20,19,34,.7); padding: 2px 8px; }
 
 /* ---------- lobby ---------- */
 #lobby { display: grid; place-items: center; padding: 16px; }

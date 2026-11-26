@@ -124,6 +124,7 @@ button.game-card:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 
 .game-card.soon { opacity: .75; cursor: default; }
 .game-card.soon .play-pill { background: #fff; }
 
+.disclaimer { text-align: center; font-size: .8rem; color: var(--ink-soft); margin: 0; }
 .room-step { padding: 24px; display: grid; gap: 14px; width: min(460px, 100%); justify-self: center; animation: pop-in 250ms var(--ease-out); }
 .back-btn { justify-self: start; padding: 4px 10px; min-height: 36px; font-weight: 800; }
 .room-step .section-title { margin: 0; }
