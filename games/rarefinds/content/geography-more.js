@@ -224,9 +224,9 @@ module.exports = [
     qualifier: 'Localities of Bengaluru with their own Wikipedia article',
     missingTier: 'deep',
     answers: `
-      Koramangala; Indiranagar; Jayanagar; Whitefield@Whitefield, Bangalore; Malleshwaram|Malleswaram; Basavanagudi;
-      HSR Layout|HSR; BTM Layout|BTM; Electronic City; Yelahanka; Hebbal; Marathahalli|Marathalli; Banashankari;
-      Rajajinagar; JP Nagar|J. P. Nagar; Jalahalli; Yeshwanthpur|Yeshvantpur; Bellandur; Sarjapur|Sarjapura;
+      Koramangala; Indiranagar@Indiranagar, Bangalore; Jayanagar@Jayanagar, Bangalore; Whitefield@Whitefield, Bangalore; Malleshwaram|Malleswaram; Basavanagudi;
+      HSR Layout|HSR; BTM Layout|BTM; Electronic City; Yelahanka; Hebbal@Hebbal, Bangalore; Marathahalli|Marathalli; Banashankari;
+      Rajajinagar; JP Nagar|J. P. Nagar@J. P. Nagar, Bangalore; Jalahalli; Yeshwanthpur|Yeshvantpur; Bellandur; Sarjapur|Sarjapura;
       Frazer Town; Richmond Town@Richmond Town, Bangalore; Shivajinagar@Shivajinagar, Bangalore; Ulsoor|Halasuru;
       Vijayanagar@Vijayanagar, Bangalore; Peenya; Kengeri; Bommanahalli; Domlur; Cox Town; Sadashivanagar;
       Rajarajeshwari Nagar|RR Nagar; Basaveshwaranagar; Nagarbhavi; Hennur; Kalyan Nagar; Banaswadi;
@@ -251,9 +251,9 @@ module.exports = [
       Ooty|Udhagamandalam|Ootacamund@Ooty; Kodaikanal; Munnar; Shimla|Simla; Manali@Manali, Himachal Pradesh; Darjeeling; Mussoorie; Nainital;
       Madikeri|Coorg@Madikeri; Mount Abu; Gangtok; Shillong; Lonavala|Lonavla; Mahabaleshwar; Panchgani; Matheran;
       Coonoor; Yercaud; Kalimpong; Dalhousie@Dalhousie, India; McLeod Ganj|Mcleodganj; Dharamshala|Dharamsala; Kasauli;
-      Almora; Ranikhet; Auli@Auli, Uttarakhand; Lansdowne@Lansdowne, Uttarakhand; Chail@Chail, Himachal Pradesh; Kufri; Pachmarhi; Araku Valley|Araku;
-      Ponmudi; Yelagiri; Kotagiri; Chikmagalur|Chikkamagaluru@Chikkamagaluru; Nandi Hills|Nandidurga; Agumbe;
-      Kemmangundi; Horsley Hills; Saputara; Khandala; Kasol; Mukteshwar; Landour; Pelling; Lachung; Ziro@Ziro, Arunachal Pradesh;
+      Almora; Ranikhet; Auli@Auli, India; Lansdowne@Lansdowne, Uttarakhand; Chail@Chail, Himachal Pradesh; Kufri; Pachmarhi; Araku Valley|Araku;
+      Ponmudi; Yelagiri; Kotagiri; Chikmagalur|Chikkamagaluru@Chikkamagaluru; Nandi Hills|Nandidurga@Nandi Hills, India; Agumbe;
+      Kemmangundi; Horsley Hills; Saputara; Khandala; Kasol; Mukteshwar; Landour; Pelling; Lachung; Ziro@Ziro;
       Tawang; Cherrapunji|Sohra; Dirang; Kausani; Bhimtal; Vagamon; Valparai; Sakleshpur; Thekkady`,
     legendary: ['Yelagiri', 'Pachmarhi'],
     facts: {
@@ -491,7 +491,7 @@ module.exports = [
       Rewalsar Lake|Rewalsar; Deepor Beel|Deepor; Umiam Lake|Barapani|Umiam; Jaisamand Lake|Dhebar Lake|Jaisamand; Powai Lake|Powai; Vihar Lake;
       Tulsi Lake; Ana Sagar Lake|Ana Sagar; Udai Sagar Lake|Udaisagar; Nakki Lake|Nakki; Mansar Lake|Mansar; Surinsar Lake|Surinsar;
       Nigeen Lake|Nigeen; Manasbal Lake|Manasbal; Hebbal Lake|Hebbal; Sankey Tank|Sankey; Kukkarahalli Lake|Kukkarahalli;
-      Karanji Lake|Karanji; Hesaraghatta Lake; Madiwala Lake|Madivala; Upper Lake|Bhoj Wetland|Upper Lake Bhopal@Upper Lake;
+      Karanji Lake|Karanji; Hesaraghatta Lake; Madiwala Lake|Madivala; Upper Lake|Bhoj Wetland|Upper Lake Bhopal@Upper Lake (Bhopal);
       Govind Sagar|Gobind Sagar|Govind Sagar Lake; Hirakud Reservoir|Hirakud; Nagarjuna Sagar; Sardar Sarovar|Sardar Sarovar Dam;
       Chandratal|Chandra Taal|Chandra Tal; Prashar Lake|Parashar Lake; Khajjiar Lake|Khajjiar; Mirik Lake|Sumendu Lake`,
     legendary: ['Lonar Lake', 'Loktak Lake'],

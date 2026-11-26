@@ -358,7 +358,7 @@ module.exports = [
     strip: ['fort'],
     missingTier: 'deep',
     answers: `
-      Red Fort|Lal Qila|Lal Quila@Red Fort; Agra Fort|Red Fort of Agra@Agra Fort; Amer Fort|Amber Fort|Amer@Amer Fort; Jaigarh Fort@Jaigarh Fort; Nahargarh Fort@Nahargarh Fort, Jaipur;
+      Red Fort|Lal Qila|Lal Quila@Red Fort; Agra Fort|Red Fort of Agra@Agra Fort; Amer Fort|Amber Fort|Amer@Amer Fort; Jaigarh Fort@Jaigarh Fort; Nahargarh Fort@Nahargarh Fort;
       Mehrangarh Fort|Mehrangarh@Mehrangarh; Jaisalmer Fort|Sonar Quila|Golden Fort@Jaisalmer Fort; Chittorgarh Fort|Chittor Fort|Chittorgarh|Chittor@Chittorgarh Fort;
       Kumbhalgarh Fort|Kumbhalgarh@Kumbhalgarh; Ranthambore Fort|Ranthambhore Fort@Ranthambore Fort; Gwalior Fort@Gwalior Fort; Golconda Fort|Golconda@Golconda Fort;
       Bidar Fort@Bidar Fort; Gulbarga Fort|Kalaburagi Fort@Gulbarga Fort; Raichur Fort@Raichur Fort; Chitradurga Fort|Chitradurga|Kallina Kote@Chitradurga Fort;
@@ -367,7 +367,7 @@ module.exports = [
       Panhala Fort|Panhala@Panhala Fort; Sindhudurg Fort|Sindhudurg@Sindhudurg Fort; Murud-Janjira|Janjira Fort|Janjira|Murud Janjira@Murud-Janjira;
       Purana Qila|Old Fort@Purana Qila; Salimgarh Fort@Salimgarh Fort; Tughlaqabad Fort|Tughlaqabad@Tughlaqabad Fort; Kangra Fort|Kangra@Kangra Fort;
       Kalinjar Fort|Kalinjar@Kalinjar Fort; Jhansi Fort@Jhansi Fort; Fort St. George|Fort St George@Fort St. George, India; Fort William@Fort William, India;
-      Gingee Fort|Senji Fort|Jinji Fort|Gingee@Gingee Fort; Vellore Fort@Vellore Fort; Rock Fort|Tiruchirappalli Rock Fort|Trichy Rock Fort|Rockfort@Rock Fort, Tiruchirappalli;
+      Gingee Fort|Senji Fort|Jinji Fort|Gingee@Gingee Fort; Vellore Fort@Vellore Fort; Rock Fort|Tiruchirappalli Rock Fort|Trichy Rock Fort|Rockfort@Tiruchirappalli Rock Fort;
       Bekal Fort|Bekal@Bekal Fort; Aguada Fort@Fort Aguada; Chapora Fort@Chapora Fort; Rohtasgarh Fort@Rohtasgarh Fort; Allahabad Fort|Prayagraj Fort@Allahabad Fort;
       Lohagarh Fort|Lohagarh@Lohagarh Fort; Junagarh Fort@Junagarh Fort; Taragarh Fort@Taragarh Fort, Ajmer; Asirgarh Fort|Asirgarh@Asirgarh Fort;
       Kondapalli Fort@Kondapalli Fort; Warangal Fort@Warangal Fort; Bhongir Fort|Bhuvanagiri Fort@Bhongir Fort; Gooty Fort@Gooty Fort; Srirangapatna Fort@Srirangapatna`,
@@ -489,9 +489,9 @@ module.exports = [
     answers: `
       Qutb ud-Din Aibak|Qutbuddin Aibak|Qutb-ud-din Aibak|Aibak|Aybak@Qutb ud-Din Aibak; Aram Shah|Aram Baksh@Aram Shah; Iltutmish|Shams ud-Din Iltutmish|Altamash|Shamsuddin Iltutmish@Iltutmish;
       Rukn ud-Din Firuz|Ruknuddin Firoz@Rukn ud-Din Firuz; Razia Sultana|Razia|Raziya|Radiyya@Razia Sultana; Muiz ud-Din Bahram|Bahram Shah|Muizuddin Bahram@Muiz ud-Din Bahram;
-      Ala ud-Din Masud|Alauddin Masud|Masud Shah@Ala ud-Din Masud; Nasir ud-Din Mahmud|Nasiruddin Mahmud@Nasir ud-Din Mahmud; Ghiyas ud-Din Balban|Balban|Ghiyasuddin Balban@Ghiyas ud-Din Balban;
+      Ala ud-Din Masud|Alauddin Masud|Masud Shah@Ala ud-Din Masud; Nasir ud-Din Mahmud|Nasiruddin Mahmud@Nasir ud-Din Mahmud; Ghiyas ud-Din Balban|Balban|Ghiyasuddin Balban@Balban;
       Muiz ud-Din Qaiqabad|Kaiqubad|Qaiqabad|Muizuddin Kaikobad@Muiz ud-Din Qaiqabad; Kayumars|Shamsuddin Kayumars@Kayumars (Delhi sultan);
-      Jalal ud-Din Khalji|Jalaluddin Khilji|Jalal-ud-din Khilji|Jalaluddin Khalji@Jalal ud-Din Firuz Khalji; Alauddin Khalji|Alauddin Khilji|Ala ud-Din Khalji|Ala-ud-din Khilji@Alauddin Khalji;
+      Jalal ud-Din Khalji|Jalaluddin Khilji|Jalal-ud-din Khilji|Jalaluddin Khalji@Jalal-ud-Din Khalji; Alauddin Khalji|Alauddin Khilji|Ala ud-Din Khalji|Ala-ud-din Khilji@Alauddin Khalji;
       Shihab ud-Din Umar|Shihabuddin Umar@Shihab ud-Din Umar; Qutb ud-Din Mubarak Shah|Qutbuddin Mubarak Shah|Mubarak Shah Khalji@Qutb ud-Din Mubarak Shah; Khusrau Khan|Nasiruddin Khusrau Shah@Khusrau Khan;
       Ghiyath al-Din Tughluq|Ghiyasuddin Tughlaq|Tughlaq|Ghazi Malik|Ghiyas ud-Din Tughlaq@Ghiyath al-Din Tughluq; Muhammad bin Tughluq|Muhammad Tughlaq|Muhammad bin Tughlaq|Mohammad bin Tughlaq@Muhammad bin Tughluq;
       Firuz Shah Tughlaq|Firoz Shah Tughlaq|Firuz Shah Tughluq@Firuz Shah Tughlaq; Tughlaq Shah II|Ghiyath al-Din Tughluq II|Tughluq Shah II@Tughlaq Shah II; Abu Bakr Shah@Abu Bakr Shah;
@@ -585,11 +585,11 @@ module.exports = [
     qualifier: 'Cities of the ancient Greek world, mainland, islands and colonies, before Roman rule',
     missingTier: 'deep',
     answers: `
-      Athens|Ancient Athens@Classical Athens; Sparta@Sparta; Corinth|Ancient Corinth@Ancient Corinth; Thebes@Thebes, Greece; Argos@Argos; Delphi@Delphi;
+      Athens|Ancient Athens@Classical Athens; Sparta@Sparta; Corinth|Ancient Corinth@Ancient Corinth; Thebes@Thebes, Greece; Argos@Argos, Peloponnese; Delphi@Delphi;
       Olympia@Olympia, Greece; Megara@Megara; Syracuse@Syracuse, Sicily; Miletus@Miletus; Ephesus@Ephesus; Halicarnassus@Halicarnassus; Eretria@Eretria;
       Chalcis@Chalcis; Delos@Delos; Mycenae@Mycenae; Tiryns@Tiryns; Pylos@Pylos; Knossos@Knossos; Troy@Troy; Pergamon|Pergamum@Pergamon; Priene@Priene;
       Aegina@Aegina; Epidaurus|Epidauros@Epidaurus; Plataea@Plataea; Mantinea@Mantinea; Olynthus@Olynthus; Elis@Elis; Abdera@Abdera, Thrace; Amphipolis@Amphipolis;
-      Potidaea@Potidaea; Cumae@Cumae; Byzantium|Byzantion@Byzantium; Sybaris@Sybaris; Croton|Kroton@Croton; Cyrene@Cyrene, Libya; Smyrna@Smyrna;
+      Potidaea@Potidaea; Cumae@Cumae; Byzantium|Byzantion@Byzantium; Sybaris@Sybaris; Croton|Kroton@Crotone; Cyrene@Cyrene, Libya; Smyrna@Smyrna;
       Rhodes|Rhodos@Rhodes; Lindos@Lindos; Eleusis@Eleusis; Marathon@Marathon, Greece; Thermopylae@Thermopylae; Naupactus@Naupactus; Phocaea@Phocaea;
       Colophon@Colophon, Ionia; Mytilene@Mytilene; Chios@Chios; Samos@Samos; Kos|Cos@Kos; Paros@Paros; Thasos@Thasos`,
     legendary: ['Sybaris', 'Abdera'],
@@ -662,35 +662,6 @@ module.exports = [
     facts: {
       'Mustafa I': 'Was placed on the throne twice, in 1617 and again in 1622, and was set aside both times.',
       'Murad V': 'Reigned for only 93 days in 1876 before being removed as unfit to rule.',
-    },
-  },
-  {
-    id: 'hist-unesco-india',
-    category: 'history',
-    prompt: 'Name a UNESCO World Heritage Site in India',
-    qualifier: 'Sites inscribed in India up to 2024, by their usual name',
-    missingTier: 'deep',
-    answers: `
-      Taj Mahal@Taj Mahal; Agra Fort|Red Fort of Agra@Agra Fort; Red Fort|Red Fort Complex|Lal Qila@Red Fort; Qutb Minar|Qutub Minar|Qutb Minar and its Monuments@Qutb Minar;
-      Humayun's Tomb|Humayuns Tomb@Humayun's Tomb; Jantar Mantar|Jantar Mantar Jaipur@Jantar Mantar, Jaipur; Fatehpur Sikri@Fatehpur Sikri; Hill Forts of Rajasthan@Hill Forts of Rajasthan;
-      Ajanta Caves|Ajanta@Ajanta Caves; Ellora Caves|Ellora@Ellora Caves; Elephanta Caves|Elephanta@Elephanta Caves; Konark Sun Temple|Sun Temple Konark|Konark@Konark Sun Temple;
-      Khajuraho Group of Monuments|Khajuraho Temples|Khajuraho@Khajuraho Group of Monuments; Hampi|Group of Monuments at Hampi@Hampi; Pattadakal|Group of Monuments at Pattadakal@Pattadakal;
-      Great Living Chola Temples|Brihadisvara Temple|Brihadeeswarar Temple|Chola Temples@Great Living Chola Temples; Mahabalipuram|Group of Monuments at Mahabalipuram|Mamallapuram@Group of Monuments at Mahabalipuram;
-      Sanchi|Sanchi Stupa|Buddhist Monuments at Sanchi@Sanchi; Mahabodhi Temple|Bodh Gaya|Mahabodhi Temple Complex at Bodh Gaya@Mahabodhi Temple; Nalanda|Nalanda Mahavihara@Nalanda;
-      Rani ki Vav|Rani-ki-Vav|Rani Ki Vav Patan@Rani ki Vav; Champaner-Pavagadh|Champaner-Pavagadh Archaeological Park|Champaner@Champaner-Pavagadh Archaeological Park;
-      Bhimbetka Rock Shelters|Bhimbetka@Bhimbetka rock shelters; Chhatrapati Shivaji Terminus|Victoria Terminus|CST@Chhatrapati Shivaji Maharaj Terminus;
-      Victorian Gothic and Art Deco Ensembles of Mumbai|Victorian and Art Deco Ensemble of Mumbai|Marine Drive Mumbai@Victorian Gothic and Art Deco Ensembles of Mumbai;
-      Kaziranga National Park|Kaziranga@Kaziranga National Park; Keoladeo National Park|Keoladeo|Bharatpur Bird Sanctuary@Keoladeo National Park; Manas National Park|Manas Wildlife Sanctuary|Manas@Manas National Park;
-      Sundarbans National Park|Sundarbans@Sundarbans National Park; Nanda Devi National Park|Valley of Flowers|Nanda Devi and Valley of Flowers National Parks@Nanda Devi and Valley of Flowers National Parks;
-      Great Himalayan National Park|Great Himalayan National Park Conservation Area@Great Himalayan National Park; Western Ghats@Western Ghats; Khangchendzonga National Park|Kangchenjunga National Park@Khangchendzonga National Park;
-      Mountain Railways of India|Darjeeling Himalayan Railway|Nilgiri Mountain Railway|Kalka-Shimla Railway@Mountain Railways of India; Churches and Convents of Goa|Basilica of Bom Jesus|Old Goa@Churches and Convents of Goa;
-      Capitol Complex Chandigarh|Chandigarh Capitol Complex|Le Corbusier's Capitol Complex|Chandigarh@Capitol Complex, Chandigarh; Santiniketan|Shantiniketan@Santiniketan;
-      Dholavira@Dholavira; Ramappa Temple|Ramappa|Rudreshwara Temple@Ramappa Temple; Hoysala temples|Sacred Ensembles of the Hoysalas|Belur Halebidu|Belur|Halebidu@Hoysala architecture;
-      Moidams|Charaideo Moidams|Moidams of the Ahom Dynasty|Charaideo@Moidams; Jaipur City|Jaipur@Jaipur City; Ahmedabad Historic City|Historic City of Ahmedabad|Ahmedabad@Ahmedabad Historic City`,
-    legendary: ['Moidams', 'Dholavira'],
-    facts: {
-      Moidams: 'The mound-burial system of the Ahom rulers in Assam, inscribed on the World Heritage List in 2024.',
-      Dholavira: 'A Harappan city in Kutch, Gujarat, famed for its water-conservation system, inscribed in 2021.',
     },
   },
   {

@@ -9,11 +9,11 @@ module.exports = [
       Antz; The Prince of Egypt|Prince of Egypt; The Road to El Dorado|Road to El Dorado; Chicken Run; Shrek@Shrek; Spirit: Stallion of the Cimarron|Spirit;
       Sinbad: Legend of the Seven Seas|Sinbad; Shark Tale; Shrek 2; Madagascar@Madagascar (2005 film); Wallace & Gromit: The Curse of the Were-Rabbit|Curse of the Were-Rabbit;
       Over the Hedge; Flushed Away; Shrek the Third|Shrek 3; Bee Movie; Kung Fu Panda@Kung Fu Panda (film); Madagascar: Escape 2 Africa|Madagascar 2;
-      Monsters vs. Aliens|Monsters vs Aliens; How to Train Your Dragon@How to Train Your Dragon (film); Shrek Forever After|Shrek 4; Megamind; Kung Fu Panda 2;
-      Puss in Boots@Puss in Boots (2011 film); Rise of the Guardians; Madagascar 3: Europe's Most Wanted|Madagascar 3; The Croods; Turbo@Turbo (film);
+      Monsters vs. Aliens|Monsters vs Aliens; How to Train Your Dragon@How to Train Your Dragon (2010 film); Shrek Forever After|Shrek 4; Megamind; Kung Fu Panda 2;
+      Puss in Boots@Puss in Boots (2011 film); Rise of the Guardians; Madagascar 3: Europe's Most Wanted|Madagascar 3; The Croods; Turbo@Turbo (2013 film);
       Mr. Peabody & Sherman|Mr Peabody and Sherman; How to Train Your Dragon 2; Penguins of Madagascar@Penguins of Madagascar (film); Home@Home (2015 film);
       Kung Fu Panda 3; Trolls@Trolls (film); The Boss Baby; Captain Underpants: The First Epic Movie|Captain Underpants;
-      How to Train Your Dragon: The Hidden World|The Hidden World; Abominable@Abominable (film); Trolls World Tour; The Croods: A New Age|The Croods 2;
+      How to Train Your Dragon: The Hidden World|The Hidden World; Abominable@Abominable (2019 film); Trolls World Tour; The Croods: A New Age|The Croods 2;
       The Boss Baby: Family Business; Spirit Untamed; The Bad Guys@The Bad Guys (film); Puss in Boots: The Last Wish; Ruby Gillman, Teenage Kraken|Ruby Gillman;
       Trolls Band Together|Trolls 3; Kung Fu Panda 4; The Wild Robot; Dog Man@Dog Man (film); Gabby's Dollhouse: The Movie|Gabbys Dollhouse; The Bad Guys 2;
       Joseph: King of Dreams`,
@@ -31,7 +31,7 @@ module.exports = [
       My Neighbor Totoro|My Neighbour Totoro|Totoro; Kiki's Delivery Service|Kikis Delivery Service|Kiki; Only Yesterday@Only Yesterday (1991 film); Porco Rosso;
       Ocean Waves; Pom Poko; Whisper of the Heart; Princess Mononoke|Mononoke; My Neighbors the Yamadas|The Yamadas; Spirited Away; The Cat Returns;
       Howl's Moving Castle|Howls Moving Castle@Howl's Moving Castle (film); Tales from Earthsea; Ponyo; Arrietty|The Secret World of Arrietty;
-      From Up on Poppy Hill|Poppy Hill; The Wind Rises; The Tale of the Princess Kaguya|Princess Kaguya; When Marnie Was There; The Red Turtle;
+      From Up on Poppy Hill|Poppy Hill; The Wind Rises; The Tale of the Princess Kaguya|Princess Kaguya@The Tale of the Princess Kaguya (film); When Marnie Was There@When Marnie Was There (film); The Red Turtle;
       Earwig and the Witch; The Boy and the Heron`,
     legendary: ['Ocean Waves'],
     facts: { 'Ocean Waves': 'A 1993 teen drama made for TV by younger Ghibli staff.' },
@@ -248,10 +248,10 @@ module.exports = [
       Courage the Cowardly Dog|Courage; Samurai Jack; Codename: Kids Next Door|Kids Next Door; Foster's Home for Imaginary Friends|Fosters Home for Imaginary Friends;
       The Grim Adventures of Billy & Mandy|Billy and Mandy|Billy & Mandy; Ben 10@Ben 10 (2005 TV series); Teen Titans@Teen Titans (TV series); Teen Titans Go!|Teen Titans Go;
       Camp Lazlo; Chowder@Chowder (TV series); Adventure Time; Regular Show; The Amazing World of Gumball|Gumball; Steven Universe; Uncle Grandpa;
-      Clarence@Clarence (TV series); We Bare Bears; Total Drama@Total Drama; Class of 3000; My Gym Partner's a Monkey|My Gym Partners a Monkey;
+      Clarence@Clarence (American TV series); We Bare Bears; Total Drama@Total Drama; Class of 3000; My Gym Partner's a Monkey|My Gym Partners a Monkey;
       The Marvelous Misadventures of Flapjack|Flapjack; Robotboy; Generator Rex; Sym-Bionic Titan; Star Wars: The Clone Wars@Star Wars: The Clone Wars (2008 TV series);
       Green Lantern: The Animated Series; Young Justice@Young Justice (TV series); Craig of the Creek; Victor and Valentino; Summer Camp Island; Infinity Train;
-      OK K.O.! Let's Be Heroes|OK KO; Apple & Onion|Apple and Onion; Elliott from Earth; Mao Mao: Heroes of Pure Heart|Mao Mao; Villainous; Unikitty;
+      OK K.O.! Let's Be Heroes|OK KO; Apple & Onion|Apple and Onion; Elliott from Earth; Mao Mao: Heroes of Pure Heart|Mao Mao; Villainous@Villainous (TV series); Unikitty;
       Space Ghost Coast to Coast|Space Ghost; Baby Looney Tunes; Squirrel Boy; Johnny Test; Ninjago@Ninjago; Ben 10: Alien Force|Alien Force; Ben 10: Ultimate Alien|Ultimate Alien;
       Ben 10: Omniverse|Omniverse; Ben 10 (2016 TV series)|Ben 10 reboot; Time Squad; Megas XLR; Evil Con Carne; Sheep in the Big City; Making Fiends; Mike, Lu & Og|Mike Lu and Og;
       Whatever Happened to Robot Jones?|Robot Jones; Hi Hi Puffy AmiYumi|Hi Hi Puffy Ami Yumi; Atomic Betty; Sealab 2021; Moral Orel; The Looney Tunes Show|Looney Tunes Show`,
@@ -270,7 +270,7 @@ module.exports = [
       Danny Phantom; Jimmy Neutron: Boy Genius|Jimmy Neutron; Avatar: The Last Airbender|Avatar The Last Airbender|Avatar; The Legend of Korra|Legend of Korra; Invader Zim; Dora the Explorer|Dora;
       Go, Diego, Go!|Go Diego Go; Blue's Clues|Blues Clues; Bubble Guppies; Fresh Beat Band|The Fresh Beat Band; Team Umizoomi|Umizoomi; Wonder Pets!|Wonder Pets; The Backyardigans|Backyardigans;
       Ni Hao, Kai-Lan|Ni Hao Kai-Lan; PAW Patrol|Paw Patrol; Shimmer and Shine; Blaze and the Monster Machines|Blaze; Max & Ruby|Max and Ruby; Little Bear@Little Bear (TV series);
-      iCarly; Victorious; Drake & Josh|Drake and Josh; Zoey 101; Ned's Declassified School Survival Guide|Neds Declassified; Unfabulous; Big Time Rush; Sam & Cat|Sam and Cat; Henry Danger;
+      iCarly; Victorious; Drake & Josh|Drake and Josh; Zoey 101; Ned's Declassified School Survival Guide|Neds Declassified; Unfabulous; Big Time Rush@Big Time Rush (TV series); Sam & Cat|Sam and Cat; Henry Danger;
       The Thundermans|Thundermans; Game Shakers; Nicky, Ricky, Dicky & Dawn|Nicky Ricky Dicky and Dawn; Hunter Street; All That@All That; Kenan & Kel|Kenan and Kel; The Amanda Show|Amanda Show;
       Figure It Out@Figure It Out (American game show); Double Dare@Double Dare (American game show); Legends of the Hidden Temple; Guts@Guts (game show); The Loud House|Loud House;
       The Casagrandes|Casagrandes; Harvey Beaks; Sanjay and Craig; Breadwinners; Pig Goat Banana Cricket; Fanboy & Chum Chum|Fanboy and Chum Chum; Planet Sheen; T.U.F.F. Puppy|TUFF Puppy;
@@ -351,13 +351,13 @@ module.exports = [
     missingTier: 'deep',
     answers: `
       Hannah Montana; Lizzie McGuire; Wizards of Waverly Place|Wizards of Waverly; Phineas and Ferb; Good Luck Charlie; Austin & Ally|Austin and Ally; Jessie@Jessie (2011 TV series);
-      Shake It Up; Kim Possible; Recess@Recess (TV series); Gravity Falls; DuckTales@DuckTales (2017 TV series); Raven's Home|Ravens Home; Even Stevens; That's So Raven|Thats So Raven;
+      Shake It Up@Shake It Up (American TV series); Kim Possible; Recess@Recess (TV series); Gravity Falls; DuckTales@DuckTales (2017 TV series); Raven's Home|Ravens Home; Even Stevens; That's So Raven|Thats So Raven;
       The Suite Life of Zack & Cody|Suite Life of Zack and Cody; The Suite Life on Deck|Suite Life on Deck; Sonny with a Chance; Liv and Maddie|Liv & Maddie; Girl Meets World;
       Andi Mack; Dog with a Blog; A.N.T. Farm|ANT Farm; Lab Rats@Lab Rats (American TV series); K.C. Undercover|KC Undercover; Bunk'd|Bunkd; Big City Greens; The Owl House|Owl House;
       Amphibia; Star vs. the Forces of Evil|Star vs the Forces of Evil; Miraculous: Tales of Ladybug & Cat Noir|Miraculous Ladybug|Miraculous; Doc McStuffins; Sofia the First;
       Jake and the Never Land Pirates; Mickey Mouse Clubhouse; Handy Manny; Little Einsteins; Special Agent Oso; Wander Over Yonder; Milo Murphy's Law|Milo Murphys Law;
       Lilo & Stitch: The Series|Lilo and Stitch The Series; Pepper Ann; The Proud Family|Proud Family; Lloyd in Space; Kickin' It|Kickin It; Zeke and Luther; Pair of Kings;
-      Jonas@Jonas (TV series); Camp Rock; The Wizards Return; The Lion Guard; Chip 'n Dale: Rescue Rangers|Rescue Rangers; TaleSpin; Gargoyles@Gargoyles (TV series); The Emperor's New School|Emperors New School;
+      Jonas@Jonas (TV series); Camp Rock; The Wizards Return; The Lion Guard; Chip 'n Dale: Rescue Rangers|Rescue Rangers@Chip 'n Dale: Rescue Rangers (TV series); TaleSpin; Gargoyles@Gargoyles (TV series); The Emperor's New School|Emperors New School;
       The Replacements; American Dragon: Jake Long|American Dragon; Fish Hooks; Pickle and Peanut; Randy Cunningham: 9th Grade Ninja|Randy Cunningham; Mighty Med; Best Friends Whenever`,
     legendary: ['Pickle and Peanut'],
     facts: { 'Pickle and Peanut': 'A 2015 cartoon about a pickle and a peanut who are best friends and daredevils.' },
@@ -423,12 +423,12 @@ module.exports = [
     missingTier: 'deep',
     answers: `
       Deewana@Deewana (1992 film); Maya Memsaab; Baazigar; Darr@Darr; Kabhi Haan Kabhi Naa; Karan Arjun; Dilwale Dulhania Le Jayenge|DDLJ; Zamaana Deewana; Ram Jaane; Chaahat; Trimurti;
-      Dil To Pagal Hai; Koyla; Pardes; Dil Se..|Dil Se; Duplicate@Duplicate (1998 film); Kuch Kuch Hota Hai|KKHH; Baadshah@Baadshah (1999 film); Josh@Josh (2000 film); Mohabbatein;
-      Hey Ram@Hey Ram; Phir Bhi Dil Hai Hindustani; Asoka@Asoka (film); One 2 Ka 4|One Two Ka Four; Kabhi Khushi Kabhie Gham|K3G; Devdas@Devdas (2002 Hindi film); Hum Tumhare Hain Sanam;
-      Chalte Chalte; Kal Ho Naa Ho; Main Hoon Na; Veer-Zaara|Veer Zaara; Swades; Paheli; Kabhi Alvida Naa Kehna; Don@Don (2006 Hindi film); Chak De! India|Chak De India; Om Shanti Om;
+      Dil To Pagal Hai; Koyla; Pardes@Pardes (1997 film); Dil Se..|Dil Se; Duplicate@Duplicate (1998 film); Kuch Kuch Hota Hai|KKHH; Baadshah@Baadshah (1999 film); Josh@Josh (2000 film); Mohabbatein;
+      Hey Ram@Hey Ram; Phir Bhi Dil Hai Hindustani; Asoka@Asoka (2001 film); One 2 Ka 4|One Two Ka Four; Kabhi Khushi Kabhie Gham|K3G; Devdas@Devdas (2002 Hindi film); Hum Tumhare Hain Sanam;
+      Chalte Chalte@Chalte Chalte (2003 film); Kal Ho Naa Ho; Main Hoon Na; Veer-Zaara|Veer Zaara; Swades; Paheli@Paheli (2005 film); Kabhi Alvida Naa Kehna; Don@Don (2006 Hindi film); Chak De! India|Chak De India; Om Shanti Om;
       Rab Ne Bana Di Jodi; Billu; My Name Is Khan; Ra.One|RaOne; Don 2; Jab Tak Hai Jaan; Chennai Express; Happy New Year@Happy New Year (2014 film); Dilwale@Dilwale (2015 film);
-      Fan@Fan (2016 film); Raees; Jab Harry Met Sejal; Zero@Zero (2018 film); Pathaan; Jawan@Jawan (film); Dunki; Ae Dil Hai Mushkil; Brahmāstra|Brahmastra;
-      Rocketry: The Nambi Effect|Rocketry; Tubelight@Tubelight (2017 Indian film); Dear Zindagi`,
+      Fan@Fan (2016 film); Raees@Raees (2017 film); Jab Harry Met Sejal; Zero@Zero (2018 film); Pathaan@Pathaan (film); Jawan@Jawan (film); Dunki@Dunki (film); Ae Dil Hai Mushkil; Brahmāstra|Brahmastra;
+      Rocketry: The Nambi Effect|Rocketry; Tubelight@Tubelight (2017 Hindi film); Dear Zindagi`,
     legendary: ['Hey Ram'],
     facts: { 'Hey Ram': 'A 2000 Kamal Haasan epic about Partition, in which Shah Rukh Khan played a friend.' },
   },
@@ -440,9 +440,9 @@ module.exports = [
     missingTier: 'deep',
     answers: `
       Qayamat Se Qayamat Tak|QSQT; Raakh; Love Love Love; Dil@Dil (1990 film); Awwal Number; Jo Jeeta Wohi Sikandar; Deewana Mastana; Daulat Ki Jung; Hum Hain Rahi Pyar Ke; Andaz Apna Apna;
-      Baazi@Baazi (1995 film); Rangeela@Rangeela (film); Raja Hindustani; Ishq@Ishq (1997 film); Ghulam@Ghulam (1998 film); Sarfarosh; Earth@Earth (1998 film); Mann@Mann (1999 film);
+      Baazi@Baazi (1995 film); Rangeela@Rangeela (1995 film); Raja Hindustani; Ishq@Ishq (1997 film); Ghulam@Ghulam (1998 film); Sarfarosh@Sarfarosh (1999 film); Earth@Earth (1998 film); Mann@Mann (1999 film);
       Lagaan; Dil Chahta Hai; Mela@Mela (2000 film); Rang De Basanti; Fanaa; Taare Zameen Par; Ghajini@Ghajini (2008 film); 3 Idiots|Three Idiots; Delhi Belly; Talaash@Talaash (2012 film);
-      Dhoom 3; PK@PK (film); Dangal; Secret Superstar; Thugs of Hindostan; Laal Singh Chaddha|Laal Singh Chadda; Sitaare Zameen Par;
+      Dhoom 3; PK@PK (film); Dangal@Dangal (2016 film); Secret Superstar; Thugs of Hindostan; Laal Singh Chaddha|Laal Singh Chadda; Sitaare Zameen Par;
       Mangal Pandey: The Rising|Mangal Pandey; Yaadon Ki Baaraat@Yaadon Ki Baaraat (1973 film); Madhosh; Holi@Holi (1984 film); Parampara@Parampara (1993 film)`,
     legendary: ['Yaadon Ki Baaraat'],
     facts: { 'Yaadon Ki Baaraat': 'Aamir Khan made his screen debut as a child actor in this 1973 hit.' },
@@ -458,7 +458,7 @@ module.exports = [
       Polladhavan@Polladhavan (1980 film); Thillu Mullu; Netrikann; Nallavanukku Nallavan; Mr. Bharath|Mr Bharath; Mappillai@Mappillai (1989 film); Manithan@Manithan (1987 film);
       Velaikaran@Velaikaran (1987 film); Guru Sishyan; Thalapathi; Annaamalai|Annamalai; Mannan@Mannan (film); Uzhaippali; Muthu@Muthu (1995 film); Baashha|Baasha;
       Arunachalam@Arunachalam (film); Padayappa; Baba@Baba (2002 film); Chandramukhi@Chandramukhi (film); Sivaji: The Boss|Sivaji; Kuselan; Enthiran|Endhiran;
-      Kochadaiiyaan; Lingaa; Kabali; Kaala@Kaala (2018 film); 2.0@2.0 (film); Petta@Petta (film); Darbar@Darbar (film); Annaatthe; Jailer@Jailer (2023 film); Lal Salaam;
+      Kochadaiiyaan; Lingaa; Kabali; Kaala@Kaala (2018 film); 2.0@2.0 (film); Petta@Petta (film); Darbar@Darbar (film); Annaatthe; Jailer@Jailer (2023 Tamil film); Lal Salaam;
       Vettaiyan|Vettaiyan The Hunter; Coolie@Coolie (2025 film); Hum@Hum (1991 film); Andha Kanoon|Andhaa Kaanoon; Thambikku Entha Ooru; Padikkadavan; Dharmathin Thalaivan;
       Raja Chinna Roja; Panakkaran; Veera@Veera (1994 film)`,
     legendary: ['Andha Kanoon'],
@@ -584,7 +584,7 @@ module.exports = [
     answers: `
       Tintin in the Land of the Soviets|Land of the Soviets; Tintin in the Congo|Tintin in Congo; Tintin in America; Cigars of the Pharaoh; The Blue Lotus;
       The Broken Ear; The Black Island; King Ottokar's Sceptre|King Ottokars Sceptre|King Ottokar's Scepter; The Crab with the Golden Claws; The Shooting Star;
-      The Secret of the Unicorn; Red Rackham's Treasure|Red Rackhams Treasure; The Seven Crystal Balls; Prisoners of the Sun; Land of Black Gold; Destination Moon;
+      The Secret of the Unicorn; Red Rackham's Treasure|Red Rackhams Treasure; The Seven Crystal Balls; Prisoners of the Sun; Land of Black Gold; Destination Moon@Destination Moon (comics);
       Explorers on the Moon; The Calculus Affair; The Red Sea Sharks; Tintin in Tibet; The Castafiore Emerald; Flight 714|Flight 714 to Sydney@Flight 714 to Sydney; Tintin and the Picaros; Tintin and Alph-Art|Alph-Art`,
     legendary: ['Tintin and Alph-Art'],
     facts: { 'Tintin and Alph-Art': 'Hergé died in 1983 while still drawing it, leaving it unfinished.' },
@@ -597,10 +597,10 @@ module.exports = [
     missingTier: 'deep',
     answers: `
       Biwi Ho To Aisi; Maine Pyar Kiya; Baaghi@Baaghi (1990 film); Patthar Ke Phool; Sanam Bewafa; Saajan@Saajan (1991 film); Suryavanshi@Suryavanshi (1992 film); Dil Tera Aashiq;
-      Hum Aapke Hain Koun..!|Hum Aapke Hain Koun; Andaz Apna Apna; Karan Arjun; Judwaa; Jeet@Jeet (1996 film); Dushman Duniya Ka; Auzaar; Jab Pyaar Kisise Hota Hai; Pyaar Kiya To Darna Kya;
-      Kuch Kuch Hota Hai; Biwi No.1|Biwi No 1; Hum Dil De Chuke Sanam; Hello Brother; Hum Saath-Saath Hain|Hum Saath Saath Hain; Tere Naam; Mujhse Shaadi Karogi; Garv; Baghban@Baghban (2003 film);
+      Hum Aapke Hain Koun..!|Hum Aapke Hain Koun; Andaz Apna Apna; Karan Arjun; Judwaa; Jeet@Jeet (1996 film); Dushman Duniya Ka; Auzaar; Jab Pyaar Kisise Hota Hai; Pyaar Kiya To Darna Kya@Pyaar Kiya To Darna Kya (1998 film);
+      Kuch Kuch Hota Hai; Biwi No.1|Biwi No 1; Hum Dil De Chuke Sanam; Hello Brother@Hello Brother (1999 film); Hum Saath-Saath Hain|Hum Saath Saath Hain; Tere Naam; Mujhse Shaadi Karogi; Garv; Baghban@Baghban (2003 film);
       No Entry@No Entry (film); Partner@Partner (2007 film); Salaam-e-Ishq; Wanted@Wanted (2009 film); Dabangg; Ready@Ready (2011 film); Bodyguard@Bodyguard (2011 Hindi film); Ek Tha Tiger;
-      Dabangg 2; Jai Ho@Jai Ho (film); Kick@Kick (2014 film); Bajrangi Bhaijaan; Prem Ratan Dhan Payo; Sultan@Sultan (2016 film); Tubelight@Tubelight (2017 Indian film); Tiger Zinda Hai; Race 3;
+      Dabangg 2; Jai Ho@Jai Ho (film); Kick@Kick (2014 film); Bajrangi Bhaijaan; Prem Ratan Dhan Payo; Sultan@Sultan (2016 film); Tubelight@Tubelight (2017 Hindi film); Tiger Zinda Hai; Race 3;
       Bharat@Bharat (film); Dabangg 3; Radhe@Radhe (2021 film); Antim: The Final Truth|Antim; Kisi Ka Bhai Kisi Ki Jaan; Tiger 3; Sikandar@Sikandar (2025 film); Veer@Veer (2010 film);
       London Dreams; Yuvvraaj; Main Aur Mrs Khanna; Jaan-E-Mann`,
     legendary: ['Biwi Ho To Aisi'],

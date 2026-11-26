@@ -357,7 +357,7 @@ module.exports = [
       Trebuchet MS@Trebuchet MS; Segoe UI@Segoe UI; Roboto@Roboto; Open Sans@Open Sans; Lato@Lato (typeface); Arial Black@Arial Black;
       Rockwell@Rockwell (typeface); Optima@Optima; Didot@Didot (typeface); Bodoni@Bodoni; Papyrus@Papyrus (typeface);
       Wingdings@Wingdings; Consolas@Consolas; Candara@Candara; Franklin Gothic@Franklin Gothic; Copperplate Gothic@Copperplate Gothic;
-      Brush Script@Brush Script; Sabon@Sabon; Frutiger@Frutiger; Univers@Univers; Akzidenz-Grotesk@Akzidenz-Grotesk;
+      Brush Script@Brush Script; Sabon@Sabon; Frutiger@Frutiger (typeface); Univers@Univers; Akzidenz-Grotesk@Akzidenz-Grotesk;
       Cooper Black@Cooper Black; Courier@Courier (typeface); Monaco@Monaco (typeface); Menlo@Menlo (typeface); Ubuntu@Ubuntu (typeface);
       Bembo@Bembo; Caslon@Caslon; Perpetua@Perpetua (typeface); Bookman@Bookman (typeface); Avenir@Avenir (typeface);
       Gotham@Gotham (typeface); Fira Sans@Fira Sans; Inter@Inter (typeface); Noto Sans|Noto@Noto fonts; Mangal@Mangal (typeface);
@@ -652,30 +652,6 @@ module.exports = [
       legendary: 'French curve',
     },
     facts: { 'French curve': 'A curved drawing template used to trace smooth curves in technical drawing.' },
-  },
-  {
-    id: 'school-glassware',
-    category: 'school',
-    prompt: 'Name a piece of chemistry lab glassware or apparatus',
-    qualifier: 'Glass or lab equipment used in school and college chemistry labs',
-    groups: {
-      textbook: `Beaker; Test tube; Conical flask|Erlenmeyer flask; Measuring cylinder|graduated cylinder; Burette; Pipette; Funnel;
-        Round bottom flask|round-bottom flask; Bunsen burner; Tripod stand|tripod; Wire gauze`,
-      honours: `Volumetric flask|standard flask; Flat bottom flask; Boiling tube; Dropper|dropping pipette; Watch glass; Petri dish;
-        Evaporating dish|china dish|basin; Crucible; Crucible tongs|tongs; Condenser|Liebig condenser; Distillation flask; Separating funnel;
-        Thistle funnel; Glass rod|stirring rod; Spatula; Mortar and pestle|mortar|pestle; Clamp|burette clamp; Retort stand|clamp stand|iron stand;
-        Test tube holder; Test tube stand|test tube rack; Wash bottle; Reagent bottle; Spirit lamp; Gas jar; Delivery tube; Cork|rubber stopper|stopper;
-        Thermometer; Weighing balance|balance; Desiccator; Water bath; Fume hood|fume cupboard`,
-      rare: `Kipp's apparatus|kipps apparatus; Buchner funnel|Büchner funnel; Buchner flask|suction flask; Soxhlet extractor|soxhlet; Dean-Stark trap|Dean Stark apparatus;
-        Reflux condenser; Allihn condenser; Claisen adapter; Fractionating column|Vigreux column; Three-necked flask|three neck flask; Schlenk flask;
-        Dropping funnel|addition funnel; Nessler tube|Nessler cylinder; Cuvette; Titration tile|white tile; Kjeldahl flask; Pycnometer|density bottle;
-        Hydrometer; Gooch crucible; Sintered funnel; Centrifuge tube; Syringe|gas syringe; Rotary evaporator|rotavap; Chromatography tank|TLC tank;
-        Capillary tube|capillary; Melting point apparatus; Thiele tube; Heating mantle; Hot plate; Magnetic stirrer; Stir bar|stirring bar`,
-      deep: `Dewar flask|Dewar; Cold finger|cold trap; Oil bath; Sand bath; Muffle furnace; Tube furnace; Drying oven|hot air oven; Incubator; Autoclave;
-        Retort; Cucurbit; Aludel; Athanor; Pot still|still`,
-      legendary: 'Alembic',
-    },
-    facts: { Alembic: 'An old two-part still of glass or copper used by alchemists; the word comes from Arabic.' },
   },
   {
     id: 'school-maths-topic',

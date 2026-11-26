@@ -34,19 +34,17 @@ Merged answers that share a Wikipedia article:
 [word-font] "Courier" is now an alias of "Courier New"
 
 
-== ent-dreamworks-film (51) textbook:5 tryhard:0 honours:12 rare:17 deep:16 legendary:1
+== ent-dreamworks-film (51) textbook:5 tryhard:0 honours:13 rare:18 deep:14 legendary:1
 Name a DreamWorks Animation feature film
-  most familiar: Shrek, The Prince of Egypt, Madagascar, Chicken Run, Shrek 2, Kung Fu Panda, Shrek Forever After, Wallace & Gromit: The Curse of the Were-Rabbit, Puss in Boots: The Last Wish, Antz, Shrek the Third, Megamind
-  least familiar: The Bad Guys 2, Mr. Peabody & Sherman, The Croods: A New Age, Joseph: King of Dreams, Trolls Band Together, Trolls World Tour, The Boss Baby: Family Business, Ruby Gillman, Teenage Kraken, Gabby's Dollhouse: The Movie, Spirit Untamed
-  no article (deep): How to Train Your Dragon, Turbo, Abominable
+  most familiar: Shrek, The Prince of Egypt, Madagascar, Chicken Run, Shrek 2, Kung Fu Panda, Shrek Forever After, Wallace & Gromit: The Curse of the Were-Rabbit, Puss in Boots: The Last Wish, How to Train Your Dragon, Antz, Shrek the Third
+  least familiar: Abominable, The Croods: A New Age, Turbo, Joseph: King of Dreams, Trolls Band Together, Trolls World Tour, The Boss Baby: Family Business, Ruby Gillman, Teenage Kraken, Gabby's Dollhouse: The Movie, Spirit Untamed
   legendary: Joseph: King of Dreams
   resolved to a different article: Penguins of Madagascar -> Penguins of Madagascar (2014 computer-animated film directed by Eric Darnell and Simon J. Smith)
 
-== ent-ghibli-film (25) textbook:2 tryhard:0 honours:6 rare:8 deep:8 legendary:1
+== ent-ghibli-film (25) textbook:3 tryhard:0 honours:6 rare:9 deep:6 legendary:1
 Name a Studio Ghibli film
   most familiar: Spirited Away, Princess Mononoke, My Neighbor Totoro, Howl's Moving Castle, Grave of the Fireflies, Nausicaä of the Valley of the Wind, The Boy and the Heron, Castle in the Sky, Ponyo, Kiki's Delivery Service, The Wind Rises, Porco Rosso
-  least familiar: Whisper of the Heart, The Cat Returns, Only Yesterday, From Up on Poppy Hill, Pom Poko, The Red Turtle, My Neighbors the Yamadas, Earwig and the Witch, Ocean Waves, Tales from Earthsea
-  no article (deep): The Tale of the Princess Kaguya, When Marnie Was There
+  least familiar: The Tale of the Princess Kaguya, When Marnie Was There, Only Yesterday, From Up on Poppy Hill, Pom Poko, The Red Turtle, My Neighbors the Yamadas, Earwig and the Witch, Ocean Waves, Tales from Earthsea
   legendary: Ocean Waves
 
 == ent-hp-character (144) textbook:10 tryhard:0 honours:41 rare:56 deep:35 legendary:2
@@ -81,19 +79,19 @@ Name a Disney villain
 Name a Looney Tunes character
   legendary: Cecil Turtle, Hugo the Abominable Snowman
 
-== ent-cn-show (64) textbook:6 tryhard:0 honours:15 rare:22 deep:20 legendary:1
+== ent-cn-show (64) textbook:6 tryhard:0 honours:17 rare:21 deep:19 legendary:1
 Name a Cartoon Network show
-  most familiar: Adventure Time, The Powerpuff Girls, Regular Show, Steven Universe, The Amazing World of Gumball, Teen Titans Go!, Dexter's Laboratory, Samurai Jack, Courage the Cowardly Dog, Star Wars: The Clone Wars, Teen Titans, Ed, Edd n Eddy
-  least familiar: Mao Mao: Heroes of Pure Heart, Mike, Lu & Og, Class of 3000, Time Squad, Sealab 2021, Victor and Valentino, Sheep in the Big City, Squirrel Boy, Whatever Happened to Robot Jones?, Elliott from Earth
-  no article (deep): Clarence, Villainous, Making Fiends
+  most familiar: Adventure Time, The Powerpuff Girls, Regular Show, Steven Universe, The Amazing World of Gumball, Teen Titans Go!, Courage the Cowardly Dog, Samurai Jack, Dexter's Laboratory, Star Wars: The Clone Wars, Teen Titans, Ed, Edd n Eddy
+  least familiar: Mike, Lu & Og, Class of 3000, Time Squad, Sealab 2021, Villainous, Victor and Valentino, Sheep in the Big City, Squirrel Boy, Whatever Happened to Robot Jones?, Elliott from Earth
+  no article (deep): Making Fiends
   legendary: Whatever Happened to Robot Jones?
   resolved to a different article: Star Wars: The Clone Wars -> Star Wars: The Clone Wars (2008–2020 American television series); Unikitty -> Unikitty! (American-Danish animated children's television series); Ninjago -> Lego Ninjago (Lego story based on Ninjago); Whatever Happened to Robot Jones? -> Whatever Happened to... Robot Jones? (American animated television series created by Greg Miller for Cartoon Network)
 
-== ent-nick-show (66) textbook:6 tryhard:0 honours:15 rare:21 deep:23 legendary:1
+== ent-nick-show (66) textbook:6 tryhard:0 honours:15 rare:22 deep:22 legendary:1
 Name a Nickelodeon show
   most familiar: SpongeBob SquarePants, Avatar: The Last Airbender, Victorious, iCarly, PAW Patrol, The Legend of Korra, The Loud House, The Fairly OddParents, Rugrats, Jimmy Neutron: Boy Genius, The Ren & Stimpy Show, Sam & Cat
   least familiar: Rolie Polie Olie, Wow! Wow! Wubbzy!, Unfabulous, Planet Sheen, Harvey Beaks, Legends of the Hidden Temple, Fresh Beat Band, Tak and the Power of Juju, Pig Goat Banana Cricket, Breadwinners
-  no article (deep): Big Time Rush, Hunter Street, Figure It Out, Double Dare, Guts, Shiva
+  no article (deep): Hunter Street, Figure It Out, Double Dare, Guts, Shiva
   legendary: Hunter Street
   resolved to a different article: Fresh Beat Band -> The Fresh Beat Band (television series (2009-2013)); Breadwinners -> Breadwinner model (paradigm of family centered on a breadwinner)
 
@@ -109,11 +107,11 @@ Name a character from The Simpsons
 Name a Doraemon character or gadget
   legendary: Gulliver Tunnel
 
-== ent-disney-channel (62) textbook:6 tryhard:0 honours:15 rare:20 deep:20 legendary:1
+== ent-disney-channel (62) textbook:6 tryhard:0 honours:15 rare:23 deep:17 legendary:1
 Name a Disney Channel show
-  most familiar: Phineas and Ferb, Gravity Falls, Hannah Montana, Amphibia, Miraculous: Tales of Ladybug & Cat Noir, The Suite Life of Zack & Cody, Jessie, Kim Possible, Wizards of Waverly Place, Liv and Maddie, The Owl House, Sofia the First
-  least familiar: Pepper Ann, Zeke and Luther, Pair of Kings, Best Friends Whenever, Special Agent Oso, Randy Cunningham: 9th Grade Ninja, Mighty Med, Lloyd in Space, Pickle and Peanut, The Wizards Return
-  no article (deep): Shake It Up, Chip 'n Dale: Rescue Rangers, The Replacements
+  most familiar: Phineas and Ferb, Gravity Falls, Hannah Montana, Amphibia, Miraculous: Tales of Ladybug & Cat Noir, The Suite Life of Zack & Cody, Jessie, Kim Possible, Wizards of Waverly Place, Liv and Maddie, Sofia the First, The Owl House
+  least familiar: Dog with a Blog, Zeke and Luther, Pair of Kings, Best Friends Whenever, Special Agent Oso, Randy Cunningham: 9th Grade Ninja, Mighty Med, Lloyd in Space, Pickle and Peanut, The Wizards Return
+  no article (deep): The Replacements
   legendary: Pickle and Peanut
   resolved to a different article: Amphibia -> Amphibian (class of tetrapods, whose living forms include frogs, toads, salamanders, newts and caecilians); The Wizards Return -> The Wizards Return: Alex vs. Alex (2013 television film directed by Víctor González)
 
@@ -125,27 +123,27 @@ Name a Naruto character
 Name a One Piece character
   legendary: Pedro, Mr. 4
 
-== ent-srk-film (58) textbook:5 tryhard:0 honours:13 rare:15 deep:24 legendary:1
+== ent-srk-film (58) textbook:6 tryhard:0 honours:14 rare:19 deep:18 legendary:1
 Name a Shah Rukh Khan film
   most familiar: Kabhi Khushi Kabhie Gham, Dilwale Dulhania Le Jayenge, Devdas, Kuch Kuch Hota Hai, Om Shanti Om, My Name Is Khan, Veer-Zaara, Chennai Express, Kal Ho Naa Ho, Mohabbatein, Ra.One, Dil Se..
-  least familiar: Baadshah, Duplicate, Rocketry: The Nambi Effect, One 2 Ka 4, Phir Bhi Dil Hai Hindustani, Billu, Ram Jaane, Maya Memsaab, Zamaana Deewana, Brahmāstra
-  no article (deep): Chaahat, Pardes, Asoka, Chalte Chalte, Paheli, Raees, Pathaan, Dunki, Tubelight
+  least familiar: Tubelight, Duplicate, Rocketry: The Nambi Effect, One 2 Ka 4, Phir Bhi Dil Hai Hindustani, Ram Jaane, Billu, Zamaana Deewana, Maya Memsaab, Brahmāstra
+  no article (deep): Chaahat
   legendary: Hey Ram
   resolved to a different article: Billu -> Billu Barber (2009 film by Priyadarshan); Brahmāstra -> Brahmastra (Weapon used by Sanatani Gods)
 
-== ent-aamir-film (40) textbook:3 tryhard:0 honours:9 rare:12 deep:15 legendary:1
+== ent-aamir-film (40) textbook:4 tryhard:0 honours:9 rare:13 deep:13 legendary:1
 Name an Aamir Khan film
-  most familiar: 3 Idiots, PK, Taare Zameen Par, Lagaan, Dhoom 3, Ghajini, Secret Superstar, Dil Chahta Hai, Rang De Basanti, Qayamat Se Qayamat Tak, Raja Hindustani, Laal Singh Chaddha
-  least familiar: Fanaa, Mela, Hum Hain Rahi Pyar Ke, Mann, Deewana Mastana, Awwal Number, Baazi, Raakh, Holi, Daulat Ki Jung
-  no article (deep): Love Love Love, Rangeela, Sarfarosh, Dangal, Yaadon Ki Baaraat, Madhosh
+  most familiar: 3 Idiots, PK, Dangal, Taare Zameen Par, Lagaan, Dhoom 3, Ghajini, Secret Superstar, Dil Chahta Hai, Rang De Basanti, Qayamat Se Qayamat Tak, Raja Hindustani
+  least familiar: Mela, Mangal Pandey: The Rising, Hum Hain Rahi Pyar Ke, Mann, Deewana Mastana, Awwal Number, Baazi, Raakh, Holi, Daulat Ki Jung
+  no article (deep): Love Love Love, Yaadon Ki Baaraat, Madhosh
   legendary: Yaadon Ki Baaraat
   resolved to a different article: Ghulam -> Ghulam (film) (1998 film directed by Vikram Bhatt and Mukesh Bhatt); Fanaa -> Fana (Sufism) (annihilation of self); Delhi Belly -> Travelers' diarrhea (disease); Talaash -> Talaash: The Answer Lies Within (2012 film by Reema Kagti)
 
-== ent-rajini-film (48) textbook:4 tryhard:0 honours:10 rare:15 deep:18 legendary:1
+== ent-rajini-film (48) textbook:4 tryhard:0 honours:11 rare:15 deep:17 legendary:1
 Name a Rajinikanth film
-  most familiar: 2.0, Enthiran, Kabali, Vettaiyan, Darbar, Chandramukhi, Petta, Kaala, Sivaji: The Boss, Coolie, Padayappa, Kochadaiiyaan
+  most familiar: 2.0, Enthiran, Jailer, Kabali, Chandramukhi, Vettaiyan, Darbar, Petta, Kaala, Sivaji: The Boss, Coolie, Kochadaiiyaan
   least familiar: Thillu Mullu, Netrikann, Nallavanukku Nallavan, Panakkaran, Dharmathin Thalaivan, Manithan, Mr. Bharath, Raja Chinna Roja, Thambikku Entha Ooru, Polladhavan
-  no article (deep): Bhairavi, Velaikaran, Guru Sishyan, Jailer, Padikkadavan
+  no article (deep): Bhairavi, Velaikaran, Guru Sishyan, Padikkadavan
   legendary: Andha Kanoon
   resolved to a different article: Muthu -> Muthu (film) (1995 Tamil film directed by K. S. Ravikumar); Chandramukhi -> Chandramukhi (2005 Indian Tamil-language film directed by P. Vasu); Lal Salaam -> Lal Salam (Greeting of communists in South Asia); Hum -> Hum (film) (1991 film directed by Mukul S. Anand); Andha Kanoon -> Andhaa Kaanoon (1983 film by Tatineni Rama Rao)
 
@@ -177,18 +175,17 @@ Name an Agatha Christie novel
 Name a character from Stranger Things
   legendary: Suzie, Argyle
 
-== ent-tintin-album (24) textbook:2 tryhard:0 honours:6 rare:7 deep:8 legendary:1
+== ent-tintin-album (24) textbook:2 tryhard:0 honours:6 rare:8 deep:7 legendary:1
 Name a Tintin adventure
-  most familiar: The Blue Lotus, Tintin in the Congo, Tintin in Tibet, Tintin in the Land of the Soviets, Cigars of the Pharaoh, The Crab with the Golden Claws, King Ottokar's Sceptre, The Black Island, Tintin in America, Flight 714, Red Rackham's Treasure, Tintin and Alph-Art
-  least familiar: The Red Sea Sharks, The Secret of the Unicorn, The Calculus Affair, Tintin and the Picaros, The Broken Ear, The Seven Crystal Balls, Prisoners of the Sun, Land of Black Gold, Explorers on the Moon, The Castafiore Emerald
-  no article (deep): Destination Moon
+  most familiar: The Blue Lotus, Tintin in the Congo, Tintin in Tibet, Tintin in the Land of the Soviets, Cigars of the Pharaoh, The Crab with the Golden Claws, King Ottokar's Sceptre, Flight 714, Tintin in America, The Black Island, Red Rackham's Treasure, Tintin and Alph-Art
+  least familiar: The Red Sea Sharks, The Calculus Affair, Tintin and the Picaros, The Broken Ear, The Seven Crystal Balls, Prisoners of the Sun, Destination Moon, Land of Black Gold, Explorers on the Moon, The Castafiore Emerald
   legendary: Tintin and Alph-Art
 
-== ent-salman-film (55) textbook:5 tryhard:0 honours:13 rare:17 deep:19 legendary:1
+== ent-salman-film (55) textbook:5 tryhard:0 honours:14 rare:18 deep:17 legendary:1
 Name a Salman Khan film
   most familiar: Kuch Kuch Hota Hai, Bajrangi Bhaijaan, Hum Dil De Chuke Sanam, Hum Aapke Hain Koun..!, Sultan, Prem Ratan Dhan Payo, Maine Pyar Kiya, Hum Saath-Saath Hain, Ek Tha Tiger, Dabangg, Tiger Zinda Hai, Tere Naam
-  least familiar: Biwi Ho To Aisi, Dushman Duniya Ka, London Dreams, Yuvvraaj, Sanam Bewafa, Dil Tera Aashiq, Main Aur Mrs Khanna, Garv, Patthar Ke Phool, Auzaar
-  no article (deep): Suryavanshi, Pyaar Kiya To Darna Kya, Hello Brother, No Entry, Tubelight
+  least familiar: Dushman Duniya Ka, London Dreams, Hello Brother, Yuvvraaj, Sanam Bewafa, Dil Tera Aashiq, Main Aur Mrs Khanna, Patthar Ke Phool, Garv, Auzaar
+  no article (deep): Suryavanshi, No Entry
   legendary: Biwi Ho To Aisi
   resolved to a different article: Saajan -> Saajan (1991 film by Lawrence D'Souza); Garv -> Garv: Pride & Honour (2004 film by Puneet Issar); Main Aur Mrs Khanna -> Main Aurr Mrs Khanna (2009 film directed by Prem Soni)
 
@@ -683,19 +680,19 @@ Name a district of Karnataka
   legendary: Chamarajanagar, Vijayanagara
   resolved to a different article: Belagavi -> Belagavi district (district of Karnataka, India); Bengaluru Rural -> Bengaluru North district (district of Karnataka, India); Chikkaballapur -> Chikkaballapura district (district of Karnataka, India); Chikkamagaluru -> Chikmagalur district (district of Karnataka, India); Dakshina Kannada -> Mangaluru District (district of Karnataka, India); Ramanagara -> Bengaluru South district (district of Karnataka, India); Tumakuru -> Tumakuru district (district of Karnataka, India); Uttara Kannada -> Uttara Kannada (district of Karnataka, India); Vijayapura -> Bijapur district, Karnataka (district in Karnataka, India)
 
-== geo-bangalore-area (64) textbook:6 tryhard:0 honours:12 rare:20 deep:24 legendary:2
+== geo-bangalore-area (64) textbook:6 tryhard:0 honours:14 rare:20 deep:22 legendary:2
 Name an area or neighbourhood of Bengaluru
-  most familiar: Mathikere, Yelahanka, Electronic City, Marathahalli, Whitefield, Mahadevapura, Basavanagudi, Sarjapur, Kengeri, HSR Layout, Malleshwaram, Bommanahalli
+  most familiar: Mathikere, Yelahanka, Electronic City, Marathahalli, Whitefield, Mahadevapura, Basavanagudi, JP Nagar, Kengeri, Sarjapur, HSR Layout, Malleshwaram
   least familiar: Richmond Town, Thanisandra, Hulimavu, Cooke Town, Jakkur, Bilekahalli, Sanjaynagar, Vasanth Nagar, Kalyan Nagar, Austin Town
-  no article (deep): Indiranagar, Jayanagar, Hebbal, JP Nagar, Cox Town, Hennur, KR Puram, Bannerghatta, Benson Town
+  no article (deep): Cox Town, Hennur, KR Puram, Bannerghatta, Benson Town
   legendary: Cooke Town, Hesaraghatta
-  resolved to a different article: Whitefield -> Whitefield, Bengaluru (neighborhood in Bengaluru, India); Yeshwanthpur -> Yeswanthpur (suburb of Bangalore); Sarjapur -> Sarjapura (village in Karnataka, India); Frazer Town -> Fraser Town, Bengaluru (suburb in Bengaluru Urban, Karnataka, India); Richmond Town -> Richmond Town, Bengaluru (neighbourhood in Bengaluru, Karnataka, India); Shivajinagar -> Shivajinagar, Bengaluru (suburb of Bangalore); Vijayanagar -> Vijayanagar, Bengaluru (human settlement in India); Rajarajeshwari Nagar -> Rajarajeshwari Nagar, Bengaluru (Locality in southwestern part of Bangalore); Basaveshwaranagar -> Basaveshwaranagara (human settlement in India); Mahadevapura -> Mahadevapura, Bengaluru (human settlement in India); Mathikere -> Bengaluru (capital city of Karnataka state in India); Hesaraghatta -> Hesaraghatta Lake (lake in India); Austin Town -> Austin Town, Bengaluru (suburb of the Bangalore Cantonment); Chamrajpet -> Chamarajpet (suburb of Bangalore)
+  resolved to a different article: Indiranagar -> Indiranagar, Bengaluru (neighbourhood in Bangalore); Jayanagar -> Jayanagar, Bengaluru (human settlement in India); Whitefield -> Whitefield, Bengaluru (neighborhood in Bengaluru, India); Hebbal -> Hebbal, Bengaluru (suburb of Bangalore); JP Nagar -> Jayaprakash Nagar, Bengaluru (human settlement in India); Yeshwanthpur -> Yeswanthpur (suburb of Bangalore); Sarjapur -> Sarjapura (village in Karnataka, India); Frazer Town -> Fraser Town, Bengaluru (suburb in Bengaluru Urban, Karnataka, India); Richmond Town -> Richmond Town, Bengaluru (neighbourhood in Bengaluru, Karnataka, India); Shivajinagar -> Shivajinagar, Bengaluru (suburb of Bangalore); Vijayanagar -> Vijayanagar, Bengaluru (human settlement in India); Rajarajeshwari Nagar -> Rajarajeshwari Nagar, Bengaluru (Locality in southwestern part of Bangalore); Basaveshwaranagar -> Basaveshwaranagara (human settlement in India); Mahadevapura -> Mahadevapura, Bengaluru (human settlement in India); Mathikere -> Bengaluru (capital city of Karnataka state in India); Hesaraghatta -> Hesaraghatta Lake (lake in India); Austin Town -> Austin Town, Bengaluru (suburb of the Bangalore Cantonment); Chamrajpet -> Chamarajpet (suburb of Bangalore)
 
-== geo-hill-station (55) textbook:5 tryhard:0 honours:13 rare:17 deep:18 legendary:2
+== geo-hill-station (55) textbook:5 tryhard:0 honours:14 rare:18 deep:16 legendary:2
 Name a hill station in India
   most familiar: Darjeeling, Shimla, Ooty, Shillong, Dharamshala, Mussoorie, Gangtok, Nainital, Manali, Cherrapunji, Almora, Kodaikanal
-  least familiar: Mukteshwar, Agumbe, Kausani, Chail, Yelagiri, Pelling, Saputara, Lachung, Dirang, Kemmangundi
-  no article (deep): Auli, Kufri, Nandi Hills, Ziro
+  least familiar: Agumbe, Auli, Kausani, Chail, Yelagiri, Pelling, Saputara, Lachung, Dirang, Kemmangundi
+  no article (deep): Kufri
   legendary: Pachmarhi, Yelagiri
   resolved to a different article: Mount Abu -> Abu Raj (hill station in Sirohi district of Rajasthan state in western India); Lansdowne -> Lansdowne, India (cantonment town in Uttarakhand, India); Chikmagalur -> Chikmagalur (City in Karnataka, India)
 
@@ -760,13 +757,13 @@ Name one of the world's long rivers
   legendary: Kolyma, Purus
   resolved to a different article: Lena -> Lena River (river in Eastern Siberia, Russia); Indus -> Indus River (river in Asia); Brahmaputra -> Brahmaputra River (river in China, India, and Bangladesh); Salween -> Salween River (major river in Southeast Asia); St. Lawrence -> St. Lawrence River (major river in eastern Canada and the United States, flowing into the Gulf of St. Lawrence); Juruá -> Juruá River (river in Brazil & Peru); Godavari -> Godavari River (river in India); Narmada -> Narmada River (5th longest river of India)
 
-== geo-lake-india (53) textbook:3 tryhard:0 honours:13 rare:18 deep:17 legendary:2
+== geo-lake-india (53) textbook:3 tryhard:0 honours:13 rare:19 deep:16 legendary:2
 Name a lake in India
   most familiar: Chilika Lake, Dal Lake, Lonar Lake, Hirakud Reservoir, Loktak Lake, Hussain Sagar, Lake Pichola, Sambhar Lake, Vembanad Lake, Wular Lake, Chandratal, Sardar Sarovar
-  least familiar: Nigeen Lake, Rewalsar Lake, Tulsi Lake, Surinsar Lake, Ooty Lake, Vihar Lake, Madiwala Lake, Mirik Lake, Khajjiar Lake, Udai Sagar Lake
-  no article (deep): Hebbal Lake, Upper Lake
+  least familiar: Jaisamand Lake, Rewalsar Lake, Tulsi Lake, Surinsar Lake, Ooty Lake, Vihar Lake, Madiwala Lake, Mirik Lake, Khajjiar Lake, Udai Sagar Lake
+  no article (deep): Hebbal Lake
   legendary: Loktak Lake, Lonar Lake
-  resolved to a different article: Vembanad Lake -> Vembanad (lake in India); Sambhar Lake -> Sambhar Salt Lake (Salt lake located in India); Naini Lake -> Nainital Lake (lake in the city of nainital); Tsomgo Lake -> Lake Tsomgo (glacial lake in Sikkim, India); Sasthamkotta Lake -> Sasthamcotta Lake (lake in Kerala, India); Deepor Beel -> Dipor Bil (permanent freshwater lake in India); Jaisamand Lake -> Dhebar Lake (lake in Udaipur district, Rajasthan, India); Govind Sagar -> Gobind Sagar (lake in India); Hirakud Reservoir -> Hirakud Dam (dam in Odisha, India); Nagarjuna Sagar -> Nagarjuna Sagar Dam (dam); Sardar Sarovar -> Sardar Sarovar Dam (gravity dam on the Narmada River near Navagam, Gujarat in India); Chandratal -> Chandra Taal (lake situated in the Lahaul part of the Lahul and Spiti district of Himachal Pradesh (India))
+  resolved to a different article: Vembanad Lake -> Vembanad (lake in India); Sambhar Lake -> Sambhar Salt Lake (Salt lake located in India); Naini Lake -> Nainital Lake (lake in the city of nainital); Tsomgo Lake -> Lake Tsomgo (glacial lake in Sikkim, India); Sasthamkotta Lake -> Sasthamcotta Lake (lake in Kerala, India); Deepor Beel -> Dipor Bil (permanent freshwater lake in India); Jaisamand Lake -> Dhebar Lake (lake in Udaipur district, Rajasthan, India); Upper Lake -> Bhojtal (lake near Bhopal, Madhya Pradesh, India); Govind Sagar -> Gobind Sagar (lake in India); Hirakud Reservoir -> Hirakud Dam (dam in Odisha, India); Nagarjuna Sagar -> Nagarjuna Sagar Dam (dam); Sardar Sarovar -> Sardar Sarovar Dam (gravity dam on the Narmada River near Navagam, Gujarat in India); Chandratal -> Chandra Taal (lake situated in the Lahaul part of the Lahul and Spiti district of Himachal Pradesh (India))
 
 == geo-waterfall (48) textbook:5 tryhard:0 honours:11 rare:17 deep:13 legendary:2
 Name a famous waterfall
@@ -978,11 +975,10 @@ Name a famous inventor
   legendary: Bi Sheng, Ctesibius
   resolved to a different article: Karl Benz -> Carl Benz (German automotive and engine designer and manufacturer (1844–1929))
 
-== hist-india-fort (53) textbook:5 tryhard:0 honours:12 rare:17 deep:17 legendary:2
+== hist-india-fort (53) textbook:5 tryhard:0 honours:12 rare:18 deep:16 legendary:2
 Name a fort in India
-  most familiar: Red Fort, Agra Fort, Amer Fort, Golconda Fort, Kumbhalgarh Fort, Chittorgarh Fort, Srirangapatna Fort, Mehrangarh Fort, Raigad Fort, Murud-Janjira, Jaisalmer Fort, Gwalior Fort
-  least familiar: Taragarh Fort, Chapora Fort, Jhansi Fort, Salimgarh Fort, Gulbarga Fort, Devanahalli Fort, Kondapalli Fort, Bhongir Fort, Raichur Fort, Gooty Fort
-  no article (deep): Nahargarh Fort, Rock Fort
+  most familiar: Red Fort, Agra Fort, Amer Fort, Golconda Fort, Kumbhalgarh Fort, Chittorgarh Fort, Srirangapatna Fort, Mehrangarh Fort, Raigad Fort, Jaisalmer Fort, Murud-Janjira, Gwalior Fort
+  least familiar: Taragarh Fort, Chapora Fort, Jhansi Fort, Salimgarh Fort, Devanahalli Fort, Gulbarga Fort, Kondapalli Fort, Bhongir Fort, Raichur Fort, Gooty Fort
   legendary: Murud-Janjira, Gingee Fort
   resolved to a different article: Amer Fort -> Amber Fort (fort and palace in Rajasthan, India); Chittorgarh Fort -> Chittor Fort (historic fort in Rajasthan, India); Golconda Fort -> Golconda (fortified citadel and former city in central Hyderabad, Telangana, India); Rajgad Fort -> Rajgad (Hill fort in Pune district, Maharashtra, India); Fort St. George -> Fort St. George (fort in Chennai, India); Fort William -> Fort William, West Bengal (fort in Kolkata, India); Rohtasgarh Fort -> Rohtas Fort, India (fort in Bihar)
 
@@ -1015,11 +1011,11 @@ Name a Knight of the Round Table
   legendary: Dagonet, Dinadan
   resolved to a different article: Percival -> Perceval (one of King Arthur's legendary Knights of the Round Table); Bors -> Bors (Two characters from Arthurian legend); Yvain -> Ywain (legendary Knight of the Round Table); Lucan -> Lucan (Arthurian legend) (arthurian legendary knight); Segwarides -> Knights of the Round Table (elite companions of King Arthur and order of chivalry in Arthurian romance)
 
-== hist-delhi-sultan (26) textbook:2 tryhard:0 honours:3 rare:5 deep:14 legendary:2
+== hist-delhi-sultan (26) textbook:2 tryhard:0 honours:4 rare:5 deep:13 legendary:2
 Name a ruler of the Delhi Sultanate
-  most familiar: Razia Sultana, Qutb ud-Din Aibak, Alauddin Khalji, Muhammad bin Tughluq, Ibrahim Lodi, Iltutmish, Ghiyath al-Din Tughluq, Firuz Shah Tughlaq, Aram Shah, Bahlul Lodi, Sikandar Lodi, Khizr Khan
-  least familiar: Iltutmish, Ghiyath al-Din Tughluq, Firuz Shah Tughlaq, Aram Shah, Bahlul Lodi, Sikandar Lodi, Khizr Khan, Khusrau Khan, Alam Shah, Abu Bakr Shah
-  no article (deep): Rukn ud-Din Firuz, Muiz ud-Din Bahram, Ala ud-Din Masud, Nasir ud-Din Mahmud, Ghiyas ud-Din Balban, Muiz ud-Din Qaiqabad, Kayumars, Jalal ud-Din Khalji, Shihab ud-Din Umar, Qutb ud-Din Mubarak Shah, Tughlaq Shah II
+  most familiar: Razia Sultana, Qutb ud-Din Aibak, Alauddin Khalji, Muhammad bin Tughluq, Ibrahim Lodi, Iltutmish, Ghiyath al-Din Tughluq, Ghiyas ud-Din Balban, Firuz Shah Tughlaq, Jalal ud-Din Khalji, Sikandar Lodi, Aram Shah
+  least familiar: Ghiyas ud-Din Balban, Firuz Shah Tughlaq, Jalal ud-Din Khalji, Sikandar Lodi, Aram Shah, Bahlul Lodi, Khusrau Khan, Khizr Khan, Alam Shah, Abu Bakr Shah
+  no article (deep): Rukn ud-Din Firuz, Muiz ud-Din Bahram, Ala ud-Din Masud, Nasir ud-Din Mahmud, Muiz ud-Din Qaiqabad, Kayumars, Shihab ud-Din Umar, Qutb ud-Din Mubarak Shah, Tughlaq Shah II
   legendary: Aram Shah, Alam Shah
   resolved to a different article: Razia Sultana -> Razia Sultan (5th monarch of the Delhi Sultanate); Bahlul Lodi -> Bahlul Khan Lodi (29th Sultan of the Delhi Sultanate and 1st from the Lodi dynasty); Sikandar Lodi -> Sikandar Khan Lodi (Sultan of Delhi from 1489 to 1517); Ibrahim Lodi -> Ibrahim Khan Lodi (Sultan of the Delhi Sultanate from 1517 to 1526)
 
@@ -1044,11 +1040,11 @@ Name a character from the Trojan War
   legendary: Nireus, Dolon
   resolved to a different article: Memnon -> Memnon (mythical Ethiopian king, son of Tithonus and Eos); Helenus -> Helenus (son of Priam) (mythical son of Priam); Idomeneus -> Idomeneus (son of Deucalion) (Greek mythical character, King of Crete)
 
-== hist-greek-city (51) textbook:5 tryhard:0 honours:12 rare:17 deep:15 legendary:2
+== hist-greek-city (51) textbook:5 tryhard:0 honours:13 rare:17 deep:14 legendary:2
 Name a city or city-state of ancient Greece
-  most familiar: Troy, Sparta, Syracuse, Ephesus, Rhodes, Mycenae, Delphi, Byzantium, Olympia, Knossos, Thebes, Pergamon
+  most familiar: Troy, Sparta, Rhodes, Syracuse, Ephesus, Mycenae, Delphi, Byzantium, Olympia, Knossos, Thebes, Pergamon
   least familiar: Lindos, Eretria, Plataea, Phocaea, Elis, Priene, Abdera, Mantinea, Olynthus, Potidaea
-  no article (deep): Argos, Croton, Colophon
+  no article (deep): Colophon
   legendary: Abdera, Sybaris
   resolved to a different article: Eleusis -> Elefsina (modern city in West Attica, Greece); Naupactus -> Nafpaktos (town in Greece)
 
@@ -1071,14 +1067,6 @@ Name a sultan of the Ottoman Empire
   least familiar: Abdul Hamid I, Ahmed III, Murad V, Mustafa II, Mahmud I, Mustafa III, Suleiman II, Ahmed II, Mustafa IV, Osman III
   legendary: Mustafa I, Murad V
   resolved to a different article: Mehmed II -> Mehmed II (seventh Sultan of the Ottoman Empire (1444–1446, 1451–1481)); Suleiman II -> Suleiman II (Ottoman sultan) (20th Sultan of the Ottoman Empire (1687–1691)); Abdulmejid I -> Abdülmecid I (31th Sultan of the Ottoman Empire (1839–1861))
-
-== hist-unesco-india (43) textbook:4 tryhard:0 honours:10 rare:13 deep:14 legendary:2
-Name a UNESCO World Heritage Site in India
-  most familiar: Taj Mahal, Ajanta Caves, Red Fort, Western Ghats, Qutb Minar, Fatehpur Sikri, Ellora Caves, Agra Fort, Hampi, Nalanda, Konark Sun Temple, Humayun's Tomb
-  least familiar: Mountain Railways of India, Mahabalipuram, Champaner-Pavagadh, Khangchendzonga National Park, Hoysala temples, Great Himalayan National Park, Capitol Complex Chandigarh, Victorian Gothic and Art Deco Ensembles of Mumbai, Churches and Convents of Goa, Nanda Devi National Park
-  no article (deep): Moidams, Jaipur City, Ahmedabad Historic City
-  legendary: Dholavira, Moidams
-  resolved to a different article: Sanchi -> Sanchi Stupa (Buddhist complex, famous for its Great Stupa, in Madhya Pradesh, India); Nalanda -> Nalanda mahavihara (ancient Hindu-Buddhist monastery in present-day Bihar, India); Chhatrapati Shivaji Terminus -> Chhatrapati Shivaji Terminus (railway station and UNESCO World Heritage Site in Mumbai); Capitol Complex Chandigarh -> Chandigarh Capitol Complex (UNESCO World Heritage Site in Chandigarh capital region, India)
 
 == hist-moonwalker (12) textbook:2 tryhard:0 honours:1 rare:3 deep:4 legendary:2
 Name an astronaut who walked on the Moon
@@ -1913,11 +1901,11 @@ Name a part of speech or grammar term
 Name a type of poem
   legendary: Tetractys
 
-== word-font (65) textbook:6 tryhard:0 honours:15 rare:21 deep:21 legendary:2
+== word-font (65) textbook:6 tryhard:0 honours:16 rare:20 deep:21 legendary:2
 Name a font or typeface
-  most familiar: Arial, Helvetica, Times New Roman, Blackletter, Fraktur, Comic Sans, Wingdings, Gill Sans, Calibri, Garamond, Futura, Noto Sans
+  most familiar: Arial, Helvetica, Times New Roman, Blackletter, Fraktur, Comic Sans, Wingdings, Gill Sans, Frutiger, Calibri, Garamond, Futura
   least familiar: Candara, Bookman, Lato, Zapfino, Zapf Dingbats, Menlo, Fira Sans, Algerian, Curlz MT, Cochin
-  no article (deep): Frutiger, Mangal, Jokerman, Chiller
+  no article (deep): Mangal, Jokerman, Chiller
   legendary: Zapfino, Johnston
   resolved to a different article: Courier New -> Courier (typeface) (monospaced slab serif typeface designed by Howard Kettler for IBM typewriters); Segoe UI -> Segoe (family of sans-serif typefaces); Fira Sans -> Fira (typeface) (open-source typeface family); Curlz MT -> Curlz (OTF display typeface)
 
@@ -1964,10 +1952,6 @@ Name an item of school uniform
 == school-geometry-box (53) textbook:8 tryhard:0 honours:16 rare:18 deep:10 legendary:1
 Name something in a geometry box
   legendary: French curve
-
-== school-glassware (88) textbook:11 tryhard:0 honours:31 rare:31 deep:14 legendary:1
-Name a piece of chemistry lab glassware or apparatus
-  legendary: Alembic
 
 == school-maths-topic (101) textbook:21 tryhard:0 honours:31 rare:27 deep:21 legendary:1
 Name a topic in school mathematics
