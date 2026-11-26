@@ -8,9 +8,9 @@ module.exports = [
       Zeus; Hera; Poseidon; Demeter; Athena|Athene; Apollo; Artemis; Ares; Aphrodite; Hephaestus|Hephaistos; Hermes; Dionysus|Dionysos;
       Hades; Hestia; Persephone|Kore; Eros; Nike@Nike (mythology); Hecate|Hekate; Pan@Pan (god); Helios; Selene; Eos; Gaia|Gaea|Ge;
       Uranus|Ouranos@Uranus (mythology); Cronus|Kronos; Rhea@Rhea (mythology); Hypnos; Thanatos; Nemesis@Nemesis (mythology); Tyche;
-      Asclepius|Asklepios; Hebe@Hebe (mythology); Iris@Iris (mythology); Morpheus; Nyx; Erebus@Erebus (mythology); Chaos@Chaos (cosmogony);
+      Asclepius|Asklepios; Hebe@Hebe (mythology); Iris@Iris (mythology); Morpheus; Nyx; Erebus@Erebus; Chaos@Chaos (cosmogony);
       Tartarus; Oceanus|Okeanos; Tethys@Tethys (mythology); Hyperion@Hyperion (Titan); Themis; Mnemosyne; Atlas@Atlas (mythology);
-      Prometheus; Epimetheus; Triton@Triton (mythology); Proteus; Nereus; Aeolus|Aiolos@Aeolus (god); Boreas@Boreas (god); Zephyrus|Zephyr;
+      Prometheus; Epimetheus; Triton@Triton (mythology); Proteus; Nereus; Aeolus|Aiolos@Aeolus (son of Hippotes); Boreas@Boreas (god); Zephyrus|Zephyr;
       Notus; Eurus; Hymen|Hymenaeus@Hymen (god); Harmonia; Eris@Eris (mythology); Enyo; Deimos@Deimos (deity); Phobos@Phobos (mythology);
       Priapus; Calliope; Clio; Erato; Euterpe; Melpomene; Polyhymnia; Terpsichore; Thalia@Thalia (Muse); Urania; Clotho; Lachesis;
       Atropos; Charon; Heracles|Herakles|Hercules; Metis@Metis (mythology); Leto; Dione@Dione (mythology)`,

@@ -94,7 +94,7 @@
   // ---------- socket ----------
   const socket = io('/rare');
   let state = null, stateAt = 0, meta = null;
-  let revealedRound = -1, suggestion = null, lastTickSec = -1, autoSent = false, countdownShown = -1;
+  let revealedRound = -1, suggestion = null, lastTickSec = -1, autoSent = false, countdownShown = -1, inflight = false;
   let shownScore = 0, shownDist = 0;
 
   socket.on('connect', () => {
@@ -207,6 +207,7 @@
     if (s.mode === 'party' && s.phase === 'lobby') return renderLobby();
     if (s.phase === 'final') return renderResults();
     show('game');
+    if (s.phase === 'reveal' && s.reveal) myLog[s.round] = s.reveal.results.find((r) => r.id === s.you) || myLog[s.round];
     renderHud();
     renderLocks();
     if (s.phase === 'prep' && (!prev || prev.phase !== 'prep' || prev.round !== s.round)) startPrep();
@@ -257,6 +258,7 @@
     Scene.jump(0);
     Scene.clearGolden();
     shownScore = shownDist = 0;
+    myLog.length = 0;
     show('menu');
     renderDailyStatus();
   }
@@ -327,6 +329,7 @@
     $('answer').value = '';
     suggestion = null;
     autoSent = false;
+    inflight = false;
     lastTickSec = -1;
     Scene.setMood('idle', 1);
   }
@@ -406,7 +409,6 @@
     unlock();
     submit(false);
   };
-  let inflight = false;
   function submit(auto) {
     const text = $('answer').value.trim();
     if (!text || inflight || !state || state.phase !== 'answer') return;
@@ -775,7 +777,7 @@
 
   // ---------- keyboard ----------
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' && state?.phase === 'reveal' && document.activeElement?.id !== 'rv-next') {
+    if (e.key === 'Enter' && state?.phase === 'reveal' && !$('reveal').hidden && document.activeElement?.id !== 'rv-next') {
       const n = $('rv-next');
       if (n && !n.disabled) n.click();
     }

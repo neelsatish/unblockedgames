@@ -51,13 +51,15 @@ module.exports = [
     qualifier: 'Languages with their own English Wikipedia article',
     strip: ['programming language', 'language'],
     sparql: `SELECT ?item ?itemLabel ?alt ?article ?sitelinks WHERE {
-      ?item wdt:P31 wd:Q9143 ; wikibase:sitelinks ?sitelinks .
+      ?item wdt:P31/wdt:P279* wd:Q9143 ; wikibase:sitelinks ?sitelinks .
       ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> .
       FILTER(?sitelinks >= 3)
       OPTIONAL { ?item skos:altLabel ?alt FILTER(LANG(?alt) = "en") }
       SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
     }`,
-    tryhard: [],
-    legendary: [],
+    // Markup and stylesheet languages are not programming languages (HTML is already absent from Wikidata's list).
+    filter: (a) => !['Cascading Style Sheets', 'XML', 'HTML', 'Markdown', 'JSON', 'YAML'].includes(a.name),
+    legendary: ['Logo'],
+    facts: { Logo: 'A 1967 teaching language where you program a "turtle" to draw shapes.' },
   },
 ];

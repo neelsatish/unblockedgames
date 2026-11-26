@@ -69,6 +69,9 @@ module.exports = [
       OPTIONAL { ?item skos:altLabel ?alt FILTER(LANG(?alt) = "en") }
       SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
     }`,
-    legendary: [],
+    tiers: { 'Indian pariah dog': 'honours' },
+    extra: 'Indian pariah dog|Indie|Indie dog|Indian native dog|desi dog|pye-dog|pariah dog@Indian pariah dog',
+    legendary: ['Mudhol Hound'],
+    facts: { 'Mudhol Hound': 'A sighthound from Karnataka, now trained by the Indian Army.' },
   },
 ];

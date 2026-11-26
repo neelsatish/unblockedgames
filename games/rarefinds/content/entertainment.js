@@ -76,13 +76,14 @@ module.exports = [
     prompt: 'Name a Pixar feature film',
     qualifier: 'Released 1995–2024',
     closed: 28,
-    answers: `
-      Toy Story; A Bug's Life|Bugs Life; Toy Story 2; Monsters, Inc.|Monsters Inc; Finding Nemo; The Incredibles|Incredibles; Cars@Cars (film);
-      Ratatouille@Ratatouille (film); WALL-E|Wall E; Up@Up (2009 film); Toy Story 3; Cars 2; Brave@Brave (2012 film); Monsters University;
-      Inside Out@Inside Out (2015 film); The Good Dinosaur; Finding Dory; Cars 3; Coco@Coco (2017 film); Incredibles 2|The Incredibles 2;
-      Toy Story 4; Onward@Onward (film); Soul@Soul (2020 film); Luca@Luca (2021 film); Turning Red; Lightyear@Lightyear (film);
-      Elemental@Elemental (2023 film); Inside Out 2`,
-    legendary: ['Onward'],
+    groups: {
+      textbook: 'Toy Story; Finding Nemo; Monsters, Inc.|Monsters Inc; Cars@Cars (film); Up@Up (2009 film); Inside Out@Inside Out (2015 film)',
+      honours: `The Incredibles|Incredibles; Ratatouille; WALL-E|Wall E; Coco; Toy Story 2; Toy Story 3; Toy Story 4; Incredibles 2|The Incredibles 2;
+        Finding Dory; Monsters University; Brave; Inside Out 2; Cars 2; Cars 3; Luca`,
+      rare: "A Bug's Life|Bugs Life; Turning Red; Soul; Elemental; Lightyear",
+      deep: 'The Good Dinosaur',
+      legendary: 'Onward',
+    },
   },
   {
     id: 'ent-mcu-film',
@@ -90,22 +91,25 @@ module.exports = [
     prompt: 'Name a Marvel Cinematic Universe film',
     qualifier: 'Released 2008–2024',
     closed: 34,
-    answers: `
-      Iron Man@Iron Man (2008 film); The Incredible Hulk@The Incredible Hulk (film); Iron Man 2; Thor@Thor (film);
-      Captain America: The First Avenger|The First Avenger|First Avenger; The Avengers|Avengers|Avengers Assemble@The Avengers (2012 film); Iron Man 3;
-      Thor: The Dark World|The Dark World|Thor 2; Captain America: The Winter Soldier|The Winter Soldier|Winter Soldier;
-      Guardians of the Galaxy|GOTG@Guardians of the Galaxy (film); Avengers: Age of Ultron|Age of Ultron; Ant-Man|Ant Man@Ant-Man (film);
-      Captain America: Civil War|Civil War; Doctor Strange|Dr Strange@Doctor Strange (2016 film); Guardians of the Galaxy Vol. 2|Guardians of the Galaxy 2|GOTG 2;
-      Spider-Man: Homecoming|Homecoming; Thor: Ragnarok|Ragnarok; Black Panther@Black Panther (film); Avengers: Infinity War|Infinity War;
-      Ant-Man and the Wasp; Captain Marvel@Captain Marvel (film); Avengers: Endgame|Endgame; Spider-Man: Far From Home|Far From Home;
-      Black Widow@Black Widow (2021 film); Shang-Chi and the Legend of the Ten Rings|Shang-Chi|Shang Chi; Eternals@Eternals (film);
-      Spider-Man: No Way Home|No Way Home; Doctor Strange in the Multiverse of Madness|Multiverse of Madness|Doctor Strange 2;
-      Thor: Love and Thunder|Love and Thunder|Thor 4; Black Panther: Wakanda Forever|Wakanda Forever|Black Panther 2;
-      Ant-Man and the Wasp: Quantumania|Quantumania|Ant-Man 3; Guardians of the Galaxy Vol. 3|Guardians of the Galaxy 3|GOTG 3;
-      The Marvels; Deadpool & Wolverine|Deadpool and Wolverine|Deadpool 3`,
-    tryhard: ['The Incredible Hulk'],
-    legendary: [],
-    facts: { 'The Incredible Hulk': 'The only MCU film with Edward Norton as Bruce Banner.' },
+    groups: {
+      textbook: `Avengers: Endgame|Endgame; The Avengers|Avengers|Avengers Assemble; Avengers: Infinity War|Infinity War; Iron Man;
+        Black Panther; Spider-Man: No Way Home|No Way Home`,
+      honours: `Guardians of the Galaxy|GOTG; Thor: Ragnarok|Ragnarok; Captain America: Civil War|Civil War; Avengers: Age of Ultron|Age of Ultron;
+        Captain America: The Winter Soldier|The Winter Soldier|Winter Soldier; Doctor Strange|Dr Strange; Spider-Man: Homecoming|Homecoming;
+        Spider-Man: Far From Home|Far From Home; Deadpool & Wolverine|Deadpool and Wolverine|Deadpool 3; Captain Marvel; Ant-Man|Ant Man; Thor;
+        Iron Man 2; Iron Man 3`,
+      rare: `Captain America: The First Avenger|The First Avenger|First Avenger; Guardians of the Galaxy Vol. 2|Guardians of the Galaxy 2|GOTG 2;
+        Guardians of the Galaxy Vol. 3|Guardians of the Galaxy 3|GOTG 3; Thor: Love and Thunder|Love and Thunder|Thor 4;
+        Doctor Strange in the Multiverse of Madness|Multiverse of Madness|Doctor Strange 2; Black Panther: Wakanda Forever|Wakanda Forever|Black Panther 2;
+        Black Widow; Shang-Chi and the Legend of the Ten Rings|Shang-Chi|Shang Chi; Ant-Man and the Wasp`,
+      deep: 'Eternals; Thor: The Dark World|The Dark World|Thor 2; Ant-Man and the Wasp: Quantumania|Quantumania|Ant-Man 3',
+      tryhard: 'The Incredible Hulk',
+      legendary: 'The Marvels',
+    },
+    facts: {
+      'The Incredible Hulk': 'The only MCU film with Edward Norton as Bruce Banner.',
+      'The Marvels': 'The lowest-grossing MCU film to date (2023).',
+    },
   },
   {
     id: 'ent-hp-spell',

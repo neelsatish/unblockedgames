@@ -1,238 +1,249 @@
 
-== ent-pokemon-gen1 (150) textbook:15 tryhard:0 honours:81 rare:35 deep:17 legendary:2
+== ent-pokemon-gen1 (151) textbook:15 tryhard:0 honours:81 rare:36 deep:18 legendary:1
 Name one of the original 151 Pokémon
-  legendary: Kakuna, Tangela
+  legendary: Tangela
   ambiguous aliases: nidoran
 
-== ent-minecraft-mob (84) textbook:10 tryhard:0 honours:38 rare:29 deep:5 legendary:2
+== ent-minecraft-mob (84) textbook:10 tryhard:0 honours:38 rare:29 deep:6 legendary:1
 Name a Minecraft mob
-  legendary: Zoglin, Illusioner
+  legendary: Illusioner
 
 == ent-disney-animated (63) textbook:6 tryhard:1 honours:16 rare:22 deep:17 legendary:1
 Name a Walt Disney Animation Studios feature film
-  most familiar: The Lion King, Frozen, The Little Mermaid, Aladdin, Beauty and the Beast, Encanto, Moana, Zootopia, Tangled, Mulan, The Fox and the Hound, Bambi
-  least familiar: Saludos Amigos, The Three Caballeros, The Many Adventures of Winnie the Pooh, Strange World, Fantasia 2000, Fun and Fancy Free, Home on the Range, Winnie the Pooh, Make Mine Music, Melody Time
+  most familiar: The Lion King, Frozen, The Little Mermaid, Aladdin, Encanto, Beauty and the Beast, Moana, The Fox and the Hound, Zootopia, Bambi, Tangled, Mulan
+  least familiar: The Three Caballeros, The Many Adventures of Winnie the Pooh, Dinosaur, Fun and Fancy Free, Fantasia 2000, Strange World, Home on the Range, Make Mine Music, Winnie the Pooh, Melody Time
   legendary: The Three Caballeros
+  resolved to a different article: Snow White and the Seven Dwarfs -> Snow White and the Seven Dwarfs (film) (1937 film by David Hand); The Sword in the Stone -> The Sword in the Stone (1963 film) (1963 animated film directed by Wolfgang Reitherman); Frozen II -> Frozen 2 (2019 animated film directed by Chris Buck and Jennifer Lee); Encanto -> Encanto (2021 film directed by Jared Bush and Byron Howard); Wish -> Wish (film) (2023 animated film directed by Chris Buck and Fawn Veerasunthorn)
 
-== ent-pixar (28) textbook:3 tryhard:0 honours:7 rare:10 deep:7 legendary:1
+== ent-pixar (28) textbook:6 tryhard:0 honours:15 rare:5 deep:1 legendary:1
 Name a Pixar feature film
-  most familiar: Toy Story, Monsters, Inc., Toy Story 3, Coco, Ratatouille, Cars, Finding Nemo, The Incredibles, WALL-E, Up, Toy Story 4, Toy Story 2
-  least familiar: Turning Red, Incredibles 2, Elemental, Cars 2, Finding Dory, Luca, Cars 3, Onward, The Good Dinosaur, Lightyear
   legendary: Onward
 
-== ent-mcu-film (34) textbook:3 tryhard:1 honours:9 rare:11 deep:9 legendary:1
+== ent-mcu-film (34) textbook:6 tryhard:1 honours:14 rare:9 deep:3 legendary:1
 Name a Marvel Cinematic Universe film
-  most familiar: Avengers: Endgame, The Avengers, Avengers: Infinity War, Avengers: Age of Ultron, Spider-Man: No Way Home, Iron Man, Spider-Man: Homecoming, Doctor Strange in the Multiverse of Madness, Deadpool & Wolverine, Guardians of the Galaxy, Black Panther, Spider-Man: Far From Home
-  least familiar: Thor: Ragnarok, Captain Marvel, Captain America: The Winter Soldier, Doctor Strange, Iron Man 3, Ant-Man and the Wasp: Quantumania, Ant-Man, Thor: The Dark World, Guardians of the Galaxy Vol. 2, Ant-Man and the Wasp
-  legendary: Thor: Ragnarok
+  legendary: The Marvels
 
-== ent-hp-spell (84) textbook:7 tryhard:0 honours:20 rare:35 deep:20 legendary:2
+== ent-hp-spell (84) textbook:7 tryhard:0 honours:20 rare:35 deep:21 legendary:1
 Name a spell from the Harry Potter books or films
-  legendary: Obscuro, Meteolojinx Recanto
+  legendary: Meteolojinx Recanto
 
 == food-pasta (56) textbook:5 tryhard:0 honours:12 rare:17 deep:21 legendary:1
 Name a type of pasta
-  most familiar: Lasagna, Gnocchi, Spaghetti, Macaroni, Vermicelli, Orzo, Tagliatelle, Ravioli, Tortellini, Orecchiette, Fettuccine, Bucatini
-  least familiar: Campanelle, Ditalini, Corzetti, Malloreddus, Busiate, Garganelli, Anelli, Calamarata, Scialatielli, Stelline
+  most familiar: Lasagna, Spaghetti, Gnocchi, Macaroni, Vermicelli, Ravioli, Tortellini, Orzo, Tagliatelle, Fettuccine, Orecchiette, Bucatini
+  least familiar: Campanelle, Ditalini, Corzetti, Anelli, Garganelli, Busiate, Malloreddus, Calamarata, Scialatielli, Stelline
   no article (deep): Gemelli, Lumache, Tubetti, Ruote, Mostaccioli, Sedanini
   legendary: Orecchiette
+  resolved to a different article: Fregola -> Fregula (type of pasta)
 
 == food-cheese (68) textbook:6 tryhard:1 honours:16 rare:23 deep:21 legendary:1
 Name a type of cheese
-  most familiar: Parmesan, Halloumi, Casu marzu, Mozzarella, Paneer, Mascarpone, Cottage cheese, Camembert, Burrata, Feta, Gouda, Raclette
-  least familiar: Kefalotyri, Stinking Bishop, Pont-l'Évêque, Leerdammer, Graviera, Caerphilly, Queso fresco, Lancashire cheese, Gamonedo, Bandel cheese
+  most familiar: Parmesan, Mozzarella, Halloumi, Camembert, Feta, Mascarpone, Casu marzu, Paneer, Gouda, Ricotta, Cottage cheese, Brie
+  least familiar: Brillat-Savarin, Kefalotyri, Caerphilly, Leerdammer, Graviera, Stinking Bishop, Queso fresco, Lancashire cheese, Gamonedo, Bandel cheese
   no article (deep): Edam, Kalari
   legendary: Bandel cheese
+  resolved to a different article: Cheddar -> Cheddar (type of cheese that is somewhat hard and often sharp); Parmesan -> Parmesan (Italian hard cheese); Gruyère -> Gruyère (Swiss medium-hard Alpine cheese); Stilton -> Stilton (type of English cheese); Double Gloucester -> Gloucester cheese (type of cheese originating from Gloucestershire, England); Stinking Bishop -> Stinking Bishop (Wikimedia disambiguation page); Époisses -> Époisses (French cheese); Queso fresco -> White cheese (Variety of cheese with a white hue); Casu marzu -> Casu martzu (Sardinian and Corsican cheese containing live maggots); Gamonedo -> Gamonéu cheese (Spanish firm cheese made from cow, goat, and sheep's milk); Danish blue -> Danish Blue Cheese (blue-veined cheese from Denmark)
 
-== food-fruit (101) textbook:9 tryhard:1 honours:24 rare:35 deep:31 legendary:1
+== food-fruit (100) textbook:11 tryhard:1 honours:17 rare:39 deep:31 legendary:1
 Name a fruit
-  most familiar: Apple, Banana, Tomato, Avocado, Quince, Pomegranate, Orange, Fig, Tamarind, Pineapple, Pomelo, Date
-  least familiar: Rose apple, Damson, Greengage, Santol, Karonda, Kokum, Mirabelle, Phalsa, Ugli fruit, Langsat
+  most familiar: Apple, Banana, Tomato, Avocado, Orange, Fig, Pomegranate, Quince, Pineapple, Lemon, Tamarind, Date
+  least familiar: Damson, Boysenberry, Santol, Karonda, Greengage, Kokum, Phalsa, Mirabelle, Ugli fruit, Langsat
   no article (deep): Muskmelon, Marula, Wood apple (elephant apple)
   legendary: Phalsa
+  resolved to a different article: Custard apple -> Annona squamosa (species of plant); Sapodilla -> Manilkara zapota (evergreen tree); Dragon fruit -> Dragon fruit (fruit of several cactus species); Passion fruit -> Passiflora edulis (species of plant); Fig -> Fig (species of plant); Mulberry -> Morus (plant) (genus of plants); Mangosteen -> Mangosteen (species of plant); Lingonberry -> Vaccinium vitis-idaea (species of plant); Cloudberry -> Rubus chamaemorus (species of plant); Ugli fruit -> Jamaican tangelo (trademark for the Jamaican tangelo); Langsat -> Epicharis parasitica (species of plant in the family Meliaceae)
 
-== food-indian-sweet (66) textbook:5 tryhard:1 honours:13 rare:20 deep:26 legendary:1
+== food-indian-sweet (65) textbook:4 tryhard:1 honours:14 rare:19 deep:26 legendary:1
 Name an Indian sweet or dessert
-  most familiar: Halwa, Gulab jamun, Jalebi, Ladoo, Besan ladoo, Lassi, Ras malai, Kheer, Kulfi, Soan papdi, Falooda, Rasgulla
-  least familiar: Dharwad peda, Ada pradhaman, Pantua, Phirni, Unniyappam, Lyangcha, Gajak, Chiroti, Qubani ka meetha, Sitabhog
+  most familiar: Halwa, Gulab jamun, Jalebi, Lassi, Ladoo, Kheer, Ras malai, Kulfi, Falooda, Soan papdi, Rasgulla, Barfi
+  least familiar: Mohanthal, Ada pradhaman, Pantua, Phirni, Unniyappam, Gajak, Lyangcha, Qubani ka meetha, Chiroti, Sitabhog
   no article (deep): Motichoor ladoo, Kesari bath, Kozhukattai, Sutar feni, Patishapta, Parwal ki mithai, Malai chop, Elaneer payasam, Mawa cake, Kulfi falooda, Rasmalai cake
   legendary: Chiroti
+  resolved to a different article: Cham cham -> Chomchom (traditional Bengali sweet); Balushahi -> Makhan Bada (South Asian donuts); Unniyappam -> Unni appam (Kerala sweet snack); Qubani ka meetha -> Khubani ka meetha (Indian dessert made from dried apricots); Dharwad peda -> Dharwad pedha (Indian sweet, often a round ball of dairy solids); Chiroti -> Chirote (Indian dessert); Shakarpara -> Shankarpali (Indian Festival (Diwali) Snack); Gujiya -> Gujhia (also known as ghughra in gujarati)
 
-== food-spice (55) textbook:5 tryhard:0 honours:14 rare:18 deep:17 legendary:1
+== food-spice (53) textbook:5 tryhard:0 honours:13 rare:19 deep:15 legendary:1
 Name a spice
-  most familiar: Coriander, Clove, Saffron, Cinnamon, Black pepper, White pepper, Tamarind, Turmeric, Ginger, Nutmeg, Mace, Cardamom
-  least familiar: Mustard seed, Black cardamom, Chili powder, Kokum, Chaat masala, Baharat, Pink peppercorn, Mahleb, Stone flower, Amchur
+  most familiar: Coriander, Clove, Black pepper, Cinnamon, Ginger, Turmeric, Tamarind, Saffron, Garlic, Nutmeg, Fennel, Sesame
+  least familiar: Black cardamom, Kokum, Mustard seed, Chili powder, Chaat masala, Baharat, Mahleb, Pink peppercorn, Stone flower, Amchur
   no article (deep): Kashmiri chilli, Marathi moggu
   legendary: Stone flower
+  resolved to a different article: Star anise -> Illicium verum (species of plant); Celery seed -> Celery (common edible part of the celery plant); Dill seed -> Dill (species of plant); Kokum -> Garcinia indica (plant in the mangosteen family)
 
-== geo-country-s (26) textbook:3 tryhard:0 honours:6 rare:9 deep:7 legendary:1
+== geo-country-s (26) textbook:4 tryhard:0 honours:5 rare:9 deep:7 legendary:1
 Name a country that begins with S
-  most familiar: Spain, South Africa, Serbia, Singapore, Switzerland, Saudi Arabia, South Korea, Sweden, Sri Lanka, Slovenia, Syria, Slovakia
-  least familiar: Suriname, Senegal, South Sudan, Samoa, Sierra Leone, Saint Lucia, Solomon Islands, São Tomé and Príncipe, Saint Kitts and Nevis, Saint Vincent and the Grenadines
+  most familiar: Spain, South Africa, Serbia, Switzerland, Saudi Arabia, Singapore, South Korea, Sweden, Slovenia, Slovakia, Syria, Sri Lanka
+  least familiar: Suriname, Senegal, Sierra Leone, South Sudan, Samoa, São Tomé and Príncipe, Saint Lucia, Solomon Islands, Saint Kitts and Nevis, Saint Vincent and the Grenadines
   legendary: São Tomé and Príncipe
 
-== geo-africa (54) textbook:5 tryhard:0 honours:14 rare:19 deep:15 legendary:1
+== geo-africa (54) textbook:6 tryhard:0 honours:13 rare:19 deep:15 legendary:1
 Name a country in Africa
-  most familiar: Egypt, South Africa, Ethiopia, Nigeria, Morocco, Algeria, Democratic Republic of the Congo, Burkina Faso, Eritrea, Tanzania, Ghana, Somalia
-  least familiar: Central African Republic, Lesotho, Guinea, Republic of the Congo, Gabon, Togo, Malawi, Comoros, Guinea-Bissau, São Tomé and Príncipe
+  most familiar: Egypt, South Africa, Ethiopia, Nigeria, Algeria, Morocco, Democratic Republic of the Congo, Burkina Faso, Tanzania, Eritrea, Ghana, Kenya
+  least familiar: South Sudan, Togo, Republic of the Congo, Guinea, Gabon, Lesotho, Guinea-Bissau, Malawi, Comoros, São Tomé and Príncipe
   legendary: Comoros
   ambiguous aliases: congo
 
 == geo-asia (50) textbook:5 tryhard:0 honours:13 rare:17 deep:14 legendary:1
 Name a country in Asia
-  most familiar: India, China, Russia, Japan, Israel, Turkey, Iran, Indonesia, Singapore, Egypt, North Korea, Philippines
-  least familiar: Brunei, Laos, Turkmenistan, Bhutan, Maldives, Bahrain, Tajikistan, Qatar, East Timor, Kuwait
+  most familiar: India, China, Russia, Japan, Turkey, Israel, Iran, Indonesia, Egypt, Vietnam, Azerbaijan, Bangladesh
+  least familiar: Laos, Bhutan, Oman, Bahrain, Turkmenistan, Maldives, Tajikistan, Qatar, East Timor, Kuwait
   legendary: Brunei
+  resolved to a different article: East Timor -> Timor-Leste (sovereign state situated on several islands in Southeast Asia); Palestine -> Palestine (political entity that enjoys incomplete recognition as a state, located in West Asia)
 
-== geo-south-america (12) textbook:1 tryhard:0 honours:3 rare:3 deep:4 legendary:1
+== geo-south-america (12) textbook:1 tryhard:0 honours:3 rare:5 deep:2 legendary:1
 Name a country in South America
-  most familiar: Brazil, Argentina, Colombia, Chile, Venezuela, Guyana, Peru, Suriname, Paraguay, Uruguay, Bolivia, Ecuador
-  least familiar: Colombia, Chile, Venezuela, Guyana, Peru, Suriname, Paraguay, Uruguay, Bolivia, Ecuador
+  most familiar: Brazil, Argentina, Chile, Colombia, Venezuela, Guyana, Peru, Bolivia, Uruguay, Paraguay, Suriname, Ecuador
+  least familiar: Chile, Colombia, Venezuela, Guyana, Peru, Bolivia, Uruguay, Paraguay, Suriname, Ecuador
   legendary: Suriname
 
 == geo-oceania (14) textbook:1 tryhard:0 honours:4 rare:4 deep:4 legendary:1
 Name a country in Oceania
-  most familiar: Australia, New Zealand, Papua New Guinea, Fiji, Nauru, Kiribati, Vanuatu, Samoa, Palau, Tonga, Tuvalu, Marshall Islands
-  least familiar: Nauru, Kiribati, Vanuatu, Samoa, Palau, Tonga, Tuvalu, Marshall Islands, Solomon Islands, Micronesia
+  most familiar: Australia, New Zealand, Papua New Guinea, Fiji, Nauru, Vanuatu, Kiribati, Samoa, Palau, Tuvalu, Tonga, Marshall Islands
+  least familiar: Nauru, Vanuatu, Kiribati, Samoa, Palau, Tuvalu, Tonga, Marshall Islands, Solomon Islands, Micronesia
   legendary: Kiribati
 
-== geo-europe-capital (50) textbook:5 tryhard:0 honours:13 rare:17 deep:14 legendary:1
+== geo-europe-capital (50) textbook:3 tryhard:2 honours:13 rare:17 deep:14 legendary:1
 Name the capital city of a European country
-  most familiar: London, Paris, Monaco, Berlin, Vatican City, Rome, Moscow, Vienna, Prague, Madrid, Amsterdam, Budapest
-  least familiar: Nicosia, Bern, Skopje, Chisinau, Valletta, Podgorica, Andorra la Vella, Luxembourg City, Vaduz, City of San Marino
+  most familiar: London, Paris, Berlin, Monaco, Vatican City, Rome, Moscow, Vienna, Madrid, Amsterdam, Prague, Warsaw
+  least familiar: Nicosia, Bern, Skopje, Chisinau, Andorra la Vella, Valletta, Podgorica, Vaduz, Luxembourg City, City of San Marino
   legendary: Vaduz
+  resolved to a different article: Reykjavik -> Reykjavík (capital and largest city in Iceland); Chisinau -> Chișinău (capital of Moldova)
 
 == geo-indian-state (36) textbook:4 tryhard:0 honours:9 rare:12 deep:10 legendary:1
 Name a state or union territory of India
-  most familiar: Kerala, Delhi, Tamil Nadu, Maharashtra, Uttar Pradesh, Goa, Andhra Pradesh, Gujarat, Karnataka, West Bengal, Arunachal Pradesh, Rajasthan
-  least familiar: Jharkhand, Chandigarh, Nagaland, Meghalaya, Chhattisgarh, Tripura, Mizoram, Lakshadweep, Puducherry, Dadra and Nagar Haveli and Daman and Diu
+  most familiar: Delhi, Kerala, Tamil Nadu, Gujarat, Maharashtra, Goa, Andhra Pradesh, Uttar Pradesh, West Bengal, Karnataka, Arunachal Pradesh, Assam
+  least familiar: Chhattisgarh, Jammu and Kashmir, Nagaland, Chandigarh, Tripura, Meghalaya, Mizoram, Lakshadweep, Puducherry, Dadra and Nagar Haveli and Daman and Diu
   legendary: Lakshadweep
 
 == geo-us-state (50) textbook:5 tryhard:0 honours:13 rare:17 deep:14 legendary:1
 Name a US state
-  most familiar: California, Hawaii, Alaska, Texas, Florida, New York, Ohio, Pennsylvania, Georgia, Michigan, New Jersey, Mississippi
-  least familiar: Indiana, Kentucky, Idaho, Rhode Island, West Virginia, New Hampshire, South Carolina, Delaware, North Dakota, South Dakota
+  most familiar: California, Alaska, Hawaii, Texas, New York, Florida, Ohio, Pennsylvania, Georgia, New Jersey, Alabama, Michigan
+  least familiar: Oklahoma, Vermont, Kentucky, Delaware, West Virginia, Rhode Island, South Carolina, New Hampshire, North Dakota, South Dakota
   legendary: Delaware
 
-== geo-river-india (937) textbook:15 tryhard:0 honours:45 rare:240 deep:636 legendary:1
+== geo-river-india (911) textbook:15 tryhard:0 honours:45 rare:254 deep:596 legendary:1
 Name a river that flows through India
-  most familiar: Ganges, Indus River, Brahmaputra River, Yamuna, Godavari River, Krishna River, Chenab River, Sutlej, Jhelum River, Narmada, Ravi River, Beas River
+  most familiar: Ganges, Indus River, Brahmaputra River, Yamuna, Godavari River, Krishna River, Chenab River, Sutlej, Jhelum River, Narmada, Ravi River, Kaveri
   least familiar: Palasan River, Raipur luni, Sanwan River, Suri River, Bandi River, eastern Rajasthan, Shivna River, Tulmullah Nallah, Thoubal River, Dhouns River, Jamuni River
-  legendary: Gayatri River
-  ambiguous aliases: chandrabhaga, gingee river, gingee, sindh river, sindh, parbati river, parbati, kali river, kali, auranga river, auranga, kanjirappuzha, malan river, malan, nanganjiyar, par river, par, rupen river, rupen, sai river, sai, uppar, varattar river, varattar, vettar river, vettar, vellar river, vellar, khawthlangtuipui, saraswati river, saraswati, kosi river, kosi, purna, chandan river, chandan, banganga river, banganga, pambar river, pambar, jahnavi, chandrabhaga river, koraiyar river, koraiyar, gaangi
+  legendary: Vrishabhavathi River
+  ambiguous aliases: chandrabhaga, gingee, kali, sindh
 
 == hist-greek-deity (78) textbook:8 tryhard:1 honours:18 rare:28 deep:22 legendary:1
 Name a god or goddess from Greek mythology
-  most familiar: Zeus, Athena, Apollo, Aphrodite, Artemis, Dionysus, Hermes, Poseidon, Prometheus, Persephone, Hera, Hades
-  least familiar: Euterpe, Clotho, Boreas, Polyhymnia, Hymen, Lachesis, Enyo, Eurus, Notus, Dione
+  most familiar: Zeus, Athena, Apollo, Aphrodite, Artemis, Dionysus, Hermes, Poseidon, Hera, Hades, Prometheus, Ares
+  least familiar: Atropos, Polyhymnia, Boreas, Clotho, Hymen, Enyo, Lachesis, Eurus, Notus, Dione
   legendary: Hymen
+  resolved to a different article: Nemesis -> Nemesis (goddess of Greek mythology); Boreas -> Boreas (Greek mythological personification and god of the North wind, storms,, winter, loneliness, solitude, absence, lack, sadness, depression, calmness and serenity)
 
 == hist-us-president (45) textbook:5 tryhard:0 honours:11 rare:15 deep:13 legendary:1
 Name a President of the United States
-  most familiar: Donald Trump, Barack Obama, George W. Bush, John F. Kennedy, Joe Biden, Franklin D. Roosevelt, Ronald Reagan, Abraham Lincoln, George Washington, Bill Clinton, George H. W. Bush, Dwight D. Eisenhower
-  least familiar: John Tyler, William Henry Harrison, James K. Polk, James Monroe, Chester A. Arthur, Zachary Taylor, Franklin Pierce, Millard Fillmore, Benjamin Harrison, Rutherford B. Hayes
+  most familiar: Donald Trump, Barack Obama, George W. Bush, Joe Biden, Ronald Reagan, John F. Kennedy, Franklin D. Roosevelt, Abraham Lincoln, George Washington, Bill Clinton, George H. W. Bush, Jimmy Carter
+  least familiar: John Tyler, James K. Polk, William Henry Harrison, Warren G. Harding, Zachary Taylor, Chester A. Arthur, Franklin Pierce, Millard Fillmore, Benjamin Harrison, Rutherford B. Hayes
   legendary: Chester A. Arthur
-  ambiguous aliases: adams, harrison, roosevelt, johnson, bush, george bush
+  ambiguous aliases: adams, harrison, johnson, roosevelt, bush, george bush
 
-== hist-indian-pm (15) textbook:2 tryhard:0 honours:3 rare:6 deep:3 legendary:1
+== hist-indian-pm (15) textbook:3 tryhard:0 honours:2 rare:6 deep:3 legendary:1
 Name a Prime Minister of India
-  most familiar: Narendra Modi, Indira Gandhi, Jawaharlal Nehru, Rajiv Gandhi, Lal Bahadur Shastri, Manmohan Singh, Atal Bihari Vajpayee, Morarji Desai, P. V. Narasimha Rao, Chandra Shekhar, V. P. Singh, Charan Singh
-  least familiar: Manmohan Singh, Atal Bihari Vajpayee, Morarji Desai, P. V. Narasimha Rao, Chandra Shekhar, V. P. Singh, Charan Singh, H. D. Deve Gowda, Gulzarilal Nanda, I. K. Gujral
+  most familiar: Narendra Modi, Jawaharlal Nehru, Indira Gandhi, Rajiv Gandhi, Manmohan Singh, Atal Bihari Vajpayee, Lal Bahadur Shastri, Morarji Desai, P. V. Narasimha Rao, Chandra Shekhar, Charan Singh, V. P. Singh
+  least familiar: Atal Bihari Vajpayee, Lal Bahadur Shastri, Morarji Desai, P. V. Narasimha Rao, Chandra Shekhar, Charan Singh, V. P. Singh, Gulzarilal Nanda, H. D. Deve Gowda, I. K. Gujral
   legendary: Gulzarilal Nanda
+  resolved to a different article: I. K. Gujral -> Inder Kumar Gujral (Prime Minister of India (1997-1998))
 
 == hist-shakespeare (38) textbook:4 tryhard:0 honours:9 rare:14 deep:10 legendary:1
 Name a play by William Shakespeare
-  most familiar: Hamlet, Romeo and Juliet, Macbeth, Othello, A Midsummer Night's Dream, King Lear, The Tempest, Much Ado About Nothing, Twelfth Night, The Merchant of Venice, The Taming of the Shrew, Julius Caesar
-  least familiar: Cymbeline, Love's Labour's Lost, Pericles, Prince of Tyre, King John, Henry VIII, Henry VI, Part 1, Henry IV, Part 2, The Two Noble Kinsmen, Henry VI, Part 3, Henry VI, Part 2
+  most familiar: Hamlet, Romeo and Juliet, Macbeth, Othello, King Lear, A Midsummer Night's Dream, The Tempest, The Merchant of Venice, Much Ado About Nothing, Twelfth Night, Julius Caesar, As You Like It
+  least familiar: Love's Labour's Lost, Cymbeline, King John, Henry VIII, Pericles, Prince of Tyre, Henry IV, Part 2, Henry VI, Part 1, The Two Noble Kinsmen, Henry VI, Part 2, Henry VI, Part 3
   legendary: The Two Noble Kinsmen
   ambiguous aliases: henry iv, henry vi
 
 == nat-penguin (18) textbook:2 tryhard:0 honours:4 rare:7 deep:4 legendary:1
 Name a species of penguin
-  most familiar: Emperor penguin, Adélie penguin, Gentoo penguin, Little penguin, King penguin, African penguin, Galápagos penguin, Macaroni penguin, Chinstrap penguin, Humboldt penguin, Magellanic penguin, Yellow-eyed penguin
-  least familiar: Chinstrap penguin, Humboldt penguin, Magellanic penguin, Yellow-eyed penguin, Royal penguin, Northern rockhopper penguin, Fiordland penguin, Southern rockhopper penguin, Erect-crested penguin, Snares penguin
+  most familiar: Emperor penguin, Adélie penguin, King penguin, Gentoo penguin, Little penguin, African penguin, Galápagos penguin, Humboldt penguin, Chinstrap penguin, Macaroni penguin, Magellanic penguin, Yellow-eyed penguin
+  least familiar: Chinstrap penguin, Macaroni penguin, Magellanic penguin, Yellow-eyed penguin, Royal penguin, Northern rockhopper penguin, Fiordland penguin, Southern rockhopper penguin, Snares penguin, Erect-crested penguin
   legendary: Snares penguin
+  resolved to a different article: Galápagos penguin -> Galapagos penguin (species of bird); Southern rockhopper penguin -> Western rockhopper penguin (species of bird)
 
-== nat-cat-species (40) textbook:4 tryhard:1 honours:9 rare:14 deep:11 legendary:1
+== nat-cat-species (40) textbook:4 tryhard:1 honours:10 rare:13 deep:11 legendary:1
 Name a species of cat
-  most familiar: Cat, Tiger, Lion, Jaguar, Cheetah, Leopard, Cougar, Snow leopard, Caracal, Bobcat, Pallas's cat, Serval
-  least familiar: African golden cat, Kodkod, Pampas cat, Geoffroy's cat, Marbled cat, Andean mountain cat, Bay cat, Sunda clouded leopard, Flat-headed cat, Sunda leopard cat
+  most familiar: Cat, Lion, Tiger, Jaguar, Leopard, Cheetah, Cougar, Snow leopard, Caracal, Pallas's cat, Eurasian lynx, Bobcat
+  least familiar: Rusty-spotted cat, Kodkod, Marbled cat, Geoffroy's cat, Pampas cat, Andean mountain cat, Bay cat, Sunda clouded leopard, Flat-headed cat, Sunda leopard cat
   legendary: Rusty-spotted cat
 
 == nat-dinosaur (88) textbook:8 tryhard:1 honours:22 rare:31 deep:25 legendary:1
 Name a dinosaur
-  most familiar: Tyrannosaurus, Spinosaurus, Velociraptor, Stegosaurus, Triceratops, Archaeopteryx, Allosaurus, Ankylosaurus, Brachiosaurus, Giganotosaurus, Argentinosaurus, Coelophysis
-  least familiar: Pentaceratops, Minmi, Saltasaurus, Masiakasaurus, Huayangosaurus, Leaellynasaura, Barapasaurus, Einiosaurus, Nodosaurus, Isisaurus
+  most familiar: Tyrannosaurus, Triceratops, Stegosaurus, Spinosaurus, Archaeopteryx, Velociraptor, Allosaurus, Brachiosaurus, Ankylosaurus, Diplodocus, Giganotosaurus, Argentinosaurus
+  least familiar: Muttaburrasaurus, Huayangosaurus, Saltasaurus, Pentaceratops, Barapasaurus, Masiakasaurus, Leaellynasaura, Nodosaurus, Einiosaurus, Isisaurus
   legendary: Rajasaurus
+  resolved to a different article: Minmi -> Minmi paravertebra (genus of reptiles (fossil))
 
-== nat-dog-breed (625) textbook:15 tryhard:0 honours:45 rare:240 deep:324 legendary:1
+== nat-dog-breed (625) textbook:15 tryhard:0 honours:52 rare:241 deep:316 legendary:1
 Name a breed of dog
   most familiar: German Shepherd, dingo, Labrador Retriever, beagle, Chihuahua, Bulldog, Golden Retriever, dachshund, Rottweiler, Akita, Siberian Husky, pug
   least familiar: St. Hubert Jura Hound, Continental Toy Spaniel, Piccolo Segugio dell'Appennino, Illyrian Shepherd, Beskydský bundáš, Beaglier, Denmark Feist, Gerberian Shepsky, Assyrian Mastiff, Laconian
-  legendary: Small Münsterländer
-  ambiguous aliases: spanish bulldog, american akita, king charles spaniel, belgian malinois, bruno jura hound, bruno jura, bull terrier, italian mastiff, cocker spaniel, vizsla, assyrian mastiff, basset, coonhound, miniature australian shepherd, polish hound, polish, portuguese watch dog, portuguese watch, irish setter, setter
+  legendary: Mudhol Hound
+  ambiguous aliases: italian mastiff, spanish bulldog, setter, portuguese watch dog, bruno jura, polish, portuguese watch, pariah
 
-== school-subject (70) textbook:8 tryhard:0 honours:18 rare:24 deep:18 legendary:2
+== school-subject (70) textbook:8 tryhard:0 honours:18 rare:24 deep:19 legendary:1
 Name a subject taught at school
-  legendary: Latin, Further mathematics
+  legendary: Further mathematics
 
-== school-bag (77) textbook:9 tryhard:0 honours:24 rare:27 deep:15 legendary:2
+== school-bag (77) textbook:9 tryhard:0 honours:24 rare:27 deep:16 legendary:1
 Name something you might find in a school bag
-  legendary: Stencil, French curve
+  legendary: French curve
 
 == sci-element (118) textbook:12 tryhard:1 honours:29 rare:40 deep:35 legendary:1
 Name a chemical element
-  most familiar: Gold, Hydrogen, Aluminium, Copper, Silver, Iron, Oxygen, Mercury, Carbon, Sulfur, Helium, Lead
-  least familiar: Lawrencium, Meitnerium, Dubnium, Erbium, Nobelium, Berkelium, Bohrium, Terbium, Mendelevium, Thulium
+  most familiar: Gold, Hydrogen, Iron, Copper, Silver, Aluminium, Oxygen, Carbon, Helium, Mercury, Sulfur, Lead
+  least familiar: Roentgenium, Holmium, Nobelium, Lawrencium, Flerovium, Berkelium, Erbium, Terbium, Mendelevium, Thulium
   legendary: Technetium
 
 == sci-element-one-letter (14) textbook:1 tryhard:0 honours:4 rare:5 deep:3 legendary:1
 Name a chemical element whose symbol is a single letter
-  most familiar: Hydrogen, Oxygen, Carbon, Sulfur, Tungsten, Nitrogen, Uranium, Potassium, Phosphorus, Fluorine, Iodine, Boron
-  least familiar: Tungsten, Nitrogen, Uranium, Potassium, Phosphorus, Fluorine, Iodine, Boron, Vanadium, Yttrium
+  most familiar: Hydrogen, Oxygen, Carbon, Sulfur, Nitrogen, Uranium, Potassium, Tungsten, Phosphorus, Fluorine, Boron, Iodine
+  least familiar: Nitrogen, Uranium, Potassium, Tungsten, Phosphorus, Fluorine, Boron, Iodine, Vanadium, Yttrium
   legendary: Yttrium
 
 == sci-bone (56) textbook:6 tryhard:1 honours:13 rare:18 deep:17 legendary:1
 Name a bone in the human body
-  most familiar: Clavicle, Scapula, Skull, Sternum, Femur, Fibula, Sacrum, Coccyx, Vertebra, Tibia, Mandible, Humerus
-  least familiar: Inferior nasal concha, Pisiform bone, Navicular bone, Lunate bone, Triquetral bone, Trapezium, Capitate bone, Cuboid bone, Trapezoid bone, Cuneiform bone
+  most familiar: Clavicle, Skull, Scapula, Femur, Sternum, Vertebra, Sacrum, Tibia, Fibula, Coccyx, Mandible, Humerus
+  least familiar: Inferior nasal concha, Lunate bone, Pisiform bone, Navicular bone, Triquetral bone, Capitate bone, Trapezium, Trapezoid bone, Cuboid bone, Cuneiform bone
   legendary: Hyoid bone
+  resolved to a different article: Pubis -> Pubis (ventral and anterior of the three principal bones composing either half of the pelvis)
 
-== sci-moon (100) textbook:10 tryhard:0 honours:24 rare:35 deep:30 legendary:1
+== sci-moon (100) textbook:10 tryhard:0 honours:24 rare:36 deep:29 legendary:1
 Name a moon in the Solar System
-  most familiar: Moon, Titan, Ganymede, Phobos, Io, Europa, Triton, Enceladus, Deimos, Callisto, Charon, Mimas
-  least familiar: Trinculo, Ferdinand, Francisco, Prospero, Setebos, Stephano, Paaliaq, Ijiraq, Tarvos, Mundilfari
+  most familiar: Moon, Titan, Ganymede, Phobos, Io, Europa, Deimos, Triton, Callisto, Enceladus, Charon, Mimas
+  least familiar: Francisco, Ferdinand, Siarnaq, Prospero, Setebos, Stephano, Paaliaq, Ijiraq, Tarvos, Mundilfari
   legendary: Hyperion
+  resolved to a different article: Mimas -> Mimas (moon of Saturn); Siarnaq -> Siarnaq (moon of Saturn)
 
 == sport-test-nation (12) textbook:1 tryhard:0 honours:3 rare:4 deep:3 legendary:1
 Name a country or team that plays Test cricket
-  most familiar: India, Australia, West Indies, Pakistan, England, New Zealand, South Africa, Sri Lanka, Afghanistan, Bangladesh, Zimbabwe, Ireland
-  least familiar: West Indies, Pakistan, England, New Zealand, South Africa, Sri Lanka, Afghanistan, Bangladesh, Zimbabwe, Ireland
+  most familiar: India, Australia, Pakistan, England, West Indies, New Zealand, South Africa, Sri Lanka, Bangladesh, Afghanistan, Zimbabwe, Ireland
+  least familiar: Pakistan, England, West Indies, New Zealand, South Africa, Sri Lanka, Bangladesh, Afghanistan, Zimbabwe, Ireland
   legendary: Zimbabwe
 
 == sport-ipl-team (15) textbook:2 tryhard:0 honours:3 rare:6 deep:3 legendary:1
 Name a team that has played in the Indian Premier League
-  most familiar: Chennai Super Kings, Mumbai Indians, Kolkata Knight Riders, Sunrisers Hyderabad, Royal Challengers Bengaluru, Delhi Capitals, Punjab Kings, Rajasthan Royals, Gujarat Titans, Deccan Chargers, Lucknow Super Giants, Kochi Tuskers Kerala
-  least familiar: Delhi Capitals, Punjab Kings, Rajasthan Royals, Gujarat Titans, Deccan Chargers, Lucknow Super Giants, Kochi Tuskers Kerala, Rising Pune Supergiant, Gujarat Lions, Pune Warriors India
+  most familiar: Chennai Super Kings, Mumbai Indians, Kolkata Knight Riders, Delhi Capitals, Royal Challengers Bengaluru, Sunrisers Hyderabad, Punjab Kings, Rajasthan Royals, Gujarat Titans, Deccan Chargers, Lucknow Super Giants, Kochi Tuskers Kerala
+  least familiar: Sunrisers Hyderabad, Punjab Kings, Rajasthan Royals, Gujarat Titans, Deccan Chargers, Lucknow Super Giants, Kochi Tuskers Kerala, Rising Pune Supergiant, Gujarat Lions, Pune Warriors India
   legendary: Kochi Tuskers Kerala
 
-== sport-olympic (47) textbook:7 tryhard:1 honours:21 rare:12 deep:4 legendary:2
+== sport-olympic (47) textbook:7 tryhard:1 honours:21 rare:12 deep:5 legendary:1
 Name a sport or discipline at the Paris 2024 Summer Olympics
-  legendary: Track cycling, Modern pentathlon
+  legendary: Modern pentathlon
 
-== word-ology (130) textbook:8 tryhard:1 honours:36 rare:54 deep:29 legendary:2
+== word-ology (130) textbook:8 tryhard:1 honours:36 rare:54 deep:30 legendary:1
 Name an English word that ends in "-ology"
-  legendary: Dendrology, Campanology
+  legendary: Campanology
 
 == word-indian-language (22) textbook:2 tryhard:0 honours:6 rare:7 deep:6 legendary:1
 Name one of the 22 languages in the Eighth Schedule of India's Constitution
   most familiar: Sanskrit, Hindi, Tamil, Urdu, Bengali, Telugu, Punjabi, Kannada, Malayalam, Marathi, Nepali, Gujarati
-  least familiar: Odia, Assamese, Sindhi, Konkani, Kashmiri, Maithili, Manipuri, Santali, Dogri, Bodo
+  least familiar: Odia, Assamese, Sindhi, Kashmiri, Konkani, Maithili, Manipuri, Santali, Bodo, Dogri
   legendary: Dogri
+  resolved to a different article: Bodo -> Boro language (India) (Tibeto-Burman language of the Bodo people of north-eastern India and Nepal)
 
-== word-programming-language (624) textbook:15 tryhard:0 honours:45 rare:240 deep:323 legendary:1
+== word-programming-language (737) textbook:15 tryhard:0 honours:48 rare:265 deep:408 legendary:1
 Name a programming language
-  most familiar: C, JavaScript, Java, C++, Cascading Style Sheets, C#, SQL, Perl, Ruby, Lua, Classic Visual Basic, Fortran
-  least familiar: Gosu, Hamilton C shell, JEAN, JModelica.org, LYaPAS, Le Lisp, Lynx, MapBasic, Mary, Nu
-  legendary: DYNAMO
-  ambiguous aliases: c, assembler, mathematica, powerbasic, pearl, cl, a, m, small basic, f, alice, occam, swift, zpl, cilk plus, jade
+  most familiar: C, PHP, Python, JavaScript, Java, C++, C#, SQL, Perl, Ruby, Pascal, Lua
+  least familiar: Halide, Open Roberta, Optimization Programming Language, MLAB, Whiley, Opal, Common Workflow Language, 1C:Enterprise programming language, SNOBOL4, Microsoft C
+  legendary: Logo
+  ambiguous aliases: small basic, cl, a programming language, m, visual basic

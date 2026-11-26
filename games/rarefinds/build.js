@@ -58,8 +58,21 @@ function parseList(text) {
     });
 }
 
+function dedupe(list, strip) {
+  const byName = new Map();
+  for (const r of list) {
+    const k = strip(engine.normalize(r.name)); // "Kaveri" and "Kaveri River" are one answer to a player
+    const prev = byName.get(k);
+    if (!prev) byName.set(k, { ...r, aliases: [...r.aliases] });
+    else if (r.sitelinks > prev.sitelinks) byName.set(k, { ...r, aliases: [...new Set([...r.aliases, ...prev.aliases])].slice(0, 8) });
+    else prev.aliases = [...new Set([...prev.aliases, ...r.aliases])].slice(0, 8);
+  }
+  return [...byName.values()];
+}
+
 async function runSparql(q) {
-  if (!REFRESH && sparqlCache.queries[q.id]) return sparqlCache.queries[q.id];
+  const strip = engine.indexQuestion({ answers: [], strip: q.strip }).strip;
+  if (!REFRESH && sparqlCache.queries[q.id]) return dedupe(sparqlCache.queries[q.id], strip);
   const url = `https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(q.sparql)}`;
   const j = await getJson(url);
   const rows = new Map();
@@ -70,11 +83,23 @@ async function runSparql(q) {
     if (!rows.has(qid)) rows.set(qid, { qid, name: label, aliases: [], title: decodeURIComponent((b.article?.value || '').split('/wiki/').pop() || '').replace(/_/g, ' '), sitelinks: Number(b.sitelinks?.value || 0) });
     if (b.alt?.value) rows.get(qid).aliases.push(b.alt.value);
   }
-  const list = [...rows.values()].map((r) => ({ ...r, aliases: [...new Set(r.aliases)].slice(0, 6) }));
+  // Different entities with the same name (several rivers called "Kali River") are one answer to a player:
+  // keep the best-known one and merge the aliases.
+  const byName = new Map();
+  for (const r of rows.values()) {
+    const k = engine.normalize(r.name);
+    const prev = byName.get(k);
+    if (!prev) byName.set(k, { ...r });
+    else {
+      const keep = r.sitelinks > prev.sitelinks ? { ...r, aliases: [...r.aliases, ...prev.aliases] } : { ...prev, aliases: [...prev.aliases, ...r.aliases] };
+      byName.set(k, keep);
+    }
+  }
+  const list = [...byName.values()].map((r) => ({ ...r, aliases: [...new Set(r.aliases)].slice(0, 6) }));
   sparqlCache.queries[q.id] = list;
   sparqlCache.retrieved = new Date().toISOString().slice(0, 10);
   fs.writeFileSync(SPARQL_FILE, JSON.stringify(sparqlCache));
-  return list;
+  return dedupe(list, strip);
 }
 
 // Resolve titles -> { qid, sitelinks, canonical, description } via the Wikidata API (follows redirects).
@@ -165,13 +190,18 @@ async function main() {
     if (q.groups) {
       q._answers = Object.entries(q.groups).flatMap(([tier, text]) => parseList(text).map((a) => ({ ...a, fixedTier: tier })));
     } else q._answers = q.sparql ? await runSparql(q) : parseList(q.answers);
+    if (q.extra) {
+      const have = new Set(q._answers.map((a) => engine.normalize(a.name)));
+      q._answers = q._answers.concat(parseList(q.extra).filter((a) => !have.has(engine.normalize(a.name))).map((a) => ({ ...a, extra: true })));
+    }
     if (q.filter) q._answers = q._answers.filter(q.filter);
   }
   // 2) Fetch signals for curated titles (SPARQL rows already carry sitelinks).
   // Curated lists, plus Wikidata pools small enough for page views, go through the batched Wikipedia lookup.
-  const curatedTitles = [...new Set(specs.filter((q) => !q.groups && (!q.sparql || q._answers.length <= VIEWS_POOL_LIMIT)).flatMap((q) => q._answers.map((a) => a.title).filter(Boolean)))];
+  const curatedTitles = [...new Set(specs.filter((q) => !q.groups).flatMap((q) => q._answers.filter((a) => !q.sparql || q._answers.length <= VIEWS_POOL_LIMIT || a.extra).map((a) => a.title).filter(Boolean)))];
   process.stdout.write(`signals for ${curatedTitles.length} titles `);
   await fetchEntities(curatedTitles);
+  for (const q of specs) for (const a of q._answers) if (a.extra) a.sitelinks = signals.titles[a.title]?.sitelinks ?? 0;
   signals.retrieved = signals.retrieved || new Date().toISOString().slice(0, 10);
   fs.writeFileSync(SIGNALS_FILE, JSON.stringify(signals, null, 0));
   fs.writeFileSync(SPARQL_FILE, JSON.stringify(sparqlCache, null, 0));
@@ -206,14 +236,19 @@ async function main() {
     const pv = percentiles(sig.map((s) => (s.views === undefined || s.views === null ? null : Math.log1p(s.views))));
     const ps = percentiles(sig.map((s) => (s.sitelinks ? Math.log1p(s.sitelinks) : s.sitelinks === 0 ? 0 : null)));
     const fam = answers.map((_, i) => {
-      if (pv[i] !== null && ps[i] !== null) return 0.65 * pv[i] + 0.35 * ps[i];
+      if (pv[i] !== null && ps[i] !== null) return 0.5 * pv[i] + 0.5 * ps[i]; // 60-day views are noisy (news, new releases); coverage steadies them
       return pv[i] ?? ps[i] ?? 0.5; // missing data is never treated as proof of obscurity
     });
     // Answers without their own article are ranked only by editorial choice (missingTier), never by guesswork.
     const ranked = answers.map((_, i) => i).filter((i) => !missing.has(i));
     const order = ranked.sort((a, b) => fam[b] - fam[a]);
     const tier = new Array(answers.length);
-    order.forEach((ai, r) => (tier[ai] = engine.baseTier(r + 1, order.length)));
+    // Equal familiarity gets an equal tier: every member of a tie group takes the tier of the group's first rank.
+    let groupRank = 1;
+    order.forEach((ai, r) => {
+      if (r === 0 || fam[ai] !== fam[order[r - 1]]) groupRank = r + 1;
+      tier[ai] = engine.baseTier(groupRank, order.length);
+    });
     for (const i of missing) tier[i] = q.tiers?.[answers[i].name] || q.missingTier;
     if (q.groups) answers.forEach((a, i) => (tier[i] = a.fixedTier));
 
@@ -231,7 +266,7 @@ async function main() {
       if (i !== undefined) tier[i] = 'tryhard';
     }
     let legends = (q.legendary || []).map((n) => need(n, 'legendary')).filter((i) => i !== undefined);
-    if (!legends.length) {
+    if (!legends.length && !tier.includes('legendary')) {
       // Fallback: the most findable of the deep answers.
       const deepest = order.filter((i) => tier[i] === 'deep');
       if (deepest.length) legends = [deepest[0]];
@@ -249,6 +284,10 @@ async function main() {
     }));
     // Alias collisions inside a question become "be more specific" at play time; list them for review.
     const idx = engine.indexQuestion({ answers: out, strip: q.strip });
+    out.forEach((a, i) => {
+      const m = engine.matchAnswer(idx, a.name);
+      if (m.kind !== 'match' || m.index !== i) qErr(`"${a.name}" cannot be scored by typing its own name (${m.kind})`);
+    });
     built.push({
       id: q.id, category: q.category, prompt: q.prompt, qualifier: q.qualifier || '', strip: q.strip || [],
       source: q.groups ? 'Curated list, editorial tiers' : q.sparql ? 'Wikidata query, ranked by Wikipedia coverage' : 'Curated list, ranked by Wikipedia popularity', answers: out,
@@ -262,6 +301,10 @@ async function main() {
     }
     report.push('  legendary: ' + out.filter((a) => a.tier === 'legendary').map((a) => a.name).join(', '));
     if (idx.ambiguous.size) report.push('  ambiguous aliases: ' + [...idx.ambiguous].join(', '));
+    if (!q.groups && !(q.sparql && answers.length > VIEWS_POOL_LIMIT)) {
+      const moved = answers.filter((a) => signals.titles[a.title]?.canonical && signals.titles[a.title].canonical.toLowerCase() !== a.title.toLowerCase());
+      if (moved.length) report.push('  resolved to a different article: ' + moved.map((a) => `${a.name} -> ${signals.titles[a.title].canonical} (${signals.titles[a.title].description || 'no description'})`).join('; '));
+    }
   }
 
   fs.writeFileSync(REPORT, report.join('\n') + '\n');

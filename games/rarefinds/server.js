@@ -141,7 +141,7 @@ module.exports = function attach(io) {
       code: room.code, mode: room.mode, hostId: room.hostId, you: forId, phase: room.phase,
       round: room.round, rounds: e.ROUNDS, day: room.day, dayNumber: room.day ? dayNumber(room.day) : null,
       timeLeft: Math.max(0, room.deadline - Date.now()),
-      question: room.round >= 0 && room.phase !== 'lobby' ? publicQuestion(room.questions[room.round]) : null,
+      question: ['prep', 'answer', 'reveal'].includes(room.phase) ? publicQuestion(room.questions[room.round]) : null,
       players: [...room.players.values()].map((p) => ({ ...playerView(p), locked: !!sub.get(p.id)?.final })),
       reveal: room.phase === 'reveal' || room.phase === 'final' ? room.lastReveal : null,
       final: room.phase === 'final' ? finalSummary(room) : null,

@@ -52,7 +52,9 @@ module.exports = [
     qualifier: 'Capitals of UN member or observer states in Europe, including transcontinental ones',
     answers: c.europeanCapitals(),
     strip: ['city'],
+    tryhard: ['Monaco', 'Vatican City'],
     legendary: ['Vaduz'],
+    facts: { Monaco: 'A city-state, so the country and its capital share a name.', 'Vatican City': 'The smallest country in the world is its own capital.' },
   },
   {
     id: 'geo-indian-state',
@@ -94,11 +96,12 @@ module.exports = [
     qualifier: 'Rivers with their own English Wikipedia article',
     strip: ['river'],
     sparql: `SELECT ?item ?itemLabel ?alt ?article ?sitelinks WHERE {
-      ?item wdt:P31 wd:Q4022 ; wdt:P17 wd:Q668 ; wikibase:sitelinks ?sitelinks .
+      ?item wdt:P31/wdt:P279* wd:Q4022 ; wdt:P17 wd:Q668 ; wikibase:sitelinks ?sitelinks .
       ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> .
       OPTIONAL { ?item skos:altLabel ?alt FILTER(LANG(?alt) = "en") }
       SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
     }`,
-    legendary: [],
+    legendary: ['Vrishabhavathi River'],
+    facts: { 'Vrishabhavathi River': 'A river that rises in Bengaluru; the city has now turned much of it into a drain.' },
   },
 ];

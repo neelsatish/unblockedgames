@@ -203,7 +203,9 @@
     let x = z(150);
     rect(x, base - 46, 6, 46, brick); rect(x + 70, base - 46, 6, 46, brick);
     rect(x - 4, base - 54, 84, 8, brick); rect(x + 10, base - 52, 56, 4, wall);
-    rect(x + 30, base - 76, 2, 22, '#6B6B6B'); rect(x + 32, base - 76, 12, 7, '#FF9933'); rect(x + 32, base - 72, 12, 0, '#FFF');
+    // school pennant in campus colours
+    rect(x + 30, base - 76, 2, 22, '#6B6B6B');
+    rect(x + 32, base - 76, 14, 3, '#2F5D62'); rect(x + 32, base - 73, 10, 2, '#FFD54F'); rect(x + 32, base - 71, 6, 2, '#2F5D62');
     // 1000 m: classroom blocks
     for (let i = 0; i < 3; i++) building(z(1050 + i * 280), base, 90, 54 + (i % 2) * 10, i % 2 ? wall : brick, roof, win, 'door', lit);
     // 2000 m: library with columns

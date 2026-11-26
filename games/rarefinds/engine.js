@@ -86,10 +86,11 @@ function indexQuestion(q) {
   const exact = new Map(); // normalized alias -> answer index
   const ambiguous = new Set();
   const strip = stripper(q.strip);
-  const collect = (formOf) => {
+  const collect = (formOf, which) => {
     const m = new Map(); // form -> set of answer indexes
     q.answers.forEach((a, i) => {
-      for (const alias of [a.name, ...(a.aliases || [])]) {
+      const names = which === 'name' ? [a.name] : which === 'alias' ? a.aliases || [] : [a.name, ...(a.aliases || [])];
+      for (const alias of names) {
         const n = formOf(normalize(alias));
         if (!n) continue;
         if (!m.has(n)) m.set(n, new Set());
@@ -105,8 +106,10 @@ function indexQuestion(q) {
       else exact.set(n, [...set][0]);
     }
   };
-  place(collect((n) => n));
-  place(collect((n) => strip(n)));
+  // Priority: an answer's own name, then aliases, then forms with the category word removed.
+  place(collect((n) => n, 'name'));
+  place(collect((n) => n, 'alias'));
+  place(collect((n) => strip(n), 'all'));
   const byLen = new Map(); // length -> [[alias, index]]
   for (const [n, i] of exact) {
     if (!byLen.has(n.length)) byLen.set(n.length, []);

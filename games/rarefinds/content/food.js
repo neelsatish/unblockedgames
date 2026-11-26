@@ -52,13 +52,13 @@ module.exports = [
     missingTier: 'deep',
     answers: `
       Apple; Banana; Orange@Orange (fruit); Mango; Grape; Strawberry; Pineapple; Watermelon; Papaya|pawpaw; Guava; Pomegranate|anar;
-      Cherry; Peach; Pear; Plum; Apricot; Kiwi|kiwifruit|kiwi fruit@Kiwifruit; Lemon; Lime@Lime (fruit); Grapefruit; Coconut; Lychee|litchi|lichi;
+      Cherry; Peach|nectarine; Pear; Plum; Apricot; Kiwi|kiwifruit|kiwi fruit@Kiwifruit; Lemon; Lime@Lime (fruit); Grapefruit; Coconut; Lychee|litchi|lichi;
       Jackfruit; Custard apple|sitaphal|sugar apple|sweetsop@Sugar apple; Sapodilla|chikoo|chiku|sapota; Jamun|java plum|black plum@Syzygium cumini;
       Dragon fruit|pitaya|pitahaya@Pitaya; Passion fruit|passionfruit@Passion fruit; Fig|anjeer@Common fig; Date|dates@Date palm; Blueberry;
       Raspberry; Blackberry; Cranberry; Gooseberry; Amla|Indian gooseberry@Phyllanthus emblica; Mulberry; Avocado; Tomato;
       Cantaloupe; Honeydew|honeydew melon@Honeydew (melon); Muskmelon|kharbuja@Muskmelon; Tangerine; Mandarin|mandarin orange@Mandarin orange;
       Clementine; Kumquat; Persimmon; Quince; Starfruit|carambola|star fruit@Carambola; Durian; Rambutan; Mangosteen|purple mangosteen@Purple mangosteen;
-      Longan; Loquat; Nectarine; Olive; Elderberry|elder@Sambucus; Boysenberry; Lingonberry; Cloudberry; Blackcurrant|black currant;
+      Longan; Loquat; Olive; Elderberry|elder@Sambucus; Boysenberry; Lingonberry; Cloudberry; Blackcurrant|black currant;
       Redcurrant|red currant; Huckleberry; Açaí|acai|acai berry@Açaí palm; Goji berry|goji|wolfberry@Goji; Ackee; Breadfruit; Soursop|graviola;
       Cherimoya; Feijoa; Tamarind|imli; Bael|wood apple|bel@Aegle marmelos; Kokum@Garcinia indica; Jujube|ber|Indian jujube@Jujube;
       Phalsa|falsa@Grewia asiatica; Karonda|Carissa carandas@Carissa carandas; Bilimbi@Averrhoa bilimbi; Salak|snake fruit; Noni|Morinda citrifolia@Morinda citrifolia;
@@ -69,6 +69,8 @@ module.exports = [
       Rose apple|jambu|wax apple@Syzygium jambos; Wood apple (elephant apple)|elephant apple|kaitha@Limonia; Ice apple|tadgola|nungu@Borassus flabellifer`,
     tryhard: ['Tomato'],
     legendary: ['Phalsa'],
+    // Editorial corrections where 60-day page views spiked or undercount everyday fruit.
+    tiers: { Mango: 'textbook', Grape: 'textbook', Strawberry: 'textbook', Watermelon: 'textbook', Quince: 'rare', Fig: 'honours', Pomelo: 'rare', Breadfruit: 'rare', Soursop: 'rare', Loquat: 'rare' },
     facts: {
       Tomato: 'Botanically a berry, but cooked and taxed as a vegetable (a US court said so in 1893).',
       Phalsa: 'A small purple summer berry from India, often made into a sweet-sour sherbet.',
@@ -81,10 +83,10 @@ module.exports = [
     qualifier: 'Traditional mithai and desserts from anywhere in India',
     missingTier: 'deep',
     answers: `
-      Gulab jamun|gulabjamun; Rasgulla|rasagola|rosogolla|rossogolla|roshogolla@Rasgulla; Jalebi|jilebi|jilapi; Ladoo|laddu|laddoo|ladu@Laddu;
+      Gulab jamun|gulabjamun; Rasgulla|rasagola|rosogolla|rossogolla|roshogolla@Rasgulla; Jalebi|jilebi|jilapi; Ladoo|laddu|laddoo|ladu|besan ladoo|besan laddu@Laddu;
       Barfi|burfi; Kaju katli|kaju barfi|kaju katri; Ras malai|rasmalai; Sandesh@Sandesh (confectionery); Mysore pak; Peda|pedha; Halwa|halva@Halva;
       Gajar ka halwa|gajar halwa|carrot halwa; Kheer|payesh|payasam|payasa|kheeri@Kheer; Kulfi; Shrikhand; Modak; Soan papdi|son papdi|patisa;
-      Motichoor ladoo|motichoor laddu@Motichoor laddu; Besan ladoo|besan laddu@Besan laddu; Cham cham|chomchom; Mishti doi; Malpua; Ghevar; Imarti|jangiri|jaangiri;
+      Motichoor ladoo|motichoor laddu@Motichoor laddu; Cham cham|chomchom; Mishti doi; Malpua; Ghevar; Imarti|jangiri|jaangiri;
       Balushahi|badusha; Petha|agra petha; Kalakand; Rabri|rabdi; Phirni|firni; Basundi; Puran poli|holige|obbattu|bobbatlu@Puran poli; Unniyappam;
       Adhirasam|anarsa|ariselu@Anarsa; Double ka meetha; Qubani ka meetha; Sheer khurma|sheer korma; Chikki; Gajak; Rewari|revdi; Sohan halwa;
       Dharwad peda; Chiroti; Kesari bath|kesari|rava kesari|sheera|sooji halwa@Kesari; Shakarpara|shankarpali; Kozhukattai|kozhukkattai;
@@ -107,13 +109,13 @@ module.exports = [
     missingTier: 'deep',
     answers: `
       Turmeric|haldi; Cumin|jeera; Coriander|dhania|cilantro seed; Cardamom|elaichi|green cardamom; Cinnamon|dalchini; Clove|cloves|laung;
-      Black pepper|pepper|kali mirch|peppercorn; Chili powder|chilli powder|red chilli|lal mirch|chili@Chili powder; Ginger|adrak|dry ginger|saunth; Garlic|lahsun;
-      Nutmeg|jaiphal; Mace|javitri@Mace (spice); Saffron|kesar; Fenugreek|methi; Mustard seed|mustard|rai|sarson; Fennel|saunf|fennel seed;
+      Black pepper|pepper|kali mirch|peppercorn|white pepper; Chili powder|chilli powder|red chilli|lal mirch|chili@Chili powder; Ginger|adrak|dry ginger|saunth; Garlic|lahsun;
+      Nutmeg|jaiphal|mace|javitri; Saffron|kesar; Fenugreek|methi; Mustard seed|mustard|rai|sarson; Fennel|saunf|fennel seed;
       Star anise; Anise|aniseed; Bay leaf|tej patta|bay leaves; Asafoetida|hing; Paprika; Cayenne pepper|cayenne; Allspice|pimento;
       Vanilla; Sumac; Caraway|shahi jeera|caraway seed; Ajwain|carom|carom seeds|bishop's weed; Nigella|kalonji|nigella seed|black cumin@Nigella sativa;
       Amchur|amchoor|mango powder|dried mango powder@Amchoor; Black cardamom|badi elaichi; Long pepper|pippali|pipli; Sichuan pepper|Szechuan pepper;
       Juniper berry|juniper; Galangal; Garam masala; Chaat masala; Curry powder; Five-spice powder|five spice|Chinese five spice@Five-spice powder;
-      Ras el hanout; Za'atar|zaatar; Baharat; Celery seed; Dill seed|dill; Poppy seed|khus khus|khaskhas; Sesame|sesame seed|til; White pepper;
+      Ras el hanout; Za'atar|zaatar; Baharat; Celery seed; Dill seed|dill; Poppy seed|khus khus|khaskhas; Sesame|sesame seed|til;
       Pink peppercorn; Grains of paradise; Mahleb|mahlab; Annatto|achiote; Kashmiri chilli|Kashmiri mirch|Kashmiri red chilli@Kashmiri chilli;
       Stone flower|kalpasi|dagad phool@Parmotrema perlatum; Marathi moggu|kapok bud; Kokum; Tamarind`,
     legendary: ['Stone flower'],
