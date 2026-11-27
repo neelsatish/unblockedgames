@@ -665,12 +665,13 @@
     if (!box.width || !room) return;
     // Narrow screens: the prompt sits under the bench instead of on it, so the flask never covers it.
     const card = $('center');
-    const slot = innerWidth <= 760 ? $('qslot') : $('arena');
+    const slot = innerWidth <= 760 || innerHeight <= 480 ? $('qslot') : $('arena');
     if (card.parentNode !== slot) slot.appendChild(card);
     const n = seatList().length;
     const scale = Math.min(1, box.width / 720, box.height / 520);
     // Crowded small tables drop the meter and tag rows; very crowded ones drop the name too (it stays in the label).
-    const crowd = n > 6 && box.height < 440 ? (n > 10 ? 2 : 1) : 0;
+    // A short bench (a phone with its keyboard up) goes compact at any table size.
+    const crowd = (n > 6 && box.height < 440) || box.height < 300 ? (n > 10 ? 2 : 1) : 0;
     $('seats').classList.toggle('compact', crowd >= 1);
     $('seats').classList.toggle('tiny', crowd === 2);
     const seatW = Math.round((n <= 6 ? 116 : n <= 10 ? 98 : 82) * Math.max(0.6, scale));
@@ -975,7 +976,7 @@
     } else if (turn) {
       tag = 'YOUR TURN!';
       canType = true;
-      input.placeholder = 'Type an answer and press Enter';
+      input.placeholder = innerWidth <= 760 ? 'Type an answer' : 'Type an answer and press Enter';
     } else if (m.status === 'ROUND_ACTIVE') {
       tag = `${nameOf(m.holderId).toUpperCase()} HAS THE FLASK${nextSeatId() === me ? ' · YOU ARE NEXT' : ''}`;
       canType = true;
@@ -988,7 +989,7 @@
     input.disabled = !canType;
     send.disabled = !turn;
     const ep = $('emergency');
-    ep.hidden = !(m && m.rules.emergencyPassEnabled && mine);
+    ep.hidden = !(m && m.rules.emergencyPassEnabled && mine && mine.alive);
     if (mine) {
       ep.textContent = mine.passesLeft > 0 ? `EMERGENCY PASS · ${mine.passesLeft} LEFT` : 'PASS USED';
       ep.disabled = !turn || mine.passesLeft <= 0;

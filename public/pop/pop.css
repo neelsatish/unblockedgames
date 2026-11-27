@@ -85,8 +85,8 @@ input:focus, select:focus { border-color: var(--cyan); outline: none; }
 .title .t2 { color: var(--primary); margin-left: .25em; }
 .subtitle { margin: 0 auto 4px; background: rgba(20,19,34,.78); padding: 4px 12px; clip-path: var(--step); width: fit-content; }
 .you { display: grid; gap: 10px; }
-.avatars { display: grid; grid-template-columns: repeat(8, 1fr); gap: 6px; }
-.avatars button { aspect-ratio: 1; min-height: 44px; padding: 3px; background: #0F0E1A; border: 3px solid var(--line); clip-path: var(--step); display: grid; place-items: center; }
+.avatars { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 6px; }
+.avatars button { aspect-ratio: 1; min-height: 0; padding: 3px; background: #0F0E1A; border: 3px solid var(--line); clip-path: var(--step); display: grid; place-items: center; }
 .avatars button[aria-checked="true"] { border-color: var(--gold); background: #2A2840; }
 .avatars canvas { width: 100%; height: auto; image-rendering: pixelated; }
 .seg { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
@@ -107,6 +107,8 @@ input:focus, select:focus { border-color: var(--cyan); outline: none; }
 
 /* ---------- room ---------- */
 .room { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; grid-template-columns: minmax(0, 1fr); padding: max(8px, env(safe-area-inset-top)) max(8px, env(safe-area-inset-right)) max(8px, env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left)); gap: 8px; }
+.room > .stage { grid-row: 2; }
+.room > .dock { grid-row: 3; } /* fixed rows, so hiding the HUD never shifts the bench into its slot */
 .hud { display: flex; align-items: center; gap: 10px; }
 .hud-code { display: flex; align-items: center; gap: 8px; background: var(--panel); padding: 4px 12px; clip-path: var(--step); border: 3px solid var(--line); }
 .hud-label { font-size: .75rem; color: var(--muted); letter-spacing: 1px; }
@@ -261,10 +263,73 @@ input:focus, select:focus { border-color: var(--cyan); outline: none; }
   .center-card { width: 56%; }
   .q-qual { font-size: .78rem; }
   .res-table th:nth-child(5), .res-table td:nth-child(5), .res-table th:nth-child(7), .res-table td:nth-child(7) { display: none; }
+
+  /* Waiting room: no answer box before a game, a taller lab-group panel, and the start button first. */
+  .dock.idle { display: none; }
+  .side:has(#side-wait:not([hidden])) { max-height: 46vh; }
+  #side-wait #wake { order: -2; }
+  #side-wait #wait-text { order: -1; margin: 0; }
+
+  /* In a game: used answers become one row of chips (newest first) so the bench keeps its room. */
+  .side:has(#side-game:not([hidden])) { max-height: none; padding: 6px 8px; }
+  .history-toggle { min-height: 28px; font-size: .85rem; }
+  .history { display: flex; gap: 6px; max-height: none; overflow-x: auto; overflow-y: hidden; padding-bottom: 2px; scrollbar-width: thin; }
+  .history li { flex: none; display: flex; align-items: baseline; gap: 6px; padding: 4px 8px; }
+  .history .hb { display: none; }
+  .res-actions .pbtn { flex: 1 1 140px; }
+}
+@media (max-width: 420px) {
+  /* Two rows of avatar buttons, each a full-size tap target. */
+  .avatars { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .avatars button { aspect-ratio: auto; height: 48px; }
+  .avatars canvas { width: auto; height: 100%; }
 }
 @media (max-height: 560px) {
   .side { max-height: none; }
   .q-qual { display: none; }
+}
+/* Phone held sideways: the prompt moves under the bench (as in portrait), used answers keep the right column. */
+@media (min-width: 761px) and (max-height: 480px) {
+  /* The stage dissolves into the room grid: bench, prompt and dock stack on the left, the side panel runs full height. */
+  .room { grid-template-columns: minmax(0, 1fr) 260px; grid-template-rows: auto minmax(0, 1fr) auto auto; }
+  .hud { grid-column: 1 / -1; }
+  .stage { display: contents; }
+  .arena { grid-column: 1; grid-row: 2; }
+  .qslot { display: block; grid-column: 1; grid-row: 3; }
+  .room > .dock { grid-column: 1; grid-row: 4; }
+  .side { grid-column: 2; grid-row: 2 / span 3; }
+  .qslot .center-card { position: static; transform: none; width: auto; pointer-events: auto; }
+  .hud-btns #copy-code, .hud-label, .hud-mid { display: none; }
+  .history { max-height: none; }
+}
+/* Phone with the keyboard up (or sideways): every row gives up height so the bench stays readable. */
+@media (max-width: 760px) and (max-height: 640px), (max-height: 480px) {
+  .room { gap: 6px; padding-top: max(6px, env(safe-area-inset-top)); padding-bottom: max(6px, env(safe-area-inset-bottom)); }
+  .hud #invite, #room-vis { display: none; }
+  .hud .icon-btn { width: 38px; height: 38px; }
+  #room-code { font-size: 1rem; }
+  .hud-code { padding: 2px 8px; }
+  .qslot { padding: 4px 10px; }
+  .qslot .q-kicker, .q-qual { display: none; }
+  .q-text { margin: 2px 0; font-size: 1rem; }
+  .history-toggle { display: none; }
+  .dock { padding: 6px 8px; gap: 4px; }
+  .turn-tag { font-size: .9rem; }
+  #answer, #send { min-height: 46px; }
+  /* Your hearts already show on your seat; feedback and the pass button share one line. */
+  .my-hearts { display: none; }
+  .dock-sub { flex-wrap: nowrap; }
+  .feedback { min-width: 0; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: .9rem; }
+  #emergency { min-height: 36px; padding: 4px 10px; flex: none; }
+}
+@media (max-width: 760px) and (max-height: 640px) {
+  .side:has(#side-game:not([hidden])):has(#history:empty) { display: none; }
+}
+
+/* Small phone with the keyboard up: the top bar and used-answers row step aside while typing (both return when it closes). */
+@media (max-width: 760px) and (max-height: 440px) {
+  .room:has(#side-game:not([hidden])) .hud, .side:has(#side-game:not([hidden])) { display: none; }
+  .q-text { font-size: .9rem; }
 }
 
 /* ---------- settings ---------- */
