@@ -157,7 +157,10 @@
   }
   function show(id) {
     for (const s of ['menu', 'room']) $(s).hidden = s !== id;
-    if (id === 'menu') loadRooms();
+    if (id === 'menu') {
+      document.documentElement.classList.remove('my-turn');
+      loadRooms();
+    }
   }
   const HEART = '<svg viewBox="0 0 7 6" aria-hidden="true"><path d="M1 0h2v1h1V0h2v1h1v2H6v1H5v1H4v1H3V5H2V4H1V3H0V1h1z"/></svg>';
   function heartsHTML(n, cap, lostAt = -1) {
@@ -667,6 +670,9 @@
     const card = $('center');
     const slot = innerWidth <= 760 || innerHeight <= 480 ? $('qslot') : $('arena');
     if (card.parentNode !== slot) slot.appendChild(card);
+    const strip = stripMode();
+    $('arena').classList.toggle('strip', strip);
+    if (strip) return layoutStrip();
     const n = seatList().length;
     const scale = Math.min(1, box.width / 720, box.height / 520);
     // Crowded small tables drop the meter and tag rows; very crowded ones drop the name too (it stays in the label).
@@ -704,6 +710,41 @@
     flask.y = t.y;
     flask.to = null;
   }
+  // Phones in a game: no round bench. The flask sits on the left of a strip of four boxes,
+  // the holder first and then the next three in passing order; the boxes slide along on every pass.
+  const STRIP_FLASK = 56, STRIP_GAP = 6;
+  const stripMode = () => innerWidth <= 760 && !!running();
+  let stripFrom = 0;
+  function stripSeats() {
+    const m = room.match, ps = m.players, n = ps.length;
+    const h = ps.findIndex((p) => p.id === m.holderId);
+    if (h >= 0) stripFrom = h;
+    const order = [];
+    for (let k = 0; k < n; k++) if (ps[(stripFrom + k) % n].alive) order.push((stripFrom + k) % n);
+    const w = geo.seatW, y = geo.h / 2;
+    const xAt = (slot) => STRIP_FLASK + slot * (w + STRIP_GAP) + w / 2;
+    return ps.map((p, i) => {
+      const slot = order.indexOf(i);
+      return slot >= 0 && slot < 4 ? { x: xAt(slot), y } : { x: xAt(4), y, off: true };
+    });
+  }
+  function layoutStrip() {
+    const box = $('arena').getBoundingClientRect();
+    $('seats').classList.remove('compact', 'tiny');
+    const seatW = Math.floor((box.width - STRIP_FLASK - 3 * STRIP_GAP - 6) / 4); // 6px clear of the your-turn frame
+    $('seats').style.setProperty('--seat-w', `${seatW}px`);
+    $('seats').style.setProperty('--av', '34px');
+    geo = { w: box.width, h: box.height, cx: STRIP_FLASK / 2, cy: box.height / 2, RX: 0, RY: 0, seats: [], seatW, seatH: box.height - 8, av: 34, n: room.match.players.length, k: 1, strip: true };
+    geo.seats = stripSeats();
+    arenaCanvas.width = Math.ceil(box.width / S);
+    arenaCanvas.height = Math.ceil(box.height / S);
+    benchCache = null;
+    buildSeats(true);
+    const t = flaskTarget();
+    flask.x = t.x;
+    flask.y = t.y;
+    flask.to = null;
+  }
   addEventListener('resize', () => {
     A.drawBackground($('bg'));
     layout();
@@ -730,6 +771,8 @@
     list.forEach((s, i) => {
       const el = seatEls[i];
       const pos = geo.seats[i];
+      // In the strip, boxes slide left toward the flask; the one that just passed jumps straight to the back.
+      el.classList.toggle('jump', !!geo.strip && parseFloat(el.style.left) < pos.x);
       el.style.left = `${pos.x}px`;
       el.style.top = `${pos.y}px`;
       el.dataset.pid = s.id || '';
@@ -770,6 +813,7 @@
       el.classList.toggle('out', out);
       el.classList.toggle('away', away && !out);
       el.classList.toggle('empty', s.kind === 'empty');
+      el.classList.toggle('off', !!pos.off);
       let tag = '';
       if (out) tag = s.placement ? `OUT · #${s.placement}` : 'OUT';
       else if (away) tag = 'AWAY';
@@ -794,6 +838,7 @@
 
   function flaskTarget() {
     if (!geo) return { x: 0, y: 0 };
+    if (geo.strip) return { x: STRIP_FLASK / 2, y: geo.h - 10 }; // base of the flask, in its own column
     const m = room?.match;
     // The flask sits just inside the holder's seat, toward the bench centre, clear of the seat and the prompt.
     const half = 11 * geo.k * S; // drawn up from its base; aim its middle
@@ -846,14 +891,14 @@
     if ($('room').hidden || !geo) return titleFlask(t);
     const W = arenaCanvas.width, H = arenaCanvas.height;
     if (!W || !H) return;
-    if (!benchCache) {
+    if (!benchCache && !geo.strip) {
       benchCache = document.createElement('canvas');
       benchCache.width = W;
       benchCache.height = H;
       A.drawBench(benchCache.getContext('2d'), W, H, geo.cx / S, geo.cy / S, Math.round((geo.RX * 0.74) / S), Math.round((geo.RY * 0.66) / S));
     }
     actx.clearRect(0, 0, W, H);
-    actx.drawImage(benchCache, 0, 0);
+    if (!geo.strip) actx.drawImage(benchCache, 0, 0);
     // move the flask toward its target along a short curve
     const target = flaskTarget();
     if (!flask.to || Math.abs(flask.to.x - target.x) > 1 || Math.abs(flask.to.y - target.y) > 1) {
@@ -925,8 +970,12 @@
     $('room-vis').className = `badge ${room.visibility === 'PUBLIC' ? 'pub' : 'priv'}`;
     const alive = m ? m.players.filter((p) => p.alive).length : 0;
     $('hud-mid').textContent = running() ? `${alive} of ${m.players.length} still in` : `${room.members.length} / ${room.maxPlayers} players`;
-    if (seatEls.length !== seatList().length) layout();
-    else buildSeats(false);
+    if (seatEls.length !== seatList().length || !!geo.strip !== stripMode()) layout();
+    else {
+      if (geo.strip) geo.seats = stripSeats();
+      buildSeats(false);
+    }
+    document.documentElement.classList.toggle('my-turn', myTurn());
 
     // centre card
     const q = m && m.question;

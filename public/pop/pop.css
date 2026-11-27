@@ -332,6 +332,27 @@ input:focus, select:focus { border-color: var(--cyan); outline: none; }
   .q-text { font-size: .9rem; }
 }
 
+/* Phones in a game: a strip of four player boxes replaces the round bench (laid out in pop.js). */
+.arena.strip { height: 104px; overflow: visible; z-index: 3; }
+.arena.strip .seat { --seat-h: 96px; height: var(--seat-h); align-content: center; transition: left 260ms steps(6), opacity 200ms; }
+.arena.strip .seat.off, .arena.strip .seat.jump { transition: none; }
+.arena.strip .seat.off { opacity: 0; visibility: hidden; }
+.arena.strip .seat .stag { font-size: .62rem; letter-spacing: 0; line-height: 1.1; text-align: center; }
+.arena.strip .seat .meter { display: none; }
+.stage:has(.arena.strip) { grid-template-rows: auto minmax(0, 1fr) auto; }
+.stage:has(.arena.strip) .qslot { display: grid; align-content: center; }
+@media (max-width: 760px) and (min-height: 641px) {
+  .stage:has(.arena.strip) .q-text { font-size: 1.3rem; }
+}
+
+/* Your turn: the whole screen gets a gold frame. */
+.my-turn body::after {
+  content: ''; position: fixed; inset: 0; z-index: 40; pointer-events: none;
+  border: 6px solid var(--gold); box-shadow: inset 0 0 24px rgba(255, 213, 79, .55); animation: turn-frame 0.9s steps(2) infinite;
+}
+@keyframes turn-frame { 50% { border-color: var(--primary); box-shadow: inset 0 0 12px rgba(242, 101, 34, .45); } }
+.reduce-motion.my-turn body::after { animation: none; }
+
 /* ---------- settings ---------- */
 .reduce-motion *, .reduce-motion *::before { animation: none !important; transition: none !important; }
 .reduce-motion .bubble { opacity: 1; }
